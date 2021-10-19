@@ -101,6 +101,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a76f203594b063e639c1e94f750046dbd"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_p_h_1_1_broad_phase_brute_force.html#a76f203594b063e639c1e94f750046dbd">CollideOrientedBox</a> (const <a class="el" href="class_j_p_h_1_1_oriented_box.html">OrientedBox</a> &amp;inBox, <a class="el" href="namespace_j_p_h.html#a8dafe489c4066b89bd28ff45ddea4098">CollideShapeBodyCollector</a> &amp;ioCollector, const <a class="el" href="class_j_p_h_1_1_broad_phase_layer_filter.html">BroadPhaseLayerFilter</a> &amp;inBroadPhaseLayerFilter, const <a class="el" href="class_j_p_h_1_1_object_layer_filter.html">ObjectLayerFilter</a> &amp;inObjectLayerFilter) const override</td></tr>
 <tr class="memdesc:a76f203594b063e639c1e94f750046dbd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get bodies intersecting with an oriented box and any hits to ioCollector.  <a href="class_j_p_h_1_1_broad_phase_brute_force.html#a76f203594b063e639c1e94f750046dbd">More...</a><br /></td></tr>
 <tr class="separator:a76f203594b063e639c1e94f750046dbd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5177aab247217a4386371a3a08eb1bd6"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_p_h_1_1_broad_phase_brute_force.html#a5177aab247217a4386371a3a08eb1bd6">CastAABoxNoLock</a> (const <a class="el" href="struct_j_p_h_1_1_a_a_box_cast.html">AABoxCast</a> &amp;inBox, <a class="el" href="namespace_j_p_h.html#ad33f833b871b5cd1016e1f48a4ed9f07">CastShapeBodyCollector</a> &amp;ioCollector, const <a class="el" href="class_j_p_h_1_1_broad_phase_layer_filter.html">BroadPhaseLayerFilter</a> &amp;inBroadPhaseLayerFilter, const <a class="el" href="class_j_p_h_1_1_object_layer_filter.html">ObjectLayerFilter</a> &amp;inObjectLayerFilter) const override</td></tr>
+<tr class="memdesc:a5177aab247217a4386371a3a08eb1bd6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Same as <a class="el" href="class_j_p_h_1_1_broad_phase_query.html#aa74bc211c2c77e7f5686f3dbefc6112b" title="Cast a box and add any hits to ioCollector.">BroadPhaseQuery::CastAABox</a> but can be implemented in a way to take no broad phase locks.  <a href="class_j_p_h_1_1_broad_phase_brute_force.html#a5177aab247217a4386371a3a08eb1bd6">More...</a><br /></td></tr>
+<tr class="separator:a5177aab247217a4386371a3a08eb1bd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a78ac626a1cd1fd81d8e52dd6e972be7b"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_p_h_1_1_broad_phase_brute_force.html#a78ac626a1cd1fd81d8e52dd6e972be7b">CastAABox</a> (const <a class="el" href="struct_j_p_h_1_1_a_a_box_cast.html">AABoxCast</a> &amp;inBox, <a class="el" href="namespace_j_p_h.html#ad33f833b871b5cd1016e1f48a4ed9f07">CastShapeBodyCollector</a> &amp;ioCollector, const <a class="el" href="class_j_p_h_1_1_broad_phase_layer_filter.html">BroadPhaseLayerFilter</a> &amp;inBroadPhaseLayerFilter, const <a class="el" href="class_j_p_h_1_1_object_layer_filter.html">ObjectLayerFilter</a> &amp;inObjectLayerFilter) const override</td></tr>
 <tr class="memdesc:a78ac626a1cd1fd81d8e52dd6e972be7b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cast a box and add any hits to ioCollector.  <a href="class_j_p_h_1_1_broad_phase_brute_force.html#a78ac626a1cd1fd81d8e52dd6e972be7b">More...</a><br /></td></tr>
 <tr class="separator:a78ac626a1cd1fd81d8e52dd6e972be7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -253,6 +256,58 @@ Additional Inherited Members</h2></td></tr>
 <p>Cast a box and add any hits to ioCollector. </p>
 
 <p>Implements <a class="el" href="class_j_p_h_1_1_broad_phase_query.html#aa74bc211c2c77e7f5686f3dbefc6112b">JPH::BroadPhaseQuery</a>.</p>
+
+</div>
+</div>
+<a id="a5177aab247217a4386371a3a08eb1bd6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5177aab247217a4386371a3a08eb1bd6">&#9670;&nbsp;</a></span>CastAABoxNoLock()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void JPH::BroadPhaseBruteForce::CastAABoxNoLock </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_j_p_h_1_1_a_a_box_cast.html">AABoxCast</a> &amp;&#160;</td>
+          <td class="paramname"><em>inBox</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespace_j_p_h.html#ad33f833b871b5cd1016e1f48a4ed9f07">CastShapeBodyCollector</a> &amp;&#160;</td>
+          <td class="paramname"><em>ioCollector</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_j_p_h_1_1_broad_phase_layer_filter.html">BroadPhaseLayerFilter</a> &amp;&#160;</td>
+          <td class="paramname"><em>inBroadPhaseLayerFilter</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_j_p_h_1_1_object_layer_filter.html">ObjectLayerFilter</a> &amp;&#160;</td>
+          <td class="paramname"><em>inObjectLayerFilter</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Same as <a class="el" href="class_j_p_h_1_1_broad_phase_query.html#aa74bc211c2c77e7f5686f3dbefc6112b" title="Cast a box and add any hits to ioCollector.">BroadPhaseQuery::CastAABox</a> but can be implemented in a way to take no broad phase locks. </p>
+
+<p>Implements <a class="el" href="class_j_p_h_1_1_broad_phase.html#aaa26a0db7e48259e9f086d56f8580c2a">JPH::BroadPhase</a>.</p>
 
 </div>
 </div>
