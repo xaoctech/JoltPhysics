@@ -289,52 +289,51 @@ $(function() {
 <div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;    <span class="keywordtype">void</span>                        ValidateTree(<span class="keyword">const</span> <a class="code" href="namespace_j_p_h.html#a5eecf82965e32ab2696b91df03e3ae40">BodyVector</a> &amp;inBodies, <span class="keyword">const</span> <a class="code" href="class_j_p_h_1_1_quad_tree.html#aa830fd3bfb5d7b1a6837862d630666bc">TrackingVector</a> &amp;inTracking, <a class="code" href="namespace_j_p_h.html#a7a7fc109e10234468528baee2729bc72">uint32</a> inNodeIndex, <a class="code" href="namespace_j_p_h.html#a7a7fc109e10234468528baee2729bc72">uint32</a> inNumExpectedBodies) <span class="keyword">const</span>;</div>
 <div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160; </div>
-<div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160; </div>
-<div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160;<span class="preprocessor">#ifdef JPH_TRACK_BROADPHASE_STATS</span></div>
-<div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;    <span class="keyword">mutable</span> Mutex               mStatsMutex;</div>
-<div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160; </div>
-<div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;    <span class="keyword">struct </span>Stat</div>
-<div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;    {</div>
-<div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;        <a class="code" href="namespace_j_p_h.html#a58d2b9f9521ae5f8b0646c2fb2034e4b">uint64</a>                  mNumQueries = 0;</div>
-<div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;        <a class="code" href="namespace_j_p_h.html#a58d2b9f9521ae5f8b0646c2fb2034e4b">uint64</a>                  mNodesVisited = 0;</div>
-<div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;        <a class="code" href="namespace_j_p_h.html#a58d2b9f9521ae5f8b0646c2fb2034e4b">uint64</a>                  mBodiesVisited = 0;</div>
-<div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;        <a class="code" href="namespace_j_p_h.html#a58d2b9f9521ae5f8b0646c2fb2034e4b">uint64</a>                  mHitsReported = 0;</div>
-<div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;        <a class="code" href="namespace_j_p_h.html#a58d2b9f9521ae5f8b0646c2fb2034e4b">uint64</a>                  mTotalTicks = 0;</div>
-<div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160;        <a class="code" href="namespace_j_p_h.html#a58d2b9f9521ae5f8b0646c2fb2034e4b">uint64</a>                  mCollectorTicks = 0;</div>
-<div class="line"><a name="l00328"></a><span class="lineno">  328</span>&#160;    };</div>
-<div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160;    </div>
-<div class="line"><a name="l00330"></a><span class="lineno">  330</span>&#160;    <span class="keyword">using</span> LayerToStats = map&lt;string, Stat&gt;;</div>
-<div class="line"><a name="l00331"></a><span class="lineno">  331</span>&#160; </div>
-<div class="line"><a name="l00333"></a><span class="lineno">  333</span>&#160;    <span class="keywordtype">void</span>                        ReportStats(<span class="keyword">const</span> <span class="keywordtype">char</span> *inName, <span class="keyword">const</span> LayerToStats &amp;inLayer) <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00334"></a><span class="lineno">  334</span>&#160;    </div>
-<div class="line"><a name="l00335"></a><span class="lineno">  335</span>&#160;    <span class="keyword">mutable</span> LayerToStats        mCastRayStats;</div>
-<div class="line"><a name="l00336"></a><span class="lineno">  336</span>&#160;    <span class="keyword">mutable</span> LayerToStats        mCollideAABoxStats;</div>
-<div class="line"><a name="l00337"></a><span class="lineno">  337</span>&#160;    <span class="keyword">mutable</span> LayerToStats        mCollideSphereStats;</div>
-<div class="line"><a name="l00338"></a><span class="lineno">  338</span>&#160;    <span class="keyword">mutable</span> LayerToStats        mCollidePointStats;</div>
-<div class="line"><a name="l00339"></a><span class="lineno">  339</span>&#160;    <span class="keyword">mutable</span> LayerToStats        mCollideOrientedBoxStats;</div>
-<div class="line"><a name="l00340"></a><span class="lineno">  340</span>&#160;    <span class="keyword">mutable</span> LayerToStats        mCastAABoxStats;</div>
-<div class="line"><a name="l00341"></a><span class="lineno">  341</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// JPH_TRACK_BROADPHASE_STATS</span></div>
-<div class="line"><a name="l00342"></a><span class="lineno">  342</span>&#160; </div>
-<div class="line"><a name="l00344"></a><span class="lineno">  344</span>&#160;    <span class="keyword">template</span> &lt;<span class="keyword">class</span> Visitor&gt;</div>
-<div class="line"><a name="l00345"></a><span class="lineno">  345</span>&#160;    JPH_INLINE <span class="keywordtype">void</span>             WalkTree(<span class="keyword">const</span> ObjectLayerFilter &amp;inObjectLayerFilter, <span class="keyword">const</span> <a class="code" href="class_j_p_h_1_1_quad_tree.html#aa830fd3bfb5d7b1a6837862d630666bc">TrackingVector</a> &amp;inTracking, Visitor &amp;ioVisitor <a class="code" href="_broad_phase_8h.html#a1fd93e96654ff2092f35485924d94df9">JPH_IF_TRACK_BROADPHASE_STATS</a>(, LayerToStats &amp;ioStats)) <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00346"></a><span class="lineno">  346</span>&#160; </div>
-<div class="line"><a name="l00347"></a><span class="lineno">  347</span>&#160;<span class="preprocessor">#if defined(JPH_EXTERNAL_PROFILE) || defined(JPH_PROFILE_ENABLED)</span></div>
-<div class="line"><a name="l00349"></a><span class="lineno">  349</span>&#160;    <span class="keyword">const</span> <span class="keywordtype">char</span> *                mName = <span class="stringliteral">&quot;Layer&quot;</span>;</div>
-<div class="line"><a name="l00350"></a><span class="lineno">  350</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// JPH_EXTERNAL_PROFILE || JPH_PROFILE_ENABLED</span></div>
-<div class="line"><a name="l00351"></a><span class="lineno">  351</span>&#160; </div>
-<div class="line"><a name="l00353"></a><span class="lineno">  353</span>&#160;    atomic&lt;uint32&gt;              mNumBodies { 0 };</div>
-<div class="line"><a name="l00354"></a><span class="lineno">  354</span>&#160; </div>
-<div class="line"><a name="l00357"></a><span class="lineno">  357</span>&#160;    RootNode                    mRootNode[2];</div>
-<div class="line"><a name="l00358"></a><span class="lineno">  358</span>&#160;    atomic&lt;uint32&gt;              mRootNodeIndex { 0 };</div>
-<div class="line"><a name="l00359"></a><span class="lineno">  359</span>&#160; </div>
-<div class="line"><a name="l00361"></a><span class="lineno">  361</span>&#160;    <a class="code" href="class_j_p_h_1_1_quad_tree.html#a4452a4f7dac9f20a30c2af8da3233564">Allocator</a> *                 mAllocator = <span class="keyword">nullptr</span>;</div>
-<div class="line"><a name="l00362"></a><span class="lineno">  362</span>&#160; </div>
-<div class="line"><a name="l00364"></a><span class="lineno">  364</span>&#160;    Allocator::Batch            mFreeNodeBatch;</div>
-<div class="line"><a name="l00365"></a><span class="lineno">  365</span>&#160; </div>
-<div class="line"><a name="l00367"></a><span class="lineno">  367</span>&#160;    atomic&lt;bool&gt;                mIsDirty = <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00368"></a><span class="lineno">  368</span>&#160;};</div>
-<div class="line"><a name="l00369"></a><span class="lineno">  369</span>&#160; </div>
-<div class="line"><a name="l00370"></a><span class="lineno">  370</span>&#160;} <span class="comment">// JPH</span></div>
+<div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;<span class="preprocessor">#ifdef JPH_TRACK_BROADPHASE_STATS</span></div>
+<div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;    <span class="keyword">mutable</span> Mutex               mStatsMutex;</div>
+<div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160; </div>
+<div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;    <span class="keyword">struct </span>Stat</div>
+<div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;    {</div>
+<div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;        <a class="code" href="namespace_j_p_h.html#a58d2b9f9521ae5f8b0646c2fb2034e4b">uint64</a>                  mNumQueries = 0;</div>
+<div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;        <a class="code" href="namespace_j_p_h.html#a58d2b9f9521ae5f8b0646c2fb2034e4b">uint64</a>                  mNodesVisited = 0;</div>
+<div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;        <a class="code" href="namespace_j_p_h.html#a58d2b9f9521ae5f8b0646c2fb2034e4b">uint64</a>                  mBodiesVisited = 0;</div>
+<div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;        <a class="code" href="namespace_j_p_h.html#a58d2b9f9521ae5f8b0646c2fb2034e4b">uint64</a>                  mHitsReported = 0;</div>
+<div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;        <a class="code" href="namespace_j_p_h.html#a58d2b9f9521ae5f8b0646c2fb2034e4b">uint64</a>                  mTotalTicks = 0;</div>
+<div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;        <a class="code" href="namespace_j_p_h.html#a58d2b9f9521ae5f8b0646c2fb2034e4b">uint64</a>                  mCollectorTicks = 0;</div>
+<div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160;    };</div>
+<div class="line"><a name="l00328"></a><span class="lineno">  328</span>&#160;    </div>
+<div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160;    <span class="keyword">using</span> LayerToStats = map&lt;string, Stat&gt;;</div>
+<div class="line"><a name="l00330"></a><span class="lineno">  330</span>&#160; </div>
+<div class="line"><a name="l00332"></a><span class="lineno">  332</span>&#160;    <span class="keywordtype">void</span>                        ReportStats(<span class="keyword">const</span> <span class="keywordtype">char</span> *inName, <span class="keyword">const</span> LayerToStats &amp;inLayer) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00333"></a><span class="lineno">  333</span>&#160;    </div>
+<div class="line"><a name="l00334"></a><span class="lineno">  334</span>&#160;    <span class="keyword">mutable</span> LayerToStats        mCastRayStats;</div>
+<div class="line"><a name="l00335"></a><span class="lineno">  335</span>&#160;    <span class="keyword">mutable</span> LayerToStats        mCollideAABoxStats;</div>
+<div class="line"><a name="l00336"></a><span class="lineno">  336</span>&#160;    <span class="keyword">mutable</span> LayerToStats        mCollideSphereStats;</div>
+<div class="line"><a name="l00337"></a><span class="lineno">  337</span>&#160;    <span class="keyword">mutable</span> LayerToStats        mCollidePointStats;</div>
+<div class="line"><a name="l00338"></a><span class="lineno">  338</span>&#160;    <span class="keyword">mutable</span> LayerToStats        mCollideOrientedBoxStats;</div>
+<div class="line"><a name="l00339"></a><span class="lineno">  339</span>&#160;    <span class="keyword">mutable</span> LayerToStats        mCastAABoxStats;</div>
+<div class="line"><a name="l00340"></a><span class="lineno">  340</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// JPH_TRACK_BROADPHASE_STATS</span></div>
+<div class="line"><a name="l00341"></a><span class="lineno">  341</span>&#160; </div>
+<div class="line"><a name="l00343"></a><span class="lineno">  343</span>&#160;    <span class="keyword">template</span> &lt;<span class="keyword">class</span> Visitor&gt;</div>
+<div class="line"><a name="l00344"></a><span class="lineno">  344</span>&#160;    JPH_INLINE <span class="keywordtype">void</span>             WalkTree(<span class="keyword">const</span> ObjectLayerFilter &amp;inObjectLayerFilter, <span class="keyword">const</span> <a class="code" href="class_j_p_h_1_1_quad_tree.html#aa830fd3bfb5d7b1a6837862d630666bc">TrackingVector</a> &amp;inTracking, Visitor &amp;ioVisitor <a class="code" href="_broad_phase_8h.html#a1fd93e96654ff2092f35485924d94df9">JPH_IF_TRACK_BROADPHASE_STATS</a>(, LayerToStats &amp;ioStats)) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00345"></a><span class="lineno">  345</span>&#160; </div>
+<div class="line"><a name="l00346"></a><span class="lineno">  346</span>&#160;<span class="preprocessor">#if defined(JPH_EXTERNAL_PROFILE) || defined(JPH_PROFILE_ENABLED)</span></div>
+<div class="line"><a name="l00348"></a><span class="lineno">  348</span>&#160;    <span class="keyword">const</span> <span class="keywordtype">char</span> *                mName = <span class="stringliteral">&quot;Layer&quot;</span>;</div>
+<div class="line"><a name="l00349"></a><span class="lineno">  349</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// JPH_EXTERNAL_PROFILE || JPH_PROFILE_ENABLED</span></div>
+<div class="line"><a name="l00350"></a><span class="lineno">  350</span>&#160; </div>
+<div class="line"><a name="l00352"></a><span class="lineno">  352</span>&#160;    atomic&lt;uint32&gt;              mNumBodies { 0 };</div>
+<div class="line"><a name="l00353"></a><span class="lineno">  353</span>&#160; </div>
+<div class="line"><a name="l00356"></a><span class="lineno">  356</span>&#160;    RootNode                    mRootNode[2];</div>
+<div class="line"><a name="l00357"></a><span class="lineno">  357</span>&#160;    atomic&lt;uint32&gt;              mRootNodeIndex { 0 };</div>
+<div class="line"><a name="l00358"></a><span class="lineno">  358</span>&#160; </div>
+<div class="line"><a name="l00360"></a><span class="lineno">  360</span>&#160;    <a class="code" href="class_j_p_h_1_1_quad_tree.html#a4452a4f7dac9f20a30c2af8da3233564">Allocator</a> *                 mAllocator = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a name="l00361"></a><span class="lineno">  361</span>&#160; </div>
+<div class="line"><a name="l00363"></a><span class="lineno">  363</span>&#160;    Allocator::Batch            mFreeNodeBatch;</div>
+<div class="line"><a name="l00364"></a><span class="lineno">  364</span>&#160; </div>
+<div class="line"><a name="l00366"></a><span class="lineno">  366</span>&#160;    atomic&lt;bool&gt;                mIsDirty = <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00367"></a><span class="lineno">  367</span>&#160;};</div>
+<div class="line"><a name="l00368"></a><span class="lineno">  368</span>&#160; </div>
+<div class="line"><a name="l00369"></a><span class="lineno">  369</span>&#160;} <span class="comment">// JPH</span></div>
 <div class="ttc" id="a_atomics_8h_html"><div class="ttname"><a href="_atomics_8h.html">Atomics.h</a></div></div>
 <div class="ttc" id="a_body_manager_8h_html"><div class="ttname"><a href="_body_manager_8h.html">BodyManager.h</a></div></div>
 <div class="ttc" id="a_broad_phase_8h_html"><div class="ttname"><a href="_broad_phase_8h.html">BroadPhase.h</a></div></div>

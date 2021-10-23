@@ -83,9 +83,9 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:adaf173eb93d9461527380aba8b130954"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_p_h_1_1_collision_dispatch.html#adaf173eb93d9461527380aba8b130954">sRegisterCollideShape</a> (<a class="el" href="namespace_j_p_h.html#a51fdf89e6cc3287e5b08a26db501b3cb">EShapeSubType</a> inType1, <a class="el" href="namespace_j_p_h.html#a51fdf89e6cc3287e5b08a26db501b3cb">EShapeSubType</a> inType2, <a class="el" href="class_j_p_h_1_1_collision_dispatch.html#a56386d41165ead0c29b7a7cae9c1039c">CollideShape</a> inFunction)</td></tr>
 <tr class="memdesc:adaf173eb93d9461527380aba8b130954"><td class="mdescLeft">&#160;</td><td class="mdescRight">Register a collide shape function in the collision table.  <a href="class_j_p_h_1_1_collision_dispatch.html#adaf173eb93d9461527380aba8b130954">More...</a><br /></td></tr>
 <tr class="separator:adaf173eb93d9461527380aba8b130954"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7b4efa97fc51ac3cdede3e67796d414f"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_p_h_1_1_collision_dispatch.html#a7b4efa97fc51ac3cdede3e67796d414f">sRegisterCastShape</a> (<a class="el" href="namespace_j_p_h.html#a51fdf89e6cc3287e5b08a26db501b3cb">EShapeSubType</a> inType1, <a class="el" href="class_j_p_h_1_1_collision_dispatch.html#a5bed2f9b21583773a850d8d2cc7d3488">CastShape</a> inFunction)</td></tr>
-<tr class="memdesc:a7b4efa97fc51ac3cdede3e67796d414f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Register a cast shape function in the collision table.  <a href="class_j_p_h_1_1_collision_dispatch.html#a7b4efa97fc51ac3cdede3e67796d414f">More...</a><br /></td></tr>
-<tr class="separator:a7b4efa97fc51ac3cdede3e67796d414f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d37d54a7ea3b67a77becf2727c9de91"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_p_h_1_1_collision_dispatch.html#a0d37d54a7ea3b67a77becf2727c9de91">sRegisterCastShape</a> (<a class="el" href="namespace_j_p_h.html#a51fdf89e6cc3287e5b08a26db501b3cb">EShapeSubType</a> inType1, <a class="el" href="namespace_j_p_h.html#a51fdf89e6cc3287e5b08a26db501b3cb">EShapeSubType</a> inType2, <a class="el" href="class_j_p_h_1_1_collision_dispatch.html#a5bed2f9b21583773a850d8d2cc7d3488">CastShape</a> inFunction)</td></tr>
+<tr class="memdesc:a0d37d54a7ea3b67a77becf2727c9de91"><td class="mdescLeft">&#160;</td><td class="mdescRight">Register a cast shape function in the collision table.  <a href="class_j_p_h_1_1_collision_dispatch.html#a0d37d54a7ea3b67a77becf2727c9de91">More...</a><br /></td></tr>
+<tr class="separator:a0d37d54a7ea3b67a77becf2727c9de91"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Dispatch function, main function to handle collisions between shapes. </p>
@@ -198,13 +198,13 @@ Static Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Cast a shape againt this shape, passes any hits found to ioCollector. </p><dl class="params"><dt>Parameters</dt><dd>
+<p>Cast a shape againt this shape, passes any hits found to ioCollector. Note that the shape cast should be relative to the center of mass of this shape (i.e. inShapeCast.mCenterOfMassStart = Start * <a class="el" href="class_j_p_h_1_1_mat44.html#a7252a1f1b4fcc331772a1741ae1f8186" title="Get matrix that translates.">Mat44::sTranslation</a>(mShape-&gt;GetCenterOfMass()) if you want to cast the shape in the space it was created). </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">inShapeCast</td><td>The shape to cast against the other shape and its start and direction </td></tr>
     <tr><td class="paramname">inShapeCastSettings</td><td>Settings for performing the cast </td></tr>
     <tr><td class="paramname">inShape</td><td>The shape to cast against. </td></tr>
     <tr><td class="paramname">inScale</td><td>Local space scale for the shape to cast against. </td></tr>
-    <tr><td class="paramname">inShapeFilter</td><td>Determines if sub shapes of the shape can collide </td></tr>
+    <tr><td class="paramname">inShapeFilter</td><td>allows selectively disabling collisions between pairs of (sub) shapes. </td></tr>
     <tr><td class="paramname">inCenterOfMassTransform2</td><td>Is the center of mass transform of shape 2 (excluding scale), this is used to provide a transform to the shape cast result so that local quantities can be transformed into world space. </td></tr>
     <tr><td class="paramname">inSubShapeIDCreator1</td><td>Class that tracks the current sub shape ID for the casting shape </td></tr>
     <tr><td class="paramname">inSubShapeIDCreator2</td><td>Class that tracks the current sub shape ID for the shape we're casting against </td></tr>
@@ -314,8 +314,8 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a7b4efa97fc51ac3cdede3e67796d414f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7b4efa97fc51ac3cdede3e67796d414f">&#9670;&nbsp;</a></span>sRegisterCastShape()</h2>
+<a id="a0d37d54a7ea3b67a77becf2727c9de91"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d37d54a7ea3b67a77becf2727c9de91">&#9670;&nbsp;</a></span>sRegisterCastShape()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -328,6 +328,12 @@ Static Public Member Functions</h2></td></tr>
           <td>(</td>
           <td class="paramtype"><a class="el" href="namespace_j_p_h.html#a51fdf89e6cc3287e5b08a26db501b3cb">EShapeSubType</a>&#160;</td>
           <td class="paramname"><em>inType1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespace_j_p_h.html#a51fdf89e6cc3287e5b08a26db501b3cb">EShapeSubType</a>&#160;</td>
+          <td class="paramname"><em>inType2</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>

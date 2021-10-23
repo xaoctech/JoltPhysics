@@ -143,8 +143,6 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a713213b367bdd2f7ad7aead884b24de2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aff55612153f7e6ddee992b02aac8fbf5"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_p_h_1_1_convex_shape.html#aff55612153f7e6ddee992b02aac8fbf5">CollidePoint</a> (<a class="el" href="namespace_j_p_h.html#a0b295e20795f9fa0dfbe4ef459f11311">Vec3Arg</a> inPoint, const <a class="el" href="class_j_p_h_1_1_sub_shape_i_d_creator.html">SubShapeIDCreator</a> &amp;inSubShapeIDCreator, <a class="el" href="namespace_j_p_h.html#aadf2baf8b3b016e6acc37c5acb13288d">CollidePointCollector</a> &amp;ioCollector) const override</td></tr>
 <tr class="separator:aff55612153f7e6ddee992b02aac8fbf5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9f125bc6bac2366bc4512ab938572262"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_p_h_1_1_convex_shape.html#a9f125bc6bac2366bc4512ab938572262">CastShape</a> (const <a class="el" href="struct_j_p_h_1_1_shape_cast.html">ShapeCast</a> &amp;inShapeCast, const <a class="el" href="class_j_p_h_1_1_shape_cast_settings.html">ShapeCastSettings</a> &amp;inShapeCastSettings, <a class="el" href="namespace_j_p_h.html#a0b295e20795f9fa0dfbe4ef459f11311">Vec3Arg</a> inScale, const <a class="el" href="class_j_p_h_1_1_shape_filter.html">ShapeFilter</a> &amp;inShapeFilter, <a class="el" href="namespace_j_p_h.html#ae85f8da8374893b61a0e4288b77aec1b">Mat44Arg</a> inCenterOfMassTransform2, const <a class="el" href="class_j_p_h_1_1_sub_shape_i_d_creator.html">SubShapeIDCreator</a> &amp;inSubShapeIDCreator1, const <a class="el" href="class_j_p_h_1_1_sub_shape_i_d_creator.html">SubShapeIDCreator</a> &amp;inSubShapeIDCreator2, <a class="el" href="namespace_j_p_h.html#a0145c199bb14d070d64e7748912319fd">CastShapeCollector</a> &amp;ioCollector) const override</td></tr>
-<tr class="separator:a9f125bc6bac2366bc4512ab938572262"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a83390f7cc3356933dba77bb8a5495915"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_p_h_1_1_convex_shape.html#a83390f7cc3356933dba77bb8a5495915">GetTrianglesStart</a> (<a class="el" href="struct_j_p_h_1_1_shape_1_1_get_triangles_context.html">GetTrianglesContext</a> &amp;ioContext, const <a class="el" href="class_j_p_h_1_1_a_a_box.html">AABox</a> &amp;inBox, <a class="el" href="namespace_j_p_h.html#a0b295e20795f9fa0dfbe4ef459f11311">Vec3Arg</a> inPositionCOM, <a class="el" href="namespace_j_p_h.html#a08eb0672d985143ff0fcdd489184a8b4">QuatArg</a> inRotation, <a class="el" href="namespace_j_p_h.html#a0b295e20795f9fa0dfbe4ef459f11311">Vec3Arg</a> inScale) const override</td></tr>
 <tr class="separator:a83390f7cc3356933dba77bb8a5495915"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a53c6bdbae97ed047f004e818c2f949b5"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_p_h_1_1_convex_shape.html#a53c6bdbae97ed047f004e818c2f949b5">GetTrianglesNext</a> (<a class="el" href="struct_j_p_h_1_1_shape_1_1_get_triangles_context.html">GetTrianglesContext</a> &amp;ioContext, int inMaxTrianglesRequested, <a class="el" href="class_j_p_h_1_1_float3.html">Float3</a> *outTriangleVertices, const <a class="el" href="class_j_p_h_1_1_physics_material.html">PhysicsMaterial</a> **outMaterials=nullptr) const override</td></tr>
@@ -574,83 +572,6 @@ Additional Inherited Members</h2></td></tr>
 <p>Implements <a class="el" href="class_j_p_h_1_1_shape.html#a41dbd7d380637fbfa865340388ddb5db">JPH::Shape</a>.</p>
 
 <p>Reimplemented in <a class="el" href="class_j_p_h_1_1_triangle_shape.html#aa6b9d7614de1893513846c04384cfc00">JPH::TriangleShape</a>, <a class="el" href="class_j_p_h_1_1_sphere_shape.html#add2a0bbe90f64f9f331d99b001de5a61">JPH::SphereShape</a>, <a class="el" href="class_j_p_h_1_1_cylinder_shape.html#a886c99d8be3cdeff5920f377ed68080c">JPH::CylinderShape</a>, <a class="el" href="class_j_p_h_1_1_convex_hull_shape.html#aac6636079281f1c60edb09ade6693e8b">JPH::ConvexHullShape</a>, <a class="el" href="class_j_p_h_1_1_capsule_shape.html#a0b3373e039c98cee2e05e8f40517f581">JPH::CapsuleShape</a>, and <a class="el" href="class_j_p_h_1_1_box_shape.html#af372f21e8be388a8f8b569e5e34dd215">JPH::BoxShape</a>.</p>
-
-</div>
-</div>
-<a id="a9f125bc6bac2366bc4512ab938572262"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9f125bc6bac2366bc4512ab938572262">&#9670;&nbsp;</a></span>CastShape()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void JPH::ConvexShape::CastShape </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="struct_j_p_h_1_1_shape_cast.html">ShapeCast</a> &amp;&#160;</td>
-          <td class="paramname"><em>inShapeCast</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="class_j_p_h_1_1_shape_cast_settings.html">ShapeCastSettings</a> &amp;&#160;</td>
-          <td class="paramname"><em>inShapeCastSettings</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="namespace_j_p_h.html#a0b295e20795f9fa0dfbe4ef459f11311">Vec3Arg</a>&#160;</td>
-          <td class="paramname"><em>inScale</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="class_j_p_h_1_1_shape_filter.html">ShapeFilter</a> &amp;&#160;</td>
-          <td class="paramname"><em>inShapeFilter</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="namespace_j_p_h.html#ae85f8da8374893b61a0e4288b77aec1b">Mat44Arg</a>&#160;</td>
-          <td class="paramname"><em>inCenterOfMassTransform2</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="class_j_p_h_1_1_sub_shape_i_d_creator.html">SubShapeIDCreator</a> &amp;&#160;</td>
-          <td class="paramname"><em>inSubShapeIDCreator1</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="class_j_p_h_1_1_sub_shape_i_d_creator.html">SubShapeIDCreator</a> &amp;&#160;</td>
-          <td class="paramname"><em>inSubShapeIDCreator2</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="namespace_j_p_h.html#a0145c199bb14d070d64e7748912319fd">CastShapeCollector</a> &amp;&#160;</td>
-          <td class="paramname"><em>ioCollector</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>Cast a shape againt this shape, passes any hits found to ioCollector. Note that the shape cast should be relative to the center of mass of this shape (i.e. inShapeCast.mCenterOfMassStart = <a class="el" href="class_j_p_h_1_1_mat44.html#a7252a1f1b4fcc331772a1741ae1f8186" title="Get matrix that translates.">Mat44::sTranslation</a>(-<a class="el" href="class_j_p_h_1_1_shape.html#abdd580a03bcdfb07eec924c495c193de" title="All shapes are centered around their center of mass. This function returns the center of mass positio...">GetCenterOfMass()</a>) * inShapeCast.mCenterOfMassStart if you want to cast against the shape in the space it was created). This shape will be scaled in its local space with inScale before performing the cast. inShapeFilter allows selectively disabling collisions between pairs of (sub) shapes. inCenterOfMassTransform2 Is the center of mass transform of shape 2 (excluding scale), this is used to provide a transform to the shape cast result so that local quantities can be transformed into world space. inSubShapeIDCreator1 represents the current sub shape ID of the cast shape. inSubShapeIDCreator2 represents the current sub shape ID of the shape that is being cast against. </p>
-
-<p>Implements <a class="el" href="class_j_p_h_1_1_shape.html#a1deff7e2c18cab0e266f5bdd09f07032">JPH::Shape</a>.</p>
-
-<p>Reimplemented in <a class="el" href="class_j_p_h_1_1_triangle_shape.html#a4daa8cb42e912415a24292c61c5be78e">JPH::TriangleShape</a>.</p>
 
 </div>
 </div>
