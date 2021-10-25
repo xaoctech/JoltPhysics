@@ -138,20 +138,21 @@ $(function() {
 <div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    {</div>
 <div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;        <span class="comment">// Mark time spent in collector as &#39;child&#39; time for the parent</span></div>
 <div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;        <a class="code" href="namespace_j_p_h.html#a58d2b9f9521ae5f8b0646c2fb2034e4b">uint64</a> delta_ticks = <a class="code" href="namespace_j_p_h.html#aa62661c3f76f62ce07a5dd7d6199e42f">GetProcessorTickCount</a>() - mStart;</div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;        TrackNarrowPhaseStat::sRoot-&gt;mStat.mChildTicks += delta_ticks;</div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160; </div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;        <span class="comment">// Notify all parents of a hit</span></div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;        <span class="keywordflow">for</span> (TrackNarrowPhaseStat *track = TrackNarrowPhaseStat::sRoot; track != <span class="keyword">nullptr</span>; track = track-&gt;mParent)</div>
-<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;            track-&gt;mStat.mHitsReported++;</div>
-<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    }</div>
-<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160; </div>
-<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;    <a class="code" href="namespace_j_p_h.html#a58d2b9f9521ae5f8b0646c2fb2034e4b">uint64</a>                  mStart;</div>
-<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;};</div>
-<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160; </div>
-<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;} <span class="comment">// JPH</span></div>
-<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160; </div>
-<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// JPH_TRACK_NARROWPHASE_STATS</span></div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;        <span class="keywordflow">if</span> (TrackNarrowPhaseStat::sRoot != <span class="keyword">nullptr</span>)</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;            TrackNarrowPhaseStat::sRoot-&gt;mStat.mChildTicks += delta_ticks;</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160; </div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;        <span class="comment">// Notify all parents of a hit</span></div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;        <span class="keywordflow">for</span> (TrackNarrowPhaseStat *track = TrackNarrowPhaseStat::sRoot; track != <span class="keyword">nullptr</span>; track = track-&gt;mParent)</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;            track-&gt;mStat.mHitsReported++;</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    }</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160; </div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;    <a class="code" href="namespace_j_p_h.html#a58d2b9f9521ae5f8b0646c2fb2034e4b">uint64</a>                  mStart;</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;};</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160; </div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;} <span class="comment">// JPH</span></div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160; </div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// JPH_TRACK_NARROWPHASE_STATS</span></div>
 <div class="ttc" id="a_issue_reporting_8h_html_aaf6b1df827e11b7ca5f6f8778bd8f8cd"><div class="ttname"><a href="_issue_reporting_8h.html#aaf6b1df827e11b7ca5f6f8778bd8f8cd">JPH_ASSERT</a></div><div class="ttdeci">#define JPH_ASSERT(...)</div><div class="ttdef"><b>Definition:</b> IssueReporting.h:32</div></div>
 <div class="ttc" id="a_shape_8h_html"><div class="ttname"><a href="_shape_8h.html">Shape.h</a></div></div>
 <div class="ttc" id="a_tick_counter_8h_html"><div class="ttname"><a href="_tick_counter_8h.html">TickCounter.h</a></div></div>
