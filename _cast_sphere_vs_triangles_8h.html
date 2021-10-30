@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Jolt Physics: Jolt/Physics/Collision/Shape/StaticCompoundShape.cpp File Reference</title>
+<title>Jolt Physics: Jolt/Physics/Collision/CastSphereVsTriangles.h File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -47,37 +47,31 @@ $(function() {
 <div id="main-nav"></div>
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_d99289a5d3c46cf26f14ff6c90658d9f.html">Jolt</a></li><li class="navelem"><a class="el" href="dir_a0f33af92addde396fc27b064c5eb8a9.html">Physics</a></li><li class="navelem"><a class="el" href="dir_1a1d05ab9ff27ca8d1ed94cd62670cdf.html">Collision</a></li><li class="navelem"><a class="el" href="dir_4df7c3fdd39bf16e2d4956412667f123.html">Shape</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_d99289a5d3c46cf26f14ff6c90658d9f.html">Jolt</a></li><li class="navelem"><a class="el" href="dir_a0f33af92addde396fc27b064c5eb8a9.html">Physics</a></li><li class="navelem"><a class="el" href="dir_1a1d05ab9ff27ca8d1ed94cd62670cdf.html">Collision</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#namespaces">Namespaces</a> &#124;
-<a href="#func-members">Functions</a>  </div>
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#namespaces">Namespaces</a>  </div>
   <div class="headertitle">
-<div class="title">StaticCompoundShape.cpp File Reference</div>  </div>
+<div class="title">CastSphereVsTriangles.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;<a class="el" href="_jolt_8h_source.html">Jolt.h</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="_static_compound_shape_8h_source.html">Physics/Collision/Shape/StaticCompoundShape.h</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="_rotated_translated_shape_8h_source.html">Physics/Collision/Shape/RotatedTranslatedShape.h</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="_compound_shape_visitors_8h_source.html">Physics/Collision/Shape/CompoundShapeVisitors.h</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="_sort_reverse_and_store_8h_source.html">Physics/Collision/SortReverseAndStore.h</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="_profiler_8h_source.html">Core/Profiler.h</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="_stream_in_8h_source.html">Core/StreamIn.h</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="_stream_out_8h_source.html">Core/StreamOut.h</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="_temp_allocator_8h_source.html">Core/TempAllocator.h</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="_type_declarations_8h_source.html">ObjectStream/TypeDeclarations.h</a>&gt;</code><br />
-</div><table class="memberdecls">
+<div class="textblock"><code>#include &lt;<a class="el" href="_shape_cast_8h_source.html">Physics/Collision/ShapeCast.h</a>&gt;</code><br />
+</div>
+<p><a href="_cast_sphere_vs_triangles_8h_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_p_h_1_1_cast_sphere_vs_triangles.html">JPH::CastSphereVsTriangles</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Collision detection helper that casts a sphere vs one or more triangles.  <a href="class_j_p_h_1_1_cast_sphere_vs_triangles.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:namespace_j_p_h"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_j_p_h.html">JPH</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:a15e379dac010a1cfe19395c4f8c891aa"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_j_p_h.html#a15e379dac010a1cfe19395c4f8c891aa">JPH::JPH_IMPLEMENT_SERIALIZABLE_VIRTUAL</a> (StaticCompoundShapeSettings)</td></tr>
-<tr class="separator:a15e379dac010a1cfe19395c4f8c891aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->

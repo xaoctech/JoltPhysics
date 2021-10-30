@@ -78,6 +78,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a7496c0a4ad2465e4a6c67dc206014529"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_p_h_1_1_triangle_codec_indexed8_bit_pack_s_o_a4_flags_1_1_decoding_context.html#a7496c0a4ad2465e4a6c67dc206014529">GetTriangle</a> (const void *inTriangleStart, <a class="el" href="namespace_j_p_h.html#a7a7fc109e10234468528baee2729bc72">uint32</a> inTriangleIdx, <a class="el" href="class_j_p_h_1_1_vec3.html">Vec3</a> &amp;outV1, <a class="el" href="class_j_p_h_1_1_vec3.html">Vec3</a> &amp;outV2, <a class="el" href="class_j_p_h_1_1_vec3.html">Vec3</a> &amp;outV3) const</td></tr>
 <tr class="memdesc:a7496c0a4ad2465e4a6c67dc206014529"><td class="mdescLeft">&#160;</td><td class="mdescRight">Decode a single triangle.  <a href="class_j_p_h_1_1_triangle_codec_indexed8_bit_pack_s_o_a4_flags_1_1_decoding_context.html#a7496c0a4ad2465e4a6c67dc206014529">More...</a><br /></td></tr>
 <tr class="separator:a7496c0a4ad2465e4a6c67dc206014529"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab77faf8a97a42b948da1b66d51db5618"><td class="memItemLeft" align="right" valign="top">JPH_INLINE void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_p_h_1_1_triangle_codec_indexed8_bit_pack_s_o_a4_flags_1_1_decoding_context.html#ab77faf8a97a42b948da1b66d51db5618">Unpack</a> (<a class="el" href="namespace_j_p_h.html#a0b295e20795f9fa0dfbe4ef459f11311">Vec3Arg</a> inBoundsMin, <a class="el" href="namespace_j_p_h.html#a0b295e20795f9fa0dfbe4ef459f11311">Vec3Arg</a> inBoundsMax, const void *inTriangleStart, <a class="el" href="namespace_j_p_h.html#a7a7fc109e10234468528baee2729bc72">uint32</a> inNumTriangles, <a class="el" href="class_j_p_h_1_1_vec3.html">Vec3</a> *outTriangles, <a class="el" href="namespace_j_p_h.html#ac1eb853c2cf24c59a8568deef95a929b">uint8</a> *outTriangleFlags) const</td></tr>
+<tr class="memdesc:ab77faf8a97a42b948da1b66d51db5618"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unpacks triangles and flags, convencience function.  <a href="class_j_p_h_1_1_triangle_codec_indexed8_bit_pack_s_o_a4_flags_1_1_decoding_context.html#ab77faf8a97a42b948da1b66d51db5618">More...</a><br /></td></tr>
+<tr class="separator:ab77faf8a97a42b948da1b66d51db5618"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -341,7 +344,7 @@ Static Public Member Functions</h2></td></tr>
 </div>
 </div>
 <a id="a3fe102166cd17942d5eaed2ff4237fef"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3fe102166cd17942d5eaed2ff4237fef">&#9670;&nbsp;</a></span>Unpack()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a3fe102166cd17942d5eaed2ff4237fef">&#9670;&nbsp;</a></span>Unpack() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -393,6 +396,68 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Unpacks triangles in the format t1v1,t1v2,t1v3, t2v1,t2v2,t2v3, ... </p>
+
+</div>
+</div>
+<a id="ab77faf8a97a42b948da1b66d51db5618"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab77faf8a97a42b948da1b66d51db5618">&#9670;&nbsp;</a></span>Unpack() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">JPH_INLINE void JPH::TriangleCodecIndexed8BitPackSOA4Flags::DecodingContext::Unpack </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespace_j_p_h.html#a0b295e20795f9fa0dfbe4ef459f11311">Vec3Arg</a>&#160;</td>
+          <td class="paramname"><em>inBoundsMin</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespace_j_p_h.html#a0b295e20795f9fa0dfbe4ef459f11311">Vec3Arg</a>&#160;</td>
+          <td class="paramname"><em>inBoundsMax</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const void *&#160;</td>
+          <td class="paramname"><em>inTriangleStart</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespace_j_p_h.html#a7a7fc109e10234468528baee2729bc72">uint32</a>&#160;</td>
+          <td class="paramname"><em>inNumTriangles</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_j_p_h_1_1_vec3.html">Vec3</a> *&#160;</td>
+          <td class="paramname"><em>outTriangles</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespace_j_p_h.html#ac1eb853c2cf24c59a8568deef95a929b">uint8</a> *&#160;</td>
+          <td class="paramname"><em>outTriangleFlags</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Unpacks triangles and flags, convencience function. </p>
 
 </div>
 </div>

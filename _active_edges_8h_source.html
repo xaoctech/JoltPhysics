@@ -83,79 +83,79 @@ $(function() {
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160; </div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <span class="keyword">inline</span> <span class="keyword">static</span> <a class="code" href="class_j_p_h_1_1_vec3.html">Vec3</a>                  FixNormal(<a class="code" href="class_j_p_h_1_1_vec3.html">Vec3Arg</a> inV0, <a class="code" href="class_j_p_h_1_1_vec3.html">Vec3Arg</a> inV1, <a class="code" href="class_j_p_h_1_1_vec3.html">Vec3Arg</a> inV2, <a class="code" href="class_j_p_h_1_1_vec3.html">Vec3Arg</a> inTriangleNormal, <a class="code" href="namespace_j_p_h.html#ac1eb853c2cf24c59a8568deef95a929b">uint8</a> inActiveEdges, <a class="code" href="class_j_p_h_1_1_vec3.html">Vec3Arg</a> inPoint, <a class="code" href="class_j_p_h_1_1_vec3.html">Vec3Arg</a> inNormal, <a class="code" href="class_j_p_h_1_1_vec3.html">Vec3Arg</a> inMovementDirection)</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    {</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        <span class="comment">// Check: All of the edges are active, we have the correct normal already</span></div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        <span class="keywordflow">if</span> (inActiveEdges == 0b111)</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;            <span class="keywordflow">return</span> inNormal;</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160; </div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        <span class="comment">// If inNormal would affect movement less than inTriangleNormal use inNormal</span></div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        <span class="comment">// This is done since it is really hard to make a distinction between sliding over a horizontal triangulated grid and hitting an edge (in this case you want to use the triangle normal)</span></div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        <span class="comment">// and sliding over a triangulated grid and grazing a vertical triangle with an inactive edge (in this case using the triangle normal will cause the object to bounce back so we want to use the calculated normal).</span></div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        <span class="comment">// To solve this we take a movement hint to give an indication of what direction our object is moving. If the edge normal results in less motion difference than the triangle normal we use the edge normal.</span></div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        <span class="keywordtype">float</span> normal_length = inNormal.<a class="code" href="class_j_p_h_1_1_vec3.html#ac448ab0a5bb1d07b6e89b1f3f971712f">Length</a>();</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        <span class="keywordtype">float</span> triangle_normal_length = inTriangleNormal.<a class="code" href="class_j_p_h_1_1_vec3.html#ac448ab0a5bb1d07b6e89b1f3f971712f">Length</a>();</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        <span class="keywordflow">if</span> (inMovementDirection.<a class="code" href="class_j_p_h_1_1_vec3.html#a2446bb3a8f7c350c86696856b91b6fa8">Dot</a>(inNormal) * triangle_normal_length &lt; inMovementDirection.<a class="code" href="class_j_p_h_1_1_vec3.html#a2446bb3a8f7c350c86696856b91b6fa8">Dot</a>(inTriangleNormal) * normal_length)</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;            <span class="keywordflow">return</span> inNormal;</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160; </div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        <span class="comment">// Check: None of the edges are active, we need to use the triangle normal</span></div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        <span class="keywordflow">if</span> (inActiveEdges == 0)</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;            <span class="keywordflow">return</span> inTriangleNormal;</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160; </div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        <span class="comment">// Some edges are active.</span></div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;        <span class="comment">// If normal is parallel to the triangle normal we don&#39;t need to check the active edges.</span></div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;        <span class="keywordflow">if</span> (inTriangleNormal.<a class="code" href="class_j_p_h_1_1_vec3.html#a2446bb3a8f7c350c86696856b91b6fa8">Dot</a>(inNormal) &gt; 0.99619469809174553229501040247389f * normal_length * triangle_normal_length) <span class="comment">// cos(5 degrees)</span></div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;            <span class="keywordflow">return</span> inNormal;</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160; </div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;        <span class="keyword">const</span> <span class="keywordtype">float</span> cEpsilon = 1.0e-4f;</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;        <span class="keyword">const</span> <span class="keywordtype">float</span> cOneMinusEpsilon = 1.0f - cEpsilon;</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160; </div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;        <a class="code" href="namespace_j_p_h.html#a96db2939bdaf608fc550d84157d618e0">uint</a> colliding_edge;</div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160; </div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;        <span class="comment">// Test where the contact point is in the triangle</span></div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;        <span class="keywordtype">float</span> u, v, w;</div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;        <a class="code" href="namespace_j_p_h_1_1_closest_point.html#a30958a427709abd5f8d5e5b10aacf5cd">ClosestPoint::GetBaryCentricCoordinates</a>(inV0 - inPoint, inV1 - inPoint, inV2 - inPoint, u, v, w);</div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;        <span class="keywordflow">if</span> (u &gt; cOneMinusEpsilon)</div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;        {</div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;            <span class="comment">// Colliding with v0, edge 0 or 2 needs to be active</span></div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;            colliding_edge = 0b101;</div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;        }</div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (v &gt; cOneMinusEpsilon)</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;        {</div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;            <span class="comment">// Colliding with v1, edge 0 or 1 needs to be active</span></div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;            colliding_edge = 0b011;</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;        }</div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (w &gt; cOneMinusEpsilon)</div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;        {</div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;            <span class="comment">// Colliding with v2, edge 1 or 2 needs to be active</span></div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;            colliding_edge = 0b110;</div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;        }</div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (u &lt; cEpsilon)</div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;        {</div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;            <span class="comment">// Colliding with edge v1, v2, edge 1 needs to be active</span></div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;            colliding_edge = 0b010;</div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;        }</div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (v &lt; cEpsilon)</div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;        {</div>
-<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;            <span class="comment">// Colliding with edge v0, v2, edge 2 needs to be active</span></div>
-<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;            colliding_edge = 0b100;</div>
-<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;        }</div>
-<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (w &lt; cEpsilon)</div>
-<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;        {</div>
-<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;            <span class="comment">// Colliding with edge v0, v1, edge 0 needs to be active</span></div>
-<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;            colliding_edge = 0b001;</div>
-<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;        }</div>
-<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;        <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;        {</div>
-<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;            <span class="comment">// Interior hit</span></div>
-<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;            <span class="keywordflow">return</span> inTriangleNormal;</div>
-<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;        }</div>
-<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160; </div>
-<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;        <span class="comment">// If this edge is active, use the provided normal instead of the triangle normal</span></div>
-<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;        <span class="keywordflow">return</span> (inActiveEdges &amp; colliding_edge) != 0? inNormal : inTriangleNormal;</div>
-<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;    }</div>
-<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;}</div>
-<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160; </div>
-<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;} <span class="comment">// JPH</span></div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        <span class="comment">// Check: All of the edges are active, we have the correct normal already. No need to call this function!</span></div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        <a class="code" href="_issue_reporting_8h.html#aaf6b1df827e11b7ca5f6f8778bd8f8cd">JPH_ASSERT</a>(inActiveEdges != 0b111);</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160; </div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        <span class="comment">// If inNormal would affect movement less than inTriangleNormal use inNormal</span></div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        <span class="comment">// This is done since it is really hard to make a distinction between sliding over a horizontal triangulated grid and hitting an edge (in this case you want to use the triangle normal)</span></div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        <span class="comment">// and sliding over a triangulated grid and grazing a vertical triangle with an inactive edge (in this case using the triangle normal will cause the object to bounce back so we want to use the calculated normal).</span></div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        <span class="comment">// To solve this we take a movement hint to give an indication of what direction our object is moving. If the edge normal results in less motion difference than the triangle normal we use the edge normal.</span></div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        <span class="keywordtype">float</span> normal_length = inNormal.<a class="code" href="class_j_p_h_1_1_vec3.html#ac448ab0a5bb1d07b6e89b1f3f971712f">Length</a>();</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        <span class="keywordtype">float</span> triangle_normal_length = inTriangleNormal.<a class="code" href="class_j_p_h_1_1_vec3.html#ac448ab0a5bb1d07b6e89b1f3f971712f">Length</a>();</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        <span class="keywordflow">if</span> (inMovementDirection.<a class="code" href="class_j_p_h_1_1_vec3.html#a2446bb3a8f7c350c86696856b91b6fa8">Dot</a>(inNormal) * triangle_normal_length &lt; inMovementDirection.<a class="code" href="class_j_p_h_1_1_vec3.html#a2446bb3a8f7c350c86696856b91b6fa8">Dot</a>(inTriangleNormal) * normal_length)</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;            <span class="keywordflow">return</span> inNormal;</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160; </div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;        <span class="comment">// Check: None of the edges are active, we need to use the triangle normal</span></div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        <span class="keywordflow">if</span> (inActiveEdges == 0)</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;            <span class="keywordflow">return</span> inTriangleNormal;</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160; </div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;        <span class="comment">// Some edges are active.</span></div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        <span class="comment">// If normal is parallel to the triangle normal we don&#39;t need to check the active edges.</span></div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;        <span class="keywordflow">if</span> (inTriangleNormal.<a class="code" href="class_j_p_h_1_1_vec3.html#a2446bb3a8f7c350c86696856b91b6fa8">Dot</a>(inNormal) &gt; 0.99619469809174553229501040247389f * normal_length * triangle_normal_length) <span class="comment">// cos(5 degrees)</span></div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;            <span class="keywordflow">return</span> inNormal;</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160; </div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;        <span class="keyword">const</span> <span class="keywordtype">float</span> cEpsilon = 1.0e-4f;</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;        <span class="keyword">const</span> <span class="keywordtype">float</span> cOneMinusEpsilon = 1.0f - cEpsilon;</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160; </div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;        <a class="code" href="namespace_j_p_h.html#a96db2939bdaf608fc550d84157d618e0">uint</a> colliding_edge;</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160; </div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;        <span class="comment">// Test where the contact point is in the triangle</span></div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;        <span class="keywordtype">float</span> u, v, w;</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;        <a class="code" href="namespace_j_p_h_1_1_closest_point.html#a30958a427709abd5f8d5e5b10aacf5cd">ClosestPoint::GetBaryCentricCoordinates</a>(inV0 - inPoint, inV1 - inPoint, inV2 - inPoint, u, v, w);</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;        <span class="keywordflow">if</span> (u &gt; cOneMinusEpsilon)</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;        {</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;            <span class="comment">// Colliding with v0, edge 0 or 2 needs to be active</span></div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;            colliding_edge = 0b101;</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;        }</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (v &gt; cOneMinusEpsilon)</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;        {</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;            <span class="comment">// Colliding with v1, edge 0 or 1 needs to be active</span></div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;            colliding_edge = 0b011;</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;        }</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (w &gt; cOneMinusEpsilon)</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;        {</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;            <span class="comment">// Colliding with v2, edge 1 or 2 needs to be active</span></div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;            colliding_edge = 0b110;</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;        }</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (u &lt; cEpsilon)</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;        {</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;            <span class="comment">// Colliding with edge v1, v2, edge 1 needs to be active</span></div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;            colliding_edge = 0b010;</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;        }</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (v &lt; cEpsilon)</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;        {</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;            <span class="comment">// Colliding with edge v0, v2, edge 2 needs to be active</span></div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;            colliding_edge = 0b100;</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;        }</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (w &lt; cEpsilon)</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;        {</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;            <span class="comment">// Colliding with edge v0, v1, edge 0 needs to be active</span></div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;            colliding_edge = 0b001;</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;        }</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;        <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;        {</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;            <span class="comment">// Interior hit</span></div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;            <span class="keywordflow">return</span> inTriangleNormal;</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;        }</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160; </div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;        <span class="comment">// If this edge is active, use the provided normal instead of the triangle normal</span></div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;        <span class="keywordflow">return</span> (inActiveEdges &amp; colliding_edge) != 0? inNormal : inTriangleNormal;</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;    }</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;}</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160; </div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;} <span class="comment">// JPH</span></div>
 <div class="ttc" id="a_closest_point_8h_html"><div class="ttname"><a href="_closest_point_8h.html">ClosestPoint.h</a></div></div>
+<div class="ttc" id="a_issue_reporting_8h_html_aaf6b1df827e11b7ca5f6f8778bd8f8cd"><div class="ttname"><a href="_issue_reporting_8h.html#aaf6b1df827e11b7ca5f6f8778bd8f8cd">JPH_ASSERT</a></div><div class="ttdeci">#define JPH_ASSERT(...)</div><div class="ttdef"><b>Definition:</b> IssueReporting.h:32</div></div>
 <div class="ttc" id="aclass_j_p_h_1_1_vec3_html"><div class="ttname"><a href="class_j_p_h_1_1_vec3.html">JPH::Vec3</a></div><div class="ttdef"><b>Definition:</b> Vec3.h:15</div></div>
 <div class="ttc" id="aclass_j_p_h_1_1_vec3_html_a2446bb3a8f7c350c86696856b91b6fa8"><div class="ttname"><a href="class_j_p_h_1_1_vec3.html#a2446bb3a8f7c350c86696856b91b6fa8">JPH::Vec3::Dot</a></div><div class="ttdeci">JPH_INLINE float Dot(Vec3Arg inV2) const</div><div class="ttdoc">Dot product.</div></div>
 <div class="ttc" id="aclass_j_p_h_1_1_vec3_html_a29441bb4cd446a77f135531aaab4bae6"><div class="ttname"><a href="class_j_p_h_1_1_vec3.html#a29441bb4cd446a77f135531aaab4bae6">JPH::Vec3::Cross</a></div><div class="ttdeci">JPH_INLINE Vec3 Cross(Vec3Arg inV2) const</div><div class="ttdoc">Cross product.</div></div>

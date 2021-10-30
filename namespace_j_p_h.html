@@ -401,6 +401,9 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_p_h_1_1_ray_cast_result.html">RayCastResult</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Specialization of cast result against a shape.  <a href="class_j_p_h_1_1_ray_cast_result.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_p_h_1_1_cast_sphere_vs_triangles.html">CastSphereVsTriangles</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Collision detection helper that casts a sphere vs one or more triangles.  <a href="class_j_p_h_1_1_cast_sphere_vs_triangles.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_p_h_1_1_collide_convex_vs_triangles.html">CollideConvexVsTriangles</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Collision detection helper that collides a convex object vs one or more triangles.  <a href="class_j_p_h_1_1_collide_convex_vs_triangles.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1605,6 +1608,8 @@ Functions</h2></td></tr>
 <tr class="separator:a82ba904b60e8a5720f5f63b582b2f48c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a947a9a6d74e9283ee9e07e89159e00cc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_j_p_h.html#a947a9a6d74e9283ee9e07e89159e00cc">JPH_IMPLEMENT_SERIALIZABLE_VIRTUAL</a> (<a class="el" href="class_j_p_h_1_1_triangle_shape_settings.html">TriangleShapeSettings</a>)</td></tr>
 <tr class="separator:a947a9a6d74e9283ee9e07e89159e00cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4dc927eafbf6f4a44c5e5dcdb9ef7d10"><td class="memItemLeft" align="right" valign="top">JPH_INLINE int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_j_p_h.html#a4dc927eafbf6f4a44c5e5dcdb9ef7d10">SortReverseAndStore</a> (<a class="el" href="namespace_j_p_h.html#a6d53f290b6f1a5143d5e6b53f8eeb6b2">Vec4Arg</a> inValues, float inMaxValue, <a class="el" href="class_j_p_h_1_1_u_vec4.html">UVec4</a> &amp;ioIdentifiers, float *outValues)</td></tr>
+<tr class="separator:a4dc927eafbf6f4a44c5e5dcdb9ef7d10"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa50a5605f1c2150c399f5d5094e03547"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_j_p_h.html#aa50a5605f1c2150c399f5d5094e03547">JPH_IMPLEMENT_SERIALIZABLE_VIRTUAL</a> (<a class="el" href="class_j_p_h_1_1_cone_constraint_settings.html">ConeConstraintSettings</a>)</td></tr>
 <tr class="separator:aa50a5605f1c2150c399f5d5094e03547"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af19527e98e7cbe12aad061cd82ad6369"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_j_p_h.html#af19527e98e7cbe12aad061cd82ad6369">JPH_IMPLEMENT_SERIALIZABLE_VIRTUAL</a> (<a class="el" href="class_j_p_h_1_1_constraint_settings.html">ConstraintSettings</a>)</td></tr>
@@ -1694,7 +1699,7 @@ Variables</h2></td></tr>
 <tr class="memitem:afc97878d71a39184a205ac84c0a2cc96"><td class="memItemLeft" align="right" valign="top">constexpr float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_j_p_h.html#afc97878d71a39184a205ac84c0a2cc96">cDefaultConvexRadius</a> = 0.05f</td></tr>
 <tr class="memdesc:afc97878d71a39184a205ac84c0a2cc96"><td class="mdescLeft">&#160;</td><td class="mdescRight">How much padding to add around objects.  <a href="namespace_j_p_h.html#afc97878d71a39184a205ac84c0a2cc96">More...</a><br /></td></tr>
 <tr class="separator:afc97878d71a39184a205ac84c0a2cc96"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a55e2f743c25e024d6f150bbd1089d1c9"><td class="memItemLeft" align="right" valign="top">constexpr int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_j_p_h.html#a55e2f743c25e024d6f150bbd1089d1c9">cMaxPhysicsJobs</a> = 1024</td></tr>
+<tr class="memitem:a55e2f743c25e024d6f150bbd1089d1c9"><td class="memItemLeft" align="right" valign="top">constexpr int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_j_p_h.html#a55e2f743c25e024d6f150bbd1089d1c9">cMaxPhysicsJobs</a> = 2048</td></tr>
 <tr class="memdesc:a55e2f743c25e024d6f150bbd1089d1c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum amount of jobs to allow.  <a href="namespace_j_p_h.html#a55e2f743c25e024d6f150bbd1089d1c9">More...</a><br /></td></tr>
 <tr class="separator:a55e2f743c25e024d6f150bbd1089d1c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7452ff3ba2eeb2ad66ce53051fad9d44"><td class="memItemLeft" align="right" valign="top">constexpr int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_j_p_h.html#a7452ff3ba2eeb2ad66ce53051fad9d44">cMaxPhysicsBarriers</a> = 8</td></tr>
@@ -8761,6 +8766,56 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
+<a id="a4dc927eafbf6f4a44c5e5dcdb9ef7d10"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4dc927eafbf6f4a44c5e5dcdb9ef7d10">&#9670;&nbsp;</a></span>SortReverseAndStore()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">JPH_INLINE int JPH::SortReverseAndStore </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespace_j_p_h.html#a6d53f290b6f1a5143d5e6b53f8eeb6b2">Vec4Arg</a>&#160;</td>
+          <td class="paramname"><em>inValues</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>inMaxValue</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_j_p_h_1_1_u_vec4.html">UVec4</a> &amp;&#160;</td>
+          <td class="paramname"><em>ioIdentifiers</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float *&#160;</td>
+          <td class="paramname"><em>outValues</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This function will sort values from high to low and only keep the ones that are less than inMaxValue </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">inValues</td><td>Values to be sorted </td></tr>
+    <tr><td class="paramname">inMaxValue</td><td>Values need to be less than this to keep them </td></tr>
+    <tr><td class="paramname">ioIdentifiers</td><td>4 identifiers that will be sorted in the same way as the values </td></tr>
+    <tr><td class="paramname">outValues</td><td>The values are stored here from high to low </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The number of values that were kept </dd></dl>
+
+</div>
+</div>
 <a id="a4e6a69faec873832157598d18ddcfc91"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4e6a69faec873832157598d18ddcfc91">&#9670;&nbsp;</a></span>Square()</h2>
 
@@ -9177,7 +9232,7 @@ template&lt;class DstType , class SrcType &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr int JPH::cMaxPhysicsJobs = 1024</td>
+          <td class="memname">constexpr int JPH::cMaxPhysicsJobs = 2048</td>
         </tr>
       </table>
   </td>

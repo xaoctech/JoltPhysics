@@ -67,15 +67,15 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a9b2f9d63ffd04fe84b5dc62cc36961a2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_p_h_1_1_node_codec_quad_tree_half_float_1_1_decoding_context.html#a9b2f9d63ffd04fe84b5dc62cc36961a2">DecodingContext</a> (const <a class="el" href="struct_j_p_h_1_1_node_codec_quad_tree_half_float_1_1_header.html">Header</a> *inHeader)</td></tr>
-<tr class="memdesc:a9b2f9d63ffd04fe84b5dc62cc36961a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="class_j_p_h_1_1_node_codec_quad_tree_half_float_1_1_decoding_context.html#a9b2f9d63ffd04fe84b5dc62cc36961a2">More...</a><br /></td></tr>
-<tr class="separator:a9b2f9d63ffd04fe84b5dc62cc36961a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a032197930111187e277010b1f456e5f4"><td class="memTemplParams" colspan="2">template&lt;class TriangleContext , class Visitor &gt; </td></tr>
-<tr class="memitem:a032197930111187e277010b1f456e5f4"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_j_p_h_1_1_node_codec_quad_tree_half_float_1_1_decoding_context.html#a032197930111187e277010b1f456e5f4">WalkTree</a> (const <a class="el" href="namespace_j_p_h.html#ac1eb853c2cf24c59a8568deef95a929b">uint8</a> *inBufferStart, const TriangleContext &amp;inTriangleContext, Visitor &amp;ioVisitor)</td></tr>
-<tr class="memdesc:a032197930111187e277010b1f456e5f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Walk the node tree calling the Visitor::VisitNodes for each node encountered and Visitor::VisitTriangles for each triangle encountered.  <a href="class_j_p_h_1_1_node_codec_quad_tree_half_float_1_1_decoding_context.html#a032197930111187e277010b1f456e5f4">More...</a><br /></td></tr>
-<tr class="separator:a032197930111187e277010b1f456e5f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a644f5accd352feb26f32afb440ffdf1f"><td class="memItemLeft" align="right" valign="top">JPH_INLINE&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_p_h_1_1_node_codec_quad_tree_half_float_1_1_decoding_context.html#a644f5accd352feb26f32afb440ffdf1f">DecodingContext</a> (const <a class="el" href="struct_j_p_h_1_1_node_codec_quad_tree_half_float_1_1_header.html">Header</a> *inHeader)</td></tr>
+<tr class="memdesc:a644f5accd352feb26f32afb440ffdf1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="class_j_p_h_1_1_node_codec_quad_tree_half_float_1_1_decoding_context.html#a644f5accd352feb26f32afb440ffdf1f">More...</a><br /></td></tr>
+<tr class="separator:a644f5accd352feb26f32afb440ffdf1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acdbe5bdd16896a8faf2dd3ff1efbbccb"><td class="memTemplParams" colspan="2">template&lt;class TriangleContext , class Visitor &gt; </td></tr>
+<tr class="memitem:acdbe5bdd16896a8faf2dd3ff1efbbccb"><td class="memTemplItemLeft" align="right" valign="top">JPH_INLINE void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_j_p_h_1_1_node_codec_quad_tree_half_float_1_1_decoding_context.html#acdbe5bdd16896a8faf2dd3ff1efbbccb">WalkTree</a> (const <a class="el" href="namespace_j_p_h.html#ac1eb853c2cf24c59a8568deef95a929b">uint8</a> *inBufferStart, const TriangleContext &amp;inTriangleContext, Visitor &amp;ioVisitor)</td></tr>
+<tr class="memdesc:acdbe5bdd16896a8faf2dd3ff1efbbccb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Walk the node tree calling the Visitor::VisitNodes for each node encountered and Visitor::VisitTriangles for each triangle encountered.  <a href="class_j_p_h_1_1_node_codec_quad_tree_half_float_1_1_decoding_context.html#acdbe5bdd16896a8faf2dd3ff1efbbccb">More...</a><br /></td></tr>
+<tr class="separator:acdbe5bdd16896a8faf2dd3ff1efbbccb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a96ec9137f956173a5672da2c0baed8ca"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_p_h_1_1_node_codec_quad_tree_half_float_1_1_decoding_context.html#a96ec9137f956173a5672da2c0baed8ca">IsDoneWalking</a> () const</td></tr>
-<tr class="memdesc:a96ec9137f956173a5672da2c0baed8ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">This can be used to have the visitor early out (ioVisitor.ShouldAbort() returns true) and later continue again (call <a class="el" href="class_j_p_h_1_1_node_codec_quad_tree_half_float_1_1_decoding_context.html#a032197930111187e277010b1f456e5f4" title="Walk the node tree calling the Visitor::VisitNodes for each node encountered and Visitor::VisitTriang...">WalkTree()</a> again)  <a href="class_j_p_h_1_1_node_codec_quad_tree_half_float_1_1_decoding_context.html#a96ec9137f956173a5672da2c0baed8ca">More...</a><br /></td></tr>
+<tr class="memdesc:a96ec9137f956173a5672da2c0baed8ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">This can be used to have the visitor early out (ioVisitor.ShouldAbort() returns true) and later continue again (call <a class="el" href="class_j_p_h_1_1_node_codec_quad_tree_half_float_1_1_decoding_context.html#acdbe5bdd16896a8faf2dd3ff1efbbccb" title="Walk the node tree calling the Visitor::VisitNodes for each node encountered and Visitor::VisitTriang...">WalkTree()</a> again)  <a href="class_j_p_h_1_1_node_codec_quad_tree_half_float_1_1_decoding_context.html#a96ec9137f956173a5672da2c0baed8ca">More...</a><br /></td></tr>
 <tr class="separator:a96ec9137f956173a5672da2c0baed8ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
@@ -93,8 +93,8 @@ class JPH::NodeCodecQuadTreeHalfFloat&lt; Alignment &gt;::DecodingContext</h3>
 
 <p>This class decodes and decompresses quad tree nodes. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a9b2f9d63ffd04fe84b5dc62cc36961a2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9b2f9d63ffd04fe84b5dc62cc36961a2">&#9670;&nbsp;</a></span>DecodingContext()</h2>
+<a id="a644f5accd352feb26f32afb440ffdf1f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a644f5accd352feb26f32afb440ffdf1f">&#9670;&nbsp;</a></span>DecodingContext()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -105,7 +105,7 @@ template&lt;int Alignment&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_j_p_h_1_1_node_codec_quad_tree_half_float.html">JPH::NodeCodecQuadTreeHalfFloat</a>&lt; Alignment &gt;::DecodingContext::DecodingContext </td>
+          <td class="memname">JPH_INLINE <a class="el" href="class_j_p_h_1_1_node_codec_quad_tree_half_float.html">JPH::NodeCodecQuadTreeHalfFloat</a>&lt; Alignment &gt;::DecodingContext::DecodingContext </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="struct_j_p_h_1_1_node_codec_quad_tree_half_float_1_1_header.html">Header</a> *&#160;</td>
           <td class="paramname"><em>inHeader</em></td><td>)</td>
@@ -149,7 +149,7 @@ template&lt;int Alignment&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>This can be used to have the visitor early out (ioVisitor.ShouldAbort() returns true) and later continue again (call <a class="el" href="class_j_p_h_1_1_node_codec_quad_tree_half_float_1_1_decoding_context.html#a032197930111187e277010b1f456e5f4" title="Walk the node tree calling the Visitor::VisitNodes for each node encountered and Visitor::VisitTriang...">WalkTree()</a> again) </p>
+<p>This can be used to have the visitor early out (ioVisitor.ShouldAbort() returns true) and later continue again (call <a class="el" href="class_j_p_h_1_1_node_codec_quad_tree_half_float_1_1_decoding_context.html#acdbe5bdd16896a8faf2dd3ff1efbbccb" title="Walk the node tree calling the Visitor::VisitNodes for each node encountered and Visitor::VisitTriang...">WalkTree()</a> again) </p>
 
 </div>
 </div>
@@ -223,8 +223,8 @@ template&lt;int Alignment&gt; </div>
 
 </div>
 </div>
-<a id="a032197930111187e277010b1f456e5f4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a032197930111187e277010b1f456e5f4">&#9670;&nbsp;</a></span>WalkTree()</h2>
+<a id="acdbe5bdd16896a8faf2dd3ff1efbbccb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acdbe5bdd16896a8faf2dd3ff1efbbccb">&#9670;&nbsp;</a></span>WalkTree()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -237,7 +237,7 @@ template&lt;class TriangleContext , class Visitor &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="class_j_p_h_1_1_node_codec_quad_tree_half_float.html">JPH::NodeCodecQuadTreeHalfFloat</a>&lt; Alignment &gt;::DecodingContext::WalkTree </td>
+          <td class="memname">JPH_INLINE void <a class="el" href="class_j_p_h_1_1_node_codec_quad_tree_half_float.html">JPH::NodeCodecQuadTreeHalfFloat</a>&lt; Alignment &gt;::DecodingContext::WalkTree </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="namespace_j_p_h.html#ac1eb853c2cf24c59a8568deef95a929b">uint8</a> *&#160;</td>
           <td class="paramname"><em>inBufferStart</em>, </td>

@@ -117,9 +117,9 @@
         <UL>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="DecodingContext"><param name="Local" value="class_j_p_h_1_1_node_codec_quad_tree_half_float_1_1_decoding_context.html"><param name="ImageNumber" value="1"></OBJECT>
           <UL>
-          <LI><OBJECT type="text/sitemap"><param name="Name" value="DecodingContext"><param name="Local" value="class_j_p_h_1_1_node_codec_quad_tree_half_float_1_1_decoding_context.html#a9b2f9d63ffd04fe84b5dc62cc36961a2"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="DecodingContext"><param name="Local" value="class_j_p_h_1_1_node_codec_quad_tree_half_float_1_1_decoding_context.html#a644f5accd352feb26f32afb440ffdf1f"><param name="ImageNumber" value="11"></OBJECT>
           <LI><OBJECT type="text/sitemap"><param name="Name" value="IsDoneWalking"><param name="Local" value="class_j_p_h_1_1_node_codec_quad_tree_half_float_1_1_decoding_context.html#a96ec9137f956173a5672da2c0baed8ca"><param name="ImageNumber" value="11"></OBJECT>
-          <LI><OBJECT type="text/sitemap"><param name="Name" value="WalkTree"><param name="Local" value="class_j_p_h_1_1_node_codec_quad_tree_half_float_1_1_decoding_context.html#a032197930111187e277010b1f456e5f4"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="WalkTree"><param name="Local" value="class_j_p_h_1_1_node_codec_quad_tree_half_float_1_1_decoding_context.html#acdbe5bdd16896a8faf2dd3ff1efbbccb"><param name="ImageNumber" value="11"></OBJECT>
           </UL>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="EncodingContext"><param name="Local" value="class_j_p_h_1_1_node_codec_quad_tree_half_float_1_1_encoding_context.html"><param name="ImageNumber" value="1"></OBJECT>
           <UL>
@@ -153,6 +153,7 @@
           <LI><OBJECT type="text/sitemap"><param name="Name" value="GetTriangle"><param name="Local" value="class_j_p_h_1_1_triangle_codec_indexed8_bit_pack_s_o_a4_flags_1_1_decoding_context.html#a7496c0a4ad2465e4a6c67dc206014529"><param name="ImageNumber" value="11"></OBJECT>
           <LI><OBJECT type="text/sitemap"><param name="Name" value="TestRay"><param name="Local" value="class_j_p_h_1_1_triangle_codec_indexed8_bit_pack_s_o_a4_flags_1_1_decoding_context.html#a922173b8299697acf784dde8eee91414"><param name="ImageNumber" value="11"></OBJECT>
           <LI><OBJECT type="text/sitemap"><param name="Name" value="Unpack"><param name="Local" value="class_j_p_h_1_1_triangle_codec_indexed8_bit_pack_s_o_a4_flags_1_1_decoding_context.html#a3fe102166cd17942d5eaed2ff4237fef"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="Unpack"><param name="Local" value="class_j_p_h_1_1_triangle_codec_indexed8_bit_pack_s_o_a4_flags_1_1_decoding_context.html#ab77faf8a97a42b948da1b66d51db5618"><param name="ImageNumber" value="11"></OBJECT>
           </UL>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="EncodingContext"><param name="Local" value="class_j_p_h_1_1_triangle_codec_indexed8_bit_pack_s_o_a4_flags_1_1_encoding_context.html"><param name="ImageNumber" value="1"></OBJECT>
           <UL>
@@ -2285,6 +2286,20 @@
         <UL>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="mSubShapeID2"><param name="Local" value="class_j_p_h_1_1_ray_cast_result.html#a6059c2f436689548b0d0f06e49561c1e"><param name="ImageNumber" value="11"></OBJECT>
         </UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="CastSphereVsTriangles"><param name="Local" value="class_j_p_h_1_1_cast_sphere_vs_triangles.html"><param name="ImageNumber" value="1"></OBJECT>
+        <UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="CastSphereVsTriangles"><param name="Local" value="class_j_p_h_1_1_cast_sphere_vs_triangles.html#adbe07ad507377f1e58353ce28132a9ea"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="Cast"><param name="Local" value="class_j_p_h_1_1_cast_sphere_vs_triangles.html#a25dd3d7c1ad674e4e585ae2fbb6d882b"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="mCenterOfMassTransform2"><param name="Local" value="class_j_p_h_1_1_cast_sphere_vs_triangles.html#a325e92275fb1d5117433c5982c1f9a66"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="mCollector"><param name="Local" value="class_j_p_h_1_1_cast_sphere_vs_triangles.html#a5c0615c7edf4559051599800ee19a186"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="mDirection"><param name="Local" value="class_j_p_h_1_1_cast_sphere_vs_triangles.html#ab9cb8d6bfe79b2d8f1ce4278d467c16e"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="mRadius"><param name="Local" value="class_j_p_h_1_1_cast_sphere_vs_triangles.html#a30f9ae6367d2ce69afc955fb87619d8c"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="mScale"><param name="Local" value="class_j_p_h_1_1_cast_sphere_vs_triangles.html#ace6b4fb377408c92699d1d58536dec85"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="mShapeCastSettings"><param name="Local" value="class_j_p_h_1_1_cast_sphere_vs_triangles.html#af085fbfafda80faab14bda3293607387"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="mShapeFilter"><param name="Local" value="class_j_p_h_1_1_cast_sphere_vs_triangles.html#ad79ba84a378397c9ee0bedc22aae45d6"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="mStart"><param name="Local" value="class_j_p_h_1_1_cast_sphere_vs_triangles.html#a7117db85ca33930784af1c9f19d2fb45"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="mSubShapeIDCreator1"><param name="Local" value="class_j_p_h_1_1_cast_sphere_vs_triangles.html#a090d0eb1221339db0a384f47d4f6f4a4"><param name="ImageNumber" value="11"></OBJECT>
+        </UL>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="CollideConvexVsTriangles"><param name="Local" value="class_j_p_h_1_1_collide_convex_vs_triangles.html"><param name="ImageNumber" value="1"></OBJECT>
         <UL>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="CollideConvexVsTriangles"><param name="Local" value="class_j_p_h_1_1_collide_convex_vs_triangles.html#a69fcffee2b9c89731c3ce75719f7016a"><param name="ImageNumber" value="11"></OBJECT>
@@ -3047,11 +3062,11 @@
         <UL>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="MSGetTrianglesContext"><param name="Local" value="struct_j_p_h_1_1_mesh_shape_1_1_m_s_get_triangles_context.html"><param name="ImageNumber" value="1"></OBJECT>
           <UL>
-          <LI><OBJECT type="text/sitemap"><param name="Name" value="MSGetTrianglesContext"><param name="Local" value="struct_j_p_h_1_1_mesh_shape_1_1_m_s_get_triangles_context.html#a92295180d198724a20f41850560dafe0"><param name="ImageNumber" value="11"></OBJECT>
-          <LI><OBJECT type="text/sitemap"><param name="Name" value="ShouldAbort"><param name="Local" value="struct_j_p_h_1_1_mesh_shape_1_1_m_s_get_triangles_context.html#a351a04e08d5b2a51fc8ff91200fbc604"><param name="ImageNumber" value="11"></OBJECT>
-          <LI><OBJECT type="text/sitemap"><param name="Name" value="ShouldVisitNode"><param name="Local" value="struct_j_p_h_1_1_mesh_shape_1_1_m_s_get_triangles_context.html#a2c0ae5065cd8f7489a40165b2ade482a"><param name="ImageNumber" value="11"></OBJECT>
-          <LI><OBJECT type="text/sitemap"><param name="Name" value="VisitNodes"><param name="Local" value="struct_j_p_h_1_1_mesh_shape_1_1_m_s_get_triangles_context.html#a3ef7ad00c361f30838bfa9642b998355"><param name="ImageNumber" value="11"></OBJECT>
-          <LI><OBJECT type="text/sitemap"><param name="Name" value="VisitTriangles"><param name="Local" value="struct_j_p_h_1_1_mesh_shape_1_1_m_s_get_triangles_context.html#a38670a049b220dfe390ba192f5fbf772"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="MSGetTrianglesContext"><param name="Local" value="struct_j_p_h_1_1_mesh_shape_1_1_m_s_get_triangles_context.html#aacc1b791c3f406e94a2f29f963f5c91e"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="ShouldAbort"><param name="Local" value="struct_j_p_h_1_1_mesh_shape_1_1_m_s_get_triangles_context.html#aa2221b62112bfef6a6183695bea2a0ff"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="ShouldVisitNode"><param name="Local" value="struct_j_p_h_1_1_mesh_shape_1_1_m_s_get_triangles_context.html#a5a99c0dbf45d686886e63c5c9f0e2f95"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="VisitNodes"><param name="Local" value="struct_j_p_h_1_1_mesh_shape_1_1_m_s_get_triangles_context.html#a30b5910896c52b6cff94a6e6c90ea047"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="VisitTriangles"><param name="Local" value="struct_j_p_h_1_1_mesh_shape_1_1_m_s_get_triangles_context.html#a0b52f8be67ba44ff0ab56b7bb33a059a"><param name="ImageNumber" value="11"></OBJECT>
           <LI><OBJECT type="text/sitemap"><param name="Name" value="mDecodeCtx"><param name="Local" value="struct_j_p_h_1_1_mesh_shape_1_1_m_s_get_triangles_context.html#a49ea09c0452fe77d7f47e111538b182f"><param name="ImageNumber" value="11"></OBJECT>
           <LI><OBJECT type="text/sitemap"><param name="Name" value="mIsInsideOut"><param name="Local" value="struct_j_p_h_1_1_mesh_shape_1_1_m_s_get_triangles_context.html#a794f038d4fb1d7c980e31f66de82d286"><param name="ImageNumber" value="11"></OBJECT>
           <LI><OBJECT type="text/sitemap"><param name="Name" value="mLocalBox"><param name="Local" value="struct_j_p_h_1_1_mesh_shape_1_1_m_s_get_triangles_context.html#afceb2fa091de0bcedb2d2ee2c6d485fe"><param name="ImageNumber" value="11"></OBJECT>
@@ -3085,6 +3100,8 @@
         <LI><OBJECT type="text/sitemap"><param name="Name" value="RestoreMaterialState"><param name="Local" value="class_j_p_h_1_1_mesh_shape.html#a01069665b054f6cb7bd409cf22be869d"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="SaveBinaryState"><param name="Local" value="class_j_p_h_1_1_mesh_shape.html#abe6eec9433bffb798f3595c31c4e0541"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="SaveMaterialState"><param name="Local" value="class_j_p_h_1_1_mesh_shape.html#a47493f41b0476036958da085e8e41245"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="WalkTree"><param name="Local" value="class_j_p_h_1_1_mesh_shape.html#a8d70c50ca00997b0c120a14bef8d6f49"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="WalkTreePerTriangle"><param name="Local" value="class_j_p_h_1_1_mesh_shape.html#a209863b5d795560b18ae564027b20655"><param name="ImageNumber" value="11"></OBJECT>
         </UL>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="MutableCompoundShapeSettings"><param name="Local" value="class_j_p_h_1_1_mutable_compound_shape_settings.html"><param name="ImageNumber" value="1"></OBJECT>
         <UL>
@@ -5350,6 +5367,7 @@
       <LI><OBJECT type="text/sitemap"><param name="Name" value="RayTriangle8"><param name="Local" value="namespace_j_p_h.html#a4de2a14c8f1ac13b9eaae4190298701d"><param name="ImageNumber" value="11"></OBJECT>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="RegisterTypes"><param name="Local" value="namespace_j_p_h.html#a0166aca9d7a1da9f6d06560c400a67fa"><param name="ImageNumber" value="11"></OBJECT>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="Sign"><param name="Local" value="namespace_j_p_h.html#a7a86472671c3df5e4169e2dc92a482c4"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="SortReverseAndStore"><param name="Local" value="namespace_j_p_h.html#a4dc927eafbf6f4a44c5e5dcdb9ef7d10"><param name="ImageNumber" value="11"></OBJECT>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="Square"><param name="Local" value="namespace_j_p_h.html#a4e6a69faec873832157598d18ddcfc91"><param name="ImageNumber" value="11"></OBJECT>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="StaticCast"><param name="Local" value="namespace_j_p_h.html#a995ebced7d0432e841681714851cfa55"><param name="ImageNumber" value="11"></OBJECT>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="StaticCast"><param name="Local" value="namespace_j_p_h.html#a343cad82040d82978eae49b659e95813"><param name="ImageNumber" value="11"></OBJECT>
@@ -5502,9 +5520,9 @@
         <UL>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="DecodingContext"><param name="Local" value="class_j_p_h_1_1_node_codec_quad_tree_half_float_1_1_decoding_context.html"><param name="ImageNumber" value="1"></OBJECT>
           <UL>
-          <LI><OBJECT type="text/sitemap"><param name="Name" value="DecodingContext"><param name="Local" value="class_j_p_h_1_1_node_codec_quad_tree_half_float_1_1_decoding_context.html#a9b2f9d63ffd04fe84b5dc62cc36961a2"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="DecodingContext"><param name="Local" value="class_j_p_h_1_1_node_codec_quad_tree_half_float_1_1_decoding_context.html#a644f5accd352feb26f32afb440ffdf1f"><param name="ImageNumber" value="11"></OBJECT>
           <LI><OBJECT type="text/sitemap"><param name="Name" value="IsDoneWalking"><param name="Local" value="class_j_p_h_1_1_node_codec_quad_tree_half_float_1_1_decoding_context.html#a96ec9137f956173a5672da2c0baed8ca"><param name="ImageNumber" value="11"></OBJECT>
-          <LI><OBJECT type="text/sitemap"><param name="Name" value="WalkTree"><param name="Local" value="class_j_p_h_1_1_node_codec_quad_tree_half_float_1_1_decoding_context.html#a032197930111187e277010b1f456e5f4"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="WalkTree"><param name="Local" value="class_j_p_h_1_1_node_codec_quad_tree_half_float_1_1_decoding_context.html#acdbe5bdd16896a8faf2dd3ff1efbbccb"><param name="ImageNumber" value="11"></OBJECT>
           </UL>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="EncodingContext"><param name="Local" value="class_j_p_h_1_1_node_codec_quad_tree_half_float_1_1_encoding_context.html"><param name="ImageNumber" value="1"></OBJECT>
           <UL>
@@ -5538,6 +5556,7 @@
           <LI><OBJECT type="text/sitemap"><param name="Name" value="GetTriangle"><param name="Local" value="class_j_p_h_1_1_triangle_codec_indexed8_bit_pack_s_o_a4_flags_1_1_decoding_context.html#a7496c0a4ad2465e4a6c67dc206014529"><param name="ImageNumber" value="11"></OBJECT>
           <LI><OBJECT type="text/sitemap"><param name="Name" value="TestRay"><param name="Local" value="class_j_p_h_1_1_triangle_codec_indexed8_bit_pack_s_o_a4_flags_1_1_decoding_context.html#a922173b8299697acf784dde8eee91414"><param name="ImageNumber" value="11"></OBJECT>
           <LI><OBJECT type="text/sitemap"><param name="Name" value="Unpack"><param name="Local" value="class_j_p_h_1_1_triangle_codec_indexed8_bit_pack_s_o_a4_flags_1_1_decoding_context.html#a3fe102166cd17942d5eaed2ff4237fef"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="Unpack"><param name="Local" value="class_j_p_h_1_1_triangle_codec_indexed8_bit_pack_s_o_a4_flags_1_1_decoding_context.html#ab77faf8a97a42b948da1b66d51db5618"><param name="ImageNumber" value="11"></OBJECT>
           </UL>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="EncodingContext"><param name="Local" value="class_j_p_h_1_1_triangle_codec_indexed8_bit_pack_s_o_a4_flags_1_1_encoding_context.html"><param name="ImageNumber" value="1"></OBJECT>
           <UL>
@@ -7670,6 +7689,20 @@
         <UL>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="mSubShapeID2"><param name="Local" value="class_j_p_h_1_1_ray_cast_result.html#a6059c2f436689548b0d0f06e49561c1e"><param name="ImageNumber" value="11"></OBJECT>
         </UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="CastSphereVsTriangles"><param name="Local" value="class_j_p_h_1_1_cast_sphere_vs_triangles.html"><param name="ImageNumber" value="1"></OBJECT>
+        <UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="CastSphereVsTriangles"><param name="Local" value="class_j_p_h_1_1_cast_sphere_vs_triangles.html#adbe07ad507377f1e58353ce28132a9ea"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="Cast"><param name="Local" value="class_j_p_h_1_1_cast_sphere_vs_triangles.html#a25dd3d7c1ad674e4e585ae2fbb6d882b"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="mCenterOfMassTransform2"><param name="Local" value="class_j_p_h_1_1_cast_sphere_vs_triangles.html#a325e92275fb1d5117433c5982c1f9a66"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="mCollector"><param name="Local" value="class_j_p_h_1_1_cast_sphere_vs_triangles.html#a5c0615c7edf4559051599800ee19a186"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="mDirection"><param name="Local" value="class_j_p_h_1_1_cast_sphere_vs_triangles.html#ab9cb8d6bfe79b2d8f1ce4278d467c16e"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="mRadius"><param name="Local" value="class_j_p_h_1_1_cast_sphere_vs_triangles.html#a30f9ae6367d2ce69afc955fb87619d8c"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="mScale"><param name="Local" value="class_j_p_h_1_1_cast_sphere_vs_triangles.html#ace6b4fb377408c92699d1d58536dec85"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="mShapeCastSettings"><param name="Local" value="class_j_p_h_1_1_cast_sphere_vs_triangles.html#af085fbfafda80faab14bda3293607387"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="mShapeFilter"><param name="Local" value="class_j_p_h_1_1_cast_sphere_vs_triangles.html#ad79ba84a378397c9ee0bedc22aae45d6"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="mStart"><param name="Local" value="class_j_p_h_1_1_cast_sphere_vs_triangles.html#a7117db85ca33930784af1c9f19d2fb45"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="mSubShapeIDCreator1"><param name="Local" value="class_j_p_h_1_1_cast_sphere_vs_triangles.html#a090d0eb1221339db0a384f47d4f6f4a4"><param name="ImageNumber" value="11"></OBJECT>
+        </UL>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="CollideConvexVsTriangles"><param name="Local" value="class_j_p_h_1_1_collide_convex_vs_triangles.html"><param name="ImageNumber" value="1"></OBJECT>
         <UL>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="CollideConvexVsTriangles"><param name="Local" value="class_j_p_h_1_1_collide_convex_vs_triangles.html#a69fcffee2b9c89731c3ce75719f7016a"><param name="ImageNumber" value="11"></OBJECT>
@@ -8432,11 +8465,11 @@
         <UL>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="MSGetTrianglesContext"><param name="Local" value="struct_j_p_h_1_1_mesh_shape_1_1_m_s_get_triangles_context.html"><param name="ImageNumber" value="1"></OBJECT>
           <UL>
-          <LI><OBJECT type="text/sitemap"><param name="Name" value="MSGetTrianglesContext"><param name="Local" value="struct_j_p_h_1_1_mesh_shape_1_1_m_s_get_triangles_context.html#a92295180d198724a20f41850560dafe0"><param name="ImageNumber" value="11"></OBJECT>
-          <LI><OBJECT type="text/sitemap"><param name="Name" value="ShouldAbort"><param name="Local" value="struct_j_p_h_1_1_mesh_shape_1_1_m_s_get_triangles_context.html#a351a04e08d5b2a51fc8ff91200fbc604"><param name="ImageNumber" value="11"></OBJECT>
-          <LI><OBJECT type="text/sitemap"><param name="Name" value="ShouldVisitNode"><param name="Local" value="struct_j_p_h_1_1_mesh_shape_1_1_m_s_get_triangles_context.html#a2c0ae5065cd8f7489a40165b2ade482a"><param name="ImageNumber" value="11"></OBJECT>
-          <LI><OBJECT type="text/sitemap"><param name="Name" value="VisitNodes"><param name="Local" value="struct_j_p_h_1_1_mesh_shape_1_1_m_s_get_triangles_context.html#a3ef7ad00c361f30838bfa9642b998355"><param name="ImageNumber" value="11"></OBJECT>
-          <LI><OBJECT type="text/sitemap"><param name="Name" value="VisitTriangles"><param name="Local" value="struct_j_p_h_1_1_mesh_shape_1_1_m_s_get_triangles_context.html#a38670a049b220dfe390ba192f5fbf772"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="MSGetTrianglesContext"><param name="Local" value="struct_j_p_h_1_1_mesh_shape_1_1_m_s_get_triangles_context.html#aacc1b791c3f406e94a2f29f963f5c91e"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="ShouldAbort"><param name="Local" value="struct_j_p_h_1_1_mesh_shape_1_1_m_s_get_triangles_context.html#aa2221b62112bfef6a6183695bea2a0ff"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="ShouldVisitNode"><param name="Local" value="struct_j_p_h_1_1_mesh_shape_1_1_m_s_get_triangles_context.html#a5a99c0dbf45d686886e63c5c9f0e2f95"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="VisitNodes"><param name="Local" value="struct_j_p_h_1_1_mesh_shape_1_1_m_s_get_triangles_context.html#a30b5910896c52b6cff94a6e6c90ea047"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="VisitTriangles"><param name="Local" value="struct_j_p_h_1_1_mesh_shape_1_1_m_s_get_triangles_context.html#a0b52f8be67ba44ff0ab56b7bb33a059a"><param name="ImageNumber" value="11"></OBJECT>
           <LI><OBJECT type="text/sitemap"><param name="Name" value="mDecodeCtx"><param name="Local" value="struct_j_p_h_1_1_mesh_shape_1_1_m_s_get_triangles_context.html#a49ea09c0452fe77d7f47e111538b182f"><param name="ImageNumber" value="11"></OBJECT>
           <LI><OBJECT type="text/sitemap"><param name="Name" value="mIsInsideOut"><param name="Local" value="struct_j_p_h_1_1_mesh_shape_1_1_m_s_get_triangles_context.html#a794f038d4fb1d7c980e31f66de82d286"><param name="ImageNumber" value="11"></OBJECT>
           <LI><OBJECT type="text/sitemap"><param name="Name" value="mLocalBox"><param name="Local" value="struct_j_p_h_1_1_mesh_shape_1_1_m_s_get_triangles_context.html#afceb2fa091de0bcedb2d2ee2c6d485fe"><param name="ImageNumber" value="11"></OBJECT>
@@ -8470,6 +8503,8 @@
         <LI><OBJECT type="text/sitemap"><param name="Name" value="RestoreMaterialState"><param name="Local" value="class_j_p_h_1_1_mesh_shape.html#a01069665b054f6cb7bd409cf22be869d"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="SaveBinaryState"><param name="Local" value="class_j_p_h_1_1_mesh_shape.html#abe6eec9433bffb798f3595c31c4e0541"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="SaveMaterialState"><param name="Local" value="class_j_p_h_1_1_mesh_shape.html#a47493f41b0476036958da085e8e41245"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="WalkTree"><param name="Local" value="class_j_p_h_1_1_mesh_shape.html#a8d70c50ca00997b0c120a14bef8d6f49"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="WalkTreePerTriangle"><param name="Local" value="class_j_p_h_1_1_mesh_shape.html#a209863b5d795560b18ae564027b20655"><param name="ImageNumber" value="11"></OBJECT>
         </UL>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="MutableCompoundShapeSettings"><param name="Local" value="class_j_p_h_1_1_mutable_compound_shape_settings.html"><param name="ImageNumber" value="1"></OBJECT>
         <UL>
@@ -10422,6 +10457,7 @@
     <LI><OBJECT type="text/sitemap"><param name="Name" value="JPH::CompoundShape::CastRayVisitor"><param name="Local" value="struct_j_p_h_1_1_compound_shape_1_1_cast_ray_visitor.html"><param name="ImageNumber" value="11"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Name" value="JPH::CompoundShape::CastRayVisitorCollector"><param name="Local" value="struct_j_p_h_1_1_compound_shape_1_1_cast_ray_visitor_collector.html"><param name="ImageNumber" value="11"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Name" value="JPH::CompoundShape::CastShapeVisitor"><param name="Local" value="struct_j_p_h_1_1_compound_shape_1_1_cast_shape_visitor.html"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="JPH::CastSphereVsTriangles"><param name="Local" value="class_j_p_h_1_1_cast_sphere_vs_triangles.html"><param name="ImageNumber" value="11"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Name" value="JPH::PhysicsUpdateContext::SubStep::CCDBody"><param name="Local" value="struct_j_p_h_1_1_physics_update_context_1_1_sub_step_1_1_c_c_d_body.html"><param name="ImageNumber" value="11"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Name" value="JPH::ConvexHullShape::CHSGetTrianglesContext"><param name="Local" value="class_j_p_h_1_1_convex_hull_shape_1_1_c_h_s_get_triangles_context.html"><param name="ImageNumber" value="11"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Name" value="CollectorType"><param name="ImageNumber" value="1"></OBJECT>
@@ -11072,9 +11108,9 @@
               <UL>
               <LI><OBJECT type="text/sitemap"><param name="Name" value="DecodingContext"><param name="Local" value="class_j_p_h_1_1_node_codec_quad_tree_half_float_1_1_decoding_context.html"><param name="ImageNumber" value="1"></OBJECT>
                 <UL>
-                <LI><OBJECT type="text/sitemap"><param name="Name" value="DecodingContext"><param name="Local" value="class_j_p_h_1_1_node_codec_quad_tree_half_float_1_1_decoding_context.html#a9b2f9d63ffd04fe84b5dc62cc36961a2"><param name="ImageNumber" value="11"></OBJECT>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="DecodingContext"><param name="Local" value="class_j_p_h_1_1_node_codec_quad_tree_half_float_1_1_decoding_context.html#a644f5accd352feb26f32afb440ffdf1f"><param name="ImageNumber" value="11"></OBJECT>
                 <LI><OBJECT type="text/sitemap"><param name="Name" value="IsDoneWalking"><param name="Local" value="class_j_p_h_1_1_node_codec_quad_tree_half_float_1_1_decoding_context.html#a96ec9137f956173a5672da2c0baed8ca"><param name="ImageNumber" value="11"></OBJECT>
-                <LI><OBJECT type="text/sitemap"><param name="Name" value="WalkTree"><param name="Local" value="class_j_p_h_1_1_node_codec_quad_tree_half_float_1_1_decoding_context.html#a032197930111187e277010b1f456e5f4"><param name="ImageNumber" value="11"></OBJECT>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="WalkTree"><param name="Local" value="class_j_p_h_1_1_node_codec_quad_tree_half_float_1_1_decoding_context.html#acdbe5bdd16896a8faf2dd3ff1efbbccb"><param name="ImageNumber" value="11"></OBJECT>
                 </UL>
               <LI><OBJECT type="text/sitemap"><param name="Name" value="EncodingContext"><param name="Local" value="class_j_p_h_1_1_node_codec_quad_tree_half_float_1_1_encoding_context.html"><param name="ImageNumber" value="1"></OBJECT>
                 <UL>
@@ -11125,9 +11161,9 @@
               </UL>
             <LI><OBJECT type="text/sitemap"><param name="Name" value="DecodingContext"><param name="Local" value="class_j_p_h_1_1_node_codec_quad_tree_half_float_1_1_decoding_context.html"><param name="ImageNumber" value="1"></OBJECT>
               <UL>
-              <LI><OBJECT type="text/sitemap"><param name="Name" value="DecodingContext"><param name="Local" value="class_j_p_h_1_1_node_codec_quad_tree_half_float_1_1_decoding_context.html#a9b2f9d63ffd04fe84b5dc62cc36961a2"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="DecodingContext"><param name="Local" value="class_j_p_h_1_1_node_codec_quad_tree_half_float_1_1_decoding_context.html#a644f5accd352feb26f32afb440ffdf1f"><param name="ImageNumber" value="11"></OBJECT>
               <LI><OBJECT type="text/sitemap"><param name="Name" value="IsDoneWalking"><param name="Local" value="class_j_p_h_1_1_node_codec_quad_tree_half_float_1_1_decoding_context.html#a96ec9137f956173a5672da2c0baed8ca"><param name="ImageNumber" value="11"></OBJECT>
-              <LI><OBJECT type="text/sitemap"><param name="Name" value="WalkTree"><param name="Local" value="class_j_p_h_1_1_node_codec_quad_tree_half_float_1_1_decoding_context.html#a032197930111187e277010b1f456e5f4"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="WalkTree"><param name="Local" value="class_j_p_h_1_1_node_codec_quad_tree_half_float_1_1_decoding_context.html#acdbe5bdd16896a8faf2dd3ff1efbbccb"><param name="ImageNumber" value="11"></OBJECT>
               </UL>
             </UL>
           </UL>
@@ -11143,6 +11179,7 @@
                 <LI><OBJECT type="text/sitemap"><param name="Name" value="GetTriangle"><param name="Local" value="class_j_p_h_1_1_triangle_codec_indexed8_bit_pack_s_o_a4_flags_1_1_decoding_context.html#a7496c0a4ad2465e4a6c67dc206014529"><param name="ImageNumber" value="11"></OBJECT>
                 <LI><OBJECT type="text/sitemap"><param name="Name" value="TestRay"><param name="Local" value="class_j_p_h_1_1_triangle_codec_indexed8_bit_pack_s_o_a4_flags_1_1_decoding_context.html#a922173b8299697acf784dde8eee91414"><param name="ImageNumber" value="11"></OBJECT>
                 <LI><OBJECT type="text/sitemap"><param name="Name" value="Unpack"><param name="Local" value="class_j_p_h_1_1_triangle_codec_indexed8_bit_pack_s_o_a4_flags_1_1_decoding_context.html#a3fe102166cd17942d5eaed2ff4237fef"><param name="ImageNumber" value="11"></OBJECT>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="Unpack"><param name="Local" value="class_j_p_h_1_1_triangle_codec_indexed8_bit_pack_s_o_a4_flags_1_1_decoding_context.html#ab77faf8a97a42b948da1b66d51db5618"><param name="ImageNumber" value="11"></OBJECT>
                 </UL>
               <LI><OBJECT type="text/sitemap"><param name="Name" value="EncodingContext"><param name="Local" value="class_j_p_h_1_1_triangle_codec_indexed8_bit_pack_s_o_a4_flags_1_1_encoding_context.html"><param name="ImageNumber" value="1"></OBJECT>
                 <UL>
@@ -11226,6 +11263,7 @@
               <LI><OBJECT type="text/sitemap"><param name="Name" value="GetTriangle"><param name="Local" value="class_j_p_h_1_1_triangle_codec_indexed8_bit_pack_s_o_a4_flags_1_1_decoding_context.html#a7496c0a4ad2465e4a6c67dc206014529"><param name="ImageNumber" value="11"></OBJECT>
               <LI><OBJECT type="text/sitemap"><param name="Name" value="TestRay"><param name="Local" value="class_j_p_h_1_1_triangle_codec_indexed8_bit_pack_s_o_a4_flags_1_1_decoding_context.html#a922173b8299697acf784dde8eee91414"><param name="ImageNumber" value="11"></OBJECT>
               <LI><OBJECT type="text/sitemap"><param name="Name" value="Unpack"><param name="Local" value="class_j_p_h_1_1_triangle_codec_indexed8_bit_pack_s_o_a4_flags_1_1_decoding_context.html#a3fe102166cd17942d5eaed2ff4237fef"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="Unpack"><param name="Local" value="class_j_p_h_1_1_triangle_codec_indexed8_bit_pack_s_o_a4_flags_1_1_decoding_context.html#ab77faf8a97a42b948da1b66d51db5618"><param name="ImageNumber" value="11"></OBJECT>
               </UL>
             </UL>
           </UL>
@@ -15170,11 +15208,11 @@
               <UL>
               <LI><OBJECT type="text/sitemap"><param name="Name" value="MSGetTrianglesContext"><param name="Local" value="struct_j_p_h_1_1_mesh_shape_1_1_m_s_get_triangles_context.html"><param name="ImageNumber" value="1"></OBJECT>
                 <UL>
-                <LI><OBJECT type="text/sitemap"><param name="Name" value="MSGetTrianglesContext"><param name="Local" value="struct_j_p_h_1_1_mesh_shape_1_1_m_s_get_triangles_context.html#a92295180d198724a20f41850560dafe0"><param name="ImageNumber" value="11"></OBJECT>
-                <LI><OBJECT type="text/sitemap"><param name="Name" value="ShouldAbort"><param name="Local" value="struct_j_p_h_1_1_mesh_shape_1_1_m_s_get_triangles_context.html#a351a04e08d5b2a51fc8ff91200fbc604"><param name="ImageNumber" value="11"></OBJECT>
-                <LI><OBJECT type="text/sitemap"><param name="Name" value="ShouldVisitNode"><param name="Local" value="struct_j_p_h_1_1_mesh_shape_1_1_m_s_get_triangles_context.html#a2c0ae5065cd8f7489a40165b2ade482a"><param name="ImageNumber" value="11"></OBJECT>
-                <LI><OBJECT type="text/sitemap"><param name="Name" value="VisitNodes"><param name="Local" value="struct_j_p_h_1_1_mesh_shape_1_1_m_s_get_triangles_context.html#a3ef7ad00c361f30838bfa9642b998355"><param name="ImageNumber" value="11"></OBJECT>
-                <LI><OBJECT type="text/sitemap"><param name="Name" value="VisitTriangles"><param name="Local" value="struct_j_p_h_1_1_mesh_shape_1_1_m_s_get_triangles_context.html#a38670a049b220dfe390ba192f5fbf772"><param name="ImageNumber" value="11"></OBJECT>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="MSGetTrianglesContext"><param name="Local" value="struct_j_p_h_1_1_mesh_shape_1_1_m_s_get_triangles_context.html#aacc1b791c3f406e94a2f29f963f5c91e"><param name="ImageNumber" value="11"></OBJECT>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="ShouldAbort"><param name="Local" value="struct_j_p_h_1_1_mesh_shape_1_1_m_s_get_triangles_context.html#aa2221b62112bfef6a6183695bea2a0ff"><param name="ImageNumber" value="11"></OBJECT>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="ShouldVisitNode"><param name="Local" value="struct_j_p_h_1_1_mesh_shape_1_1_m_s_get_triangles_context.html#a5a99c0dbf45d686886e63c5c9f0e2f95"><param name="ImageNumber" value="11"></OBJECT>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="VisitNodes"><param name="Local" value="struct_j_p_h_1_1_mesh_shape_1_1_m_s_get_triangles_context.html#a30b5910896c52b6cff94a6e6c90ea047"><param name="ImageNumber" value="11"></OBJECT>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="VisitTriangles"><param name="Local" value="struct_j_p_h_1_1_mesh_shape_1_1_m_s_get_triangles_context.html#a0b52f8be67ba44ff0ab56b7bb33a059a"><param name="ImageNumber" value="11"></OBJECT>
                 <LI><OBJECT type="text/sitemap"><param name="Name" value="mDecodeCtx"><param name="Local" value="struct_j_p_h_1_1_mesh_shape_1_1_m_s_get_triangles_context.html#a49ea09c0452fe77d7f47e111538b182f"><param name="ImageNumber" value="11"></OBJECT>
                 <LI><OBJECT type="text/sitemap"><param name="Name" value="mIsInsideOut"><param name="Local" value="struct_j_p_h_1_1_mesh_shape_1_1_m_s_get_triangles_context.html#a794f038d4fb1d7c980e31f66de82d286"><param name="ImageNumber" value="11"></OBJECT>
                 <LI><OBJECT type="text/sitemap"><param name="Name" value="mLocalBox"><param name="Local" value="struct_j_p_h_1_1_mesh_shape_1_1_m_s_get_triangles_context.html#afceb2fa091de0bcedb2d2ee2c6d485fe"><param name="ImageNumber" value="11"></OBJECT>
@@ -15208,11 +15246,11 @@
                 <UL>
                 <LI><OBJECT type="text/sitemap"><param name="Name" value="MSGetTrianglesContext"><param name="Local" value="struct_j_p_h_1_1_mesh_shape_1_1_m_s_get_triangles_context.html"><param name="ImageNumber" value="1"></OBJECT>
                   <UL>
-                  <LI><OBJECT type="text/sitemap"><param name="Name" value="MSGetTrianglesContext"><param name="Local" value="struct_j_p_h_1_1_mesh_shape_1_1_m_s_get_triangles_context.html#a92295180d198724a20f41850560dafe0"><param name="ImageNumber" value="11"></OBJECT>
-                  <LI><OBJECT type="text/sitemap"><param name="Name" value="ShouldAbort"><param name="Local" value="struct_j_p_h_1_1_mesh_shape_1_1_m_s_get_triangles_context.html#a351a04e08d5b2a51fc8ff91200fbc604"><param name="ImageNumber" value="11"></OBJECT>
-                  <LI><OBJECT type="text/sitemap"><param name="Name" value="ShouldVisitNode"><param name="Local" value="struct_j_p_h_1_1_mesh_shape_1_1_m_s_get_triangles_context.html#a2c0ae5065cd8f7489a40165b2ade482a"><param name="ImageNumber" value="11"></OBJECT>
-                  <LI><OBJECT type="text/sitemap"><param name="Name" value="VisitNodes"><param name="Local" value="struct_j_p_h_1_1_mesh_shape_1_1_m_s_get_triangles_context.html#a3ef7ad00c361f30838bfa9642b998355"><param name="ImageNumber" value="11"></OBJECT>
-                  <LI><OBJECT type="text/sitemap"><param name="Name" value="VisitTriangles"><param name="Local" value="struct_j_p_h_1_1_mesh_shape_1_1_m_s_get_triangles_context.html#a38670a049b220dfe390ba192f5fbf772"><param name="ImageNumber" value="11"></OBJECT>
+                  <LI><OBJECT type="text/sitemap"><param name="Name" value="MSGetTrianglesContext"><param name="Local" value="struct_j_p_h_1_1_mesh_shape_1_1_m_s_get_triangles_context.html#aacc1b791c3f406e94a2f29f963f5c91e"><param name="ImageNumber" value="11"></OBJECT>
+                  <LI><OBJECT type="text/sitemap"><param name="Name" value="ShouldAbort"><param name="Local" value="struct_j_p_h_1_1_mesh_shape_1_1_m_s_get_triangles_context.html#aa2221b62112bfef6a6183695bea2a0ff"><param name="ImageNumber" value="11"></OBJECT>
+                  <LI><OBJECT type="text/sitemap"><param name="Name" value="ShouldVisitNode"><param name="Local" value="struct_j_p_h_1_1_mesh_shape_1_1_m_s_get_triangles_context.html#a5a99c0dbf45d686886e63c5c9f0e2f95"><param name="ImageNumber" value="11"></OBJECT>
+                  <LI><OBJECT type="text/sitemap"><param name="Name" value="VisitNodes"><param name="Local" value="struct_j_p_h_1_1_mesh_shape_1_1_m_s_get_triangles_context.html#a30b5910896c52b6cff94a6e6c90ea047"><param name="ImageNumber" value="11"></OBJECT>
+                  <LI><OBJECT type="text/sitemap"><param name="Name" value="VisitTriangles"><param name="Local" value="struct_j_p_h_1_1_mesh_shape_1_1_m_s_get_triangles_context.html#a0b52f8be67ba44ff0ab56b7bb33a059a"><param name="ImageNumber" value="11"></OBJECT>
                   <LI><OBJECT type="text/sitemap"><param name="Name" value="mDecodeCtx"><param name="Local" value="struct_j_p_h_1_1_mesh_shape_1_1_m_s_get_triangles_context.html#a49ea09c0452fe77d7f47e111538b182f"><param name="ImageNumber" value="11"></OBJECT>
                   <LI><OBJECT type="text/sitemap"><param name="Name" value="mIsInsideOut"><param name="Local" value="struct_j_p_h_1_1_mesh_shape_1_1_m_s_get_triangles_context.html#a794f038d4fb1d7c980e31f66de82d286"><param name="ImageNumber" value="11"></OBJECT>
                   <LI><OBJECT type="text/sitemap"><param name="Name" value="mLocalBox"><param name="Local" value="struct_j_p_h_1_1_mesh_shape_1_1_m_s_get_triangles_context.html#afceb2fa091de0bcedb2d2ee2c6d485fe"><param name="ImageNumber" value="11"></OBJECT>
@@ -15246,6 +15284,8 @@
                 <LI><OBJECT type="text/sitemap"><param name="Name" value="RestoreMaterialState"><param name="Local" value="class_j_p_h_1_1_mesh_shape.html#a01069665b054f6cb7bd409cf22be869d"><param name="ImageNumber" value="11"></OBJECT>
                 <LI><OBJECT type="text/sitemap"><param name="Name" value="SaveBinaryState"><param name="Local" value="class_j_p_h_1_1_mesh_shape.html#abe6eec9433bffb798f3595c31c4e0541"><param name="ImageNumber" value="11"></OBJECT>
                 <LI><OBJECT type="text/sitemap"><param name="Name" value="SaveMaterialState"><param name="Local" value="class_j_p_h_1_1_mesh_shape.html#a47493f41b0476036958da085e8e41245"><param name="ImageNumber" value="11"></OBJECT>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="WalkTree"><param name="Local" value="class_j_p_h_1_1_mesh_shape.html#a8d70c50ca00997b0c120a14bef8d6f49"><param name="ImageNumber" value="11"></OBJECT>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="WalkTreePerTriangle"><param name="Local" value="class_j_p_h_1_1_mesh_shape.html#a209863b5d795560b18ae564027b20655"><param name="ImageNumber" value="11"></OBJECT>
                 </UL>
               </UL>
             <LI><OBJECT type="text/sitemap"><param name="Name" value="MutableCompoundShape.cpp"><param name="Local" value="_mutable_compound_shape_8cpp.html"><param name="ImageNumber" value="1"></OBJECT>
@@ -15874,6 +15914,24 @@
               <LI><OBJECT type="text/sitemap"><param name="Name" value="mSubShapeID2"><param name="Local" value="class_j_p_h_1_1_ray_cast_result.html#a6059c2f436689548b0d0f06e49561c1e"><param name="ImageNumber" value="11"></OBJECT>
               </UL>
             </UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="CastSphereVsTriangles.cpp"><param name="Local" value="_cast_sphere_vs_triangles_8cpp.html"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="CastSphereVsTriangles.h"><param name="Local" value="_cast_sphere_vs_triangles_8h.html"><param name="ImageNumber" value="11"></OBJECT>
+            <UL>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="CastSphereVsTriangles"><param name="Local" value="class_j_p_h_1_1_cast_sphere_vs_triangles.html"><param name="ImageNumber" value="1"></OBJECT>
+              <UL>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="CastSphereVsTriangles"><param name="Local" value="class_j_p_h_1_1_cast_sphere_vs_triangles.html#adbe07ad507377f1e58353ce28132a9ea"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="Cast"><param name="Local" value="class_j_p_h_1_1_cast_sphere_vs_triangles.html#a25dd3d7c1ad674e4e585ae2fbb6d882b"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="mCenterOfMassTransform2"><param name="Local" value="class_j_p_h_1_1_cast_sphere_vs_triangles.html#a325e92275fb1d5117433c5982c1f9a66"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="mCollector"><param name="Local" value="class_j_p_h_1_1_cast_sphere_vs_triangles.html#a5c0615c7edf4559051599800ee19a186"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="mDirection"><param name="Local" value="class_j_p_h_1_1_cast_sphere_vs_triangles.html#ab9cb8d6bfe79b2d8f1ce4278d467c16e"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="mRadius"><param name="Local" value="class_j_p_h_1_1_cast_sphere_vs_triangles.html#a30f9ae6367d2ce69afc955fb87619d8c"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="mScale"><param name="Local" value="class_j_p_h_1_1_cast_sphere_vs_triangles.html#ace6b4fb377408c92699d1d58536dec85"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="mShapeCastSettings"><param name="Local" value="class_j_p_h_1_1_cast_sphere_vs_triangles.html#af085fbfafda80faab14bda3293607387"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="mShapeFilter"><param name="Local" value="class_j_p_h_1_1_cast_sphere_vs_triangles.html#ad79ba84a378397c9ee0bedc22aae45d6"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="mStart"><param name="Local" value="class_j_p_h_1_1_cast_sphere_vs_triangles.html#a7117db85ca33930784af1c9f19d2fb45"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="mSubShapeIDCreator1"><param name="Local" value="class_j_p_h_1_1_cast_sphere_vs_triangles.html#a090d0eb1221339db0a384f47d4f6f4a4"><param name="ImageNumber" value="11"></OBJECT>
+              </UL>
+            </UL>
           <LI><OBJECT type="text/sitemap"><param name="Name" value="CollectFacesMode.h"><param name="Local" value="_collect_faces_mode_8h.html"><param name="ImageNumber" value="1"></OBJECT>
             <UL>
             <LI><OBJECT type="text/sitemap"><param name="Name" value="ECollectFacesMode"><param name="Local" value="_collect_faces_mode_8h.html#a14106d95dfff2c91679751133ad9b8b8"><param name="ImageNumber" value="1"></OBJECT>
@@ -16236,6 +16294,10 @@
               <LI><OBJECT type="text/sitemap"><param name="Name" value="ShouldCollide"><param name="Local" value="class_j_p_h_1_1_shape_filter.html#a3fc2a58ddc665eaf9133c636c6b0c93b"><param name="ImageNumber" value="11"></OBJECT>
               <LI><OBJECT type="text/sitemap"><param name="Name" value="mBodyID2"><param name="Local" value="class_j_p_h_1_1_shape_filter.html#aa0340514331ea224c1fcbcde499a240a"><param name="ImageNumber" value="11"></OBJECT>
               </UL>
+            </UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="SortReverseAndStore.h"><param name="Local" value="_sort_reverse_and_store_8h.html"><param name="ImageNumber" value="1"></OBJECT>
+            <UL>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="SortReverseAndStore"><param name="Local" value="_sort_reverse_and_store_8h.html#a4dc927eafbf6f4a44c5e5dcdb9ef7d10"><param name="ImageNumber" value="11"></OBJECT>
             </UL>
           <LI><OBJECT type="text/sitemap"><param name="Name" value="TransformedShape.cpp"><param name="Local" value="_transformed_shape_8cpp.html"><param name="ImageNumber" value="11"></OBJECT>
           <LI><OBJECT type="text/sitemap"><param name="Name" value="TransformedShape.h"><param name="Local" value="_transformed_shape_8h.html"><param name="ImageNumber" value="11"></OBJECT>
