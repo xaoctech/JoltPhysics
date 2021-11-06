@@ -4996,6 +4996,7 @@
       <LI><OBJECT type="text/sitemap"><param name="Name" value="IndexedTriangleNoMaterialList"><param name="Local" value="namespace_j_p_h.html#adf3d1050a83898e5a6dd7f74db952202"><param name="ImageNumber" value="11"></OBJECT>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="JobHandle"><param name="Local" value="namespace_j_p_h.html#a6d46fe8db3e6fe402061d0f6379a4974"><param name="ImageNumber" value="11"></OBJECT>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="Mat44Arg"><param name="Local" value="namespace_j_p_h.html#ae85f8da8374893b61a0e4288b77aec1b"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="MutexBase"><param name="Local" value="namespace_j_p_h.html#a39a8f5d9460cc9e63d92b83100e75eef"><param name="ImageNumber" value="11"></OBJECT>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="NodeCodec"><param name="Local" value="namespace_j_p_h.html#ae142205f03df383ed97d8cec1508e8d5"><param name="ImageNumber" value="11"></OBJECT>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="ObjectLayer"><param name="Local" value="namespace_j_p_h.html#adba3f6b6d15eb4d53f8b8e087e787f5b"><param name="ImageNumber" value="11"></OBJECT>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="ObjectLayerPairFilter"><param name="Local" value="namespace_j_p_h.html#a7029cd45bb369c6cc6b978e11facdaec"><param name="ImageNumber" value="11"></OBJECT>
@@ -5007,6 +5008,7 @@
       <LI><OBJECT type="text/sitemap"><param name="Name" value="RayCastBodyCollector"><param name="Local" value="namespace_j_p_h.html#a88c00bead2751e37bd3624136e1c12e9"><param name="ImageNumber" value="11"></OBJECT>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="ShapeList"><param name="Local" value="namespace_j_p_h.html#adeb7d90f1a30b81be9215ea34ec8ddf4"><param name="ImageNumber" value="11"></OBJECT>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="ShapeRefC"><param name="Local" value="namespace_j_p_h.html#a4d735de5cf82c3e516b3be9f29943650"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="SharedMutexBase"><param name="Local" value="namespace_j_p_h.html#aeba5cb12e3167ea612e29086575ac102"><param name="ImageNumber" value="11"></OBJECT>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="TraceFunction"><param name="Local" value="namespace_j_p_h.html#aa1d3d89341eac665e5cc361bd95d6ded"><param name="ImageNumber" value="11"></OBJECT>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="TransformedShapeCollector"><param name="Local" value="namespace_j_p_h.html#aaa4ab819f93ee983af71c01d4d10893d"><param name="ImageNumber" value="11"></OBJECT>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="TriangleCodec"><param name="Local" value="namespace_j_p_h.html#a4ae832585cd77fc1f7c029cbeee101dc"><param name="ImageNumber" value="11"></OBJECT>
@@ -10542,7 +10544,7 @@
     <LI><OBJECT type="text/sitemap"><param name="Name" value="JPH::MotionProperties"><param name="Local" value="class_j_p_h_1_1_motion_properties.html"><param name="ImageNumber" value="11"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Name" value="JPH::MotorSettings"><param name="Local" value="class_j_p_h_1_1_motor_settings.html"><param name="ImageNumber" value="11"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Name" value="JPH::MeshShape::MSGetTrianglesContext"><param name="Local" value="struct_j_p_h_1_1_mesh_shape_1_1_m_s_get_triangles_context.html"><param name="ImageNumber" value="11"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Name" value="mutex"><param name="ImageNumber" value="1"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="MutexBase"><param name="ImageNumber" value="1"></OBJECT>
       <UL>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="JPH::Mutex"><param name="Local" value="class_j_p_h_1_1_mutex.html"><param name="ImageNumber" value="11"></OBJECT>
       </UL>
@@ -10880,11 +10882,11 @@
       </UL>
     <LI><OBJECT type="text/sitemap"><param name="Name" value="JPH::ShapeCast"><param name="Local" value="struct_j_p_h_1_1_shape_cast.html"><param name="ImageNumber" value="11"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Name" value="JPH::ShapeFunctions"><param name="Local" value="class_j_p_h_1_1_shape_functions.html"><param name="ImageNumber" value="11"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Name" value="shared_mutex"><param name="ImageNumber" value="1"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="JPH::SharedLock&lt; LockType &gt;"><param name="Local" value="class_j_p_h_1_1_shared_lock.html"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="SharedMutexBase"><param name="ImageNumber" value="1"></OBJECT>
       <UL>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="JPH::SharedMutex"><param name="Local" value="class_j_p_h_1_1_shared_mutex.html"><param name="ImageNumber" value="11"></OBJECT>
       </UL>
-    <LI><OBJECT type="text/sitemap"><param name="Name" value="JPH::SharedLock&lt; LockType &gt;"><param name="Local" value="class_j_p_h_1_1_shared_lock.html"><param name="ImageNumber" value="11"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Name" value="JPH::SkeletonPose"><param name="Local" value="class_j_p_h_1_1_skeleton_pose.html"><param name="ImageNumber" value="11"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Name" value="JPH::Sphere"><param name="Local" value="class_j_p_h_1_1_sphere.html"><param name="ImageNumber" value="11"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Name" value="JPH::SpringPart"><param name="Local" value="class_j_p_h_1_1_spring_part.html"><param name="ImageNumber" value="11"></OBJECT>
@@ -11716,7 +11718,7 @@
           <LI><OBJECT type="text/sitemap"><param name="Name" value="AlignedAlloc"><param name="Local" value="_memory_8h.html#a08dfb144f28736d4e8b09bfaaa16f72e"><param name="ImageNumber" value="11"></OBJECT>
           <LI><OBJECT type="text/sitemap"><param name="Name" value="AlignedFree"><param name="Local" value="_memory_8h.html#ae9ea9b2290b23cd58bdd5b4313fb6945"><param name="ImageNumber" value="11"></OBJECT>
           </UL>
-        <LI><OBJECT type="text/sitemap"><param name="Name" value="Mutex.h"><param name="Local" value="_mutex_8h.html"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="Mutex.h"><param name="Local" value="_mutex_8h.html"><param name="ImageNumber" value="1"></OBJECT>
           <UL>
           <LI><OBJECT type="text/sitemap"><param name="Name" value="Mutex"><param name="Local" value="class_j_p_h_1_1_mutex.html"><param name="ImageNumber" value="1"></OBJECT>
             <UL>
@@ -11731,6 +11733,8 @@
             <LI><OBJECT type="text/sitemap"><param name="Name" value="try_lock"><param name="Local" value="class_j_p_h_1_1_shared_mutex.html#aba6d59e9553472a60ef5dd2a861e2732"><param name="ImageNumber" value="11"></OBJECT>
             <LI><OBJECT type="text/sitemap"><param name="Name" value="unlock"><param name="Local" value="class_j_p_h_1_1_shared_mutex.html#a18f77dae011df263bdda7dec154447ce"><param name="ImageNumber" value="11"></OBJECT>
             </UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="MutexBase"><param name="Local" value="_mutex_8h.html#a39a8f5d9460cc9e63d92b83100e75eef"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="SharedMutexBase"><param name="Local" value="_mutex_8h.html#aeba5cb12e3167ea612e29086575ac102"><param name="ImageNumber" value="11"></OBJECT>
           </UL>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="MutexArray.h"><param name="Local" value="_mutex_array_8h.html"><param name="ImageNumber" value="11"></OBJECT>
           <UL>
