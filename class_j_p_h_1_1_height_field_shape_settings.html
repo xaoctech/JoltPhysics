@@ -374,7 +374,7 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>The heightfield is divided in blocks of mBlockSize * mBlockSize * 2 triangles and the acceleration structure culls blocks only, bigger block sizes reduce memory consumption but also reduce query performance. Sensible values are [1, 4], does not need to be a power of 2. </p>
+<p>The heightfield is divided in blocks of mBlockSize * mBlockSize * 2 triangles and the acceleration structure culls blocks only, bigger block sizes reduce memory consumption but also reduce query performance. Sensible values are [2, 8], does not need to be a power of 2. Note that at run-time we'll perform one more grid subdivision, so the effective block size is half of what is provided here. </p>
 
 </div>
 </div>
