@@ -462,7 +462,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Check if inPoint is inside this shape. For this tests all shapes are treated as if they were solid. Note that inPoint should be relative to the center of mass of this shape (i.e. subtract <a class="el" href="class_j_p_h_1_1_shape.html#abdd580a03bcdfb07eec924c495c193de" title="All shapes are centered around their center of mass. This function returns the center of mass positio...">Shape::GetCenterOfMass()</a> from inPoint if you want to test against the shape in the space it was created). For a mesh shape, this test will only provide sensible information if the mesh is a closed manifold. For each shape that collides, ioCollector will receive a hit. </p>
+<p>See: <a class="el" href="class_j_p_h_1_1_shape.html#a01767769996d46823cbade96fd3444d5">Shape::CollidePoint</a> Note that for CollidePoint to work for a mesh shape, the mesh needs to be closed (a manifold) or multiple non-intersecting manifolds. Triangles may be facing the interior of the manifold. Insideness is tested by counting the amount of triangles encountered when casting an infinite ray from inPoint. If the number of hits is odd we're inside, if it's even we're outside. </p>
 
 <p>Implements <a class="el" href="class_j_p_h_1_1_shape.html#a01767769996d46823cbade96fd3444d5">JPH::Shape</a>.</p>
 
