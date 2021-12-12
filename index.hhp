@@ -478,9 +478,6 @@ _sphere_shape_8h.html
 _sphere_shape_8h_source.html
 _spring_part_8h.html
 _spring_part_8h_source.html
-_stat_collector_8cpp.html
-_stat_collector_8h.html
-_stat_collector_8h_source.html
 _state_recorder_8h.html
 _state_recorder_8h_source.html
 _state_recorder_impl_8cpp.html
@@ -1095,10 +1092,6 @@ class_j_p_h_1_1_sphere_shape_settings-members.html
 class_j_p_h_1_1_sphere_shape_settings.html
 class_j_p_h_1_1_spring_part-members.html
 class_j_p_h_1_1_spring_part.html
-class_j_p_h_1_1_stat_collector-members.html
-class_j_p_h_1_1_stat_collector.html
-class_j_p_h_1_1_stat_collector_1_1_variant-members.html
-class_j_p_h_1_1_stat_collector_1_1_variant.html
 class_j_p_h_1_1_state_recorder-members.html
 class_j_p_h_1_1_state_recorder.html
 class_j_p_h_1_1_state_recorder_impl-members.html
@@ -1484,8 +1477,6 @@ struct_j_p_h_1_1_shape_1_1_stats-members.html
 struct_j_p_h_1_1_shape_1_1_stats.html
 struct_j_p_h_1_1_shape_cast-members.html
 struct_j_p_h_1_1_shape_cast.html
-struct_j_p_h_1_1_stat_tree_node-members.html
-struct_j_p_h_1_1_stat_tree_node.html
 struct_j_p_h_1_1_static_array_1_1_storage-members.html
 struct_j_p_h_1_1_static_array_1_1_storage.html
 struct_j_p_h_1_1_transformed_convex_object-members.html
@@ -1674,7 +1665,6 @@ class_j_p_h_1_1_sphere_shape.png
 class_j_p_h_1_1_sphere_shape_1_1_sphere_no_convex.png
 class_j_p_h_1_1_sphere_shape_1_1_sphere_with_convex.png
 class_j_p_h_1_1_sphere_shape_settings.png
-class_j_p_h_1_1_stat_collector.png
 class_j_p_h_1_1_state_recorder.png
 class_j_p_h_1_1_state_recorder_impl.png
 class_j_p_h_1_1_static_array.png

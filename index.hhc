@@ -595,41 +595,6 @@
         <LI><OBJECT type="text/sitemap"><param name="Name" value="GetName"><param name="Local" value="class_j_p_h_1_1_r_t_t_i_attribute.html#a9af86aea9dc3ab010bcefd8313e5afeb"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="SetName"><param name="Local" value="class_j_p_h_1_1_r_t_t_i_attribute.html#aa448756f4825a879742d8c171f2e2ad1"><param name="ImageNumber" value="11"></OBJECT>
         </UL>
-      <LI><OBJECT type="text/sitemap"><param name="Name" value="StatTreeNode"><param name="Local" value="struct_j_p_h_1_1_stat_tree_node.html"><param name="ImageNumber" value="1"></OBJECT>
-        <UL>
-        <LI><OBJECT type="text/sitemap"><param name="Name" value="Children"><param name="Local" value="struct_j_p_h_1_1_stat_tree_node.html#ae6b772884ffc4dcca26b17613175a47e"><param name="ImageNumber" value="11"></OBJECT>
-        <LI><OBJECT type="text/sitemap"><param name="Name" value="mChildren"><param name="Local" value="struct_j_p_h_1_1_stat_tree_node.html#a1f9d8d584e7e95e216360f3f81790d84"><param name="ImageNumber" value="11"></OBJECT>
-        <LI><OBJECT type="text/sitemap"><param name="Name" value="mIndex"><param name="Local" value="struct_j_p_h_1_1_stat_tree_node.html#a0b2d4fd62fd675346afbe951fa8c2c61"><param name="ImageNumber" value="11"></OBJECT>
-        </UL>
-      <LI><OBJECT type="text/sitemap"><param name="Name" value="StatCollector"><param name="Local" value="class_j_p_h_1_1_stat_collector.html"><param name="ImageNumber" value="1"></OBJECT>
-        <UL>
-        <LI><OBJECT type="text/sitemap"><param name="Name" value="Variant"><param name="Local" value="class_j_p_h_1_1_stat_collector_1_1_variant.html"><param name="ImageNumber" value="1"></OBJECT>
-          <UL>
-          <LI><OBJECT type="text/sitemap"><param name="Name" value="EType"><param name="Local" value="class_j_p_h_1_1_stat_collector_1_1_variant.html#ac13892907d67d04f805973591a077511"><param name="ImageNumber" value="1"></OBJECT>
-            <UL>
-            <LI><OBJECT type="text/sitemap"><param name="Name" value="Undefined"><param name="Local" value="class_j_p_h_1_1_stat_collector_1_1_variant.html#ac13892907d67d04f805973591a077511aec0fc0100c4fc1ce4eea230c3dc10360"><param name="ImageNumber" value="11"></OBJECT>
-            <LI><OBJECT type="text/sitemap"><param name="Name" value="Float"><param name="Local" value="class_j_p_h_1_1_stat_collector_1_1_variant.html#ac13892907d67d04f805973591a077511a22ae0e2b89e5e3d477f988cc36d3272b"><param name="ImageNumber" value="11"></OBJECT>
-            <LI><OBJECT type="text/sitemap"><param name="Name" value="Int"><param name="Local" value="class_j_p_h_1_1_stat_collector_1_1_variant.html#ac13892907d67d04f805973591a077511a1686a6c336b71b36d77354cea19a8b52"><param name="ImageNumber" value="11"></OBJECT>
-            <LI><OBJECT type="text/sitemap"><param name="Name" value="Bool"><param name="Local" value="class_j_p_h_1_1_stat_collector_1_1_variant.html#ac13892907d67d04f805973591a077511ac26f15e86e3de4c398a8273272aba034"><param name="ImageNumber" value="11"></OBJECT>
-            </UL>
-          <LI><OBJECT type="text/sitemap"><param name="Name" value="Variant"><param name="Local" value="class_j_p_h_1_1_stat_collector_1_1_variant.html#a8f31c02aecb6cb9231ac8668a7c49442"><param name="ImageNumber" value="11"></OBJECT>
-          <LI><OBJECT type="text/sitemap"><param name="Name" value="Variant"><param name="Local" value="class_j_p_h_1_1_stat_collector_1_1_variant.html#ac92ec26bb4d3c6b84ce85683785d2e75"><param name="ImageNumber" value="11"></OBJECT>
-          <LI><OBJECT type="text/sitemap"><param name="Name" value="Variant"><param name="Local" value="class_j_p_h_1_1_stat_collector_1_1_variant.html#ad10ff2f9891fb3e6a3ca16f4f355251e"><param name="ImageNumber" value="11"></OBJECT>
-          <LI><OBJECT type="text/sitemap"><param name="Name" value="Variant"><param name="Local" value="class_j_p_h_1_1_stat_collector_1_1_variant.html#acd4438f4e4dd7f733996eebc06f5d8b3"><param name="ImageNumber" value="11"></OBJECT>
-          <LI><OBJECT type="text/sitemap"><param name="Name" value="ToString"><param name="Local" value="class_j_p_h_1_1_stat_collector_1_1_variant.html#aaa1d93d83c5d3b642d9afde687955f42"><param name="ImageNumber" value="11"></OBJECT>
-          <LI><OBJECT type="text/sitemap"><param name="Name" value="mBool"><param name="Local" value="class_j_p_h_1_1_stat_collector_1_1_variant.html#a1ecb4fabebdaf6ebe5c6d21f045378a3"><param name="ImageNumber" value="11"></OBJECT>
-          <LI><OBJECT type="text/sitemap"><param name="Name" value="mFloat"><param name="Local" value="class_j_p_h_1_1_stat_collector_1_1_variant.html#abaceeabd12f3921f18560c9149837409"><param name="ImageNumber" value="11"></OBJECT>
-          <LI><OBJECT type="text/sitemap"><param name="Name" value="mInt"><param name="Local" value="class_j_p_h_1_1_stat_collector_1_1_variant.html#a323f81195d986c7106eb1b50123f5d3d"><param name="ImageNumber" value="11"></OBJECT>
-          </UL>
-        <LI><OBJECT type="text/sitemap"><param name="Name" value="AddItem"><param name="Local" value="class_j_p_h_1_1_stat_collector.html#a10de86b7b94780577d61052b55e44280"><param name="ImageNumber" value="11"></OBJECT>
-        <LI><OBJECT type="text/sitemap"><param name="Name" value="AddItem"><param name="Local" value="class_j_p_h_1_1_stat_collector.html#a4f268bdd937046de5b11153faed72e73"><param name="ImageNumber" value="11"></OBJECT>
-        <LI><OBJECT type="text/sitemap"><param name="Name" value="AddItem"><param name="Local" value="class_j_p_h_1_1_stat_collector.html#a3ed3ca218d218eeb9ba8ae5681fda7c7"><param name="ImageNumber" value="11"></OBJECT>
-        <LI><OBJECT type="text/sitemap"><param name="Name" value="IsCapturing"><param name="Local" value="class_j_p_h_1_1_stat_collector.html#add590a740c47af83a37f1cf9d46ff1df"><param name="ImageNumber" value="11"></OBJECT>
-        <LI><OBJECT type="text/sitemap"><param name="Name" value="Reset"><param name="Local" value="class_j_p_h_1_1_stat_collector.html#a89463f88108fd1e2f8743f72a4f74c6f"><param name="ImageNumber" value="11"></OBJECT>
-        <LI><OBJECT type="text/sitemap"><param name="Name" value="SetNextFrame"><param name="Local" value="class_j_p_h_1_1_stat_collector.html#a045222cfa56a86a56ae82c2608a2f384"><param name="ImageNumber" value="11"></OBJECT>
-        <LI><OBJECT type="text/sitemap"><param name="Name" value="StartCapture"><param name="Local" value="class_j_p_h_1_1_stat_collector.html#a9294b4944b31e59936183ceb35bfa77a"><param name="ImageNumber" value="11"></OBJECT>
-        <LI><OBJECT type="text/sitemap"><param name="Name" value="StopCapture"><param name="Local" value="class_j_p_h_1_1_stat_collector.html#abcb5c72a339d6f41996ee4fefdbbc83c"><param name="ImageNumber" value="11"></OBJECT>
-        </UL>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="StaticArray"><param name="Local" value="class_j_p_h_1_1_static_array.html"><param name="ImageNumber" value="1"></OBJECT>
         <UL>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="Storage"><param name="Local" value="struct_j_p_h_1_1_static_array_1_1_storage.html"><param name="ImageNumber" value="1"></OBJECT>
@@ -1957,7 +1922,6 @@
           </UL>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="~BodyManager"><param name="Local" value="class_j_p_h_1_1_body_manager.html#a431cb190f67bd65482310ba3825d1a30"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="ActivateBodies"><param name="Local" value="class_j_p_h_1_1_body_manager.html#ad91c33c00ebe2586eae0f40ba81fe60b"><param name="ImageNumber" value="11"></OBJECT>
-        <LI><OBJECT type="text/sitemap"><param name="Name" value="CollectStats"><param name="Local" value="class_j_p_h_1_1_body_manager.html#a7df66754965a6959f21f8524b679f98e"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="CreateBody"><param name="Local" value="class_j_p_h_1_1_body_manager.html#a26b88e2217d77dca167d9dcfa2148a82"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="DeactivateBodies"><param name="Local" value="class_j_p_h_1_1_body_manager.html#a64d47f9e07579f09e177ef2f6cc53911"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="DestroyBodies"><param name="Local" value="class_j_p_h_1_1_body_manager.html#aa3e8376c8ba6963de7c1658bf114dda5"><param name="ImageNumber" value="11"></OBJECT>
@@ -3596,7 +3560,6 @@
         <LI><OBJECT type="text/sitemap"><param name="Name" value="Constraint"><param name="Local" value="class_j_p_h_1_1_constraint.html#a2cb0430f529700366633a2b860683011"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="~Constraint"><param name="Local" value="class_j_p_h_1_1_constraint.html#ae47b33f64eb5e88f750b8d091cdb5b1e"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="BuildIslands"><param name="Local" value="class_j_p_h_1_1_constraint.html#ad6a74bb53baefbb3327dac240ad8a21b"><param name="ImageNumber" value="11"></OBJECT>
-        <LI><OBJECT type="text/sitemap"><param name="Name" value="CollectStats"><param name="Local" value="class_j_p_h_1_1_constraint.html#a04ee6965fb23d1ad78ff19dac94f246d"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="GetEnabled"><param name="Local" value="class_j_p_h_1_1_constraint.html#a060f6a1a48da6ebf399a13bf6552781b"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="GetType"><param name="Local" value="class_j_p_h_1_1_constraint.html#a32b6b1ddd821573785f3c4522ae55143"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="IsActive"><param name="Local" value="class_j_p_h_1_1_constraint.html#a446a973b265e0a656cffb3dc61968f15"><param name="ImageNumber" value="11"></OBJECT>
@@ -3613,7 +3576,6 @@
         <UL>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="Add"><param name="Local" value="class_j_p_h_1_1_constraint_manager.html#ae42fa477169e6564ac2a5fa75937497b"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="BuildIslands"><param name="Local" value="class_j_p_h_1_1_constraint_manager.html#ae436d333b5c11f14be30a859c9ed0684"><param name="ImageNumber" value="11"></OBJECT>
-        <LI><OBJECT type="text/sitemap"><param name="Name" value="CollectStats"><param name="Local" value="class_j_p_h_1_1_constraint_manager.html#a251a6cfe409fba8d956ffcae26aab1c5"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="GetActiveConstraints"><param name="Local" value="class_j_p_h_1_1_constraint_manager.html#a0c2b72ec8fec888e86aba4523342caae"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="GetNumConstraints"><param name="Local" value="class_j_p_h_1_1_constraint_manager.html#a019273d618a2d6917abc7f8cc495affc"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="LockAllConstraints"><param name="Local" value="class_j_p_h_1_1_constraint_manager.html#a9656cd8a8a1fb99138e47d3b9c3c6ca6"><param name="ImageNumber" value="11"></OBJECT>
@@ -3743,7 +3705,6 @@
         <LI><OBJECT type="text/sitemap"><param name="Name" value="~ContactConstraintManager"><param name="Local" value="class_j_p_h_1_1_contact_constraint_manager.html#a439acf8e765cae7f572adf7c99b9c437"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="AddBodyPair"><param name="Local" value="class_j_p_h_1_1_contact_constraint_manager.html#a48e9a31997ae4e91cd354bc0412017e3"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="AddContactConstraint"><param name="Local" value="class_j_p_h_1_1_contact_constraint_manager.html#a9cd1d1f726d199a1f97800bb33aca321"><param name="ImageNumber" value="11"></OBJECT>
-        <LI><OBJECT type="text/sitemap"><param name="Name" value="CollectStats"><param name="Local" value="class_j_p_h_1_1_contact_constraint_manager.html#a767741f4241a677d9204ab8cb7acba83"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="ContactPointRemovedCallbacks"><param name="Local" value="class_j_p_h_1_1_contact_constraint_manager.html#ac98a464c15f635a3ae26edaf55bf58b0"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="FinalizeContactCache"><param name="Local" value="class_j_p_h_1_1_contact_constraint_manager.html#a78f344f34589d0f2ea70f14f6e8d3515"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="FinishConstraintBuffer"><param name="Local" value="class_j_p_h_1_1_contact_constraint_manager.html#af092bda0a80a6656f1599ab0106cee89"><param name="ImageNumber" value="11"></OBJECT>
@@ -3839,7 +3800,6 @@
       <LI><OBJECT type="text/sitemap"><param name="Name" value="HingeConstraint"><param name="Local" value="class_j_p_h_1_1_hinge_constraint.html"><param name="ImageNumber" value="1"></OBJECT>
         <UL>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="HingeConstraint"><param name="Local" value="class_j_p_h_1_1_hinge_constraint.html#a2d453a2d2b992b157d9f12441ccff816"><param name="ImageNumber" value="11"></OBJECT>
-        <LI><OBJECT type="text/sitemap"><param name="Name" value="CollectStats"><param name="Local" value="class_j_p_h_1_1_hinge_constraint.html#ad94182fd09ae93a52af4bc4e2910b646"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="GetConstraintToBody1Matrix"><param name="Local" value="class_j_p_h_1_1_hinge_constraint.html#a244e2fa6bcaebc9461a3a95fabf34ec8"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="GetConstraintToBody2Matrix"><param name="Local" value="class_j_p_h_1_1_hinge_constraint.html#ae6cf63d81898087dffe4862675969123"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="GetLimitsMax"><param name="Local" value="class_j_p_h_1_1_hinge_constraint.html#afe9ed974adc07f637b2f2053472db07b"><param name="ImageNumber" value="11"></OBJECT>
@@ -3904,7 +3864,6 @@
       <LI><OBJECT type="text/sitemap"><param name="Name" value="PathConstraint"><param name="Local" value="class_j_p_h_1_1_path_constraint.html"><param name="ImageNumber" value="1"></OBJECT>
         <UL>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="PathConstraint"><param name="Local" value="class_j_p_h_1_1_path_constraint.html#a6823224448d08671e7b0a9250598e530"><param name="ImageNumber" value="11"></OBJECT>
-        <LI><OBJECT type="text/sitemap"><param name="Name" value="CollectStats"><param name="Local" value="class_j_p_h_1_1_path_constraint.html#af9338906dfb487d4f4d7e2c39a1eb8d7"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="GetConstraintToBody1Matrix"><param name="Local" value="class_j_p_h_1_1_path_constraint.html#a89ad68ff4ba7291f1daf881da302eef3"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="GetConstraintToBody2Matrix"><param name="Local" value="class_j_p_h_1_1_path_constraint.html#a2fba2f6d6e316ac63b4344a2f186b7b1"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="GetMaxFrictionForce"><param name="Local" value="class_j_p_h_1_1_path_constraint.html#a90926026c5ceb8cb3fe5850a0fb10557"><param name="ImageNumber" value="11"></OBJECT>
@@ -4011,7 +3970,6 @@
         <UL>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="EAxis"><param name="Local" value="class_j_p_h_1_1_six_d_o_f_constraint.html#a9aae8c30c13b6480d71bab59ecc627fe"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="SixDOFConstraint"><param name="Local" value="class_j_p_h_1_1_six_d_o_f_constraint.html#a2262e5d222012ee09ea543c8834ed82f"><param name="ImageNumber" value="11"></OBJECT>
-        <LI><OBJECT type="text/sitemap"><param name="Name" value="CollectStats"><param name="Local" value="class_j_p_h_1_1_six_d_o_f_constraint.html#af8cd4afad4785296cd4c11c0727fe3eb"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="GetConstraintToBody1Matrix"><param name="Local" value="class_j_p_h_1_1_six_d_o_f_constraint.html#a2d8fd61d42193c9f1788977aa73d0a58"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="GetConstraintToBody2Matrix"><param name="Local" value="class_j_p_h_1_1_six_d_o_f_constraint.html#a46a451a294459a90e046243dbc604f81"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="GetMotorSettings"><param name="Local" value="class_j_p_h_1_1_six_d_o_f_constraint.html#a549144a35d3f107d51ee98e4286294f6"><param name="ImageNumber" value="11"></OBJECT>
@@ -4052,7 +4010,6 @@
       <LI><OBJECT type="text/sitemap"><param name="Name" value="SliderConstraint"><param name="Local" value="class_j_p_h_1_1_slider_constraint.html"><param name="ImageNumber" value="1"></OBJECT>
         <UL>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="SliderConstraint"><param name="Local" value="class_j_p_h_1_1_slider_constraint.html#a7cb2e62d27b6bf59d0b34bc4860a044f"><param name="ImageNumber" value="11"></OBJECT>
-        <LI><OBJECT type="text/sitemap"><param name="Name" value="CollectStats"><param name="Local" value="class_j_p_h_1_1_slider_constraint.html#a57b128f877de800592e74841c41dcd81"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="GetConstraintToBody1Matrix"><param name="Local" value="class_j_p_h_1_1_slider_constraint.html#a38635e920e625312a09f2664c5818839"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="GetConstraintToBody2Matrix"><param name="Local" value="class_j_p_h_1_1_slider_constraint.html#a2225e5c85e37175704c219f4d4c07314"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="GetLimitsMax"><param name="Local" value="class_j_p_h_1_1_slider_constraint.html#a50cf59c37d8af2c787b07d42663a8c45"><param name="ImageNumber" value="11"></OBJECT>
@@ -4103,7 +4060,6 @@
       <LI><OBJECT type="text/sitemap"><param name="Name" value="SwingTwistConstraint"><param name="Local" value="class_j_p_h_1_1_swing_twist_constraint.html"><param name="ImageNumber" value="1"></OBJECT>
         <UL>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="SwingTwistConstraint"><param name="Local" value="class_j_p_h_1_1_swing_twist_constraint.html#ab54ea23d34e088c1416922da499fa27d"><param name="ImageNumber" value="11"></OBJECT>
-        <LI><OBJECT type="text/sitemap"><param name="Name" value="CollectStats"><param name="Local" value="class_j_p_h_1_1_swing_twist_constraint.html#a5c7f55ab6ecc14cddbe99acdd360077e"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="GetConstraintToBody1"><param name="Local" value="class_j_p_h_1_1_swing_twist_constraint.html#a6c892491c5fa0b885f087d7f7ffb8c0b"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="GetConstraintToBody1Matrix"><param name="Local" value="class_j_p_h_1_1_swing_twist_constraint.html#a7b961ceef145fc030614fc20eaa03ec8"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="GetConstraintToBody2"><param name="Local" value="class_j_p_h_1_1_swing_twist_constraint.html#a3d9b579e85e1a405ade9c0fffbc5e4d0"><param name="ImageNumber" value="11"></OBJECT>
@@ -4243,7 +4199,6 @@
         <LI><OBJECT type="text/sitemap"><param name="Name" value="AddConstraint"><param name="Local" value="class_j_p_h_1_1_physics_system.html#aaef43c4a1f35f97006aeb6a3ba0489a1"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="AddConstraints"><param name="Local" value="class_j_p_h_1_1_physics_system.html#aeb820f375a728c1983d9133488dcaae1"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="AddStepListener"><param name="Local" value="class_j_p_h_1_1_physics_system.html#a0ac2a3b50d18c25ff1b21c81f5b619cd"><param name="ImageNumber" value="11"></OBJECT>
-        <LI><OBJECT type="text/sitemap"><param name="Name" value="CollectStats"><param name="Local" value="class_j_p_h_1_1_physics_system.html#a92915feaaed55dc4ac3268eb2fffa382"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="GetActiveBodies"><param name="Local" value="class_j_p_h_1_1_physics_system.html#a3e1fb3b3096bcf76e6a5cf813b21ae53"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="GetBodies"><param name="Local" value="class_j_p_h_1_1_physics_system.html#a4d3794e36871f69898d314410c6eaa64"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="GetBodyActivationListener"><param name="Local" value="class_j_p_h_1_1_physics_system.html#a743616eb384c67d6152e0b27068ecbdd"><param name="ImageNumber" value="11"></OBJECT>
@@ -6000,41 +5955,6 @@
         <LI><OBJECT type="text/sitemap"><param name="Name" value="GetName"><param name="Local" value="class_j_p_h_1_1_r_t_t_i_attribute.html#a9af86aea9dc3ab010bcefd8313e5afeb"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="SetName"><param name="Local" value="class_j_p_h_1_1_r_t_t_i_attribute.html#aa448756f4825a879742d8c171f2e2ad1"><param name="ImageNumber" value="11"></OBJECT>
         </UL>
-      <LI><OBJECT type="text/sitemap"><param name="Name" value="StatTreeNode"><param name="Local" value="struct_j_p_h_1_1_stat_tree_node.html"><param name="ImageNumber" value="1"></OBJECT>
-        <UL>
-        <LI><OBJECT type="text/sitemap"><param name="Name" value="Children"><param name="Local" value="struct_j_p_h_1_1_stat_tree_node.html#ae6b772884ffc4dcca26b17613175a47e"><param name="ImageNumber" value="11"></OBJECT>
-        <LI><OBJECT type="text/sitemap"><param name="Name" value="mChildren"><param name="Local" value="struct_j_p_h_1_1_stat_tree_node.html#a1f9d8d584e7e95e216360f3f81790d84"><param name="ImageNumber" value="11"></OBJECT>
-        <LI><OBJECT type="text/sitemap"><param name="Name" value="mIndex"><param name="Local" value="struct_j_p_h_1_1_stat_tree_node.html#a0b2d4fd62fd675346afbe951fa8c2c61"><param name="ImageNumber" value="11"></OBJECT>
-        </UL>
-      <LI><OBJECT type="text/sitemap"><param name="Name" value="StatCollector"><param name="Local" value="class_j_p_h_1_1_stat_collector.html"><param name="ImageNumber" value="1"></OBJECT>
-        <UL>
-        <LI><OBJECT type="text/sitemap"><param name="Name" value="Variant"><param name="Local" value="class_j_p_h_1_1_stat_collector_1_1_variant.html"><param name="ImageNumber" value="1"></OBJECT>
-          <UL>
-          <LI><OBJECT type="text/sitemap"><param name="Name" value="EType"><param name="Local" value="class_j_p_h_1_1_stat_collector_1_1_variant.html#ac13892907d67d04f805973591a077511"><param name="ImageNumber" value="1"></OBJECT>
-            <UL>
-            <LI><OBJECT type="text/sitemap"><param name="Name" value="Undefined"><param name="Local" value="class_j_p_h_1_1_stat_collector_1_1_variant.html#ac13892907d67d04f805973591a077511aec0fc0100c4fc1ce4eea230c3dc10360"><param name="ImageNumber" value="11"></OBJECT>
-            <LI><OBJECT type="text/sitemap"><param name="Name" value="Float"><param name="Local" value="class_j_p_h_1_1_stat_collector_1_1_variant.html#ac13892907d67d04f805973591a077511a22ae0e2b89e5e3d477f988cc36d3272b"><param name="ImageNumber" value="11"></OBJECT>
-            <LI><OBJECT type="text/sitemap"><param name="Name" value="Int"><param name="Local" value="class_j_p_h_1_1_stat_collector_1_1_variant.html#ac13892907d67d04f805973591a077511a1686a6c336b71b36d77354cea19a8b52"><param name="ImageNumber" value="11"></OBJECT>
-            <LI><OBJECT type="text/sitemap"><param name="Name" value="Bool"><param name="Local" value="class_j_p_h_1_1_stat_collector_1_1_variant.html#ac13892907d67d04f805973591a077511ac26f15e86e3de4c398a8273272aba034"><param name="ImageNumber" value="11"></OBJECT>
-            </UL>
-          <LI><OBJECT type="text/sitemap"><param name="Name" value="Variant"><param name="Local" value="class_j_p_h_1_1_stat_collector_1_1_variant.html#a8f31c02aecb6cb9231ac8668a7c49442"><param name="ImageNumber" value="11"></OBJECT>
-          <LI><OBJECT type="text/sitemap"><param name="Name" value="Variant"><param name="Local" value="class_j_p_h_1_1_stat_collector_1_1_variant.html#ac92ec26bb4d3c6b84ce85683785d2e75"><param name="ImageNumber" value="11"></OBJECT>
-          <LI><OBJECT type="text/sitemap"><param name="Name" value="Variant"><param name="Local" value="class_j_p_h_1_1_stat_collector_1_1_variant.html#ad10ff2f9891fb3e6a3ca16f4f355251e"><param name="ImageNumber" value="11"></OBJECT>
-          <LI><OBJECT type="text/sitemap"><param name="Name" value="Variant"><param name="Local" value="class_j_p_h_1_1_stat_collector_1_1_variant.html#acd4438f4e4dd7f733996eebc06f5d8b3"><param name="ImageNumber" value="11"></OBJECT>
-          <LI><OBJECT type="text/sitemap"><param name="Name" value="ToString"><param name="Local" value="class_j_p_h_1_1_stat_collector_1_1_variant.html#aaa1d93d83c5d3b642d9afde687955f42"><param name="ImageNumber" value="11"></OBJECT>
-          <LI><OBJECT type="text/sitemap"><param name="Name" value="mBool"><param name="Local" value="class_j_p_h_1_1_stat_collector_1_1_variant.html#a1ecb4fabebdaf6ebe5c6d21f045378a3"><param name="ImageNumber" value="11"></OBJECT>
-          <LI><OBJECT type="text/sitemap"><param name="Name" value="mFloat"><param name="Local" value="class_j_p_h_1_1_stat_collector_1_1_variant.html#abaceeabd12f3921f18560c9149837409"><param name="ImageNumber" value="11"></OBJECT>
-          <LI><OBJECT type="text/sitemap"><param name="Name" value="mInt"><param name="Local" value="class_j_p_h_1_1_stat_collector_1_1_variant.html#a323f81195d986c7106eb1b50123f5d3d"><param name="ImageNumber" value="11"></OBJECT>
-          </UL>
-        <LI><OBJECT type="text/sitemap"><param name="Name" value="AddItem"><param name="Local" value="class_j_p_h_1_1_stat_collector.html#a10de86b7b94780577d61052b55e44280"><param name="ImageNumber" value="11"></OBJECT>
-        <LI><OBJECT type="text/sitemap"><param name="Name" value="AddItem"><param name="Local" value="class_j_p_h_1_1_stat_collector.html#a4f268bdd937046de5b11153faed72e73"><param name="ImageNumber" value="11"></OBJECT>
-        <LI><OBJECT type="text/sitemap"><param name="Name" value="AddItem"><param name="Local" value="class_j_p_h_1_1_stat_collector.html#a3ed3ca218d218eeb9ba8ae5681fda7c7"><param name="ImageNumber" value="11"></OBJECT>
-        <LI><OBJECT type="text/sitemap"><param name="Name" value="IsCapturing"><param name="Local" value="class_j_p_h_1_1_stat_collector.html#add590a740c47af83a37f1cf9d46ff1df"><param name="ImageNumber" value="11"></OBJECT>
-        <LI><OBJECT type="text/sitemap"><param name="Name" value="Reset"><param name="Local" value="class_j_p_h_1_1_stat_collector.html#a89463f88108fd1e2f8743f72a4f74c6f"><param name="ImageNumber" value="11"></OBJECT>
-        <LI><OBJECT type="text/sitemap"><param name="Name" value="SetNextFrame"><param name="Local" value="class_j_p_h_1_1_stat_collector.html#a045222cfa56a86a56ae82c2608a2f384"><param name="ImageNumber" value="11"></OBJECT>
-        <LI><OBJECT type="text/sitemap"><param name="Name" value="StartCapture"><param name="Local" value="class_j_p_h_1_1_stat_collector.html#a9294b4944b31e59936183ceb35bfa77a"><param name="ImageNumber" value="11"></OBJECT>
-        <LI><OBJECT type="text/sitemap"><param name="Name" value="StopCapture"><param name="Local" value="class_j_p_h_1_1_stat_collector.html#abcb5c72a339d6f41996ee4fefdbbc83c"><param name="ImageNumber" value="11"></OBJECT>
-        </UL>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="StaticArray"><param name="Local" value="class_j_p_h_1_1_static_array.html"><param name="ImageNumber" value="1"></OBJECT>
         <UL>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="Storage"><param name="Local" value="struct_j_p_h_1_1_static_array_1_1_storage.html"><param name="ImageNumber" value="1"></OBJECT>
@@ -7362,7 +7282,6 @@
           </UL>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="~BodyManager"><param name="Local" value="class_j_p_h_1_1_body_manager.html#a431cb190f67bd65482310ba3825d1a30"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="ActivateBodies"><param name="Local" value="class_j_p_h_1_1_body_manager.html#ad91c33c00ebe2586eae0f40ba81fe60b"><param name="ImageNumber" value="11"></OBJECT>
-        <LI><OBJECT type="text/sitemap"><param name="Name" value="CollectStats"><param name="Local" value="class_j_p_h_1_1_body_manager.html#a7df66754965a6959f21f8524b679f98e"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="CreateBody"><param name="Local" value="class_j_p_h_1_1_body_manager.html#a26b88e2217d77dca167d9dcfa2148a82"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="DeactivateBodies"><param name="Local" value="class_j_p_h_1_1_body_manager.html#a64d47f9e07579f09e177ef2f6cc53911"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="DestroyBodies"><param name="Local" value="class_j_p_h_1_1_body_manager.html#aa3e8376c8ba6963de7c1658bf114dda5"><param name="ImageNumber" value="11"></OBJECT>
@@ -9001,7 +8920,6 @@
         <LI><OBJECT type="text/sitemap"><param name="Name" value="Constraint"><param name="Local" value="class_j_p_h_1_1_constraint.html#a2cb0430f529700366633a2b860683011"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="~Constraint"><param name="Local" value="class_j_p_h_1_1_constraint.html#ae47b33f64eb5e88f750b8d091cdb5b1e"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="BuildIslands"><param name="Local" value="class_j_p_h_1_1_constraint.html#ad6a74bb53baefbb3327dac240ad8a21b"><param name="ImageNumber" value="11"></OBJECT>
-        <LI><OBJECT type="text/sitemap"><param name="Name" value="CollectStats"><param name="Local" value="class_j_p_h_1_1_constraint.html#a04ee6965fb23d1ad78ff19dac94f246d"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="GetEnabled"><param name="Local" value="class_j_p_h_1_1_constraint.html#a060f6a1a48da6ebf399a13bf6552781b"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="GetType"><param name="Local" value="class_j_p_h_1_1_constraint.html#a32b6b1ddd821573785f3c4522ae55143"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="IsActive"><param name="Local" value="class_j_p_h_1_1_constraint.html#a446a973b265e0a656cffb3dc61968f15"><param name="ImageNumber" value="11"></OBJECT>
@@ -9018,7 +8936,6 @@
         <UL>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="Add"><param name="Local" value="class_j_p_h_1_1_constraint_manager.html#ae42fa477169e6564ac2a5fa75937497b"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="BuildIslands"><param name="Local" value="class_j_p_h_1_1_constraint_manager.html#ae436d333b5c11f14be30a859c9ed0684"><param name="ImageNumber" value="11"></OBJECT>
-        <LI><OBJECT type="text/sitemap"><param name="Name" value="CollectStats"><param name="Local" value="class_j_p_h_1_1_constraint_manager.html#a251a6cfe409fba8d956ffcae26aab1c5"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="GetActiveConstraints"><param name="Local" value="class_j_p_h_1_1_constraint_manager.html#a0c2b72ec8fec888e86aba4523342caae"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="GetNumConstraints"><param name="Local" value="class_j_p_h_1_1_constraint_manager.html#a019273d618a2d6917abc7f8cc495affc"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="LockAllConstraints"><param name="Local" value="class_j_p_h_1_1_constraint_manager.html#a9656cd8a8a1fb99138e47d3b9c3c6ca6"><param name="ImageNumber" value="11"></OBJECT>
@@ -9148,7 +9065,6 @@
         <LI><OBJECT type="text/sitemap"><param name="Name" value="~ContactConstraintManager"><param name="Local" value="class_j_p_h_1_1_contact_constraint_manager.html#a439acf8e765cae7f572adf7c99b9c437"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="AddBodyPair"><param name="Local" value="class_j_p_h_1_1_contact_constraint_manager.html#a48e9a31997ae4e91cd354bc0412017e3"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="AddContactConstraint"><param name="Local" value="class_j_p_h_1_1_contact_constraint_manager.html#a9cd1d1f726d199a1f97800bb33aca321"><param name="ImageNumber" value="11"></OBJECT>
-        <LI><OBJECT type="text/sitemap"><param name="Name" value="CollectStats"><param name="Local" value="class_j_p_h_1_1_contact_constraint_manager.html#a767741f4241a677d9204ab8cb7acba83"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="ContactPointRemovedCallbacks"><param name="Local" value="class_j_p_h_1_1_contact_constraint_manager.html#ac98a464c15f635a3ae26edaf55bf58b0"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="FinalizeContactCache"><param name="Local" value="class_j_p_h_1_1_contact_constraint_manager.html#a78f344f34589d0f2ea70f14f6e8d3515"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="FinishConstraintBuffer"><param name="Local" value="class_j_p_h_1_1_contact_constraint_manager.html#af092bda0a80a6656f1599ab0106cee89"><param name="ImageNumber" value="11"></OBJECT>
@@ -9244,7 +9160,6 @@
       <LI><OBJECT type="text/sitemap"><param name="Name" value="HingeConstraint"><param name="Local" value="class_j_p_h_1_1_hinge_constraint.html"><param name="ImageNumber" value="1"></OBJECT>
         <UL>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="HingeConstraint"><param name="Local" value="class_j_p_h_1_1_hinge_constraint.html#a2d453a2d2b992b157d9f12441ccff816"><param name="ImageNumber" value="11"></OBJECT>
-        <LI><OBJECT type="text/sitemap"><param name="Name" value="CollectStats"><param name="Local" value="class_j_p_h_1_1_hinge_constraint.html#ad94182fd09ae93a52af4bc4e2910b646"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="GetConstraintToBody1Matrix"><param name="Local" value="class_j_p_h_1_1_hinge_constraint.html#a244e2fa6bcaebc9461a3a95fabf34ec8"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="GetConstraintToBody2Matrix"><param name="Local" value="class_j_p_h_1_1_hinge_constraint.html#ae6cf63d81898087dffe4862675969123"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="GetLimitsMax"><param name="Local" value="class_j_p_h_1_1_hinge_constraint.html#afe9ed974adc07f637b2f2053472db07b"><param name="ImageNumber" value="11"></OBJECT>
@@ -9309,7 +9224,6 @@
       <LI><OBJECT type="text/sitemap"><param name="Name" value="PathConstraint"><param name="Local" value="class_j_p_h_1_1_path_constraint.html"><param name="ImageNumber" value="1"></OBJECT>
         <UL>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="PathConstraint"><param name="Local" value="class_j_p_h_1_1_path_constraint.html#a6823224448d08671e7b0a9250598e530"><param name="ImageNumber" value="11"></OBJECT>
-        <LI><OBJECT type="text/sitemap"><param name="Name" value="CollectStats"><param name="Local" value="class_j_p_h_1_1_path_constraint.html#af9338906dfb487d4f4d7e2c39a1eb8d7"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="GetConstraintToBody1Matrix"><param name="Local" value="class_j_p_h_1_1_path_constraint.html#a89ad68ff4ba7291f1daf881da302eef3"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="GetConstraintToBody2Matrix"><param name="Local" value="class_j_p_h_1_1_path_constraint.html#a2fba2f6d6e316ac63b4344a2f186b7b1"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="GetMaxFrictionForce"><param name="Local" value="class_j_p_h_1_1_path_constraint.html#a90926026c5ceb8cb3fe5850a0fb10557"><param name="ImageNumber" value="11"></OBJECT>
@@ -9416,7 +9330,6 @@
         <UL>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="EAxis"><param name="Local" value="class_j_p_h_1_1_six_d_o_f_constraint.html#a9aae8c30c13b6480d71bab59ecc627fe"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="SixDOFConstraint"><param name="Local" value="class_j_p_h_1_1_six_d_o_f_constraint.html#a2262e5d222012ee09ea543c8834ed82f"><param name="ImageNumber" value="11"></OBJECT>
-        <LI><OBJECT type="text/sitemap"><param name="Name" value="CollectStats"><param name="Local" value="class_j_p_h_1_1_six_d_o_f_constraint.html#af8cd4afad4785296cd4c11c0727fe3eb"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="GetConstraintToBody1Matrix"><param name="Local" value="class_j_p_h_1_1_six_d_o_f_constraint.html#a2d8fd61d42193c9f1788977aa73d0a58"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="GetConstraintToBody2Matrix"><param name="Local" value="class_j_p_h_1_1_six_d_o_f_constraint.html#a46a451a294459a90e046243dbc604f81"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="GetMotorSettings"><param name="Local" value="class_j_p_h_1_1_six_d_o_f_constraint.html#a549144a35d3f107d51ee98e4286294f6"><param name="ImageNumber" value="11"></OBJECT>
@@ -9457,7 +9370,6 @@
       <LI><OBJECT type="text/sitemap"><param name="Name" value="SliderConstraint"><param name="Local" value="class_j_p_h_1_1_slider_constraint.html"><param name="ImageNumber" value="1"></OBJECT>
         <UL>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="SliderConstraint"><param name="Local" value="class_j_p_h_1_1_slider_constraint.html#a7cb2e62d27b6bf59d0b34bc4860a044f"><param name="ImageNumber" value="11"></OBJECT>
-        <LI><OBJECT type="text/sitemap"><param name="Name" value="CollectStats"><param name="Local" value="class_j_p_h_1_1_slider_constraint.html#a57b128f877de800592e74841c41dcd81"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="GetConstraintToBody1Matrix"><param name="Local" value="class_j_p_h_1_1_slider_constraint.html#a38635e920e625312a09f2664c5818839"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="GetConstraintToBody2Matrix"><param name="Local" value="class_j_p_h_1_1_slider_constraint.html#a2225e5c85e37175704c219f4d4c07314"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="GetLimitsMax"><param name="Local" value="class_j_p_h_1_1_slider_constraint.html#a50cf59c37d8af2c787b07d42663a8c45"><param name="ImageNumber" value="11"></OBJECT>
@@ -9508,7 +9420,6 @@
       <LI><OBJECT type="text/sitemap"><param name="Name" value="SwingTwistConstraint"><param name="Local" value="class_j_p_h_1_1_swing_twist_constraint.html"><param name="ImageNumber" value="1"></OBJECT>
         <UL>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="SwingTwistConstraint"><param name="Local" value="class_j_p_h_1_1_swing_twist_constraint.html#ab54ea23d34e088c1416922da499fa27d"><param name="ImageNumber" value="11"></OBJECT>
-        <LI><OBJECT type="text/sitemap"><param name="Name" value="CollectStats"><param name="Local" value="class_j_p_h_1_1_swing_twist_constraint.html#a5c7f55ab6ecc14cddbe99acdd360077e"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="GetConstraintToBody1"><param name="Local" value="class_j_p_h_1_1_swing_twist_constraint.html#a6c892491c5fa0b885f087d7f7ffb8c0b"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="GetConstraintToBody1Matrix"><param name="Local" value="class_j_p_h_1_1_swing_twist_constraint.html#a7b961ceef145fc030614fc20eaa03ec8"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="GetConstraintToBody2"><param name="Local" value="class_j_p_h_1_1_swing_twist_constraint.html#a3d9b579e85e1a405ade9c0fffbc5e4d0"><param name="ImageNumber" value="11"></OBJECT>
@@ -9648,7 +9559,6 @@
         <LI><OBJECT type="text/sitemap"><param name="Name" value="AddConstraint"><param name="Local" value="class_j_p_h_1_1_physics_system.html#aaef43c4a1f35f97006aeb6a3ba0489a1"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="AddConstraints"><param name="Local" value="class_j_p_h_1_1_physics_system.html#aeb820f375a728c1983d9133488dcaae1"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="AddStepListener"><param name="Local" value="class_j_p_h_1_1_physics_system.html#a0ac2a3b50d18c25ff1b21c81f5b619cd"><param name="ImageNumber" value="11"></OBJECT>
-        <LI><OBJECT type="text/sitemap"><param name="Name" value="CollectStats"><param name="Local" value="class_j_p_h_1_1_physics_system.html#a92915feaaed55dc4ac3268eb2fffa382"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="GetActiveBodies"><param name="Local" value="class_j_p_h_1_1_physics_system.html#a3e1fb3b3096bcf76e6a5cf813b21ae53"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="GetBodies"><param name="Local" value="class_j_p_h_1_1_physics_system.html#a4d3794e36871f69898d314410c6eaa64"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="GetBodyActivationListener"><param name="Local" value="class_j_p_h_1_1_physics_system.html#a743616eb384c67d6152e0b27068ecbdd"><param name="ImageNumber" value="11"></OBJECT>
@@ -10628,7 +10538,6 @@
       <LI><OBJECT type="text/sitemap"><param name="Name" value="JPH::Profiler"><param name="Local" value="class_j_p_h_1_1_profiler.html"><param name="ImageNumber" value="11"></OBJECT>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="JPH::QuadTree"><param name="Local" value="class_j_p_h_1_1_quad_tree.html"><param name="ImageNumber" value="11"></OBJECT>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="JPH::ShapeFilter"><param name="Local" value="class_j_p_h_1_1_shape_filter.html"><param name="ImageNumber" value="11"></OBJECT>
-      <LI><OBJECT type="text/sitemap"><param name="Name" value="JPH::StatCollector"><param name="Local" value="class_j_p_h_1_1_stat_collector.html"><param name="ImageNumber" value="11"></OBJECT>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="JPH::WheelSettings"><param name="Local" value="class_j_p_h_1_1_wheel_settings.html"><param name="ImageNumber" value="1"></OBJECT>
         <UL>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="JPH::WheelSettingsTV"><param name="Local" value="class_j_p_h_1_1_wheel_settings_t_v.html"><param name="ImageNumber" value="11"></OBJECT>
@@ -10906,7 +10815,6 @@
     <LI><OBJECT type="text/sitemap"><param name="Name" value="JPH::StaticArray&lt; WorldContactPoint, MaxContactPoints &gt;"><param name="Local" value="class_j_p_h_1_1_static_array.html"><param name="ImageNumber" value="11"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Name" value="JPH::Shape::Stats"><param name="Local" value="struct_j_p_h_1_1_shape_1_1_stats.html"><param name="ImageNumber" value="11"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Name" value="JPH::TriangleSplitter::Stats"><param name="Local" value="struct_j_p_h_1_1_triangle_splitter_1_1_stats.html"><param name="ImageNumber" value="11"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Name" value="JPH::StatTreeNode"><param name="Local" value="struct_j_p_h_1_1_stat_tree_node.html"><param name="ImageNumber" value="11"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Name" value="JPH::PhysicsUpdateContext::Step"><param name="Local" value="struct_j_p_h_1_1_physics_update_context_1_1_step.html"><param name="ImageNumber" value="11"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Name" value="JPH::StaticArray&lt; T, N &gt;::Storage"><param name="Local" value="struct_j_p_h_1_1_static_array_1_1_storage.html"><param name="ImageNumber" value="11"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Name" value="JPH::StreamIn"><param name="Local" value="class_j_p_h_1_1_stream_in.html"><param name="ImageNumber" value="1"></OBJECT>
@@ -10979,7 +10887,6 @@
     <LI><OBJECT type="text/sitemap"><param name="Name" value="JPH::QuadTree::UpdateState"><param name="Local" value="struct_j_p_h_1_1_quad_tree_1_1_update_state.html"><param name="ImageNumber" value="11"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Name" value="JPH::UVec4"><param name="Local" value="class_j_p_h_1_1_u_vec4.html"><param name="ImageNumber" value="11"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Name" value="JPH::UVec8"><param name="Local" value="class_j_p_h_1_1_u_vec8.html"><param name="ImageNumber" value="11"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Name" value="JPH::StatCollector::Variant"><param name="Local" value="class_j_p_h_1_1_stat_collector_1_1_variant.html"><param name="ImageNumber" value="11"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Name" value="JPH::Vec3"><param name="Local" value="class_j_p_h_1_1_vec3.html"><param name="ImageNumber" value="11"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Name" value="JPH::Vec4"><param name="Local" value="class_j_p_h_1_1_vec4.html"><param name="ImageNumber" value="11"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Name" value="JPH::Vec8"><param name="Local" value="class_j_p_h_1_1_vec8.html"><param name="ImageNumber" value="11"></OBJECT>
@@ -12002,72 +11909,6 @@
           <LI><OBJECT type="text/sitemap"><param name="Name" value="StaticCast"><param name="Local" value="_r_t_t_i_8h.html#a343cad82040d82978eae49b659e95813"><param name="ImageNumber" value="11"></OBJECT>
           <LI><OBJECT type="text/sitemap"><param name="Name" value="StaticCast"><param name="Local" value="_r_t_t_i_8h.html#afa7535edb1ccd67c553e7350abe6422d"><param name="ImageNumber" value="11"></OBJECT>
           <LI><OBJECT type="text/sitemap"><param name="Name" value="StaticCast"><param name="Local" value="_r_t_t_i_8h.html#a02cd6a28ac554e53313a964dd20e5ae0"><param name="ImageNumber" value="11"></OBJECT>
-          </UL>
-        <LI><OBJECT type="text/sitemap"><param name="Name" value="StatCollector.cpp"><param name="Local" value="_stat_collector_8cpp.html"><param name="ImageNumber" value="1"></OBJECT>
-          <UL>
-          <LI><OBJECT type="text/sitemap"><param name="Name" value="StatTreeNode"><param name="Local" value="struct_j_p_h_1_1_stat_tree_node.html"><param name="ImageNumber" value="1"></OBJECT>
-            <UL>
-            <LI><OBJECT type="text/sitemap"><param name="Name" value="Children"><param name="Local" value="struct_j_p_h_1_1_stat_tree_node.html#ae6b772884ffc4dcca26b17613175a47e"><param name="ImageNumber" value="11"></OBJECT>
-            <LI><OBJECT type="text/sitemap"><param name="Name" value="mChildren"><param name="Local" value="struct_j_p_h_1_1_stat_tree_node.html#a1f9d8d584e7e95e216360f3f81790d84"><param name="ImageNumber" value="11"></OBJECT>
-            <LI><OBJECT type="text/sitemap"><param name="Name" value="mIndex"><param name="Local" value="struct_j_p_h_1_1_stat_tree_node.html#a0b2d4fd62fd675346afbe951fa8c2c61"><param name="ImageNumber" value="11"></OBJECT>
-            </UL>
-          </UL>
-        <LI><OBJECT type="text/sitemap"><param name="Name" value="StatCollector.h"><param name="Local" value="_stat_collector_8h.html"><param name="ImageNumber" value="1"></OBJECT>
-          <UL>
-          <LI><OBJECT type="text/sitemap"><param name="Name" value="StatCollector"><param name="Local" value="class_j_p_h_1_1_stat_collector.html"><param name="ImageNumber" value="1"></OBJECT>
-            <UL>
-            <LI><OBJECT type="text/sitemap"><param name="Name" value="Variant"><param name="Local" value="class_j_p_h_1_1_stat_collector_1_1_variant.html"><param name="ImageNumber" value="1"></OBJECT>
-              <UL>
-              <LI><OBJECT type="text/sitemap"><param name="Name" value="EType"><param name="Local" value="class_j_p_h_1_1_stat_collector_1_1_variant.html#ac13892907d67d04f805973591a077511"><param name="ImageNumber" value="1"></OBJECT>
-                <UL>
-                <LI><OBJECT type="text/sitemap"><param name="Name" value="Undefined"><param name="Local" value="class_j_p_h_1_1_stat_collector_1_1_variant.html#ac13892907d67d04f805973591a077511aec0fc0100c4fc1ce4eea230c3dc10360"><param name="ImageNumber" value="11"></OBJECT>
-                <LI><OBJECT type="text/sitemap"><param name="Name" value="Float"><param name="Local" value="class_j_p_h_1_1_stat_collector_1_1_variant.html#ac13892907d67d04f805973591a077511a22ae0e2b89e5e3d477f988cc36d3272b"><param name="ImageNumber" value="11"></OBJECT>
-                <LI><OBJECT type="text/sitemap"><param name="Name" value="Int"><param name="Local" value="class_j_p_h_1_1_stat_collector_1_1_variant.html#ac13892907d67d04f805973591a077511a1686a6c336b71b36d77354cea19a8b52"><param name="ImageNumber" value="11"></OBJECT>
-                <LI><OBJECT type="text/sitemap"><param name="Name" value="Bool"><param name="Local" value="class_j_p_h_1_1_stat_collector_1_1_variant.html#ac13892907d67d04f805973591a077511ac26f15e86e3de4c398a8273272aba034"><param name="ImageNumber" value="11"></OBJECT>
-                </UL>
-              <LI><OBJECT type="text/sitemap"><param name="Name" value="Variant"><param name="Local" value="class_j_p_h_1_1_stat_collector_1_1_variant.html#a8f31c02aecb6cb9231ac8668a7c49442"><param name="ImageNumber" value="11"></OBJECT>
-              <LI><OBJECT type="text/sitemap"><param name="Name" value="Variant"><param name="Local" value="class_j_p_h_1_1_stat_collector_1_1_variant.html#ac92ec26bb4d3c6b84ce85683785d2e75"><param name="ImageNumber" value="11"></OBJECT>
-              <LI><OBJECT type="text/sitemap"><param name="Name" value="Variant"><param name="Local" value="class_j_p_h_1_1_stat_collector_1_1_variant.html#ad10ff2f9891fb3e6a3ca16f4f355251e"><param name="ImageNumber" value="11"></OBJECT>
-              <LI><OBJECT type="text/sitemap"><param name="Name" value="Variant"><param name="Local" value="class_j_p_h_1_1_stat_collector_1_1_variant.html#acd4438f4e4dd7f733996eebc06f5d8b3"><param name="ImageNumber" value="11"></OBJECT>
-              <LI><OBJECT type="text/sitemap"><param name="Name" value="ToString"><param name="Local" value="class_j_p_h_1_1_stat_collector_1_1_variant.html#aaa1d93d83c5d3b642d9afde687955f42"><param name="ImageNumber" value="11"></OBJECT>
-              <LI><OBJECT type="text/sitemap"><param name="Name" value="mBool"><param name="Local" value="class_j_p_h_1_1_stat_collector_1_1_variant.html#a1ecb4fabebdaf6ebe5c6d21f045378a3"><param name="ImageNumber" value="11"></OBJECT>
-              <LI><OBJECT type="text/sitemap"><param name="Name" value="mFloat"><param name="Local" value="class_j_p_h_1_1_stat_collector_1_1_variant.html#abaceeabd12f3921f18560c9149837409"><param name="ImageNumber" value="11"></OBJECT>
-              <LI><OBJECT type="text/sitemap"><param name="Name" value="mInt"><param name="Local" value="class_j_p_h_1_1_stat_collector_1_1_variant.html#a323f81195d986c7106eb1b50123f5d3d"><param name="ImageNumber" value="11"></OBJECT>
-              </UL>
-            <LI><OBJECT type="text/sitemap"><param name="Name" value="AddItem"><param name="Local" value="class_j_p_h_1_1_stat_collector.html#a10de86b7b94780577d61052b55e44280"><param name="ImageNumber" value="11"></OBJECT>
-            <LI><OBJECT type="text/sitemap"><param name="Name" value="AddItem"><param name="Local" value="class_j_p_h_1_1_stat_collector.html#a4f268bdd937046de5b11153faed72e73"><param name="ImageNumber" value="11"></OBJECT>
-            <LI><OBJECT type="text/sitemap"><param name="Name" value="AddItem"><param name="Local" value="class_j_p_h_1_1_stat_collector.html#a3ed3ca218d218eeb9ba8ae5681fda7c7"><param name="ImageNumber" value="11"></OBJECT>
-            <LI><OBJECT type="text/sitemap"><param name="Name" value="IsCapturing"><param name="Local" value="class_j_p_h_1_1_stat_collector.html#add590a740c47af83a37f1cf9d46ff1df"><param name="ImageNumber" value="11"></OBJECT>
-            <LI><OBJECT type="text/sitemap"><param name="Name" value="Reset"><param name="Local" value="class_j_p_h_1_1_stat_collector.html#a89463f88108fd1e2f8743f72a4f74c6f"><param name="ImageNumber" value="11"></OBJECT>
-            <LI><OBJECT type="text/sitemap"><param name="Name" value="SetNextFrame"><param name="Local" value="class_j_p_h_1_1_stat_collector.html#a045222cfa56a86a56ae82c2608a2f384"><param name="ImageNumber" value="11"></OBJECT>
-            <LI><OBJECT type="text/sitemap"><param name="Name" value="StartCapture"><param name="Local" value="class_j_p_h_1_1_stat_collector.html#a9294b4944b31e59936183ceb35bfa77a"><param name="ImageNumber" value="11"></OBJECT>
-            <LI><OBJECT type="text/sitemap"><param name="Name" value="StopCapture"><param name="Local" value="class_j_p_h_1_1_stat_collector.html#abcb5c72a339d6f41996ee4fefdbbc83c"><param name="ImageNumber" value="11"></OBJECT>
-            </UL>
-          <LI><OBJECT type="text/sitemap"><param name="Name" value="Variant"><param name="Local" value="class_j_p_h_1_1_stat_collector_1_1_variant.html"><param name="ImageNumber" value="1"></OBJECT>
-            <UL>
-            <LI><OBJECT type="text/sitemap"><param name="Name" value="EType"><param name="Local" value="class_j_p_h_1_1_stat_collector_1_1_variant.html#ac13892907d67d04f805973591a077511"><param name="ImageNumber" value="1"></OBJECT>
-              <UL>
-              <LI><OBJECT type="text/sitemap"><param name="Name" value="Undefined"><param name="Local" value="class_j_p_h_1_1_stat_collector_1_1_variant.html#ac13892907d67d04f805973591a077511aec0fc0100c4fc1ce4eea230c3dc10360"><param name="ImageNumber" value="11"></OBJECT>
-              <LI><OBJECT type="text/sitemap"><param name="Name" value="Float"><param name="Local" value="class_j_p_h_1_1_stat_collector_1_1_variant.html#ac13892907d67d04f805973591a077511a22ae0e2b89e5e3d477f988cc36d3272b"><param name="ImageNumber" value="11"></OBJECT>
-              <LI><OBJECT type="text/sitemap"><param name="Name" value="Int"><param name="Local" value="class_j_p_h_1_1_stat_collector_1_1_variant.html#ac13892907d67d04f805973591a077511a1686a6c336b71b36d77354cea19a8b52"><param name="ImageNumber" value="11"></OBJECT>
-              <LI><OBJECT type="text/sitemap"><param name="Name" value="Bool"><param name="Local" value="class_j_p_h_1_1_stat_collector_1_1_variant.html#ac13892907d67d04f805973591a077511ac26f15e86e3de4c398a8273272aba034"><param name="ImageNumber" value="11"></OBJECT>
-              </UL>
-            <LI><OBJECT type="text/sitemap"><param name="Name" value="Variant"><param name="Local" value="class_j_p_h_1_1_stat_collector_1_1_variant.html#a8f31c02aecb6cb9231ac8668a7c49442"><param name="ImageNumber" value="11"></OBJECT>
-            <LI><OBJECT type="text/sitemap"><param name="Name" value="Variant"><param name="Local" value="class_j_p_h_1_1_stat_collector_1_1_variant.html#ac92ec26bb4d3c6b84ce85683785d2e75"><param name="ImageNumber" value="11"></OBJECT>
-            <LI><OBJECT type="text/sitemap"><param name="Name" value="Variant"><param name="Local" value="class_j_p_h_1_1_stat_collector_1_1_variant.html#ad10ff2f9891fb3e6a3ca16f4f355251e"><param name="ImageNumber" value="11"></OBJECT>
-            <LI><OBJECT type="text/sitemap"><param name="Name" value="Variant"><param name="Local" value="class_j_p_h_1_1_stat_collector_1_1_variant.html#acd4438f4e4dd7f733996eebc06f5d8b3"><param name="ImageNumber" value="11"></OBJECT>
-            <LI><OBJECT type="text/sitemap"><param name="Name" value="ToString"><param name="Local" value="class_j_p_h_1_1_stat_collector_1_1_variant.html#aaa1d93d83c5d3b642d9afde687955f42"><param name="ImageNumber" value="11"></OBJECT>
-            <LI><OBJECT type="text/sitemap"><param name="Name" value="mBool"><param name="Local" value="class_j_p_h_1_1_stat_collector_1_1_variant.html#a1ecb4fabebdaf6ebe5c6d21f045378a3"><param name="ImageNumber" value="11"></OBJECT>
-            <LI><OBJECT type="text/sitemap"><param name="Name" value="mFloat"><param name="Local" value="class_j_p_h_1_1_stat_collector_1_1_variant.html#abaceeabd12f3921f18560c9149837409"><param name="ImageNumber" value="11"></OBJECT>
-            <LI><OBJECT type="text/sitemap"><param name="Name" value="mInt"><param name="Local" value="class_j_p_h_1_1_stat_collector_1_1_variant.html#a323f81195d986c7106eb1b50123f5d3d"><param name="ImageNumber" value="11"></OBJECT>
-            </UL>
-          <LI><OBJECT type="text/sitemap"><param name="Name" value="JPH_IF_STAT_COLLECTOR"><param name="Local" value="_stat_collector_8h.html#ab9f015fcc84dd96975a0c39bd31d31e9"><param name="ImageNumber" value="11"></OBJECT>
-          <LI><OBJECT type="text/sitemap"><param name="Name" value="JPH_STAT_COLLECTOR_ADD"><param name="Local" value="_stat_collector_8h.html#a97ae3cbe9fbc4103bbdfbe8cdace24af"><param name="ImageNumber" value="11"></OBJECT>
-          <LI><OBJECT type="text/sitemap"><param name="Name" value="JPH_STAT_COLLECTOR_IS_CAPTURING"><param name="Local" value="_stat_collector_8h.html#acb011e4d8038bd170cd5cbbbc4743ab8"><param name="ImageNumber" value="11"></OBJECT>
-          <LI><OBJECT type="text/sitemap"><param name="Name" value="JPH_STAT_COLLECTOR_RESET"><param name="Local" value="_stat_collector_8h.html#a98f3c3915e5a7987f532e12943187849"><param name="ImageNumber" value="11"></OBJECT>
-          <LI><OBJECT type="text/sitemap"><param name="Name" value="JPH_STAT_COLLECTOR_SET_NEXT_FRAME"><param name="Local" value="_stat_collector_8h.html#a84feab6f1d6160659f4db8b6f52d3900"><param name="ImageNumber" value="11"></OBJECT>
-          <LI><OBJECT type="text/sitemap"><param name="Name" value="JPH_STAT_COLLECTOR_START_CAPTURE"><param name="Local" value="_stat_collector_8h.html#a4d9b84f5c201142d745b992321610dee"><param name="ImageNumber" value="11"></OBJECT>
-          <LI><OBJECT type="text/sitemap"><param name="Name" value="JPH_STAT_COLLECTOR_STOP_CAPTURE"><param name="Local" value="_stat_collector_8h.html#afc84a45e47f10ded118a91a0655d9888"><param name="ImageNumber" value="11"></OBJECT>
           </UL>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="StaticArray.h"><param name="Local" value="_static_array_8h.html"><param name="ImageNumber" value="11"></OBJECT>
           <UL>
@@ -13960,7 +13801,6 @@
                 </UL>
               <LI><OBJECT type="text/sitemap"><param name="Name" value="~BodyManager"><param name="Local" value="class_j_p_h_1_1_body_manager.html#a431cb190f67bd65482310ba3825d1a30"><param name="ImageNumber" value="11"></OBJECT>
               <LI><OBJECT type="text/sitemap"><param name="Name" value="ActivateBodies"><param name="Local" value="class_j_p_h_1_1_body_manager.html#ad91c33c00ebe2586eae0f40ba81fe60b"><param name="ImageNumber" value="11"></OBJECT>
-              <LI><OBJECT type="text/sitemap"><param name="Name" value="CollectStats"><param name="Local" value="class_j_p_h_1_1_body_manager.html#a7df66754965a6959f21f8524b679f98e"><param name="ImageNumber" value="11"></OBJECT>
               <LI><OBJECT type="text/sitemap"><param name="Name" value="CreateBody"><param name="Local" value="class_j_p_h_1_1_body_manager.html#a26b88e2217d77dca167d9dcfa2148a82"><param name="ImageNumber" value="11"></OBJECT>
               <LI><OBJECT type="text/sitemap"><param name="Name" value="DeactivateBodies"><param name="Local" value="class_j_p_h_1_1_body_manager.html#a64d47f9e07579f09e177ef2f6cc53911"><param name="ImageNumber" value="11"></OBJECT>
               <LI><OBJECT type="text/sitemap"><param name="Name" value="DestroyBodies"><param name="Local" value="class_j_p_h_1_1_body_manager.html#aa3e8376c8ba6963de7c1658bf114dda5"><param name="ImageNumber" value="11"></OBJECT>
@@ -16533,7 +16373,6 @@
               <LI><OBJECT type="text/sitemap"><param name="Name" value="Constraint"><param name="Local" value="class_j_p_h_1_1_constraint.html#a2cb0430f529700366633a2b860683011"><param name="ImageNumber" value="11"></OBJECT>
               <LI><OBJECT type="text/sitemap"><param name="Name" value="~Constraint"><param name="Local" value="class_j_p_h_1_1_constraint.html#ae47b33f64eb5e88f750b8d091cdb5b1e"><param name="ImageNumber" value="11"></OBJECT>
               <LI><OBJECT type="text/sitemap"><param name="Name" value="BuildIslands"><param name="Local" value="class_j_p_h_1_1_constraint.html#ad6a74bb53baefbb3327dac240ad8a21b"><param name="ImageNumber" value="11"></OBJECT>
-              <LI><OBJECT type="text/sitemap"><param name="Name" value="CollectStats"><param name="Local" value="class_j_p_h_1_1_constraint.html#a04ee6965fb23d1ad78ff19dac94f246d"><param name="ImageNumber" value="11"></OBJECT>
               <LI><OBJECT type="text/sitemap"><param name="Name" value="GetEnabled"><param name="Local" value="class_j_p_h_1_1_constraint.html#a060f6a1a48da6ebf399a13bf6552781b"><param name="ImageNumber" value="11"></OBJECT>
               <LI><OBJECT type="text/sitemap"><param name="Name" value="GetType"><param name="Local" value="class_j_p_h_1_1_constraint.html#a32b6b1ddd821573785f3c4522ae55143"><param name="ImageNumber" value="11"></OBJECT>
               <LI><OBJECT type="text/sitemap"><param name="Name" value="IsActive"><param name="Local" value="class_j_p_h_1_1_constraint.html#a446a973b265e0a656cffb3dc61968f15"><param name="ImageNumber" value="11"></OBJECT>
@@ -16571,7 +16410,6 @@
               <UL>
               <LI><OBJECT type="text/sitemap"><param name="Name" value="Add"><param name="Local" value="class_j_p_h_1_1_constraint_manager.html#ae42fa477169e6564ac2a5fa75937497b"><param name="ImageNumber" value="11"></OBJECT>
               <LI><OBJECT type="text/sitemap"><param name="Name" value="BuildIslands"><param name="Local" value="class_j_p_h_1_1_constraint_manager.html#ae436d333b5c11f14be30a859c9ed0684"><param name="ImageNumber" value="11"></OBJECT>
-              <LI><OBJECT type="text/sitemap"><param name="Name" value="CollectStats"><param name="Local" value="class_j_p_h_1_1_constraint_manager.html#a251a6cfe409fba8d956ffcae26aab1c5"><param name="ImageNumber" value="11"></OBJECT>
               <LI><OBJECT type="text/sitemap"><param name="Name" value="GetActiveConstraints"><param name="Local" value="class_j_p_h_1_1_constraint_manager.html#a0c2b72ec8fec888e86aba4523342caae"><param name="ImageNumber" value="11"></OBJECT>
               <LI><OBJECT type="text/sitemap"><param name="Name" value="GetNumConstraints"><param name="Local" value="class_j_p_h_1_1_constraint_manager.html#a019273d618a2d6917abc7f8cc495affc"><param name="ImageNumber" value="11"></OBJECT>
               <LI><OBJECT type="text/sitemap"><param name="Name" value="LockAllConstraints"><param name="Local" value="class_j_p_h_1_1_constraint_manager.html#a9656cd8a8a1fb99138e47d3b9c3c6ca6"><param name="ImageNumber" value="11"></OBJECT>
@@ -16600,7 +16438,6 @@
               <LI><OBJECT type="text/sitemap"><param name="Name" value="~ContactConstraintManager"><param name="Local" value="class_j_p_h_1_1_contact_constraint_manager.html#a439acf8e765cae7f572adf7c99b9c437"><param name="ImageNumber" value="11"></OBJECT>
               <LI><OBJECT type="text/sitemap"><param name="Name" value="AddBodyPair"><param name="Local" value="class_j_p_h_1_1_contact_constraint_manager.html#a48e9a31997ae4e91cd354bc0412017e3"><param name="ImageNumber" value="11"></OBJECT>
               <LI><OBJECT type="text/sitemap"><param name="Name" value="AddContactConstraint"><param name="Local" value="class_j_p_h_1_1_contact_constraint_manager.html#a9cd1d1f726d199a1f97800bb33aca321"><param name="ImageNumber" value="11"></OBJECT>
-              <LI><OBJECT type="text/sitemap"><param name="Name" value="CollectStats"><param name="Local" value="class_j_p_h_1_1_contact_constraint_manager.html#a767741f4241a677d9204ab8cb7acba83"><param name="ImageNumber" value="11"></OBJECT>
               <LI><OBJECT type="text/sitemap"><param name="Name" value="ContactPointRemovedCallbacks"><param name="Local" value="class_j_p_h_1_1_contact_constraint_manager.html#ac98a464c15f635a3ae26edaf55bf58b0"><param name="ImageNumber" value="11"></OBJECT>
               <LI><OBJECT type="text/sitemap"><param name="Name" value="FinalizeContactCache"><param name="Local" value="class_j_p_h_1_1_contact_constraint_manager.html#a78f344f34589d0f2ea70f14f6e8d3515"><param name="ImageNumber" value="11"></OBJECT>
               <LI><OBJECT type="text/sitemap"><param name="Name" value="FinishConstraintBuffer"><param name="Local" value="class_j_p_h_1_1_contact_constraint_manager.html#af092bda0a80a6656f1599ab0106cee89"><param name="ImageNumber" value="11"></OBJECT>
@@ -16717,7 +16554,6 @@
             <LI><OBJECT type="text/sitemap"><param name="Name" value="HingeConstraint"><param name="Local" value="class_j_p_h_1_1_hinge_constraint.html"><param name="ImageNumber" value="1"></OBJECT>
               <UL>
               <LI><OBJECT type="text/sitemap"><param name="Name" value="HingeConstraint"><param name="Local" value="class_j_p_h_1_1_hinge_constraint.html#a2d453a2d2b992b157d9f12441ccff816"><param name="ImageNumber" value="11"></OBJECT>
-              <LI><OBJECT type="text/sitemap"><param name="Name" value="CollectStats"><param name="Local" value="class_j_p_h_1_1_hinge_constraint.html#ad94182fd09ae93a52af4bc4e2910b646"><param name="ImageNumber" value="11"></OBJECT>
               <LI><OBJECT type="text/sitemap"><param name="Name" value="GetConstraintToBody1Matrix"><param name="Local" value="class_j_p_h_1_1_hinge_constraint.html#a244e2fa6bcaebc9461a3a95fabf34ec8"><param name="ImageNumber" value="11"></OBJECT>
               <LI><OBJECT type="text/sitemap"><param name="Name" value="GetConstraintToBody2Matrix"><param name="Local" value="class_j_p_h_1_1_hinge_constraint.html#ae6cf63d81898087dffe4862675969123"><param name="ImageNumber" value="11"></OBJECT>
               <LI><OBJECT type="text/sitemap"><param name="Name" value="GetLimitsMax"><param name="Local" value="class_j_p_h_1_1_hinge_constraint.html#afe9ed974adc07f637b2f2053472db07b"><param name="ImageNumber" value="11"></OBJECT>
@@ -16802,7 +16638,6 @@
             <LI><OBJECT type="text/sitemap"><param name="Name" value="PathConstraint"><param name="Local" value="class_j_p_h_1_1_path_constraint.html"><param name="ImageNumber" value="1"></OBJECT>
               <UL>
               <LI><OBJECT type="text/sitemap"><param name="Name" value="PathConstraint"><param name="Local" value="class_j_p_h_1_1_path_constraint.html#a6823224448d08671e7b0a9250598e530"><param name="ImageNumber" value="11"></OBJECT>
-              <LI><OBJECT type="text/sitemap"><param name="Name" value="CollectStats"><param name="Local" value="class_j_p_h_1_1_path_constraint.html#af9338906dfb487d4f4d7e2c39a1eb8d7"><param name="ImageNumber" value="11"></OBJECT>
               <LI><OBJECT type="text/sitemap"><param name="Name" value="GetConstraintToBody1Matrix"><param name="Local" value="class_j_p_h_1_1_path_constraint.html#a89ad68ff4ba7291f1daf881da302eef3"><param name="ImageNumber" value="11"></OBJECT>
               <LI><OBJECT type="text/sitemap"><param name="Name" value="GetConstraintToBody2Matrix"><param name="Local" value="class_j_p_h_1_1_path_constraint.html#a2fba2f6d6e316ac63b4344a2f186b7b1"><param name="ImageNumber" value="11"></OBJECT>
               <LI><OBJECT type="text/sitemap"><param name="Name" value="GetMaxFrictionForce"><param name="Local" value="class_j_p_h_1_1_path_constraint.html#a90926026c5ceb8cb3fe5850a0fb10557"><param name="ImageNumber" value="11"></OBJECT>
@@ -16953,7 +16788,6 @@
               <UL>
               <LI><OBJECT type="text/sitemap"><param name="Name" value="EAxis"><param name="Local" value="class_j_p_h_1_1_six_d_o_f_constraint.html#a9aae8c30c13b6480d71bab59ecc627fe"><param name="ImageNumber" value="11"></OBJECT>
               <LI><OBJECT type="text/sitemap"><param name="Name" value="SixDOFConstraint"><param name="Local" value="class_j_p_h_1_1_six_d_o_f_constraint.html#a2262e5d222012ee09ea543c8834ed82f"><param name="ImageNumber" value="11"></OBJECT>
-              <LI><OBJECT type="text/sitemap"><param name="Name" value="CollectStats"><param name="Local" value="class_j_p_h_1_1_six_d_o_f_constraint.html#af8cd4afad4785296cd4c11c0727fe3eb"><param name="ImageNumber" value="11"></OBJECT>
               <LI><OBJECT type="text/sitemap"><param name="Name" value="GetConstraintToBody1Matrix"><param name="Local" value="class_j_p_h_1_1_six_d_o_f_constraint.html#a2d8fd61d42193c9f1788977aa73d0a58"><param name="ImageNumber" value="11"></OBJECT>
               <LI><OBJECT type="text/sitemap"><param name="Name" value="GetConstraintToBody2Matrix"><param name="Local" value="class_j_p_h_1_1_six_d_o_f_constraint.html#a46a451a294459a90e046243dbc604f81"><param name="ImageNumber" value="11"></OBJECT>
               <LI><OBJECT type="text/sitemap"><param name="Name" value="GetMotorSettings"><param name="Local" value="class_j_p_h_1_1_six_d_o_f_constraint.html#a549144a35d3f107d51ee98e4286294f6"><param name="ImageNumber" value="11"></OBJECT>
@@ -17001,7 +16835,6 @@
             <LI><OBJECT type="text/sitemap"><param name="Name" value="SliderConstraint"><param name="Local" value="class_j_p_h_1_1_slider_constraint.html"><param name="ImageNumber" value="1"></OBJECT>
               <UL>
               <LI><OBJECT type="text/sitemap"><param name="Name" value="SliderConstraint"><param name="Local" value="class_j_p_h_1_1_slider_constraint.html#a7cb2e62d27b6bf59d0b34bc4860a044f"><param name="ImageNumber" value="11"></OBJECT>
-              <LI><OBJECT type="text/sitemap"><param name="Name" value="CollectStats"><param name="Local" value="class_j_p_h_1_1_slider_constraint.html#a57b128f877de800592e74841c41dcd81"><param name="ImageNumber" value="11"></OBJECT>
               <LI><OBJECT type="text/sitemap"><param name="Name" value="GetConstraintToBody1Matrix"><param name="Local" value="class_j_p_h_1_1_slider_constraint.html#a38635e920e625312a09f2664c5818839"><param name="ImageNumber" value="11"></OBJECT>
               <LI><OBJECT type="text/sitemap"><param name="Name" value="GetConstraintToBody2Matrix"><param name="Local" value="class_j_p_h_1_1_slider_constraint.html#a2225e5c85e37175704c219f4d4c07314"><param name="ImageNumber" value="11"></OBJECT>
               <LI><OBJECT type="text/sitemap"><param name="Name" value="GetLimitsMax"><param name="Local" value="class_j_p_h_1_1_slider_constraint.html#a50cf59c37d8af2c787b07d42663a8c45"><param name="ImageNumber" value="11"></OBJECT>
@@ -17059,7 +16892,6 @@
             <LI><OBJECT type="text/sitemap"><param name="Name" value="SwingTwistConstraint"><param name="Local" value="class_j_p_h_1_1_swing_twist_constraint.html"><param name="ImageNumber" value="1"></OBJECT>
               <UL>
               <LI><OBJECT type="text/sitemap"><param name="Name" value="SwingTwistConstraint"><param name="Local" value="class_j_p_h_1_1_swing_twist_constraint.html#ab54ea23d34e088c1416922da499fa27d"><param name="ImageNumber" value="11"></OBJECT>
-              <LI><OBJECT type="text/sitemap"><param name="Name" value="CollectStats"><param name="Local" value="class_j_p_h_1_1_swing_twist_constraint.html#a5c7f55ab6ecc14cddbe99acdd360077e"><param name="ImageNumber" value="11"></OBJECT>
               <LI><OBJECT type="text/sitemap"><param name="Name" value="GetConstraintToBody1"><param name="Local" value="class_j_p_h_1_1_swing_twist_constraint.html#a6c892491c5fa0b885f087d7f7ffb8c0b"><param name="ImageNumber" value="11"></OBJECT>
               <LI><OBJECT type="text/sitemap"><param name="Name" value="GetConstraintToBody1Matrix"><param name="Local" value="class_j_p_h_1_1_swing_twist_constraint.html#a7b961ceef145fc030614fc20eaa03ec8"><param name="ImageNumber" value="11"></OBJECT>
               <LI><OBJECT type="text/sitemap"><param name="Name" value="GetConstraintToBody2"><param name="Local" value="class_j_p_h_1_1_swing_twist_constraint.html#a3d9b579e85e1a405ade9c0fffbc5e4d0"><param name="ImageNumber" value="11"></OBJECT>
@@ -17737,7 +17569,6 @@
             <LI><OBJECT type="text/sitemap"><param name="Name" value="AddConstraint"><param name="Local" value="class_j_p_h_1_1_physics_system.html#aaef43c4a1f35f97006aeb6a3ba0489a1"><param name="ImageNumber" value="11"></OBJECT>
             <LI><OBJECT type="text/sitemap"><param name="Name" value="AddConstraints"><param name="Local" value="class_j_p_h_1_1_physics_system.html#aeb820f375a728c1983d9133488dcaae1"><param name="ImageNumber" value="11"></OBJECT>
             <LI><OBJECT type="text/sitemap"><param name="Name" value="AddStepListener"><param name="Local" value="class_j_p_h_1_1_physics_system.html#a0ac2a3b50d18c25ff1b21c81f5b619cd"><param name="ImageNumber" value="11"></OBJECT>
-            <LI><OBJECT type="text/sitemap"><param name="Name" value="CollectStats"><param name="Local" value="class_j_p_h_1_1_physics_system.html#a92915feaaed55dc4ac3268eb2fffa382"><param name="ImageNumber" value="11"></OBJECT>
             <LI><OBJECT type="text/sitemap"><param name="Name" value="GetActiveBodies"><param name="Local" value="class_j_p_h_1_1_physics_system.html#a3e1fb3b3096bcf76e6a5cf813b21ae53"><param name="ImageNumber" value="11"></OBJECT>
             <LI><OBJECT type="text/sitemap"><param name="Name" value="GetBodies"><param name="Local" value="class_j_p_h_1_1_physics_system.html#a4d3794e36871f69898d314410c6eaa64"><param name="ImageNumber" value="11"></OBJECT>
             <LI><OBJECT type="text/sitemap"><param name="Name" value="GetBodyActivationListener"><param name="Local" value="class_j_p_h_1_1_physics_system.html#a743616eb384c67d6152e0b27068ecbdd"><param name="ImageNumber" value="11"></OBJECT>
