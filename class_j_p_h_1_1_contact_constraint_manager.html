@@ -73,6 +73,12 @@ Inheritance diagram for JPH::ContactConstraintManager:</div>
   </map>
 </div></div>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_p_h_1_1_contact_constraint_manager_1_1_contact_allocator.html">ContactAllocator</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Contacts are allocated in a lock free hash map.  <a href="class_j_p_h_1_1_contact_constraint_manager_1_1_contact_allocator.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
 <tr class="memitem:ad64754dffac7573e0c6dc25edcf93bb5"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_p_h_1_1_contact_constraint_manager.html#ad64754dffac7573e0c6dc25edcf93bb5">CombineFunction</a> = float(*)(const <a class="el" href="class_j_p_h_1_1_body.html">Body</a> &amp;inBody1, const <a class="el" href="class_j_p_h_1_1_body.html">Body</a> &amp;inBody2)</td></tr>
@@ -109,16 +115,19 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a10f6297f49e6eb2da3e42b294d9d9cdc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_p_h_1_1_contact_constraint_manager.html#a10f6297f49e6eb2da3e42b294d9d9cdc">PrepareConstraintBuffer</a> (<a class="el" href="class_j_p_h_1_1_physics_update_context.html">PhysicsUpdateContext</a> *inContext)</td></tr>
 <tr class="memdesc:a10f6297f49e6eb2da3e42b294d9d9cdc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets up the constraint buffer. Should be called before starting collision detection.  <a href="class_j_p_h_1_1_contact_constraint_manager.html#a10f6297f49e6eb2da3e42b294d9d9cdc">More...</a><br /></td></tr>
 <tr class="separator:a10f6297f49e6eb2da3e42b294d9d9cdc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2a59936df84ae44d67afee47470a6722"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_p_h_1_1_contact_constraint_manager.html#a2a59936df84ae44d67afee47470a6722">GetContactsFromCache</a> (<a class="el" href="class_j_p_h_1_1_body.html">Body</a> &amp;inBody1, <a class="el" href="class_j_p_h_1_1_body.html">Body</a> &amp;inBody2, bool &amp;outPairHandled, bool &amp;outContactFound)</td></tr>
-<tr class="separator:a2a59936df84ae44d67afee47470a6722"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a48e9a31997ae4e91cd354bc0412017e3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_j_p_h_1_1_contact_constraint_manager.html#a77431012cd0b1155b8df2095ee65b98d">BodyPairHandle</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_p_h_1_1_contact_constraint_manager.html#a48e9a31997ae4e91cd354bc0412017e3">AddBodyPair</a> (const <a class="el" href="class_j_p_h_1_1_body.html">Body</a> &amp;inBody1, const <a class="el" href="class_j_p_h_1_1_body.html">Body</a> &amp;inBody2)</td></tr>
-<tr class="separator:a48e9a31997ae4e91cd354bc0412017e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9cd1d1f726d199a1f97800bb33aca321"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_p_h_1_1_contact_constraint_manager.html#a9cd1d1f726d199a1f97800bb33aca321">AddContactConstraint</a> (<a class="el" href="class_j_p_h_1_1_contact_constraint_manager.html#a77431012cd0b1155b8df2095ee65b98d">BodyPairHandle</a> inBodyPair, <a class="el" href="class_j_p_h_1_1_body.html">Body</a> &amp;inBody1, <a class="el" href="class_j_p_h_1_1_body.html">Body</a> &amp;inBody2, const <a class="el" href="class_j_p_h_1_1_contact_manifold.html">ContactManifold</a> &amp;inManifold)</td></tr>
-<tr class="separator:a9cd1d1f726d199a1f97800bb33aca321"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a78f344f34589d0f2ea70f14f6e8d3515"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_p_h_1_1_contact_constraint_manager.html#a78f344f34589d0f2ea70f14f6e8d3515">FinalizeContactCache</a> ()</td></tr>
-<tr class="separator:a78f344f34589d0f2ea70f14f6e8d3515"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e4777a2b2398ec3cfc6470e2ec85649"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_j_p_h_1_1_contact_constraint_manager_1_1_contact_allocator.html">ContactAllocator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_p_h_1_1_contact_constraint_manager.html#a3e4777a2b2398ec3cfc6470e2ec85649">GetContactAllocator</a> ()</td></tr>
+<tr class="memdesc:a3e4777a2b2398ec3cfc6470e2ec85649"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a new allocator context for storing contacts. Note that you should call this once and then add multiple contacts using the context.  <a href="class_j_p_h_1_1_contact_constraint_manager.html#a3e4777a2b2398ec3cfc6470e2ec85649">More...</a><br /></td></tr>
+<tr class="separator:a3e4777a2b2398ec3cfc6470e2ec85649"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae7dc7275ec7f1dcfef0401614db30cc6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_p_h_1_1_contact_constraint_manager.html#ae7dc7275ec7f1dcfef0401614db30cc6">GetContactsFromCache</a> (<a class="el" href="class_j_p_h_1_1_contact_constraint_manager_1_1_contact_allocator.html">ContactAllocator</a> &amp;ioContactAllocator, <a class="el" href="class_j_p_h_1_1_body.html">Body</a> &amp;inBody1, <a class="el" href="class_j_p_h_1_1_body.html">Body</a> &amp;inBody2, bool &amp;outPairHandled, bool &amp;outContactFound)</td></tr>
+<tr class="separator:ae7dc7275ec7f1dcfef0401614db30cc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeebb48094de1f024a2f70c3be42ff6ad"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_j_p_h_1_1_contact_constraint_manager.html#a77431012cd0b1155b8df2095ee65b98d">BodyPairHandle</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_p_h_1_1_contact_constraint_manager.html#aeebb48094de1f024a2f70c3be42ff6ad">AddBodyPair</a> (<a class="el" href="class_j_p_h_1_1_contact_constraint_manager_1_1_contact_allocator.html">ContactAllocator</a> &amp;ioContactAllocator, const <a class="el" href="class_j_p_h_1_1_body.html">Body</a> &amp;inBody1, const <a class="el" href="class_j_p_h_1_1_body.html">Body</a> &amp;inBody2)</td></tr>
+<tr class="separator:aeebb48094de1f024a2f70c3be42ff6ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa259a269a6110e3c6464f697be6e2d9b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_p_h_1_1_contact_constraint_manager.html#aa259a269a6110e3c6464f697be6e2d9b">AddContactConstraint</a> (<a class="el" href="class_j_p_h_1_1_contact_constraint_manager_1_1_contact_allocator.html">ContactAllocator</a> &amp;ioContactAllocator, <a class="el" href="class_j_p_h_1_1_contact_constraint_manager.html#a77431012cd0b1155b8df2095ee65b98d">BodyPairHandle</a> inBodyPair, <a class="el" href="class_j_p_h_1_1_body.html">Body</a> &amp;inBody1, <a class="el" href="class_j_p_h_1_1_body.html">Body</a> &amp;inBody2, const <a class="el" href="class_j_p_h_1_1_contact_manifold.html">ContactManifold</a> &amp;inManifold)</td></tr>
+<tr class="separator:aa259a269a6110e3c6464f697be6e2d9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a46786441eefa042849ed17a0a31293af"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_p_h_1_1_contact_constraint_manager.html#a46786441eefa042849ed17a0a31293af">FinalizeContactCache</a> (<a class="el" href="namespace_j_p_h.html#a96db2939bdaf608fc550d84157d618e0">uint</a> inExpectedNumBodyPairs, <a class="el" href="namespace_j_p_h.html#a96db2939bdaf608fc550d84157d618e0">uint</a> inExpectedNumManifolds)</td></tr>
+<tr class="separator:a46786441eefa042849ed17a0a31293af"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac98a464c15f635a3ae26edaf55bf58b0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_p_h_1_1_contact_constraint_manager.html#ac98a464c15f635a3ae26edaf55bf58b0">ContactPointRemovedCallbacks</a> ()</td></tr>
-<tr class="memdesc:ac98a464c15f635a3ae26edaf55bf58b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Notifies the listener of any contact points that were removed. Needs to be callsed after <a class="el" href="class_j_p_h_1_1_contact_constraint_manager.html#a78f344f34589d0f2ea70f14f6e8d3515">FinalizeContactCache()</a>.  <a href="class_j_p_h_1_1_contact_constraint_manager.html#ac98a464c15f635a3ae26edaf55bf58b0">More...</a><br /></td></tr>
+<tr class="memdesc:ac98a464c15f635a3ae26edaf55bf58b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Notifies the listener of any contact points that were removed. Needs to be callsed after <a class="el" href="class_j_p_h_1_1_contact_constraint_manager.html#a46786441eefa042849ed17a0a31293af">FinalizeContactCache()</a>.  <a href="class_j_p_h_1_1_contact_constraint_manager.html#ac98a464c15f635a3ae26edaf55bf58b0">More...</a><br /></td></tr>
 <tr class="separator:ac98a464c15f635a3ae26edaf55bf58b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac8036ba03428a5e6f704bda2ca73cd8f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_j_p_h.html#a7a7fc109e10234468528baee2729bc72">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_p_h_1_1_contact_constraint_manager.html#ac8036ba03428a5e6f704bda2ca73cd8f">GetNumConstraints</a> () const</td></tr>
 <tr class="memdesc:ac8036ba03428a5e6f704bda2ca73cd8f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the number of contact constraints that were found.  <a href="class_j_p_h_1_1_contact_constraint_manager.html#ac8036ba03428a5e6f704bda2ca73cd8f">More...</a><br /></td></tr>
@@ -145,8 +154,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:af092bda0a80a6656f1599ab0106cee89"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_p_h_1_1_contact_constraint_manager.html#af092bda0a80a6656f1599ab0106cee89">FinishConstraintBuffer</a> ()</td></tr>
 <tr class="memdesc:af092bda0a80a6656f1599ab0106cee89"><td class="mdescLeft">&#160;</td><td class="mdescRight">Terminate the constraint buffer. Should be called after simulation ends.  <a href="class_j_p_h_1_1_contact_constraint_manager.html#af092bda0a80a6656f1599ab0106cee89">More...</a><br /></td></tr>
 <tr class="separator:af092bda0a80a6656f1599ab0106cee89"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a46f60e1ed391bd70d2f7103bb128c545"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_p_h_1_1_contact_constraint_manager.html#a46f60e1ed391bd70d2f7103bb128c545">OnCCDContactAdded</a> (const <a class="el" href="class_j_p_h_1_1_body.html">Body</a> &amp;inBody1, const <a class="el" href="class_j_p_h_1_1_body.html">Body</a> &amp;inBody2, const <a class="el" href="class_j_p_h_1_1_contact_manifold.html">ContactManifold</a> &amp;inManifold, <a class="el" href="class_j_p_h_1_1_contact_settings.html">ContactSettings</a> &amp;outSettings)</td></tr>
-<tr class="separator:a46f60e1ed391bd70d2f7103bb128c545"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad5c86020a143a4ecf60d3f75e7857e4b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_p_h_1_1_contact_constraint_manager.html#ad5c86020a143a4ecf60d3f75e7857e4b">OnCCDContactAdded</a> (<a class="el" href="class_j_p_h_1_1_contact_constraint_manager_1_1_contact_allocator.html">ContactAllocator</a> &amp;ioContactAllocator, const <a class="el" href="class_j_p_h_1_1_body.html">Body</a> &amp;inBody1, const <a class="el" href="class_j_p_h_1_1_body.html">Body</a> &amp;inBody2, const <a class="el" href="class_j_p_h_1_1_contact_manifold.html">ContactManifold</a> &amp;inManifold, <a class="el" href="class_j_p_h_1_1_contact_settings.html">ContactSettings</a> &amp;outSettings)</td></tr>
+<tr class="separator:ad5c86020a143a4ecf60d3f75e7857e4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa4f514784b991f2c3311427c4e43ecdc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_p_h_1_1_contact_constraint_manager.html#aa4f514784b991f2c3311427c4e43ecdc">SaveState</a> (<a class="el" href="class_j_p_h_1_1_state_recorder.html">StateRecorder</a> &amp;inStream) const</td></tr>
 <tr class="memdesc:aa4f514784b991f2c3311427c4e43ecdc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Saving state for replay.  <a href="class_j_p_h_1_1_contact_constraint_manager.html#aa4f514784b991f2c3311427c4e43ecdc">More...</a><br /></td></tr>
 <tr class="separator:aa4f514784b991f2c3311427c4e43ecdc"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -247,8 +256,8 @@ Static Public Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a48e9a31997ae4e91cd354bc0412017e3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a48e9a31997ae4e91cd354bc0412017e3">&#9670;&nbsp;</a></span>AddBodyPair()</h2>
+<a id="aeebb48094de1f024a2f70c3be42ff6ad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeebb48094de1f024a2f70c3be42ff6ad">&#9670;&nbsp;</a></span>AddBodyPair()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -256,6 +265,12 @@ Static Public Attributes</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="class_j_p_h_1_1_contact_constraint_manager.html#a77431012cd0b1155b8df2095ee65b98d">ContactConstraintManager::BodyPairHandle</a> JPH::ContactConstraintManager::AddBodyPair </td>
           <td>(</td>
+          <td class="paramtype"><a class="el" href="class_j_p_h_1_1_contact_constraint_manager_1_1_contact_allocator.html">ContactAllocator</a> &amp;&#160;</td>
+          <td class="paramname"><em>ioContactAllocator</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype">const <a class="el" href="class_j_p_h_1_1_body.html">Body</a> &amp;&#160;</td>
           <td class="paramname"><em>inBody1</em>, </td>
         </tr>
@@ -276,8 +291,8 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a9cd1d1f726d199a1f97800bb33aca321"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9cd1d1f726d199a1f97800bb33aca321">&#9670;&nbsp;</a></span>AddContactConstraint()</h2>
+<a id="aa259a269a6110e3c6464f697be6e2d9b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa259a269a6110e3c6464f697be6e2d9b">&#9670;&nbsp;</a></span>AddContactConstraint()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -285,6 +300,12 @@ Static Public Attributes</h2></td></tr>
         <tr>
           <td class="memname">void JPH::ContactConstraintManager::AddContactConstraint </td>
           <td>(</td>
+          <td class="paramtype"><a class="el" href="class_j_p_h_1_1_contact_constraint_manager_1_1_contact_allocator.html">ContactAllocator</a> &amp;&#160;</td>
+          <td class="paramname"><em>ioContactAllocator</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype"><a class="el" href="class_j_p_h_1_1_contact_constraint_manager.html#a77431012cd0b1155b8df2095ee65b98d">BodyPairHandle</a>&#160;</td>
           <td class="paramname"><em>inBodyPair</em>, </td>
         </tr>
@@ -355,12 +376,12 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Notifies the listener of any contact points that were removed. Needs to be callsed after <a class="el" href="class_j_p_h_1_1_contact_constraint_manager.html#a78f344f34589d0f2ea70f14f6e8d3515">FinalizeContactCache()</a>. </p>
+<p>Notifies the listener of any contact points that were removed. Needs to be callsed after <a class="el" href="class_j_p_h_1_1_contact_constraint_manager.html#a46786441eefa042849ed17a0a31293af">FinalizeContactCache()</a>. </p>
 
 </div>
 </div>
-<a id="a78f344f34589d0f2ea70f14f6e8d3515"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a78f344f34589d0f2ea70f14f6e8d3515">&#9670;&nbsp;</a></span>FinalizeContactCache()</h2>
+<a id="a46786441eefa042849ed17a0a31293af"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a46786441eefa042849ed17a0a31293af">&#9670;&nbsp;</a></span>FinalizeContactCache()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -368,12 +389,23 @@ Static Public Attributes</h2></td></tr>
         <tr>
           <td class="memname">void JPH::ContactConstraintManager::FinalizeContactCache </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype"><a class="el" href="namespace_j_p_h.html#a96db2939bdaf608fc550d84157d618e0">uint</a>&#160;</td>
+          <td class="paramname"><em>inExpectedNumBodyPairs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype"><a class="el" href="namespace_j_p_h.html#a96db2939bdaf608fc550d84157d618e0">uint</a>&#160;</td>
+          <td class="paramname"><em>inExpectedNumManifolds</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Finalizes the contact cache, the contact cache that was generated during the calls to AddContactConstraint in this update will be used from now on to read from </p>
+<p>Finalizes the contact cache, the contact cache that was generated during the calls to AddContactConstraint in this update will be used from now on to read from. inExpectedNumBodyPairs / inExpectedNumManifolds are the amount of body pairs / manifolds found in the previous step and is used to determine the amount of buckets the contact cache hash map will use. </p>
 
 </div>
 </div>
@@ -393,6 +425,33 @@ Static Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Terminate the constraint buffer. Should be called after simulation ends. </p>
+
+</div>
+</div>
+<a id="a3e4777a2b2398ec3cfc6470e2ec85649"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3e4777a2b2398ec3cfc6470e2ec85649">&#9670;&nbsp;</a></span>GetContactAllocator()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_j_p_h_1_1_contact_constraint_manager_1_1_contact_allocator.html">ContactAllocator</a> JPH::ContactConstraintManager::GetContactAllocator </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get a new allocator context for storing contacts. Note that you should call this once and then add multiple contacts using the context. </p>
 
 </div>
 </div>
@@ -421,8 +480,8 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a2a59936df84ae44d67afee47470a6722"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2a59936df84ae44d67afee47470a6722">&#9670;&nbsp;</a></span>GetContactsFromCache()</h2>
+<a id="ae7dc7275ec7f1dcfef0401614db30cc6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae7dc7275ec7f1dcfef0401614db30cc6">&#9670;&nbsp;</a></span>GetContactsFromCache()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -430,6 +489,12 @@ Static Public Attributes</h2></td></tr>
         <tr>
           <td class="memname">void JPH::ContactConstraintManager::GetContactsFromCache </td>
           <td>(</td>
+          <td class="paramtype"><a class="el" href="class_j_p_h_1_1_contact_constraint_manager_1_1_contact_allocator.html">ContactAllocator</a> &amp;&#160;</td>
+          <td class="paramname"><em>ioContactAllocator</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype"><a class="el" href="class_j_p_h_1_1_body.html">Body</a> &amp;&#160;</td>
           <td class="paramname"><em>inBody1</em>, </td>
         </tr>
@@ -551,8 +616,8 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a46f60e1ed391bd70d2f7103bb128c545"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a46f60e1ed391bd70d2f7103bb128c545">&#9670;&nbsp;</a></span>OnCCDContactAdded()</h2>
+<a id="ad5c86020a143a4ecf60d3f75e7857e4b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad5c86020a143a4ecf60d3f75e7857e4b">&#9670;&nbsp;</a></span>OnCCDContactAdded()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -560,6 +625,12 @@ Static Public Attributes</h2></td></tr>
         <tr>
           <td class="memname">void JPH::ContactConstraintManager::OnCCDContactAdded </td>
           <td>(</td>
+          <td class="paramtype"><a class="el" href="class_j_p_h_1_1_contact_constraint_manager_1_1_contact_allocator.html">ContactAllocator</a> &amp;&#160;</td>
+          <td class="paramname"><em>ioContactAllocator</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype">const <a class="el" href="class_j_p_h_1_1_body.html">Body</a> &amp;&#160;</td>
           <td class="paramname"><em>inBody1</em>, </td>
         </tr>

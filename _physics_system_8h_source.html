@@ -188,61 +188,63 @@ $(function() {
 <div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;    <span class="keywordtype">void</span>                        JobPostIntegrateVelocity(PhysicsUpdateContext *ioContext, PhysicsUpdateContext::SubStep *ioSubStep) <span class="keyword">const</span>;</div>
 <div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;    <span class="keywordtype">void</span>                        JobFindCCDContacts(<span class="keyword">const</span> PhysicsUpdateContext *ioContext, PhysicsUpdateContext::SubStep *ioSubStep);</div>
 <div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;    <span class="keywordtype">void</span>                        JobResolveCCDContacts(PhysicsUpdateContext *ioContext, PhysicsUpdateContext::SubStep *ioSubStep);</div>
-<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;    <span class="keywordtype">void</span>                        JobContactRemovedCallbacks();</div>
+<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;    <span class="keywordtype">void</span>                        JobContactRemovedCallbacks(<span class="keyword">const</span> PhysicsUpdateContext::Step *ioStep);</div>
 <div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;    <span class="keywordtype">void</span>                        JobSolvePositionConstraints(PhysicsUpdateContext *ioContext, PhysicsUpdateContext::SubStep *ioSubStep);</div>
 <div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160; </div>
 <div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;    <span class="keywordtype">void</span>                        TrySpawnJobFindCollisions(PhysicsUpdateContext::Step *ioStep) <span class="keyword">const</span>;</div>
 <div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160; </div>
-<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;    <span class="keywordtype">void</span>                        ProcessBodyPair(<span class="keyword">const</span> BodyPair &amp;inBodyPair);</div>
-<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160; </div>
-<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;    <span class="keyword">static</span> constexpr <span class="keywordtype">int</span>        cDetermineActiveConstraintsBatchSize = 64;</div>
-<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160; </div>
-<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;    <span class="keyword">static</span> constexpr <span class="keywordtype">int</span>        cApplyGravityBatchSize = 64;</div>
-<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160; </div>
-<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;    <span class="keyword">static</span> constexpr <span class="keywordtype">int</span>        cActiveBodiesBatchSize = 16;</div>
-<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160; </div>
-<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;    <span class="keyword">static</span> constexpr <span class="keywordtype">int</span>        cIntegrateVelocityBatchSize = 64;</div>
-<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160; </div>
-<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;    <span class="keyword">static</span> constexpr <span class="keywordtype">int</span>        cNarrowPhaseBatchSize = 16;</div>
-<div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160; </div>
-<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;    <span class="keyword">static</span> constexpr <span class="keywordtype">int</span>        cNumCCDBodiesPerJob = 4;</div>
-<div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160; </div>
-<div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;    <a class="code" href="namespace_j_p_h.html#a0caf4f4b52f660cc2ca5a27949334c11">ObjectVsBroadPhaseLayerFilter</a> mObjectVsBroadPhaseLayerFilter = <span class="keyword">nullptr</span>;</div>
-<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160; </div>
-<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;    <a class="code" href="namespace_j_p_h.html#a7029cd45bb369c6cc6b978e11facdaec">ObjectLayerPairFilter</a>       mObjectLayerPairFilter = <span class="keyword">nullptr</span>;</div>
-<div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160; </div>
-<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;    BodyManager                 mBodyManager;</div>
-<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160; </div>
-<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;    BodyLockInterfaceNoLock     mBodyLockInterfaceNoLock { mBodyManager };</div>
-<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;    BodyLockInterfaceLocking    mBodyLockInterfaceLocking { mBodyManager };</div>
-<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160; </div>
-<div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;    BodyInterface               mBodyInterfaceNoLock;</div>
-<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;    BodyInterface               mBodyInterfaceLocking;</div>
-<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160; </div>
-<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;    NarrowPhaseQuery            mNarrowPhaseQueryNoLock;</div>
-<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;    NarrowPhaseQuery            mNarrowPhaseQueryLocking;</div>
-<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160; </div>
-<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;    BroadPhase *                mBroadPhase = <span class="keyword">nullptr</span>;</div>
-<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160; </div>
-<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;    ContactConstraintManager    mContactManager;</div>
-<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160; </div>
-<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;    ConstraintManager           mConstraintManager;</div>
-<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160; </div>
-<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;    IslandBuilder               mIslandBuilder;</div>
-<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160; </div>
-<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;    Mutex                       mStepListenersMutex;</div>
-<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160; </div>
-<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;    <span class="keyword">using</span> StepListeners = vector&lt;PhysicsStepListener *&gt;;</div>
-<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;    StepListeners               mStepListeners;</div>
-<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160; </div>
-<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;    Vec3                        mGravity = Vec3(0, -9.81f, 0);</div>
-<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160; </div>
-<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;    <span class="keywordtype">float</span>                       mPreviousSubStepDeltaTime = 0.0f;</div>
-<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160; </div>
-<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;    PhysicsSettings             mPhysicsSettings;</div>
-<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;};</div>
-<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160; </div>
-<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;} <span class="comment">// JPH</span></div>
+<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;    <span class="keyword">using</span> ContactAllocator = ContactConstraintManager::ContactAllocator;</div>
+<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160; </div>
+<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;    <span class="keywordtype">void</span>                        ProcessBodyPair(ContactAllocator &amp;ioContactAllocator, <span class="keyword">const</span> BodyPair &amp;inBodyPair);</div>
+<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160; </div>
+<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;    <span class="keyword">static</span> constexpr <span class="keywordtype">int</span>        cDetermineActiveConstraintsBatchSize = 64;</div>
+<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160; </div>
+<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;    <span class="keyword">static</span> constexpr <span class="keywordtype">int</span>        cApplyGravityBatchSize = 64;</div>
+<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160; </div>
+<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;    <span class="keyword">static</span> constexpr <span class="keywordtype">int</span>        cActiveBodiesBatchSize = 16;</div>
+<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160; </div>
+<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;    <span class="keyword">static</span> constexpr <span class="keywordtype">int</span>        cIntegrateVelocityBatchSize = 64;</div>
+<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160; </div>
+<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;    <span class="keyword">static</span> constexpr <span class="keywordtype">int</span>        cNarrowPhaseBatchSize = 16;</div>
+<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160; </div>
+<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;    <span class="keyword">static</span> constexpr <span class="keywordtype">int</span>        cNumCCDBodiesPerJob = 4;</div>
+<div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160; </div>
+<div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;    <a class="code" href="namespace_j_p_h.html#a0caf4f4b52f660cc2ca5a27949334c11">ObjectVsBroadPhaseLayerFilter</a> mObjectVsBroadPhaseLayerFilter = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160; </div>
+<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;    <a class="code" href="namespace_j_p_h.html#a7029cd45bb369c6cc6b978e11facdaec">ObjectLayerPairFilter</a>       mObjectLayerPairFilter = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160; </div>
+<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;    BodyManager                 mBodyManager;</div>
+<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160; </div>
+<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;    BodyLockInterfaceNoLock     mBodyLockInterfaceNoLock { mBodyManager };</div>
+<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;    BodyLockInterfaceLocking    mBodyLockInterfaceLocking { mBodyManager };</div>
+<div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160; </div>
+<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;    BodyInterface               mBodyInterfaceNoLock;</div>
+<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;    BodyInterface               mBodyInterfaceLocking;</div>
+<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160; </div>
+<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;    NarrowPhaseQuery            mNarrowPhaseQueryNoLock;</div>
+<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;    NarrowPhaseQuery            mNarrowPhaseQueryLocking;</div>
+<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160; </div>
+<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;    BroadPhase *                mBroadPhase = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160; </div>
+<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;    ContactConstraintManager    mContactManager;</div>
+<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160; </div>
+<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;    ConstraintManager           mConstraintManager;</div>
+<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160; </div>
+<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;    IslandBuilder               mIslandBuilder;</div>
+<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160; </div>
+<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;    Mutex                       mStepListenersMutex;</div>
+<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160; </div>
+<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;    <span class="keyword">using</span> StepListeners = vector&lt;PhysicsStepListener *&gt;;</div>
+<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;    StepListeners               mStepListeners;</div>
+<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160; </div>
+<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;    Vec3                        mGravity = Vec3(0, -9.81f, 0);</div>
+<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160; </div>
+<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;    <span class="keywordtype">float</span>                       mPreviousSubStepDeltaTime = 0.0f;</div>
+<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160; </div>
+<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;    PhysicsSettings             mPhysicsSettings;</div>
+<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;};</div>
+<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160; </div>
+<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;} <span class="comment">// JPH</span></div>
 <div class="ttc" id="a_body_interface_8h_html"><div class="ttname"><a href="_body_interface_8h.html">BodyInterface.h</a></div></div>
 <div class="ttc" id="a_constraint_manager_8h_html"><div class="ttname"><a href="_constraint_manager_8h.html">ConstraintManager.h</a></div></div>
 <div class="ttc" id="a_contact_constraint_manager_8h_html"><div class="ttname"><a href="_contact_constraint_manager_8h.html">ContactConstraintManager.h</a></div></div>
@@ -304,10 +306,10 @@ $(function() {
 <div class="ttc" id="aclass_j_p_h_1_1_physics_system_html_a836d1f35a47ac179dfcc8ec62eaafbcb"><div class="ttname"><a href="class_j_p_h_1_1_physics_system.html#a836d1f35a47ac179dfcc8ec62eaafbcb">JPH::PhysicsSystem::GetGravity</a></div><div class="ttdeci">Vec3 GetGravity() const</div><div class="ttdef"><b>Definition:</b> PhysicsSystem.h:127</div></div>
 <div class="ttc" id="aclass_j_p_h_1_1_physics_system_html_a87c91f2c844bf83992143d70d5b77696"><div class="ttname"><a href="class_j_p_h_1_1_physics_system.html#a87c91f2c844bf83992143d70d5b77696">JPH::PhysicsSystem::SetBroadPhaseLayerToString</a></div><div class="ttdeci">void SetBroadPhaseLayerToString(BroadPhaseLayerToString inBroadPhaseLayerToString)</div><div class="ttdoc">Set function that converts a broadphase layer to a human readable string for debugging purposes.</div><div class="ttdef"><b>Definition:</b> PhysicsSystem.h:62</div></div>
 <div class="ttc" id="aclass_j_p_h_1_1_physics_system_html_a8b5fb7fbf8de7463767aa9d7d7895827"><div class="ttname"><a href="class_j_p_h_1_1_physics_system.html#a8b5fb7fbf8de7463767aa9d7d7895827">JPH::PhysicsSystem::SetBodyActivationListener</a></div><div class="ttdeci">void SetBodyActivationListener(BodyActivationListener *inListener)</div><div class="ttdoc">Listener that is notified whenever a body is activated/deactivated.</div><div class="ttdef"><b>Definition:</b> PhysicsSystem.h:41</div></div>
-<div class="ttc" id="aclass_j_p_h_1_1_physics_system_html_a9c40ed06a74ce9bf802fa836ea55ced7"><div class="ttname"><a href="class_j_p_h_1_1_physics_system.html#a9c40ed06a74ce9bf802fa836ea55ced7">JPH::PhysicsSystem::RestoreState</a></div><div class="ttdeci">bool RestoreState(StateRecorder &amp;inStream)</div><div class="ttdoc">Restoring state for replay. Returns false if failed.</div><div class="ttdef"><b>Definition:</b> PhysicsSystem.cpp:2136</div></div>
+<div class="ttc" id="aclass_j_p_h_1_1_physics_system_html_a9c40ed06a74ce9bf802fa836ea55ced7"><div class="ttname"><a href="class_j_p_h_1_1_physics_system.html#a9c40ed06a74ce9bf802fa836ea55ced7">JPH::PhysicsSystem::RestoreState</a></div><div class="ttdeci">bool RestoreState(StateRecorder &amp;inStream)</div><div class="ttdoc">Restoring state for replay. Returns false if failed.</div><div class="ttdef"><b>Definition:</b> PhysicsSystem.cpp:2154</div></div>
 <div class="ttc" id="aclass_j_p_h_1_1_physics_system_html_aa13c5e5a6871967b05445cef575399a5"><div class="ttname"><a href="class_j_p_h_1_1_physics_system.html#aa13c5e5a6871967b05445cef575399a5">JPH::PhysicsSystem::PhysicsSystem</a></div><div class="ttdeci">PhysicsSystem()</div><div class="ttdoc">Constructor / Destructor.</div><div class="ttdef"><b>Definition:</b> PhysicsSystem.h:28</div></div>
 <div class="ttc" id="aclass_j_p_h_1_1_physics_system_html_aaef43c4a1f35f97006aeb6a3ba0489a1"><div class="ttname"><a href="class_j_p_h_1_1_physics_system.html#aaef43c4a1f35f97006aeb6a3ba0489a1">JPH::PhysicsSystem::AddConstraint</a></div><div class="ttdeci">void AddConstraint(Constraint *inConstraint)</div><div class="ttdoc">Add constraint to the world.</div><div class="ttdef"><b>Definition:</b> PhysicsSystem.h:77</div></div>
-<div class="ttc" id="aclass_j_p_h_1_1_physics_system_html_ab90bb7d4eff325e459eff3bfbbc187cf"><div class="ttname"><a href="class_j_p_h_1_1_physics_system.html#ab90bb7d4eff325e459eff3bfbbc187cf">JPH::PhysicsSystem::SaveState</a></div><div class="ttdeci">void SaveState(StateRecorder &amp;inStream) const</div><div class="ttdoc">Saving state for replay.</div><div class="ttdef"><b>Definition:</b> PhysicsSystem.cpp:2122</div></div>
+<div class="ttc" id="aclass_j_p_h_1_1_physics_system_html_ab90bb7d4eff325e459eff3bfbbc187cf"><div class="ttname"><a href="class_j_p_h_1_1_physics_system.html#ab90bb7d4eff325e459eff3bfbbc187cf">JPH::PhysicsSystem::SaveState</a></div><div class="ttdeci">void SaveState(StateRecorder &amp;inStream) const</div><div class="ttdoc">Saving state for replay.</div><div class="ttdef"><b>Definition:</b> PhysicsSystem.cpp:2140</div></div>
 <div class="ttc" id="aclass_j_p_h_1_1_physics_system_html_ab9582dbc114886b835f4bd8d73c6895f"><div class="ttname"><a href="class_j_p_h_1_1_physics_system.html#ab9582dbc114886b835f4bd8d73c6895f">JPH::PhysicsSystem::GetBroadPhaseQuery</a></div><div class="ttdeci">const BroadPhaseQuery &amp; GetBroadPhaseQuery() const</div><div class="ttdoc">Access to the broadphase interface that allows coarse collision queries.</div><div class="ttdef"><b>Definition:</b> PhysicsSystem.h:70</div></div>
 <div class="ttc" id="aclass_j_p_h_1_1_physics_system_html_ac6b4fda72caf455e30c8441174f8c908"><div class="ttname"><a href="class_j_p_h_1_1_physics_system.html#ac6b4fda72caf455e30c8441174f8c908">JPH::PhysicsSystem::SetContactListener</a></div><div class="ttdeci">void SetContactListener(ContactListener *inListener)</div><div class="ttdoc">Listener that is notified whenever a contact point between two bodies is added/updated/removed.</div><div class="ttdef"><b>Definition:</b> PhysicsSystem.h:45</div></div>
 <div class="ttc" id="aclass_j_p_h_1_1_physics_system_html_ace7c965f1b008f00bebfc733b60908c9"><div class="ttname"><a href="class_j_p_h_1_1_physics_system.html#ace7c965f1b008f00bebfc733b60908c9">JPH::PhysicsSystem::~PhysicsSystem</a></div><div class="ttdeci">~PhysicsSystem()</div><div class="ttdef"><b>Definition:</b> PhysicsSystem.cpp:56</div></div>

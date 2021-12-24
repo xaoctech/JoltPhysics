@@ -99,6 +99,12 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:acfe559807679e6aab059cb3650f77816"><td class="memItemLeft" align="right" valign="top">atomic&lt; <a class="el" href="class_j_p_h_1_1_physics_update_context.html#a212ca6b43b54292cab3903573eeb2197">JobMask</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_j_p_h_1_1_physics_update_context_1_1_step.html#acfe559807679e6aab059cb3650f77816">mActiveFindCollisionJobs</a></td></tr>
 <tr class="memdesc:acfe559807679e6aab059cb3650f77816"><td class="mdescLeft">&#160;</td><td class="mdescRight">A bitmask that indicates which jobs are still active.  <a href="struct_j_p_h_1_1_physics_update_context_1_1_step.html#acfe559807679e6aab059cb3650f77816">More...</a><br /></td></tr>
 <tr class="separator:acfe559807679e6aab059cb3650f77816"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0fda66c24aa0f43107f0a6d8cc4538ac"><td class="memItemLeft" align="right" valign="top">atomic&lt; <a class="el" href="namespace_j_p_h.html#a96db2939bdaf608fc550d84157d618e0">uint</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_j_p_h_1_1_physics_update_context_1_1_step.html#a0fda66c24aa0f43107f0a6d8cc4538ac">mNumBodyPairs</a> { 0 }</td></tr>
+<tr class="memdesc:a0fda66c24aa0f43107f0a6d8cc4538ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">The number of body pairs found in this step (used to size the contact cache in the next step)  <a href="struct_j_p_h_1_1_physics_update_context_1_1_step.html#a0fda66c24aa0f43107f0a6d8cc4538ac">More...</a><br /></td></tr>
+<tr class="separator:a0fda66c24aa0f43107f0a6d8cc4538ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a04744fc1e3b32aeade4525710b55f397"><td class="memItemLeft" align="right" valign="top">atomic&lt; <a class="el" href="namespace_j_p_h.html#a96db2939bdaf608fc550d84157d618e0">uint</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_j_p_h_1_1_physics_update_context_1_1_step.html#a04744fc1e3b32aeade4525710b55f397">mNumManifolds</a> { 0 }</td></tr>
+<tr class="memdesc:a04744fc1e3b32aeade4525710b55f397"><td class="mdescLeft">&#160;</td><td class="mdescRight">The number of manifolds found in this step (used to size the contact cache in the next step)  <a href="struct_j_p_h_1_1_physics_update_context_1_1_step.html#a04744fc1e3b32aeade4525710b55f397">More...</a><br /></td></tr>
+<tr class="separator:a04744fc1e3b32aeade4525710b55f397"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a05d5a36fec9b8e9044c5b2c39eeb324e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_j_p_h.html#a6d46fe8db3e6fe402061d0f6379a4974">JobHandle</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_j_p_h_1_1_physics_update_context_1_1_step.html#a05d5a36fec9b8e9044c5b2c39eeb324e">mBroadPhasePrepare</a></td></tr>
 <tr class="memdesc:a05d5a36fec9b8e9044c5b2c39eeb324e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prepares the new tree in the background.  <a href="struct_j_p_h_1_1_physics_update_context_1_1_step.html#a05d5a36fec9b8e9044c5b2c39eeb324e">More...</a><br /></td></tr>
 <tr class="separator:a05d5a36fec9b8e9044c5b2c39eeb324e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -427,6 +433,38 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Number of constraints in the mActiveConstraints array. </p>
+
+</div>
+</div>
+<a id="a0fda66c24aa0f43107f0a6d8cc4538ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0fda66c24aa0f43107f0a6d8cc4538ac">&#9670;&nbsp;</a></span>mNumBodyPairs</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">atomic&lt;<a class="el" href="namespace_j_p_h.html#a96db2939bdaf608fc550d84157d618e0">uint</a>&gt; JPH::PhysicsUpdateContext::Step::mNumBodyPairs { 0 }</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The number of body pairs found in this step (used to size the contact cache in the next step) </p>
+
+</div>
+</div>
+<a id="a04744fc1e3b32aeade4525710b55f397"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a04744fc1e3b32aeade4525710b55f397">&#9670;&nbsp;</a></span>mNumManifolds</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">atomic&lt;<a class="el" href="namespace_j_p_h.html#a96db2939bdaf608fc550d84157d618e0">uint</a>&gt; JPH::PhysicsUpdateContext::Step::mNumManifolds { 0 }</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The number of manifolds found in this step (used to size the contact cache in the next step) </p>
 
 </div>
 </div>
