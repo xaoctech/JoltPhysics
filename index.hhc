@@ -444,7 +444,7 @@
       <LI><OBJECT type="text/sitemap"><param name="Name" value="Profiler"><param name="Local" value="class_j_p_h_1_1_profiler.html"><param name="ImageNumber" value="1"></OBJECT>
         <UL>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="AddThread"><param name="Local" value="class_j_p_h_1_1_profiler.html#a3e1fdb09eee346c5ac4339396e087ca2"><param name="ImageNumber" value="11"></OBJECT>
-        <LI><OBJECT type="text/sitemap"><param name="Name" value="Dump"><param name="Local" value="class_j_p_h_1_1_profiler.html#aa930d7b5c4e03b7d0cda20e0c93ebb3f"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="Dump"><param name="Local" value="class_j_p_h_1_1_profiler.html#a492cfdc37c6c40cc9a2554e245168f9c"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="NextFrame"><param name="Local" value="class_j_p_h_1_1_profiler.html#ad0172f3080e9067669ded41f99ded912"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="RemoveThread"><param name="Local" value="class_j_p_h_1_1_profiler.html#a70cd043b04c8aa8732ad550a6bd6734b"><param name="ImageNumber" value="11"></OBJECT>
         </UL>
@@ -5829,7 +5829,7 @@
       <LI><OBJECT type="text/sitemap"><param name="Name" value="Profiler"><param name="Local" value="class_j_p_h_1_1_profiler.html"><param name="ImageNumber" value="1"></OBJECT>
         <UL>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="AddThread"><param name="Local" value="class_j_p_h_1_1_profiler.html#a3e1fdb09eee346c5ac4339396e087ca2"><param name="ImageNumber" value="11"></OBJECT>
-        <LI><OBJECT type="text/sitemap"><param name="Name" value="Dump"><param name="Local" value="class_j_p_h_1_1_profiler.html#aa930d7b5c4e03b7d0cda20e0c93ebb3f"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="Dump"><param name="Local" value="class_j_p_h_1_1_profiler.html#a492cfdc37c6c40cc9a2554e245168f9c"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="NextFrame"><param name="Local" value="class_j_p_h_1_1_profiler.html#ad0172f3080e9067669ded41f99ded912"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="RemoveThread"><param name="Local" value="class_j_p_h_1_1_profiler.html#a70cd043b04c8aa8732ad550a6bd6734b"><param name="ImageNumber" value="11"></OBJECT>
         </UL>
@@ -11745,7 +11745,7 @@
           <LI><OBJECT type="text/sitemap"><param name="Name" value="Profiler"><param name="Local" value="class_j_p_h_1_1_profiler.html"><param name="ImageNumber" value="1"></OBJECT>
             <UL>
             <LI><OBJECT type="text/sitemap"><param name="Name" value="AddThread"><param name="Local" value="class_j_p_h_1_1_profiler.html#a3e1fdb09eee346c5ac4339396e087ca2"><param name="ImageNumber" value="11"></OBJECT>
-            <LI><OBJECT type="text/sitemap"><param name="Name" value="Dump"><param name="Local" value="class_j_p_h_1_1_profiler.html#aa930d7b5c4e03b7d0cda20e0c93ebb3f"><param name="ImageNumber" value="11"></OBJECT>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="Dump"><param name="Local" value="class_j_p_h_1_1_profiler.html#a492cfdc37c6c40cc9a2554e245168f9c"><param name="ImageNumber" value="11"></OBJECT>
             <LI><OBJECT type="text/sitemap"><param name="Name" value="NextFrame"><param name="Local" value="class_j_p_h_1_1_profiler.html#ad0172f3080e9067669ded41f99ded912"><param name="ImageNumber" value="11"></OBJECT>
             <LI><OBJECT type="text/sitemap"><param name="Name" value="RemoveThread"><param name="Local" value="class_j_p_h_1_1_profiler.html#a70cd043b04c8aa8732ad550a6bd6734b"><param name="ImageNumber" value="11"></OBJECT>
             </UL>
@@ -11772,7 +11772,7 @@
             <LI><OBJECT type="text/sitemap"><param name="Name" value="~ProfileMeasurement"><param name="Local" value="class_j_p_h_1_1_profile_measurement.html#adde0e59e4d75b4803829a85c3f03b1f7"><param name="ImageNumber" value="11"></OBJECT>
             </UL>
           <LI><OBJECT type="text/sitemap"><param name="Name" value="JPH_PROFILE"><param name="Local" value="_profiler_8h.html#aeea975f69380f934d24a9169e43bac9b"><param name="ImageNumber" value="11"></OBJECT>
-          <LI><OBJECT type="text/sitemap"><param name="Name" value="JPH_PROFILE_DUMP"><param name="Local" value="_profiler_8h.html#a6c7882838c055cd4140fc8f7fa92daf8"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="JPH_PROFILE_DUMP"><param name="Local" value="_profiler_8h.html#a7fd763325a27ec4b58e54119dbf08acb"><param name="ImageNumber" value="11"></OBJECT>
           <LI><OBJECT type="text/sitemap"><param name="Name" value="JPH_PROFILE_FUNCTION"><param name="Local" value="_profiler_8h.html#a9d22d20c7f03e2ec7bf058811b12cb4e"><param name="ImageNumber" value="11"></OBJECT>
           <LI><OBJECT type="text/sitemap"><param name="Name" value="JPH_PROFILE_NEXTFRAME"><param name="Local" value="_profiler_8h.html#ac158343dbc5927ea288d3ef011feb288"><param name="ImageNumber" value="11"></OBJECT>
           <LI><OBJECT type="text/sitemap"><param name="Name" value="JPH_PROFILE_TAG"><param name="Local" value="_profiler_8h.html#ad70c118d5a68a0e7996f9e9e4bb04af8"><param name="ImageNumber" value="11"></OBJECT>

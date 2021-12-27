@@ -108,9 +108,9 @@ Macros</h2></td></tr>
 <tr class="memdesc:ac158343dbc5927ea288d3ef011feb288"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update frame counter <br  />
   <a href="_profiler_8h.html#ac158343dbc5927ea288d3ef011feb288">More...</a><br /></td></tr>
 <tr class="separator:ac158343dbc5927ea288d3ef011feb288"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6c7882838c055cd4140fc8f7fa92daf8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_profiler_8h.html#a6c7882838c055cd4140fc8f7fa92daf8">JPH_PROFILE_DUMP</a>()&#160;&#160;&#160;Profiler::sInstance.Dump()</td></tr>
-<tr class="memdesc:a6c7882838c055cd4140fc8f7fa92daf8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dump profiling info.  <a href="_profiler_8h.html#a6c7882838c055cd4140fc8f7fa92daf8">More...</a><br /></td></tr>
-<tr class="separator:a6c7882838c055cd4140fc8f7fa92daf8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7fd763325a27ec4b58e54119dbf08acb"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_profiler_8h.html#a7fd763325a27ec4b58e54119dbf08acb">JPH_PROFILE_DUMP</a>(...)&#160;&#160;&#160;Profiler::sInstance.Dump(__VA_ARGS__)</td></tr>
+<tr class="memdesc:a7fd763325a27ec4b58e54119dbf08acb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dump profiling info.  <a href="_profiler_8h.html#a7fd763325a27ec4b58e54119dbf08acb">More...</a><br /></td></tr>
+<tr class="separator:a7fd763325a27ec4b58e54119dbf08acb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="aeea975f69380f934d24a9169e43bac9b"></a>
@@ -131,8 +131,8 @@ Macros</h2></td></tr>
 
 </div>
 </div>
-<a id="a6c7882838c055cd4140fc8f7fa92daf8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6c7882838c055cd4140fc8f7fa92daf8">&#9670;&nbsp;</a></span>JPH_PROFILE_DUMP</h2>
+<a id="a7fd763325a27ec4b58e54119dbf08acb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7fd763325a27ec4b58e54119dbf08acb">&#9670;&nbsp;</a></span>JPH_PROFILE_DUMP</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -140,8 +140,9 @@ Macros</h2></td></tr>
         <tr>
           <td class="memname">#define JPH_PROFILE_DUMP</td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td>&#160;&#160;&#160;Profiler::sInstance.Dump()</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>...</em></td><td>)</td>
+          <td>&#160;&#160;&#160;Profiler::sInstance.Dump(__VA_ARGS__)</td>
         </tr>
       </table>
 </div><div class="memdoc">
