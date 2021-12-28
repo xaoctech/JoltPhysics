@@ -4822,6 +4822,67 @@
         <LI><OBJECT type="text/sitemap"><param name="Name" value="DrawWireUnitSphere"><param name="Local" value="class_j_p_h_1_1_debug_renderer.html#a2b25725a8a6b2f612dddef82bcb7d42a"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="Initialize"><param name="Local" value="class_j_p_h_1_1_debug_renderer.html#a7171df175cbdbcf55023511ced94977e"><param name="ImageNumber" value="11"></OBJECT>
         </UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="DebugRendererPlayback"><param name="Local" value="class_j_p_h_1_1_debug_renderer_playback.html"><param name="ImageNumber" value="1"></OBJECT>
+        <UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="DebugRendererPlayback"><param name="Local" value="class_j_p_h_1_1_debug_renderer_playback.html#a981149578df5f1c21ab7dad062ab1cf4"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="DrawFrame"><param name="Local" value="class_j_p_h_1_1_debug_renderer_playback.html#a109dab700ce552ec1e165102611e7b9e"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="GetNumFrames"><param name="Local" value="class_j_p_h_1_1_debug_renderer_playback.html#a2bcbf68ad4192a9c2313dcd79d98d21d"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="Parse"><param name="Local" value="class_j_p_h_1_1_debug_renderer_playback.html#a44faaaad4dc7bb9ea9b64fdd0ee9d9e4"><param name="ImageNumber" value="11"></OBJECT>
+        </UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="DebugRendererRecorder"><param name="Local" value="class_j_p_h_1_1_debug_renderer_recorder.html"><param name="ImageNumber" value="1"></OBJECT>
+        <UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="Frame"><param name="Local" value="struct_j_p_h_1_1_debug_renderer_recorder_1_1_frame.html"><param name="ImageNumber" value="1"></OBJECT>
+          <UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="mGeometries"><param name="Local" value="struct_j_p_h_1_1_debug_renderer_recorder_1_1_frame.html#a350d7878f22acd7a783cac68b42ac695"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="mLines"><param name="Local" value="struct_j_p_h_1_1_debug_renderer_recorder_1_1_frame.html#a04d21e8b1299b3ade906ccef09f964b7"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="mTexts"><param name="Local" value="struct_j_p_h_1_1_debug_renderer_recorder_1_1_frame.html#a9f6d5b155cdab7ec07435170db9e9772"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="mTriangles"><param name="Local" value="struct_j_p_h_1_1_debug_renderer_recorder_1_1_frame.html#adc54bf2bbbe7289cd46904bfc10a4c84"><param name="ImageNumber" value="11"></OBJECT>
+          </UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="GeometryBlob"><param name="Local" value="struct_j_p_h_1_1_debug_renderer_recorder_1_1_geometry_blob.html"><param name="ImageNumber" value="1"></OBJECT>
+          <UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="mCastShadow"><param name="Local" value="struct_j_p_h_1_1_debug_renderer_recorder_1_1_geometry_blob.html#a28b92f5a72d441f082b1e211272bec93"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="mCullMode"><param name="Local" value="struct_j_p_h_1_1_debug_renderer_recorder_1_1_geometry_blob.html#ae26239f5b61ab17f9ac570165a23a0eb"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="mDrawMode"><param name="Local" value="struct_j_p_h_1_1_debug_renderer_recorder_1_1_geometry_blob.html#a83cc834a3c3aac662ad384360481446e"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="mGeometryID"><param name="Local" value="struct_j_p_h_1_1_debug_renderer_recorder_1_1_geometry_blob.html#a0dd2319e971542ee93b78c4b70c791e7"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="mModelColor"><param name="Local" value="struct_j_p_h_1_1_debug_renderer_recorder_1_1_geometry_blob.html#a57a04323a4af928eba5663ef2ac89164"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="mModelMatrix"><param name="Local" value="struct_j_p_h_1_1_debug_renderer_recorder_1_1_geometry_blob.html#a063b6f8d3c3f3eb1d4ae0e44e8447dba"><param name="ImageNumber" value="11"></OBJECT>
+          </UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="LineBlob"><param name="Local" value="struct_j_p_h_1_1_debug_renderer_recorder_1_1_line_blob.html"><param name="ImageNumber" value="1"></OBJECT>
+          <UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="mColor"><param name="Local" value="struct_j_p_h_1_1_debug_renderer_recorder_1_1_line_blob.html#aa7bd170afe54d1e41b93805b02413d55"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="mFrom"><param name="Local" value="struct_j_p_h_1_1_debug_renderer_recorder_1_1_line_blob.html#a931dad67d4d8fbd29694f0a2e591ea9c"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="mTo"><param name="Local" value="struct_j_p_h_1_1_debug_renderer_recorder_1_1_line_blob.html#a959988ea45844567185a459e1d638823"><param name="ImageNumber" value="11"></OBJECT>
+          </UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="TextBlob"><param name="Local" value="struct_j_p_h_1_1_debug_renderer_recorder_1_1_text_blob.html"><param name="ImageNumber" value="1"></OBJECT>
+          <UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="mColor"><param name="Local" value="struct_j_p_h_1_1_debug_renderer_recorder_1_1_text_blob.html#af63bcac04b30d6d72e7cc0c23fb18f52"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="mHeight"><param name="Local" value="struct_j_p_h_1_1_debug_renderer_recorder_1_1_text_blob.html#a852096b3fc6f94e624dbda18bfb58154"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="mPosition"><param name="Local" value="struct_j_p_h_1_1_debug_renderer_recorder_1_1_text_blob.html#ade9169c8df07d2eadacbf1d990c7c313"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="mString"><param name="Local" value="struct_j_p_h_1_1_debug_renderer_recorder_1_1_text_blob.html#a6a94bfe97ce5bbfdf026b52cb8429964"><param name="ImageNumber" value="11"></OBJECT>
+          </UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="TriangleBlob"><param name="Local" value="struct_j_p_h_1_1_debug_renderer_recorder_1_1_triangle_blob.html"><param name="ImageNumber" value="1"></OBJECT>
+          <UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="mColor"><param name="Local" value="struct_j_p_h_1_1_debug_renderer_recorder_1_1_triangle_blob.html#a687bd978cc89cd01b45400c154569bc9"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="mV1"><param name="Local" value="struct_j_p_h_1_1_debug_renderer_recorder_1_1_triangle_blob.html#ad7fbd8faf7a29c108df456c45652a88b"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="mV2"><param name="Local" value="struct_j_p_h_1_1_debug_renderer_recorder_1_1_triangle_blob.html#a59558efb599b7285ff3a33e1fbb05df5"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="mV3"><param name="Local" value="struct_j_p_h_1_1_debug_renderer_recorder_1_1_triangle_blob.html#a0b529dd97066f13a633a814cc6d07ac9"><param name="ImageNumber" value="11"></OBJECT>
+          </UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="ECommand"><param name="Local" value="class_j_p_h_1_1_debug_renderer_recorder.html#a8184fb115c4bf9ae11dd66e974608e8c"><param name="ImageNumber" value="1"></OBJECT>
+          <UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="CreateBatch"><param name="Local" value="class_j_p_h_1_1_debug_renderer_recorder.html#a8184fb115c4bf9ae11dd66e974608e8cab6c90a015802ce8024f5e6ce5b5f87d1"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="CreateBatchIndexed"><param name="Local" value="class_j_p_h_1_1_debug_renderer_recorder.html#a8184fb115c4bf9ae11dd66e974608e8ca6e08a23df5a6495af4cfb4d55f9d83c4"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="CreateGeometry"><param name="Local" value="class_j_p_h_1_1_debug_renderer_recorder.html#a8184fb115c4bf9ae11dd66e974608e8ca5df7e8a3875ba02c58449385c4caa956"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="EndFrame"><param name="Local" value="class_j_p_h_1_1_debug_renderer_recorder.html#a8184fb115c4bf9ae11dd66e974608e8ca6c1645a468ccfce0975fc95587b97adf"><param name="ImageNumber" value="11"></OBJECT>
+          </UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="DebugRendererRecorder"><param name="Local" value="class_j_p_h_1_1_debug_renderer_recorder.html#a4744558bc3d60b933d57751d7aff5937"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="CreateTriangleBatch"><param name="Local" value="class_j_p_h_1_1_debug_renderer_recorder.html#ab1c065edd41135d69258f539eecfd4e5"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="CreateTriangleBatch"><param name="Local" value="class_j_p_h_1_1_debug_renderer_recorder.html#aa9a432c67364345abfb9cb24c4f88f83"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="DrawGeometry"><param name="Local" value="class_j_p_h_1_1_debug_renderer_recorder.html#a167cdfebba421df9cd923ee4c0d364f6"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="DrawLine"><param name="Local" value="class_j_p_h_1_1_debug_renderer_recorder.html#a68236602655c549f663c145fe0a674f7"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="DrawText3D"><param name="Local" value="class_j_p_h_1_1_debug_renderer_recorder.html#a7bfb910ff350c233e32b33466c49c056"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="DrawTriangle"><param name="Local" value="class_j_p_h_1_1_debug_renderer_recorder.html#a1ed24bc112154e047a58d4821368db57"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="EndFrame"><param name="Local" value="class_j_p_h_1_1_debug_renderer_recorder.html#a2fad504cbc86c82807117bb62e2da4c1"><param name="ImageNumber" value="11"></OBJECT>
+        </UL>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="SkeletalAnimation"><param name="Local" value="class_j_p_h_1_1_skeletal_animation.html"><param name="ImageNumber" value="1"></OBJECT>
         <UL>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="AnimatedJoint"><param name="Local" value="class_j_p_h_1_1_skeletal_animation_1_1_animated_joint.html"><param name="ImageNumber" value="1"></OBJECT>
@@ -10207,6 +10268,67 @@
         <LI><OBJECT type="text/sitemap"><param name="Name" value="DrawWireUnitSphere"><param name="Local" value="class_j_p_h_1_1_debug_renderer.html#a2b25725a8a6b2f612dddef82bcb7d42a"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="Initialize"><param name="Local" value="class_j_p_h_1_1_debug_renderer.html#a7171df175cbdbcf55023511ced94977e"><param name="ImageNumber" value="11"></OBJECT>
         </UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="DebugRendererPlayback"><param name="Local" value="class_j_p_h_1_1_debug_renderer_playback.html"><param name="ImageNumber" value="1"></OBJECT>
+        <UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="DebugRendererPlayback"><param name="Local" value="class_j_p_h_1_1_debug_renderer_playback.html#a981149578df5f1c21ab7dad062ab1cf4"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="DrawFrame"><param name="Local" value="class_j_p_h_1_1_debug_renderer_playback.html#a109dab700ce552ec1e165102611e7b9e"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="GetNumFrames"><param name="Local" value="class_j_p_h_1_1_debug_renderer_playback.html#a2bcbf68ad4192a9c2313dcd79d98d21d"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="Parse"><param name="Local" value="class_j_p_h_1_1_debug_renderer_playback.html#a44faaaad4dc7bb9ea9b64fdd0ee9d9e4"><param name="ImageNumber" value="11"></OBJECT>
+        </UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="DebugRendererRecorder"><param name="Local" value="class_j_p_h_1_1_debug_renderer_recorder.html"><param name="ImageNumber" value="1"></OBJECT>
+        <UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="Frame"><param name="Local" value="struct_j_p_h_1_1_debug_renderer_recorder_1_1_frame.html"><param name="ImageNumber" value="1"></OBJECT>
+          <UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="mGeometries"><param name="Local" value="struct_j_p_h_1_1_debug_renderer_recorder_1_1_frame.html#a350d7878f22acd7a783cac68b42ac695"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="mLines"><param name="Local" value="struct_j_p_h_1_1_debug_renderer_recorder_1_1_frame.html#a04d21e8b1299b3ade906ccef09f964b7"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="mTexts"><param name="Local" value="struct_j_p_h_1_1_debug_renderer_recorder_1_1_frame.html#a9f6d5b155cdab7ec07435170db9e9772"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="mTriangles"><param name="Local" value="struct_j_p_h_1_1_debug_renderer_recorder_1_1_frame.html#adc54bf2bbbe7289cd46904bfc10a4c84"><param name="ImageNumber" value="11"></OBJECT>
+          </UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="GeometryBlob"><param name="Local" value="struct_j_p_h_1_1_debug_renderer_recorder_1_1_geometry_blob.html"><param name="ImageNumber" value="1"></OBJECT>
+          <UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="mCastShadow"><param name="Local" value="struct_j_p_h_1_1_debug_renderer_recorder_1_1_geometry_blob.html#a28b92f5a72d441f082b1e211272bec93"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="mCullMode"><param name="Local" value="struct_j_p_h_1_1_debug_renderer_recorder_1_1_geometry_blob.html#ae26239f5b61ab17f9ac570165a23a0eb"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="mDrawMode"><param name="Local" value="struct_j_p_h_1_1_debug_renderer_recorder_1_1_geometry_blob.html#a83cc834a3c3aac662ad384360481446e"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="mGeometryID"><param name="Local" value="struct_j_p_h_1_1_debug_renderer_recorder_1_1_geometry_blob.html#a0dd2319e971542ee93b78c4b70c791e7"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="mModelColor"><param name="Local" value="struct_j_p_h_1_1_debug_renderer_recorder_1_1_geometry_blob.html#a57a04323a4af928eba5663ef2ac89164"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="mModelMatrix"><param name="Local" value="struct_j_p_h_1_1_debug_renderer_recorder_1_1_geometry_blob.html#a063b6f8d3c3f3eb1d4ae0e44e8447dba"><param name="ImageNumber" value="11"></OBJECT>
+          </UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="LineBlob"><param name="Local" value="struct_j_p_h_1_1_debug_renderer_recorder_1_1_line_blob.html"><param name="ImageNumber" value="1"></OBJECT>
+          <UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="mColor"><param name="Local" value="struct_j_p_h_1_1_debug_renderer_recorder_1_1_line_blob.html#aa7bd170afe54d1e41b93805b02413d55"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="mFrom"><param name="Local" value="struct_j_p_h_1_1_debug_renderer_recorder_1_1_line_blob.html#a931dad67d4d8fbd29694f0a2e591ea9c"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="mTo"><param name="Local" value="struct_j_p_h_1_1_debug_renderer_recorder_1_1_line_blob.html#a959988ea45844567185a459e1d638823"><param name="ImageNumber" value="11"></OBJECT>
+          </UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="TextBlob"><param name="Local" value="struct_j_p_h_1_1_debug_renderer_recorder_1_1_text_blob.html"><param name="ImageNumber" value="1"></OBJECT>
+          <UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="mColor"><param name="Local" value="struct_j_p_h_1_1_debug_renderer_recorder_1_1_text_blob.html#af63bcac04b30d6d72e7cc0c23fb18f52"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="mHeight"><param name="Local" value="struct_j_p_h_1_1_debug_renderer_recorder_1_1_text_blob.html#a852096b3fc6f94e624dbda18bfb58154"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="mPosition"><param name="Local" value="struct_j_p_h_1_1_debug_renderer_recorder_1_1_text_blob.html#ade9169c8df07d2eadacbf1d990c7c313"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="mString"><param name="Local" value="struct_j_p_h_1_1_debug_renderer_recorder_1_1_text_blob.html#a6a94bfe97ce5bbfdf026b52cb8429964"><param name="ImageNumber" value="11"></OBJECT>
+          </UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="TriangleBlob"><param name="Local" value="struct_j_p_h_1_1_debug_renderer_recorder_1_1_triangle_blob.html"><param name="ImageNumber" value="1"></OBJECT>
+          <UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="mColor"><param name="Local" value="struct_j_p_h_1_1_debug_renderer_recorder_1_1_triangle_blob.html#a687bd978cc89cd01b45400c154569bc9"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="mV1"><param name="Local" value="struct_j_p_h_1_1_debug_renderer_recorder_1_1_triangle_blob.html#ad7fbd8faf7a29c108df456c45652a88b"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="mV2"><param name="Local" value="struct_j_p_h_1_1_debug_renderer_recorder_1_1_triangle_blob.html#a59558efb599b7285ff3a33e1fbb05df5"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="mV3"><param name="Local" value="struct_j_p_h_1_1_debug_renderer_recorder_1_1_triangle_blob.html#a0b529dd97066f13a633a814cc6d07ac9"><param name="ImageNumber" value="11"></OBJECT>
+          </UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="ECommand"><param name="Local" value="class_j_p_h_1_1_debug_renderer_recorder.html#a8184fb115c4bf9ae11dd66e974608e8c"><param name="ImageNumber" value="1"></OBJECT>
+          <UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="CreateBatch"><param name="Local" value="class_j_p_h_1_1_debug_renderer_recorder.html#a8184fb115c4bf9ae11dd66e974608e8cab6c90a015802ce8024f5e6ce5b5f87d1"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="CreateBatchIndexed"><param name="Local" value="class_j_p_h_1_1_debug_renderer_recorder.html#a8184fb115c4bf9ae11dd66e974608e8ca6e08a23df5a6495af4cfb4d55f9d83c4"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="CreateGeometry"><param name="Local" value="class_j_p_h_1_1_debug_renderer_recorder.html#a8184fb115c4bf9ae11dd66e974608e8ca5df7e8a3875ba02c58449385c4caa956"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="EndFrame"><param name="Local" value="class_j_p_h_1_1_debug_renderer_recorder.html#a8184fb115c4bf9ae11dd66e974608e8ca6c1645a468ccfce0975fc95587b97adf"><param name="ImageNumber" value="11"></OBJECT>
+          </UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="DebugRendererRecorder"><param name="Local" value="class_j_p_h_1_1_debug_renderer_recorder.html#a4744558bc3d60b933d57751d7aff5937"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="CreateTriangleBatch"><param name="Local" value="class_j_p_h_1_1_debug_renderer_recorder.html#ab1c065edd41135d69258f539eecfd4e5"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="CreateTriangleBatch"><param name="Local" value="class_j_p_h_1_1_debug_renderer_recorder.html#aa9a432c67364345abfb9cb24c4f88f83"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="DrawGeometry"><param name="Local" value="class_j_p_h_1_1_debug_renderer_recorder.html#a167cdfebba421df9cd923ee4c0d364f6"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="DrawLine"><param name="Local" value="class_j_p_h_1_1_debug_renderer_recorder.html#a68236602655c549f663c145fe0a674f7"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="DrawText3D"><param name="Local" value="class_j_p_h_1_1_debug_renderer_recorder.html#a7bfb910ff350c233e32b33466c49c056"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="DrawTriangle"><param name="Local" value="class_j_p_h_1_1_debug_renderer_recorder.html#a1ed24bc112154e047a58d4821368db57"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="EndFrame"><param name="Local" value="class_j_p_h_1_1_debug_renderer_recorder.html#a2fad504cbc86c82807117bb62e2da4c1"><param name="ImageNumber" value="11"></OBJECT>
+        </UL>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="SkeletalAnimation"><param name="Local" value="class_j_p_h_1_1_skeletal_animation.html"><param name="ImageNumber" value="1"></OBJECT>
         <UL>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="AnimatedJoint"><param name="Local" value="class_j_p_h_1_1_skeletal_animation_1_1_animated_joint.html"><param name="ImageNumber" value="1"></OBJECT>
@@ -10454,7 +10576,11 @@
     <LI><OBJECT type="text/sitemap"><param name="Name" value="JPH::ContactManifold"><param name="Local" value="class_j_p_h_1_1_contact_manifold.html"><param name="ImageNumber" value="11"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Name" value="JPH::ContactSettings"><param name="Local" value="class_j_p_h_1_1_contact_settings.html"><param name="ImageNumber" value="11"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Name" value="JPH::ConvexShape::CSGetTrianglesContext"><param name="Local" value="class_j_p_h_1_1_convex_shape_1_1_c_s_get_triangles_context.html"><param name="ImageNumber" value="11"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Name" value="JPH::DebugRenderer"><param name="Local" value="class_j_p_h_1_1_debug_renderer.html"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="JPH::DebugRenderer"><param name="Local" value="class_j_p_h_1_1_debug_renderer.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="JPH::DebugRendererRecorder"><param name="Local" value="class_j_p_h_1_1_debug_renderer_recorder.html"><param name="ImageNumber" value="11"></OBJECT>
+      </UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="JPH::DebugRendererPlayback"><param name="Local" value="class_j_p_h_1_1_debug_renderer_playback.html"><param name="ImageNumber" value="11"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Name" value="JPH::HeightFieldShape::DecodingContext"><param name="Local" value="class_j_p_h_1_1_height_field_shape_1_1_decoding_context.html"><param name="ImageNumber" value="11"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Name" value="JPH::NodeCodecQuadTreeHalfFloat&lt; Alignment &gt;::DecodingContext"><param name="Local" value="class_j_p_h_1_1_node_codec_quad_tree_half_float_1_1_decoding_context.html"><param name="ImageNumber" value="11"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Name" value="JPH::TriangleCodecIndexed8BitPackSOA4Flags::DecodingContext"><param name="Local" value="class_j_p_h_1_1_triangle_codec_indexed8_bit_pack_s_o_a4_flags_1_1_decoding_context.html"><param name="ImageNumber" value="11"></OBJECT>
@@ -10471,6 +10597,8 @@
     <LI><OBJECT type="text/sitemap"><param name="Name" value="JPH::FPExceptionDisableDivByZero"><param name="Local" value="class_j_p_h_1_1_f_p_exception_disable_div_by_zero.html"><param name="ImageNumber" value="11"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Name" value="JPH::FPExceptionDisableInvalid"><param name="Local" value="class_j_p_h_1_1_f_p_exception_disable_invalid.html"><param name="ImageNumber" value="11"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Name" value="JPH::FPExceptionsEnable"><param name="Local" value="class_j_p_h_1_1_f_p_exceptions_enable.html"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="JPH::DebugRendererRecorder::Frame"><param name="Local" value="struct_j_p_h_1_1_debug_renderer_recorder_1_1_frame.html"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="JPH::DebugRendererRecorder::GeometryBlob"><param name="Local" value="struct_j_p_h_1_1_debug_renderer_recorder_1_1_geometry_blob.html"><param name="ImageNumber" value="11"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Name" value="JPH::CompoundShape::GetIntersectingSubShapesVisitor&lt; BoxType &gt;"><param name="Local" value="struct_j_p_h_1_1_compound_shape_1_1_get_intersecting_sub_shapes_visitor.html"><param name="ImageNumber" value="11"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Name" value="JPH::Shape::GetTrianglesContext"><param name="Local" value="struct_j_p_h_1_1_shape_1_1_get_triangles_context.html"><param name="ImageNumber" value="11"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Name" value="JPH::GetTrianglesContextMultiVertexList"><param name="Local" value="class_j_p_h_1_1_get_triangles_context_multi_vertex_list.html"><param name="ImageNumber" value="11"></OBJECT>
@@ -10494,6 +10622,7 @@
       </UL>
     <LI><OBJECT type="text/sitemap"><param name="Name" value="JPH::LockFreeHashMap&lt; Key, Value &gt;::KeyValue"><param name="Local" value="class_j_p_h_1_1_lock_free_hash_map_1_1_key_value.html"><param name="ImageNumber" value="11"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Name" value="JPH::LinearCurve"><param name="Local" value="class_j_p_h_1_1_linear_curve.html"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="JPH::DebugRendererRecorder::LineBlob"><param name="Local" value="struct_j_p_h_1_1_debug_renderer_recorder_1_1_line_blob.html"><param name="ImageNumber" value="11"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Name" value="JPH::DebugRenderer::LOD"><param name="Local" value="class_j_p_h_1_1_debug_renderer_1_1_l_o_d.html"><param name="ImageNumber" value="11"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Name" value="JPH::MassProperties"><param name="Local" value="class_j_p_h_1_1_mass_properties.html"><param name="ImageNumber" value="11"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Name" value="JPH::Mat44"><param name="Local" value="class_j_p_h_1_1_mat44.html"><param name="ImageNumber" value="11"></OBJECT>
@@ -10913,11 +11042,13 @@
       <LI><OBJECT type="text/sitemap"><param name="Name" value="JPH::TempAllocatorImpl"><param name="Local" value="class_j_p_h_1_1_temp_allocator_impl.html"><param name="ImageNumber" value="11"></OBJECT>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="JPH::TempAllocatorMalloc"><param name="Local" value="class_j_p_h_1_1_temp_allocator_malloc.html"><param name="ImageNumber" value="11"></OBJECT>
       </UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="JPH::DebugRendererRecorder::TextBlob"><param name="Local" value="struct_j_p_h_1_1_debug_renderer_recorder_1_1_text_blob.html"><param name="ImageNumber" value="11"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Name" value="JPH::QuadTree::Tracking"><param name="Local" value="struct_j_p_h_1_1_quad_tree_1_1_tracking.html"><param name="ImageNumber" value="11"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Name" value="JPH::TransformedConvexObject&lt; ConvexObject &gt;"><param name="Local" value="struct_j_p_h_1_1_transformed_convex_object.html"><param name="ImageNumber" value="11"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Name" value="JPH::TransformedShape"><param name="Local" value="class_j_p_h_1_1_transformed_shape.html"><param name="ImageNumber" value="11"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Name" value="JPH::DebugRenderer::Triangle"><param name="Local" value="class_j_p_h_1_1_debug_renderer_1_1_triangle.html"><param name="ImageNumber" value="11"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Name" value="JPH::Triangle"><param name="Local" value="class_j_p_h_1_1_triangle.html"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="JPH::DebugRendererRecorder::TriangleBlob"><param name="Local" value="struct_j_p_h_1_1_debug_renderer_recorder_1_1_triangle_blob.html"><param name="ImageNumber" value="11"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Name" value="JPH::TriangleCodecIndexed8BitPackSOA4Flags::TriangleBlock"><param name="Local" value="struct_j_p_h_1_1_triangle_codec_indexed8_bit_pack_s_o_a4_flags_1_1_triangle_block.html"><param name="ImageNumber" value="11"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Name" value="JPH::TriangleCodecIndexed8BitPackSOA4Flags::TriangleBlockHeader"><param name="Local" value="struct_j_p_h_1_1_triangle_codec_indexed8_bit_pack_s_o_a4_flags_1_1_triangle_block_header.html"><param name="ImageNumber" value="11"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Name" value="JPH::TriangleCodecIndexed8BitPackSOA4Flags"><param name="Local" value="class_j_p_h_1_1_triangle_codec_indexed8_bit_pack_s_o_a4_flags.html"><param name="ImageNumber" value="11"></OBJECT>
@@ -18010,6 +18141,111 @@
             <LI><OBJECT type="text/sitemap"><param name="Name" value="Geometry"><param name="Local" value="class_j_p_h_1_1_debug_renderer_1_1_geometry.html#aad341b015072af80e221b6035179ad2b"><param name="ImageNumber" value="11"></OBJECT>
             <LI><OBJECT type="text/sitemap"><param name="Name" value="mBounds"><param name="Local" value="class_j_p_h_1_1_debug_renderer_1_1_geometry.html#ac112ef2ea5e2628ae625bd70ae8e9b40"><param name="ImageNumber" value="11"></OBJECT>
             <LI><OBJECT type="text/sitemap"><param name="Name" value="mLODs"><param name="Local" value="class_j_p_h_1_1_debug_renderer_1_1_geometry.html#ac32c293332836735252275256850b028"><param name="ImageNumber" value="11"></OBJECT>
+            </UL>
+          </UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="DebugRendererPlayback.cpp"><param name="Local" value="_debug_renderer_playback_8cpp.html"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="DebugRendererPlayback.h"><param name="Local" value="_debug_renderer_playback_8h.html"><param name="ImageNumber" value="11"></OBJECT>
+          <UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="DebugRendererPlayback"><param name="Local" value="class_j_p_h_1_1_debug_renderer_playback.html"><param name="ImageNumber" value="1"></OBJECT>
+            <UL>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="DebugRendererPlayback"><param name="Local" value="class_j_p_h_1_1_debug_renderer_playback.html#a981149578df5f1c21ab7dad062ab1cf4"><param name="ImageNumber" value="11"></OBJECT>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="DrawFrame"><param name="Local" value="class_j_p_h_1_1_debug_renderer_playback.html#a109dab700ce552ec1e165102611e7b9e"><param name="ImageNumber" value="11"></OBJECT>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="GetNumFrames"><param name="Local" value="class_j_p_h_1_1_debug_renderer_playback.html#a2bcbf68ad4192a9c2313dcd79d98d21d"><param name="ImageNumber" value="11"></OBJECT>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="Parse"><param name="Local" value="class_j_p_h_1_1_debug_renderer_playback.html#a44faaaad4dc7bb9ea9b64fdd0ee9d9e4"><param name="ImageNumber" value="11"></OBJECT>
+            </UL>
+          </UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="DebugRendererRecorder.cpp"><param name="Local" value="_debug_renderer_recorder_8cpp.html"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="DebugRendererRecorder.h"><param name="Local" value="_debug_renderer_recorder_8h.html"><param name="ImageNumber" value="11"></OBJECT>
+          <UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="DebugRendererRecorder"><param name="Local" value="class_j_p_h_1_1_debug_renderer_recorder.html"><param name="ImageNumber" value="1"></OBJECT>
+            <UL>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="Frame"><param name="Local" value="struct_j_p_h_1_1_debug_renderer_recorder_1_1_frame.html"><param name="ImageNumber" value="1"></OBJECT>
+              <UL>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="mGeometries"><param name="Local" value="struct_j_p_h_1_1_debug_renderer_recorder_1_1_frame.html#a350d7878f22acd7a783cac68b42ac695"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="mLines"><param name="Local" value="struct_j_p_h_1_1_debug_renderer_recorder_1_1_frame.html#a04d21e8b1299b3ade906ccef09f964b7"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="mTexts"><param name="Local" value="struct_j_p_h_1_1_debug_renderer_recorder_1_1_frame.html#a9f6d5b155cdab7ec07435170db9e9772"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="mTriangles"><param name="Local" value="struct_j_p_h_1_1_debug_renderer_recorder_1_1_frame.html#adc54bf2bbbe7289cd46904bfc10a4c84"><param name="ImageNumber" value="11"></OBJECT>
+              </UL>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="GeometryBlob"><param name="Local" value="struct_j_p_h_1_1_debug_renderer_recorder_1_1_geometry_blob.html"><param name="ImageNumber" value="1"></OBJECT>
+              <UL>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="mCastShadow"><param name="Local" value="struct_j_p_h_1_1_debug_renderer_recorder_1_1_geometry_blob.html#a28b92f5a72d441f082b1e211272bec93"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="mCullMode"><param name="Local" value="struct_j_p_h_1_1_debug_renderer_recorder_1_1_geometry_blob.html#ae26239f5b61ab17f9ac570165a23a0eb"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="mDrawMode"><param name="Local" value="struct_j_p_h_1_1_debug_renderer_recorder_1_1_geometry_blob.html#a83cc834a3c3aac662ad384360481446e"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="mGeometryID"><param name="Local" value="struct_j_p_h_1_1_debug_renderer_recorder_1_1_geometry_blob.html#a0dd2319e971542ee93b78c4b70c791e7"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="mModelColor"><param name="Local" value="struct_j_p_h_1_1_debug_renderer_recorder_1_1_geometry_blob.html#a57a04323a4af928eba5663ef2ac89164"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="mModelMatrix"><param name="Local" value="struct_j_p_h_1_1_debug_renderer_recorder_1_1_geometry_blob.html#a063b6f8d3c3f3eb1d4ae0e44e8447dba"><param name="ImageNumber" value="11"></OBJECT>
+              </UL>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="LineBlob"><param name="Local" value="struct_j_p_h_1_1_debug_renderer_recorder_1_1_line_blob.html"><param name="ImageNumber" value="1"></OBJECT>
+              <UL>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="mColor"><param name="Local" value="struct_j_p_h_1_1_debug_renderer_recorder_1_1_line_blob.html#aa7bd170afe54d1e41b93805b02413d55"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="mFrom"><param name="Local" value="struct_j_p_h_1_1_debug_renderer_recorder_1_1_line_blob.html#a931dad67d4d8fbd29694f0a2e591ea9c"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="mTo"><param name="Local" value="struct_j_p_h_1_1_debug_renderer_recorder_1_1_line_blob.html#a959988ea45844567185a459e1d638823"><param name="ImageNumber" value="11"></OBJECT>
+              </UL>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="TextBlob"><param name="Local" value="struct_j_p_h_1_1_debug_renderer_recorder_1_1_text_blob.html"><param name="ImageNumber" value="1"></OBJECT>
+              <UL>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="mColor"><param name="Local" value="struct_j_p_h_1_1_debug_renderer_recorder_1_1_text_blob.html#af63bcac04b30d6d72e7cc0c23fb18f52"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="mHeight"><param name="Local" value="struct_j_p_h_1_1_debug_renderer_recorder_1_1_text_blob.html#a852096b3fc6f94e624dbda18bfb58154"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="mPosition"><param name="Local" value="struct_j_p_h_1_1_debug_renderer_recorder_1_1_text_blob.html#ade9169c8df07d2eadacbf1d990c7c313"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="mString"><param name="Local" value="struct_j_p_h_1_1_debug_renderer_recorder_1_1_text_blob.html#a6a94bfe97ce5bbfdf026b52cb8429964"><param name="ImageNumber" value="11"></OBJECT>
+              </UL>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="TriangleBlob"><param name="Local" value="struct_j_p_h_1_1_debug_renderer_recorder_1_1_triangle_blob.html"><param name="ImageNumber" value="1"></OBJECT>
+              <UL>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="mColor"><param name="Local" value="struct_j_p_h_1_1_debug_renderer_recorder_1_1_triangle_blob.html#a687bd978cc89cd01b45400c154569bc9"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="mV1"><param name="Local" value="struct_j_p_h_1_1_debug_renderer_recorder_1_1_triangle_blob.html#ad7fbd8faf7a29c108df456c45652a88b"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="mV2"><param name="Local" value="struct_j_p_h_1_1_debug_renderer_recorder_1_1_triangle_blob.html#a59558efb599b7285ff3a33e1fbb05df5"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="mV3"><param name="Local" value="struct_j_p_h_1_1_debug_renderer_recorder_1_1_triangle_blob.html#a0b529dd97066f13a633a814cc6d07ac9"><param name="ImageNumber" value="11"></OBJECT>
+              </UL>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="ECommand"><param name="Local" value="class_j_p_h_1_1_debug_renderer_recorder.html#a8184fb115c4bf9ae11dd66e974608e8c"><param name="ImageNumber" value="1"></OBJECT>
+              <UL>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="CreateBatch"><param name="Local" value="class_j_p_h_1_1_debug_renderer_recorder.html#a8184fb115c4bf9ae11dd66e974608e8cab6c90a015802ce8024f5e6ce5b5f87d1"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="CreateBatchIndexed"><param name="Local" value="class_j_p_h_1_1_debug_renderer_recorder.html#a8184fb115c4bf9ae11dd66e974608e8ca6e08a23df5a6495af4cfb4d55f9d83c4"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="CreateGeometry"><param name="Local" value="class_j_p_h_1_1_debug_renderer_recorder.html#a8184fb115c4bf9ae11dd66e974608e8ca5df7e8a3875ba02c58449385c4caa956"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="EndFrame"><param name="Local" value="class_j_p_h_1_1_debug_renderer_recorder.html#a8184fb115c4bf9ae11dd66e974608e8ca6c1645a468ccfce0975fc95587b97adf"><param name="ImageNumber" value="11"></OBJECT>
+              </UL>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="DebugRendererRecorder"><param name="Local" value="class_j_p_h_1_1_debug_renderer_recorder.html#a4744558bc3d60b933d57751d7aff5937"><param name="ImageNumber" value="11"></OBJECT>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="CreateTriangleBatch"><param name="Local" value="class_j_p_h_1_1_debug_renderer_recorder.html#ab1c065edd41135d69258f539eecfd4e5"><param name="ImageNumber" value="11"></OBJECT>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="CreateTriangleBatch"><param name="Local" value="class_j_p_h_1_1_debug_renderer_recorder.html#aa9a432c67364345abfb9cb24c4f88f83"><param name="ImageNumber" value="11"></OBJECT>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="DrawGeometry"><param name="Local" value="class_j_p_h_1_1_debug_renderer_recorder.html#a167cdfebba421df9cd923ee4c0d364f6"><param name="ImageNumber" value="11"></OBJECT>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="DrawLine"><param name="Local" value="class_j_p_h_1_1_debug_renderer_recorder.html#a68236602655c549f663c145fe0a674f7"><param name="ImageNumber" value="11"></OBJECT>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="DrawText3D"><param name="Local" value="class_j_p_h_1_1_debug_renderer_recorder.html#a7bfb910ff350c233e32b33466c49c056"><param name="ImageNumber" value="11"></OBJECT>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="DrawTriangle"><param name="Local" value="class_j_p_h_1_1_debug_renderer_recorder.html#a1ed24bc112154e047a58d4821368db57"><param name="ImageNumber" value="11"></OBJECT>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="EndFrame"><param name="Local" value="class_j_p_h_1_1_debug_renderer_recorder.html#a2fad504cbc86c82807117bb62e2da4c1"><param name="ImageNumber" value="11"></OBJECT>
+            </UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="LineBlob"><param name="Local" value="struct_j_p_h_1_1_debug_renderer_recorder_1_1_line_blob.html"><param name="ImageNumber" value="1"></OBJECT>
+            <UL>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="mColor"><param name="Local" value="struct_j_p_h_1_1_debug_renderer_recorder_1_1_line_blob.html#aa7bd170afe54d1e41b93805b02413d55"><param name="ImageNumber" value="11"></OBJECT>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="mFrom"><param name="Local" value="struct_j_p_h_1_1_debug_renderer_recorder_1_1_line_blob.html#a931dad67d4d8fbd29694f0a2e591ea9c"><param name="ImageNumber" value="11"></OBJECT>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="mTo"><param name="Local" value="struct_j_p_h_1_1_debug_renderer_recorder_1_1_line_blob.html#a959988ea45844567185a459e1d638823"><param name="ImageNumber" value="11"></OBJECT>
+            </UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="TriangleBlob"><param name="Local" value="struct_j_p_h_1_1_debug_renderer_recorder_1_1_triangle_blob.html"><param name="ImageNumber" value="1"></OBJECT>
+            <UL>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="mColor"><param name="Local" value="struct_j_p_h_1_1_debug_renderer_recorder_1_1_triangle_blob.html#a687bd978cc89cd01b45400c154569bc9"><param name="ImageNumber" value="11"></OBJECT>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="mV1"><param name="Local" value="struct_j_p_h_1_1_debug_renderer_recorder_1_1_triangle_blob.html#ad7fbd8faf7a29c108df456c45652a88b"><param name="ImageNumber" value="11"></OBJECT>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="mV2"><param name="Local" value="struct_j_p_h_1_1_debug_renderer_recorder_1_1_triangle_blob.html#a59558efb599b7285ff3a33e1fbb05df5"><param name="ImageNumber" value="11"></OBJECT>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="mV3"><param name="Local" value="struct_j_p_h_1_1_debug_renderer_recorder_1_1_triangle_blob.html#a0b529dd97066f13a633a814cc6d07ac9"><param name="ImageNumber" value="11"></OBJECT>
+            </UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="TextBlob"><param name="Local" value="struct_j_p_h_1_1_debug_renderer_recorder_1_1_text_blob.html"><param name="ImageNumber" value="1"></OBJECT>
+            <UL>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="mColor"><param name="Local" value="struct_j_p_h_1_1_debug_renderer_recorder_1_1_text_blob.html#af63bcac04b30d6d72e7cc0c23fb18f52"><param name="ImageNumber" value="11"></OBJECT>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="mHeight"><param name="Local" value="struct_j_p_h_1_1_debug_renderer_recorder_1_1_text_blob.html#a852096b3fc6f94e624dbda18bfb58154"><param name="ImageNumber" value="11"></OBJECT>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="mPosition"><param name="Local" value="struct_j_p_h_1_1_debug_renderer_recorder_1_1_text_blob.html#ade9169c8df07d2eadacbf1d990c7c313"><param name="ImageNumber" value="11"></OBJECT>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="mString"><param name="Local" value="struct_j_p_h_1_1_debug_renderer_recorder_1_1_text_blob.html#a6a94bfe97ce5bbfdf026b52cb8429964"><param name="ImageNumber" value="11"></OBJECT>
+            </UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="GeometryBlob"><param name="Local" value="struct_j_p_h_1_1_debug_renderer_recorder_1_1_geometry_blob.html"><param name="ImageNumber" value="1"></OBJECT>
+            <UL>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="mCastShadow"><param name="Local" value="struct_j_p_h_1_1_debug_renderer_recorder_1_1_geometry_blob.html#a28b92f5a72d441f082b1e211272bec93"><param name="ImageNumber" value="11"></OBJECT>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="mCullMode"><param name="Local" value="struct_j_p_h_1_1_debug_renderer_recorder_1_1_geometry_blob.html#ae26239f5b61ab17f9ac570165a23a0eb"><param name="ImageNumber" value="11"></OBJECT>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="mDrawMode"><param name="Local" value="struct_j_p_h_1_1_debug_renderer_recorder_1_1_geometry_blob.html#a83cc834a3c3aac662ad384360481446e"><param name="ImageNumber" value="11"></OBJECT>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="mGeometryID"><param name="Local" value="struct_j_p_h_1_1_debug_renderer_recorder_1_1_geometry_blob.html#a0dd2319e971542ee93b78c4b70c791e7"><param name="ImageNumber" value="11"></OBJECT>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="mModelColor"><param name="Local" value="struct_j_p_h_1_1_debug_renderer_recorder_1_1_geometry_blob.html#a57a04323a4af928eba5663ef2ac89164"><param name="ImageNumber" value="11"></OBJECT>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="mModelMatrix"><param name="Local" value="struct_j_p_h_1_1_debug_renderer_recorder_1_1_geometry_blob.html#a063b6f8d3c3f3eb1d4ae0e44e8447dba"><param name="ImageNumber" value="11"></OBJECT>
+            </UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="Frame"><param name="Local" value="struct_j_p_h_1_1_debug_renderer_recorder_1_1_frame.html"><param name="ImageNumber" value="1"></OBJECT>
+            <UL>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="mGeometries"><param name="Local" value="struct_j_p_h_1_1_debug_renderer_recorder_1_1_frame.html#a350d7878f22acd7a783cac68b42ac695"><param name="ImageNumber" value="11"></OBJECT>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="mLines"><param name="Local" value="struct_j_p_h_1_1_debug_renderer_recorder_1_1_frame.html#a04d21e8b1299b3ade906ccef09f964b7"><param name="ImageNumber" value="11"></OBJECT>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="mTexts"><param name="Local" value="struct_j_p_h_1_1_debug_renderer_recorder_1_1_frame.html#a9f6d5b155cdab7ec07435170db9e9772"><param name="ImageNumber" value="11"></OBJECT>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="mTriangles"><param name="Local" value="struct_j_p_h_1_1_debug_renderer_recorder_1_1_frame.html#adc54bf2bbbe7289cd46904bfc10a4c84"><param name="ImageNumber" value="11"></OBJECT>
             </UL>
           </UL>
         </UL>
