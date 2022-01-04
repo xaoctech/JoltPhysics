@@ -104,7 +104,6 @@ Public Attributes</h2></td></tr>
 <tr class="memdesc:a5f875d6f6b5cd5102601a27b046b778f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum allowed distance between old and new contact point to preserve contact forces for warm start (units: meter^2)  <a href="struct_j_p_h_1_1_physics_settings.html#a5f875d6f6b5cd5102601a27b046b778f">More...</a><br /></td></tr>
 <tr class="separator:a5f875d6f6b5cd5102601a27b046b778f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad782d17be6e4102465fa23cbf2336281"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_j_p_h_1_1_physics_settings.html#ad782d17be6e4102465fa23cbf2336281">mNumVelocitySteps</a> = 10</td></tr>
-<tr class="memdesc:ad782d17be6e4102465fa23cbf2336281"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of solver velocity iterations to run.  <a href="struct_j_p_h_1_1_physics_settings.html#ad782d17be6e4102465fa23cbf2336281">More...</a><br /></td></tr>
 <tr class="separator:ad782d17be6e4102465fa23cbf2336281"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab9c83a563942948352e7c091e7656e62"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_j_p_h_1_1_physics_settings.html#ab9c83a563942948352e7c091e7656e62">mNumPositionSteps</a> = 2</td></tr>
 <tr class="memdesc:ab9c83a563942948352e7c091e7656e62"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of solver position iterations to run.  <a href="struct_j_p_h_1_1_physics_settings.html#ab9c83a563942948352e7c091e7656e62">More...</a><br /></td></tr>
@@ -390,8 +389,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Number of solver velocity iterations to run. </p>
+<p>Number of solver velocity iterations to run Note that this needs to be &gt;= 2 in order for friction to work (friction is applied using the non-penetration impulse from the previous iteration) </p>
 
 </div>
 </div>
