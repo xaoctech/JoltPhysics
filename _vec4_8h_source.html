@@ -223,24 +223,26 @@ $(function() {
 <div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160; </div>
 <div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;    JPH_INLINE <a class="code" href="class_j_p_h_1_1_vec4.html">Vec4</a>             Sqrt() <span class="keyword">const</span>;</div>
 <div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160; </div>
-<div class="line"><a name="l00233"></a><span class="lineno"><a class="line" href="class_j_p_h_1_1_vec4.html#ae2bbc2348ddcb260e4fa598d81bf4710">  233</a></span>&#160;    <span class="keyword">friend</span> ostream &amp;            operator &lt;&lt; (ostream &amp;inStream, <a class="code" href="class_j_p_h_1_1_vec4.html">Vec4Arg</a> inV)</div>
-<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;    {</div>
-<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;        inStream &lt;&lt; inV.<a class="code" href="class_j_p_h_1_1_vec4.html#a759daa730b38b2cfd3326774e1e01208">mF32</a>[0] &lt;&lt; <span class="stringliteral">&quot;, &quot;</span> &lt;&lt; inV.<a class="code" href="class_j_p_h_1_1_vec4.html#a759daa730b38b2cfd3326774e1e01208">mF32</a>[1] &lt;&lt; <span class="stringliteral">&quot;, &quot;</span> &lt;&lt; inV.<a class="code" href="class_j_p_h_1_1_vec4.html#a759daa730b38b2cfd3326774e1e01208">mF32</a>[2] &lt;&lt; <span class="stringliteral">&quot;, &quot;</span> &lt;&lt; inV.<a class="code" href="class_j_p_h_1_1_vec4.html#a759daa730b38b2cfd3326774e1e01208">mF32</a>[3];</div>
-<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;        <span class="keywordflow">return</span> inStream;</div>
-<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;    }</div>
-<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160; </div>
-<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;    <span class="keyword">union</span></div>
-<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;    {</div>
-<div class="line"><a name="l00241"></a><span class="lineno"><a class="line" href="class_j_p_h_1_1_vec4.html#a000c660033551e3ac87be18db0f686f3">  241</a></span>&#160;        Type                    <a class="code" href="class_j_p_h_1_1_vec4.html#a000c660033551e3ac87be18db0f686f3">mValue</a>;</div>
-<div class="line"><a name="l00242"></a><span class="lineno"><a class="line" href="class_j_p_h_1_1_vec4.html#a759daa730b38b2cfd3326774e1e01208">  242</a></span>&#160;        <span class="keywordtype">float</span>                   mF32[4];</div>
-<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;    };</div>
-<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;};</div>
-<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160; </div>
-<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;static_assert(is_trivial&lt;Vec4&gt;(), <span class="stringliteral">&quot;Is supposed to be a trivial type!&quot;</span>);</div>
-<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160; </div>
-<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;} <span class="comment">// JPH</span></div>
-<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160; </div>
-<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_vec4_8inl.html">Vec4.inl</a>&quot;</span></div>
+<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;    JPH_INLINE <a class="code" href="class_j_p_h_1_1_vec4.html">Vec4</a>             GetSign() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160; </div>
+<div class="line"><a name="l00236"></a><span class="lineno"><a class="line" href="class_j_p_h_1_1_vec4.html#ae2bbc2348ddcb260e4fa598d81bf4710">  236</a></span>&#160;    <span class="keyword">friend</span> ostream &amp;            operator &lt;&lt; (ostream &amp;inStream, <a class="code" href="class_j_p_h_1_1_vec4.html">Vec4Arg</a> inV)</div>
+<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;    {</div>
+<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;        inStream &lt;&lt; inV.<a class="code" href="class_j_p_h_1_1_vec4.html#a759daa730b38b2cfd3326774e1e01208">mF32</a>[0] &lt;&lt; <span class="stringliteral">&quot;, &quot;</span> &lt;&lt; inV.<a class="code" href="class_j_p_h_1_1_vec4.html#a759daa730b38b2cfd3326774e1e01208">mF32</a>[1] &lt;&lt; <span class="stringliteral">&quot;, &quot;</span> &lt;&lt; inV.<a class="code" href="class_j_p_h_1_1_vec4.html#a759daa730b38b2cfd3326774e1e01208">mF32</a>[2] &lt;&lt; <span class="stringliteral">&quot;, &quot;</span> &lt;&lt; inV.<a class="code" href="class_j_p_h_1_1_vec4.html#a759daa730b38b2cfd3326774e1e01208">mF32</a>[3];</div>
+<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;        <span class="keywordflow">return</span> inStream;</div>
+<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;    }</div>
+<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160; </div>
+<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;    <span class="keyword">union</span></div>
+<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;    {</div>
+<div class="line"><a name="l00244"></a><span class="lineno"><a class="line" href="class_j_p_h_1_1_vec4.html#a000c660033551e3ac87be18db0f686f3">  244</a></span>&#160;        Type                    <a class="code" href="class_j_p_h_1_1_vec4.html#a000c660033551e3ac87be18db0f686f3">mValue</a>;</div>
+<div class="line"><a name="l00245"></a><span class="lineno"><a class="line" href="class_j_p_h_1_1_vec4.html#a759daa730b38b2cfd3326774e1e01208">  245</a></span>&#160;        <span class="keywordtype">float</span>                   mF32[4];</div>
+<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;    };</div>
+<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;};</div>
+<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160; </div>
+<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;static_assert(is_trivial&lt;Vec4&gt;(), <span class="stringliteral">&quot;Is supposed to be a trivial type!&quot;</span>);</div>
+<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160; </div>
+<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;} <span class="comment">// JPH</span></div>
+<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160; </div>
+<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_vec4_8inl.html">Vec4.inl</a>&quot;</span></div>
 <div class="ttc" id="a_float4_8h_html"><div class="ttname"><a href="_float4_8h.html">Float4.h</a></div></div>
 <div class="ttc" id="a_issue_reporting_8h_html_aaf6b1df827e11b7ca5f6f8778bd8f8cd"><div class="ttname"><a href="_issue_reporting_8h.html#aaf6b1df827e11b7ca5f6f8778bd8f8cd">JPH_ASSERT</a></div><div class="ttdeci">#define JPH_ASSERT(...)</div><div class="ttdef"><b>Definition:</b> IssueReporting.h:32</div></div>
 <div class="ttc" id="a_math_types_8h_html"><div class="ttname"><a href="_math_types_8h.html">MathTypes.h</a></div></div>
@@ -250,12 +252,12 @@ $(function() {
 <div class="ttc" id="aclass_j_p_h_1_1_u_vec4_html"><div class="ttname"><a href="class_j_p_h_1_1_u_vec4.html">JPH::UVec4</a></div><div class="ttdef"><b>Definition:</b> UVec4.h:11</div></div>
 <div class="ttc" id="aclass_j_p_h_1_1_vec3_html"><div class="ttname"><a href="class_j_p_h_1_1_vec3.html">JPH::Vec3</a></div><div class="ttdef"><b>Definition:</b> Vec3.h:15</div></div>
 <div class="ttc" id="aclass_j_p_h_1_1_vec4_html"><div class="ttname"><a href="class_j_p_h_1_1_vec4.html">JPH::Vec4</a></div><div class="ttdef"><b>Definition:</b> Vec4.h:13</div></div>
-<div class="ttc" id="aclass_j_p_h_1_1_vec4_html_a000c660033551e3ac87be18db0f686f3"><div class="ttname"><a href="class_j_p_h_1_1_vec4.html#a000c660033551e3ac87be18db0f686f3">JPH::Vec4::mValue</a></div><div class="ttdeci">Type mValue</div><div class="ttdef"><b>Definition:</b> Vec4.h:241</div></div>
+<div class="ttc" id="aclass_j_p_h_1_1_vec4_html_a000c660033551e3ac87be18db0f686f3"><div class="ttname"><a href="class_j_p_h_1_1_vec4.html#a000c660033551e3ac87be18db0f686f3">JPH::Vec4::mValue</a></div><div class="ttdeci">Type mValue</div><div class="ttdef"><b>Definition:</b> Vec4.h:244</div></div>
 <div class="ttc" id="aclass_j_p_h_1_1_vec4_html_a077976afa76027d53b5d83ed38e8345b"><div class="ttname"><a href="class_j_p_h_1_1_vec4.html#a077976afa76027d53b5d83ed38e8345b">JPH::Vec4::SetW</a></div><div class="ttdeci">JPH_INLINE void SetW(float inW)</div><div class="ttdef"><b>Definition:</b> Vec4.h:116</div></div>
 <div class="ttc" id="aclass_j_p_h_1_1_vec4_html_a0881e909bc3e66ae9d5c76027ef22d03"><div class="ttname"><a href="class_j_p_h_1_1_vec4.html#a0881e909bc3e66ae9d5c76027ef22d03">JPH::Vec4::Vec4</a></div><div class="ttdeci">JPH_INLINE Vec4(Type inRHS)</div><div class="ttdef"><b>Definition:</b> Vec4.h:29</div></div>
 <div class="ttc" id="aclass_j_p_h_1_1_vec4_html_a38a3707223fd9e6130f35acb07f16190"><div class="ttname"><a href="class_j_p_h_1_1_vec4.html#a38a3707223fd9e6130f35acb07f16190">JPH::Vec4::SetZ</a></div><div class="ttdeci">JPH_INLINE void SetZ(float inZ)</div><div class="ttdef"><b>Definition:</b> Vec4.h:115</div></div>
 <div class="ttc" id="aclass_j_p_h_1_1_vec4_html_a50860453ccf12118ce0acf423bdf8571"><div class="ttname"><a href="class_j_p_h_1_1_vec4.html#a50860453ccf12118ce0acf423bdf8571">JPH::Vec4::Vec4</a></div><div class="ttdeci">Vec4()=default</div><div class="ttdoc">Constructor.</div></div>
-<div class="ttc" id="aclass_j_p_h_1_1_vec4_html_a759daa730b38b2cfd3326774e1e01208"><div class="ttname"><a href="class_j_p_h_1_1_vec4.html#a759daa730b38b2cfd3326774e1e01208">JPH::Vec4::mF32</a></div><div class="ttdeci">float mF32[4]</div><div class="ttdef"><b>Definition:</b> Vec4.h:242</div></div>
+<div class="ttc" id="aclass_j_p_h_1_1_vec4_html_a759daa730b38b2cfd3326774e1e01208"><div class="ttname"><a href="class_j_p_h_1_1_vec4.html#a759daa730b38b2cfd3326774e1e01208">JPH::Vec4::mF32</a></div><div class="ttdeci">float mF32[4]</div><div class="ttdef"><b>Definition:</b> Vec4.h:245</div></div>
 <div class="ttc" id="aclass_j_p_h_1_1_vec4_html_a8ecfa61b3f15e2c99b3de88b7eb7bec5"><div class="ttname"><a href="class_j_p_h_1_1_vec4.html#a8ecfa61b3f15e2c99b3de88b7eb7bec5">JPH::Vec4::Vec4</a></div><div class="ttdeci">Vec4(const Vec4 &amp;inRHS)=default</div></div>
 <div class="ttc" id="aclass_j_p_h_1_1_vec4_html_a919c1fc0272873ec196f57a827087609"><div class="ttname"><a href="class_j_p_h_1_1_vec4.html#a919c1fc0272873ec196f57a827087609">JPH::Vec4::SetY</a></div><div class="ttdeci">JPH_INLINE void SetY(float inY)</div><div class="ttdef"><b>Definition:</b> Vec4.h:114</div></div>
 <div class="ttc" id="aclass_j_p_h_1_1_vec4_html_ab0eb4253398c7f7b7fc723e00425b143"><div class="ttname"><a href="class_j_p_h_1_1_vec4.html#ab0eb4253398c7f7b7fc723e00425b143">JPH::Vec4::sGatherFloat4</a></div><div class="ttdeci">static JPH_INLINE Vec4 sGatherFloat4(const float *inBase, UVec4Arg inOffsets)</div><div class="ttdoc">Gather 4 floats from memory at inBase + inOffsets[i] * Scale.</div></div>

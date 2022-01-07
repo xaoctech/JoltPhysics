@@ -94,9 +94,9 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a25fb3cebe71334e123a56376b313db50"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_j_p_h_1_1_physics_settings.html#a25fb3cebe71334e123a56376b313db50">mBodyPairCacheMaxDeltaPositionSq</a> = <a class="el" href="namespace_j_p_h.html#a4e6a69faec873832157598d18ddcfc91">Square</a>(0.001f)</td></tr>
 <tr class="memdesc:a25fb3cebe71334e123a56376b313db50"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum relative delta position for body pairs to be able to reuse collision results from last frame (units: meter^2)  <a href="struct_j_p_h_1_1_physics_settings.html#a25fb3cebe71334e123a56376b313db50">More...</a><br /></td></tr>
 <tr class="separator:a25fb3cebe71334e123a56376b313db50"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a478004dab7248807eeaed2f1662af429"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_j_p_h_1_1_physics_settings.html#a478004dab7248807eeaed2f1662af429">mBodyPairCacheCosMaxDeltaRotation</a> = 0.99984769515639123915701155881391f</td></tr>
-<tr class="memdesc:a478004dab7248807eeaed2f1662af429"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum relative delta orientation for body pairs to be able to reuse collision results from last frame.  <a href="struct_j_p_h_1_1_physics_settings.html#a478004dab7248807eeaed2f1662af429">More...</a><br /></td></tr>
-<tr class="separator:a478004dab7248807eeaed2f1662af429"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a324d316f38b97cbf8b9878d34ba4c92a"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_j_p_h_1_1_physics_settings.html#a324d316f38b97cbf8b9878d34ba4c92a">mBodyPairCacheCosMaxDeltaRotationDiv2</a> = 0.99984769515639123915701155881391f</td></tr>
+<tr class="memdesc:a324d316f38b97cbf8b9878d34ba4c92a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum relative delta orientation for body pairs to be able to reuse collision results from last frame, stored as cos(max angle / 2)  <a href="struct_j_p_h_1_1_physics_settings.html#a324d316f38b97cbf8b9878d34ba4c92a">More...</a><br /></td></tr>
+<tr class="separator:a324d316f38b97cbf8b9878d34ba4c92a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab16adafaa104ac15cb3fb0342afcbe38"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_j_p_h_1_1_physics_settings.html#ab16adafaa104ac15cb3fb0342afcbe38">mContactNormalCosMaxDeltaRotation</a> = 0.99619469809174553229501040247389f</td></tr>
 <tr class="memdesc:ab16adafaa104ac15cb3fb0342afcbe38"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum angle between normals that allows manifolds between different sub shapes of the same body pair to be combined.  <a href="struct_j_p_h_1_1_physics_settings.html#ab16adafaa104ac15cb3fb0342afcbe38">More...</a><br /></td></tr>
 <tr class="separator:ab16adafaa104ac15cb3fb0342afcbe38"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -167,20 +167,20 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a478004dab7248807eeaed2f1662af429"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a478004dab7248807eeaed2f1662af429">&#9670;&nbsp;</a></span>mBodyPairCacheCosMaxDeltaRotation</h2>
+<a id="a324d316f38b97cbf8b9878d34ba4c92a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a324d316f38b97cbf8b9878d34ba4c92a">&#9670;&nbsp;</a></span>mBodyPairCacheCosMaxDeltaRotationDiv2</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">float JPH::PhysicsSettings::mBodyPairCacheCosMaxDeltaRotation = 0.99984769515639123915701155881391f</td>
+          <td class="memname">float JPH::PhysicsSettings::mBodyPairCacheCosMaxDeltaRotationDiv2 = 0.99984769515639123915701155881391f</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Maximum relative delta orientation for body pairs to be able to reuse collision results from last frame. </p>
-<p>cos(1 degree) </p>
+<p>Maximum relative delta orientation for body pairs to be able to reuse collision results from last frame, stored as cos(max angle / 2) </p>
+<p>cos(2 degrees / 2) </p>
 
 </div>
 </div>
