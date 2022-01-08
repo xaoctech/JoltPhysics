@@ -152,6 +152,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ac887c41ca25c13bf17f759f0d01a2ad9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_p_h_1_1_body.html#ac887c41ca25c13bf17f759f0d01a2ad9">SetAngularVelocityClamped</a> (<a class="el" href="namespace_j_p_h.html#a0b295e20795f9fa0dfbe4ef459f11311">Vec3Arg</a> inAngularVelocity)</td></tr>
 <tr class="memdesc:ac887c41ca25c13bf17f759f0d01a2ad9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set world space angular velocity of the center of mass, will make sure the value is clamped against the maximum angular velocity.  <a href="class_j_p_h_1_1_body.html#ac887c41ca25c13bf17f759f0d01a2ad9">More...</a><br /></td></tr>
 <tr class="separator:ac887c41ca25c13bf17f759f0d01a2ad9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b70d3f2850357c34a3aa9d31595c910"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_j_p_h_1_1_vec3.html">Vec3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_p_h_1_1_body.html#a2b70d3f2850357c34a3aa9d31595c910">GetPointVelocityCOM</a> (<a class="el" href="namespace_j_p_h.html#a0b295e20795f9fa0dfbe4ef459f11311">Vec3Arg</a> inPointRelativeToCOM) const</td></tr>
+<tr class="memdesc:a2b70d3f2850357c34a3aa9d31595c910"><td class="mdescLeft">&#160;</td><td class="mdescRight">Velocity of point inPoint (in center of mass space, e.g. on the surface of the body) of the body (unit: m/s)  <a href="class_j_p_h_1_1_body.html#a2b70d3f2850357c34a3aa9d31595c910">More...</a><br /></td></tr>
+<tr class="separator:a2b70d3f2850357c34a3aa9d31595c910"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4ee01a461e5af218da6a6cb3b3d14034"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_j_p_h_1_1_vec3.html">Vec3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_p_h_1_1_body.html#a4ee01a461e5af218da6a6cb3b3d14034">GetPointVelocity</a> (<a class="el" href="namespace_j_p_h.html#a0b295e20795f9fa0dfbe4ef459f11311">Vec3Arg</a> inPoint) const</td></tr>
 <tr class="memdesc:a4ee01a461e5af218da6a6cb3b3d14034"><td class="mdescLeft">&#160;</td><td class="mdescRight">Velocity of point inPoint (in world space, e.g. on the surface of the body) of the body (unit: m/s)  <a href="class_j_p_h_1_1_body.html#a4ee01a461e5af218da6a6cb3b3d14034">More...</a><br /></td></tr>
 <tr class="separator:a4ee01a461e5af218da6a6cb3b3d14034"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1265,6 +1268,34 @@ Friends</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Velocity of point inPoint (in world space, e.g. on the surface of the body) of the body (unit: m/s) </p>
+
+</div>
+</div>
+<a id="a2b70d3f2850357c34a3aa9d31595c910"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2b70d3f2850357c34a3aa9d31595c910">&#9670;&nbsp;</a></span>GetPointVelocityCOM()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="class_j_p_h_1_1_vec3.html">Vec3</a> JPH::Body::GetPointVelocityCOM </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespace_j_p_h.html#a0b295e20795f9fa0dfbe4ef459f11311">Vec3Arg</a>&#160;</td>
+          <td class="paramname"><em>inPointRelativeToCOM</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Velocity of point inPoint (in center of mass space, e.g. on the surface of the body) of the body (unit: m/s) </p>
 
 </div>
 </div>
