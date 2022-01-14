@@ -1919,6 +1919,10 @@
       <LI><OBJECT type="text/sitemap"><param name="Name" value="BodyLockMultiWrite"><param name="Local" value="class_j_p_h_1_1_body_lock_multi_write.html"><param name="ImageNumber" value="1"></OBJECT>
         <UL>
         </UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="BodyWithMotionProperties"><param name="Local" value="class_j_p_h_1_1_body_with_motion_properties.html"><param name="ImageNumber" value="1"></OBJECT>
+        <UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="mMotionProperties"><param name="Local" value="class_j_p_h_1_1_body_with_motion_properties.html#ad0c11c7e25b67bd58a362cb4381f4d72"><param name="ImageNumber" value="11"></OBJECT>
+        </UL>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="BodyManager"><param name="Local" value="class_j_p_h_1_1_body_manager.html"><param name="ImageNumber" value="1"></OBJECT>
         <UL>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="BodyStats"><param name="Local" value="struct_j_p_h_1_1_body_manager_1_1_body_stats.html"><param name="ImageNumber" value="1"></OBJECT>
@@ -7374,6 +7378,10 @@
       <LI><OBJECT type="text/sitemap"><param name="Name" value="BodyLockMultiWrite"><param name="Local" value="class_j_p_h_1_1_body_lock_multi_write.html"><param name="ImageNumber" value="1"></OBJECT>
         <UL>
         </UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="BodyWithMotionProperties"><param name="Local" value="class_j_p_h_1_1_body_with_motion_properties.html"><param name="ImageNumber" value="1"></OBJECT>
+        <UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="mMotionProperties"><param name="Local" value="class_j_p_h_1_1_body_with_motion_properties.html#ad0c11c7e25b67bd58a362cb4381f4d72"><param name="ImageNumber" value="11"></OBJECT>
+        </UL>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="BodyManager"><param name="Local" value="class_j_p_h_1_1_body_manager.html"><param name="ImageNumber" value="1"></OBJECT>
         <UL>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="BodyStats"><param name="Local" value="struct_j_p_h_1_1_body_manager_1_1_body_stats.html"><param name="ImageNumber" value="1"></OBJECT>
@@ -10665,7 +10673,10 @@
       <LI><OBJECT type="text/sitemap"><param name="Name" value="JPH::LockFreeHashMap&lt; BodyPair, CachedBodyPair &gt;"><param name="Local" value="class_j_p_h_1_1_lock_free_hash_map.html"><param name="ImageNumber" value="11"></OBJECT>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="JPH::MutexArray&lt; SharedMutex &gt;"><param name="Local" value="class_j_p_h_1_1_mutex_array.html"><param name="ImageNumber" value="11"></OBJECT>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="JPH::AABBTreeBuilder::Node"><param name="Local" value="class_j_p_h_1_1_a_a_b_b_tree_builder_1_1_node.html"><param name="ImageNumber" value="11"></OBJECT>
-      <LI><OBJECT type="text/sitemap"><param name="Name" value="JPH::Body"><param name="Local" value="class_j_p_h_1_1_body.html"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="JPH::Body"><param name="Local" value="class_j_p_h_1_1_body.html"><param name="ImageNumber" value="1"></OBJECT>
+        <UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="JPH::BodyWithMotionProperties"><param name="Local" value="class_j_p_h_1_1_body_with_motion_properties.html"><param name="ImageNumber" value="11"></OBJECT>
+        </UL>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="JPH::BodyFilter"><param name="Local" value="class_j_p_h_1_1_body_filter.html"><param name="ImageNumber" value="1"></OBJECT>
         <UL>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="JPH::IgnoreMultipleBodiesFilter"><param name="Local" value="class_j_p_h_1_1_ignore_multiple_bodies_filter.html"><param name="ImageNumber" value="11"></OBJECT>
@@ -14000,6 +14011,12 @@
               </UL>
             </UL>
           <LI><OBJECT type="text/sitemap"><param name="Name" value="BodyManager.cpp"><param name="Local" value="_body_manager_8cpp.html"><param name="ImageNumber" value="11"></OBJECT>
+            <UL>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="BodyWithMotionProperties"><param name="Local" value="class_j_p_h_1_1_body_with_motion_properties.html"><param name="ImageNumber" value="1"></OBJECT>
+              <UL>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="mMotionProperties"><param name="Local" value="class_j_p_h_1_1_body_with_motion_properties.html#ad0c11c7e25b67bd58a362cb4381f4d72"><param name="ImageNumber" value="11"></OBJECT>
+              </UL>
+            </UL>
           <LI><OBJECT type="text/sitemap"><param name="Name" value="BodyManager.h"><param name="Local" value="_body_manager_8h.html"><param name="ImageNumber" value="1"></OBJECT>
             <UL>
             <LI><OBJECT type="text/sitemap"><param name="Name" value="BodyManager"><param name="Local" value="class_j_p_h_1_1_body_manager.html"><param name="ImageNumber" value="1"></OBJECT>
