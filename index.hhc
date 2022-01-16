@@ -1647,36 +1647,36 @@
         <LI><OBJECT type="text/sitemap"><param name="Name" value="CalculateWorldSpaceBoundsInternal"><param name="Local" value="class_j_p_h_1_1_body.html#a57de18ac865d4398aaed1e2f71101cda"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="CanBeKinematicOrDynamic"><param name="Local" value="class_j_p_h_1_1_body.html#a05cbb4afcb0c70cafea4782582d4487d"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="GetAllowSleeping"><param name="Local" value="class_j_p_h_1_1_body.html#aa7a35731e85e67ff43eb3eeef4423588"><param name="ImageNumber" value="11"></OBJECT>
-        <LI><OBJECT type="text/sitemap"><param name="Name" value="GetAngularVelocity"><param name="Local" value="class_j_p_h_1_1_body.html#a287d000694c25ed91eb053aaf3e9ef16"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="GetAngularVelocity"><param name="Local" value="class_j_p_h_1_1_body.html#a63c451d30bdd7212da7844da05748b79"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="GetBodyCreationSettings"><param name="Local" value="class_j_p_h_1_1_body.html#ae374cee3e911af5636d35f327370c1e2"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="GetCenterOfMassPosition"><param name="Local" value="class_j_p_h_1_1_body.html#a63df4bc880b9d87a2ea266f10d243afb"><param name="ImageNumber" value="11"></OBJECT>
-        <LI><OBJECT type="text/sitemap"><param name="Name" value="GetCenterOfMassTransform"><param name="Local" value="class_j_p_h_1_1_body.html#ae5cc42b581594bca3a3dc9cd0a0dd30d"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="GetCenterOfMassTransform"><param name="Local" value="class_j_p_h_1_1_body.html#a77baa35507ece9b19b306383b80d39aa"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="GetCollisionGroup"><param name="Local" value="class_j_p_h_1_1_body.html#a8ada674a1fb593c11eec9496d70e3ae0"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="GetCollisionGroup"><param name="Local" value="class_j_p_h_1_1_body.html#a5a186973c8d8787183d2d2facce1312c"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="GetDebugName"><param name="Local" value="class_j_p_h_1_1_body.html#a24001c91d89558907cf716b56cbfaa99"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="GetFriction"><param name="Local" value="class_j_p_h_1_1_body.html#a4d7cb6f9df06323520c8c4bfb2a7df5e"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="GetID"><param name="Local" value="class_j_p_h_1_1_body.html#a7c14f5dba9e76413ad299aca1c261257"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="GetIndexInActiveBodiesInternal"><param name="Local" value="class_j_p_h_1_1_body.html#acd24b95cadeff851719d1c8557def6ef"><param name="ImageNumber" value="11"></OBJECT>
-        <LI><OBJECT type="text/sitemap"><param name="Name" value="GetInverseCenterOfMassTransform"><param name="Local" value="class_j_p_h_1_1_body.html#a5c69c804b513a4891019e15e8d04f331"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="GetInverseCenterOfMassTransform"><param name="Local" value="class_j_p_h_1_1_body.html#afb8651659ccc4757b255b9879d46675b"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="GetInverseInertia"><param name="Local" value="class_j_p_h_1_1_body.html#a611f06c682e46a0fd76f8f02144bc702"><param name="ImageNumber" value="11"></OBJECT>
-        <LI><OBJECT type="text/sitemap"><param name="Name" value="GetLinearVelocity"><param name="Local" value="class_j_p_h_1_1_body.html#ae6a4b26c741a2075453a1f7b8b428b8f"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="GetLinearVelocity"><param name="Local" value="class_j_p_h_1_1_body.html#aa669dd3ddcb99391ccbaea9652ee831d"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="GetMotionProperties"><param name="Local" value="class_j_p_h_1_1_body.html#a7e0903ea4a14422b8db4362d922c1034"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="GetMotionProperties"><param name="Local" value="class_j_p_h_1_1_body.html#a164be4e40f95d774942e20cd6d5b9bd2"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="GetMotionPropertiesUnchecked"><param name="Local" value="class_j_p_h_1_1_body.html#a4e2682d909f1de765007895ad14dd54b"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="GetMotionPropertiesUnchecked"><param name="Local" value="class_j_p_h_1_1_body.html#a3cad6694d1861601ba496bb38d406400"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="GetMotionType"><param name="Local" value="class_j_p_h_1_1_body.html#aef8376b2d69c808092c20b96fd2f9580"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="GetObjectLayer"><param name="Local" value="class_j_p_h_1_1_body.html#ad9e472740e08e9345e20463f91f7de2a"><param name="ImageNumber" value="11"></OBJECT>
-        <LI><OBJECT type="text/sitemap"><param name="Name" value="GetPointVelocity"><param name="Local" value="class_j_p_h_1_1_body.html#a4ee01a461e5af218da6a6cb3b3d14034"><param name="ImageNumber" value="11"></OBJECT>
-        <LI><OBJECT type="text/sitemap"><param name="Name" value="GetPointVelocityCOM"><param name="Local" value="class_j_p_h_1_1_body.html#a2b70d3f2850357c34a3aa9d31595c910"><param name="ImageNumber" value="11"></OBJECT>
-        <LI><OBJECT type="text/sitemap"><param name="Name" value="GetPosition"><param name="Local" value="class_j_p_h_1_1_body.html#a1f9a3a075f1c9ce97009001187a1575e"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="GetPointVelocity"><param name="Local" value="class_j_p_h_1_1_body.html#a48d608ea5071a12680ffef4aeff4d0d2"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="GetPointVelocityCOM"><param name="Local" value="class_j_p_h_1_1_body.html#a9d447ea5678b3d5444f404c1ba851a68"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="GetPosition"><param name="Local" value="class_j_p_h_1_1_body.html#a46aad08dd67549dcafaf7ba933311d8b"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="GetRestitution"><param name="Local" value="class_j_p_h_1_1_body.html#a0d508457d39d301755edb4f8e205474a"><param name="ImageNumber" value="11"></OBJECT>
-        <LI><OBJECT type="text/sitemap"><param name="Name" value="GetRotation"><param name="Local" value="class_j_p_h_1_1_body.html#a5cb2c3c9e6b53058334c1b6b45118066"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="GetRotation"><param name="Local" value="class_j_p_h_1_1_body.html#af5787a7a0f3fb2820443d3147f9c6ca2"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="GetShape"><param name="Local" value="class_j_p_h_1_1_body.html#ae2485ae050de69023a51f77eb5a2fded"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="GetTransformedShape"><param name="Local" value="class_j_p_h_1_1_body.html#a6ad4aea077b825d6544f49bcfa9c7952"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="GetUserData"><param name="Local" value="class_j_p_h_1_1_body.html#add801afdecde619f5b87c38b9679d30e"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="GetWorldSpaceBounds"><param name="Local" value="class_j_p_h_1_1_body.html#ac231f63a960881acd2041b54103dd547"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="GetWorldSpaceSurfaceNormal"><param name="Local" value="class_j_p_h_1_1_body.html#a255ae5eed648ea8c4f1378d9f67369ec"><param name="ImageNumber" value="11"></OBJECT>
-        <LI><OBJECT type="text/sitemap"><param name="Name" value="GetWorldTransform"><param name="Local" value="class_j_p_h_1_1_body.html#a03082c4edf44dc6498a63a555e2e0ac2"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="GetWorldTransform"><param name="Local" value="class_j_p_h_1_1_body.html#aaa76678628bfc61b46ab3a59ad990d22"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="InvalidateCollisionCacheInternal"><param name="Local" value="class_j_p_h_1_1_body.html#ae174296fdbb38de22d60d8a734cfcf50"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="IsActive"><param name="Local" value="class_j_p_h_1_1_body.html#af60310573753ef640e124ec15cfcd2ed"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="IsCollisionCacheInvalid"><param name="Local" value="class_j_p_h_1_1_body.html#a6b232dd56b8552a0395bcee90f03728b"><param name="ImageNumber" value="11"></OBJECT>
@@ -2344,6 +2344,21 @@
         <UL>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="mBackFaceMode"><param name="Local" value="class_j_p_h_1_1_collide_shape_settings.html#a18913a5bc3de151c3c49877dc24fe863"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="mMaxSeparationDistance"><param name="Local" value="class_j_p_h_1_1_collide_shape_settings.html#afb16d4729ada501a186b638558150928"><param name="ImageNumber" value="11"></OBJECT>
+        </UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="CollideSphereVsTriangles"><param name="Local" value="class_j_p_h_1_1_collide_sphere_vs_triangles.html"><param name="ImageNumber" value="1"></OBJECT>
+        <UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="CollideSphereVsTriangles"><param name="Local" value="class_j_p_h_1_1_collide_sphere_vs_triangles.html#a3b805dfe4494a419f1b208a03d426392"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="Collide"><param name="Local" value="class_j_p_h_1_1_collide_sphere_vs_triangles.html#a4896b365bfd8fa19b9dc9748c247abdf"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="mCollector"><param name="Local" value="class_j_p_h_1_1_collide_sphere_vs_triangles.html#a01cc68eff7d006a047e8cc51359d8e59"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="mCollideShapeSettings"><param name="Local" value="class_j_p_h_1_1_collide_sphere_vs_triangles.html#ae43566f51cdcfc560ab4a68794c095a8"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="mRadius"><param name="Local" value="class_j_p_h_1_1_collide_sphere_vs_triangles.html#ae7e3be727af2f3e6ddc7c43a7e81c82e"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="mRadiusPlusMaxSeparationSq"><param name="Local" value="class_j_p_h_1_1_collide_sphere_vs_triangles.html#a9908b8d88d8e14fbbb5c2e085b3fb3ea"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="mScale2"><param name="Local" value="class_j_p_h_1_1_collide_sphere_vs_triangles.html#a6da6ef34455d01eb65153aba5f2a8f24"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="mScaleSign2"><param name="Local" value="class_j_p_h_1_1_collide_sphere_vs_triangles.html#a6bb42ee252d159e8ff6383a83cffc574"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="mShape1"><param name="Local" value="class_j_p_h_1_1_collide_sphere_vs_triangles.html#ae2119e54a3fd72ab96af1da7c6e54bc8"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="mSphereCenterIn2"><param name="Local" value="class_j_p_h_1_1_collide_sphere_vs_triangles.html#a1fd35d464fe0fd5a8d0640f316f59b7d"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="mSubShapeID1"><param name="Local" value="class_j_p_h_1_1_collide_sphere_vs_triangles.html#a90d6455e523e20efc8e36950034db2ab"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="mTransform2"><param name="Local" value="class_j_p_h_1_1_collide_sphere_vs_triangles.html#aceddc17d47f851c2a9024d49c8ed91a9"><param name="ImageNumber" value="11"></OBJECT>
         </UL>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="CollisionCollectorTraitsCastRay"><param name="Local" value="class_j_p_h_1_1_collision_collector_traits_cast_ray.html"><param name="ImageNumber" value="1"></OBJECT>
         <UL>
@@ -3046,6 +3061,7 @@
         <LI><OBJECT type="text/sitemap"><param name="Name" value="Sanitize"><param name="Local" value="class_j_p_h_1_1_mesh_shape_settings.html#a44705d505adc8b4ddf07e5b49a868b25"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="mIndexedTriangles"><param name="Local" value="class_j_p_h_1_1_mesh_shape_settings.html#afc139eb9d22f040c4e779c846cc7a340"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="mMaterials"><param name="Local" value="class_j_p_h_1_1_mesh_shape_settings.html#abdeb8d1919fbbb48d68dde555f16241e"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="mMaxTrianglesPerLeaf"><param name="Local" value="class_j_p_h_1_1_mesh_shape_settings.html#a68469e8b2b1a95ac77b6fc650fc29be3"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="mTriangleVertices"><param name="Local" value="class_j_p_h_1_1_mesh_shape_settings.html#ac4d9ecf51fc6d07672109c21a05cdf4c"><param name="ImageNumber" value="11"></OBJECT>
         </UL>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="MeshShape"><param name="Local" value="class_j_p_h_1_1_mesh_shape.html"><param name="ImageNumber" value="1"></OBJECT>
@@ -5221,11 +5237,13 @@
         <LI><OBJECT type="text/sitemap"><param name="Name" value="RejectAllContactsForThisBodyPair"><param name="Local" value="namespace_j_p_h.html#a14577baa6473c622f448a93c63f4f9eaa0e08391f08898fa9bd658afcbd26e2c0"><param name="ImageNumber" value="11"></OBJECT>
         </UL>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="AABox4EnlargeWithExtent"><param name="Local" value="namespace_j_p_h.html#af66585792610f516db39b3857348f019"><param name="ImageNumber" value="11"></OBJECT>
-      <LI><OBJECT type="text/sitemap"><param name="Name" value="AABox4Scale"><param name="Local" value="namespace_j_p_h.html#af53889d0def75cd3c810531673a860d5"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="AABox4Scale"><param name="Local" value="namespace_j_p_h.html#a58d829a47c7c2ed0508be46327535e98"><param name="ImageNumber" value="11"></OBJECT>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="AABox4VsBox"><param name="Local" value="namespace_j_p_h.html#a9dbe5ae48b5ab789f537b069f08a54c2"><param name="ImageNumber" value="11"></OBJECT>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="AABox4VsBox"><param name="Local" value="namespace_j_p_h.html#af227ae0b1d51ad03c3fcd2b6e4e87eb0"><param name="ImageNumber" value="11"></OBJECT>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="AABox4VsBox"><param name="Local" value="namespace_j_p_h.html#a6607634d8c78b00815cfe80a15211356"><param name="ImageNumber" value="11"></OBJECT>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="AABox4VsPoint"><param name="Local" value="namespace_j_p_h.html#a52b11eba3eff5419fd84ad2a4c34ea7e"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="AABox4VsSphere"><param name="Local" value="namespace_j_p_h.html#afd04ef6849c957a37dbb3b7ce4134359"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="AABox4VsSphere"><param name="Local" value="namespace_j_p_h.html#af07e60ac133bacfd224e6ca0cfb8fd6c"><param name="ImageNumber" value="11"></OBJECT>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="AddSerializableAttributeEnum"><param name="Local" value="namespace_j_p_h.html#aca2811521cec4444562cb3ebf4c732e8"><param name="ImageNumber" value="11"></OBJECT>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="AddSerializableAttributeTyped"><param name="Local" value="namespace_j_p_h.html#ac9ef86ce78475d72b51dcbddfc05d8e3"><param name="ImageNumber" value="11"></OBJECT>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="AlignedAlloc"><param name="Local" value="namespace_j_p_h.html#a08dfb144f28736d4e8b09bfaaa16f72e"><param name="ImageNumber" value="11"></OBJECT>
@@ -7106,36 +7124,36 @@
         <LI><OBJECT type="text/sitemap"><param name="Name" value="CalculateWorldSpaceBoundsInternal"><param name="Local" value="class_j_p_h_1_1_body.html#a57de18ac865d4398aaed1e2f71101cda"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="CanBeKinematicOrDynamic"><param name="Local" value="class_j_p_h_1_1_body.html#a05cbb4afcb0c70cafea4782582d4487d"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="GetAllowSleeping"><param name="Local" value="class_j_p_h_1_1_body.html#aa7a35731e85e67ff43eb3eeef4423588"><param name="ImageNumber" value="11"></OBJECT>
-        <LI><OBJECT type="text/sitemap"><param name="Name" value="GetAngularVelocity"><param name="Local" value="class_j_p_h_1_1_body.html#a287d000694c25ed91eb053aaf3e9ef16"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="GetAngularVelocity"><param name="Local" value="class_j_p_h_1_1_body.html#a63c451d30bdd7212da7844da05748b79"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="GetBodyCreationSettings"><param name="Local" value="class_j_p_h_1_1_body.html#ae374cee3e911af5636d35f327370c1e2"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="GetCenterOfMassPosition"><param name="Local" value="class_j_p_h_1_1_body.html#a63df4bc880b9d87a2ea266f10d243afb"><param name="ImageNumber" value="11"></OBJECT>
-        <LI><OBJECT type="text/sitemap"><param name="Name" value="GetCenterOfMassTransform"><param name="Local" value="class_j_p_h_1_1_body.html#ae5cc42b581594bca3a3dc9cd0a0dd30d"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="GetCenterOfMassTransform"><param name="Local" value="class_j_p_h_1_1_body.html#a77baa35507ece9b19b306383b80d39aa"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="GetCollisionGroup"><param name="Local" value="class_j_p_h_1_1_body.html#a8ada674a1fb593c11eec9496d70e3ae0"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="GetCollisionGroup"><param name="Local" value="class_j_p_h_1_1_body.html#a5a186973c8d8787183d2d2facce1312c"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="GetDebugName"><param name="Local" value="class_j_p_h_1_1_body.html#a24001c91d89558907cf716b56cbfaa99"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="GetFriction"><param name="Local" value="class_j_p_h_1_1_body.html#a4d7cb6f9df06323520c8c4bfb2a7df5e"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="GetID"><param name="Local" value="class_j_p_h_1_1_body.html#a7c14f5dba9e76413ad299aca1c261257"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="GetIndexInActiveBodiesInternal"><param name="Local" value="class_j_p_h_1_1_body.html#acd24b95cadeff851719d1c8557def6ef"><param name="ImageNumber" value="11"></OBJECT>
-        <LI><OBJECT type="text/sitemap"><param name="Name" value="GetInverseCenterOfMassTransform"><param name="Local" value="class_j_p_h_1_1_body.html#a5c69c804b513a4891019e15e8d04f331"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="GetInverseCenterOfMassTransform"><param name="Local" value="class_j_p_h_1_1_body.html#afb8651659ccc4757b255b9879d46675b"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="GetInverseInertia"><param name="Local" value="class_j_p_h_1_1_body.html#a611f06c682e46a0fd76f8f02144bc702"><param name="ImageNumber" value="11"></OBJECT>
-        <LI><OBJECT type="text/sitemap"><param name="Name" value="GetLinearVelocity"><param name="Local" value="class_j_p_h_1_1_body.html#ae6a4b26c741a2075453a1f7b8b428b8f"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="GetLinearVelocity"><param name="Local" value="class_j_p_h_1_1_body.html#aa669dd3ddcb99391ccbaea9652ee831d"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="GetMotionProperties"><param name="Local" value="class_j_p_h_1_1_body.html#a7e0903ea4a14422b8db4362d922c1034"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="GetMotionProperties"><param name="Local" value="class_j_p_h_1_1_body.html#a164be4e40f95d774942e20cd6d5b9bd2"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="GetMotionPropertiesUnchecked"><param name="Local" value="class_j_p_h_1_1_body.html#a4e2682d909f1de765007895ad14dd54b"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="GetMotionPropertiesUnchecked"><param name="Local" value="class_j_p_h_1_1_body.html#a3cad6694d1861601ba496bb38d406400"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="GetMotionType"><param name="Local" value="class_j_p_h_1_1_body.html#aef8376b2d69c808092c20b96fd2f9580"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="GetObjectLayer"><param name="Local" value="class_j_p_h_1_1_body.html#ad9e472740e08e9345e20463f91f7de2a"><param name="ImageNumber" value="11"></OBJECT>
-        <LI><OBJECT type="text/sitemap"><param name="Name" value="GetPointVelocity"><param name="Local" value="class_j_p_h_1_1_body.html#a4ee01a461e5af218da6a6cb3b3d14034"><param name="ImageNumber" value="11"></OBJECT>
-        <LI><OBJECT type="text/sitemap"><param name="Name" value="GetPointVelocityCOM"><param name="Local" value="class_j_p_h_1_1_body.html#a2b70d3f2850357c34a3aa9d31595c910"><param name="ImageNumber" value="11"></OBJECT>
-        <LI><OBJECT type="text/sitemap"><param name="Name" value="GetPosition"><param name="Local" value="class_j_p_h_1_1_body.html#a1f9a3a075f1c9ce97009001187a1575e"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="GetPointVelocity"><param name="Local" value="class_j_p_h_1_1_body.html#a48d608ea5071a12680ffef4aeff4d0d2"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="GetPointVelocityCOM"><param name="Local" value="class_j_p_h_1_1_body.html#a9d447ea5678b3d5444f404c1ba851a68"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="GetPosition"><param name="Local" value="class_j_p_h_1_1_body.html#a46aad08dd67549dcafaf7ba933311d8b"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="GetRestitution"><param name="Local" value="class_j_p_h_1_1_body.html#a0d508457d39d301755edb4f8e205474a"><param name="ImageNumber" value="11"></OBJECT>
-        <LI><OBJECT type="text/sitemap"><param name="Name" value="GetRotation"><param name="Local" value="class_j_p_h_1_1_body.html#a5cb2c3c9e6b53058334c1b6b45118066"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="GetRotation"><param name="Local" value="class_j_p_h_1_1_body.html#af5787a7a0f3fb2820443d3147f9c6ca2"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="GetShape"><param name="Local" value="class_j_p_h_1_1_body.html#ae2485ae050de69023a51f77eb5a2fded"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="GetTransformedShape"><param name="Local" value="class_j_p_h_1_1_body.html#a6ad4aea077b825d6544f49bcfa9c7952"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="GetUserData"><param name="Local" value="class_j_p_h_1_1_body.html#add801afdecde619f5b87c38b9679d30e"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="GetWorldSpaceBounds"><param name="Local" value="class_j_p_h_1_1_body.html#ac231f63a960881acd2041b54103dd547"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="GetWorldSpaceSurfaceNormal"><param name="Local" value="class_j_p_h_1_1_body.html#a255ae5eed648ea8c4f1378d9f67369ec"><param name="ImageNumber" value="11"></OBJECT>
-        <LI><OBJECT type="text/sitemap"><param name="Name" value="GetWorldTransform"><param name="Local" value="class_j_p_h_1_1_body.html#a03082c4edf44dc6498a63a555e2e0ac2"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="GetWorldTransform"><param name="Local" value="class_j_p_h_1_1_body.html#aaa76678628bfc61b46ab3a59ad990d22"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="InvalidateCollisionCacheInternal"><param name="Local" value="class_j_p_h_1_1_body.html#ae174296fdbb38de22d60d8a734cfcf50"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="IsActive"><param name="Local" value="class_j_p_h_1_1_body.html#af60310573753ef640e124ec15cfcd2ed"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="IsCollisionCacheInvalid"><param name="Local" value="class_j_p_h_1_1_body.html#a6b232dd56b8552a0395bcee90f03728b"><param name="ImageNumber" value="11"></OBJECT>
@@ -7803,6 +7821,21 @@
         <UL>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="mBackFaceMode"><param name="Local" value="class_j_p_h_1_1_collide_shape_settings.html#a18913a5bc3de151c3c49877dc24fe863"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="mMaxSeparationDistance"><param name="Local" value="class_j_p_h_1_1_collide_shape_settings.html#afb16d4729ada501a186b638558150928"><param name="ImageNumber" value="11"></OBJECT>
+        </UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="CollideSphereVsTriangles"><param name="Local" value="class_j_p_h_1_1_collide_sphere_vs_triangles.html"><param name="ImageNumber" value="1"></OBJECT>
+        <UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="CollideSphereVsTriangles"><param name="Local" value="class_j_p_h_1_1_collide_sphere_vs_triangles.html#a3b805dfe4494a419f1b208a03d426392"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="Collide"><param name="Local" value="class_j_p_h_1_1_collide_sphere_vs_triangles.html#a4896b365bfd8fa19b9dc9748c247abdf"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="mCollector"><param name="Local" value="class_j_p_h_1_1_collide_sphere_vs_triangles.html#a01cc68eff7d006a047e8cc51359d8e59"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="mCollideShapeSettings"><param name="Local" value="class_j_p_h_1_1_collide_sphere_vs_triangles.html#ae43566f51cdcfc560ab4a68794c095a8"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="mRadius"><param name="Local" value="class_j_p_h_1_1_collide_sphere_vs_triangles.html#ae7e3be727af2f3e6ddc7c43a7e81c82e"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="mRadiusPlusMaxSeparationSq"><param name="Local" value="class_j_p_h_1_1_collide_sphere_vs_triangles.html#a9908b8d88d8e14fbbb5c2e085b3fb3ea"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="mScale2"><param name="Local" value="class_j_p_h_1_1_collide_sphere_vs_triangles.html#a6da6ef34455d01eb65153aba5f2a8f24"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="mScaleSign2"><param name="Local" value="class_j_p_h_1_1_collide_sphere_vs_triangles.html#a6bb42ee252d159e8ff6383a83cffc574"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="mShape1"><param name="Local" value="class_j_p_h_1_1_collide_sphere_vs_triangles.html#ae2119e54a3fd72ab96af1da7c6e54bc8"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="mSphereCenterIn2"><param name="Local" value="class_j_p_h_1_1_collide_sphere_vs_triangles.html#a1fd35d464fe0fd5a8d0640f316f59b7d"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="mSubShapeID1"><param name="Local" value="class_j_p_h_1_1_collide_sphere_vs_triangles.html#a90d6455e523e20efc8e36950034db2ab"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="mTransform2"><param name="Local" value="class_j_p_h_1_1_collide_sphere_vs_triangles.html#aceddc17d47f851c2a9024d49c8ed91a9"><param name="ImageNumber" value="11"></OBJECT>
         </UL>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="CollisionCollectorTraitsCastRay"><param name="Local" value="class_j_p_h_1_1_collision_collector_traits_cast_ray.html"><param name="ImageNumber" value="1"></OBJECT>
         <UL>
@@ -8505,6 +8538,7 @@
         <LI><OBJECT type="text/sitemap"><param name="Name" value="Sanitize"><param name="Local" value="class_j_p_h_1_1_mesh_shape_settings.html#a44705d505adc8b4ddf07e5b49a868b25"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="mIndexedTriangles"><param name="Local" value="class_j_p_h_1_1_mesh_shape_settings.html#afc139eb9d22f040c4e779c846cc7a340"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="mMaterials"><param name="Local" value="class_j_p_h_1_1_mesh_shape_settings.html#abdeb8d1919fbbb48d68dde555f16241e"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="mMaxTrianglesPerLeaf"><param name="Local" value="class_j_p_h_1_1_mesh_shape_settings.html#a68469e8b2b1a95ac77b6fc650fc29be3"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="mTriangleVertices"><param name="Local" value="class_j_p_h_1_1_mesh_shape_settings.html#ac4d9ecf51fc6d07672109c21a05cdf4c"><param name="ImageNumber" value="11"></OBJECT>
         </UL>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="MeshShape"><param name="Local" value="class_j_p_h_1_1_mesh_shape.html"><param name="ImageNumber" value="1"></OBJECT>
@@ -10591,6 +10625,7 @@
       <LI><OBJECT type="text/sitemap"><param name="Name" value="JPH::ShapeCastResult"><param name="Local" value="class_j_p_h_1_1_shape_cast_result.html"><param name="ImageNumber" value="11"></OBJECT>
       </UL>
     <LI><OBJECT type="text/sitemap"><param name="Name" value="JPH::CompoundShape::CollideShapeVsCompoundVisitor"><param name="Local" value="struct_j_p_h_1_1_compound_shape_1_1_collide_shape_vs_compound_visitor.html"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="JPH::CollideSphereVsTriangles"><param name="Local" value="class_j_p_h_1_1_collide_sphere_vs_triangles.html"><param name="ImageNumber" value="11"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Name" value="JPH::CollisionCollector&lt; ResultTypeArg, TraitsType &gt;"><param name="Local" value="class_j_p_h_1_1_collision_collector.html"><param name="ImageNumber" value="11"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Name" value="JPH::CollisionCollectorTraitsCastRay"><param name="Local" value="class_j_p_h_1_1_collision_collector_traits_cast_ray.html"><param name="ImageNumber" value="11"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Name" value="JPH::CollisionCollectorTraitsCastShape"><param name="Local" value="class_j_p_h_1_1_collision_collector_traits_cast_shape.html"><param name="ImageNumber" value="11"></OBJECT>
@@ -12330,11 +12365,13 @@
         <LI><OBJECT type="text/sitemap"><param name="Name" value="AABox4.h"><param name="Local" value="_a_a_box4_8h.html"><param name="ImageNumber" value="1"></OBJECT>
           <UL>
           <LI><OBJECT type="text/sitemap"><param name="Name" value="AABox4EnlargeWithExtent"><param name="Local" value="_a_a_box4_8h.html#af66585792610f516db39b3857348f019"><param name="ImageNumber" value="11"></OBJECT>
-          <LI><OBJECT type="text/sitemap"><param name="Name" value="AABox4Scale"><param name="Local" value="_a_a_box4_8h.html#af53889d0def75cd3c810531673a860d5"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="AABox4Scale"><param name="Local" value="_a_a_box4_8h.html#a58d829a47c7c2ed0508be46327535e98"><param name="ImageNumber" value="11"></OBJECT>
           <LI><OBJECT type="text/sitemap"><param name="Name" value="AABox4VsBox"><param name="Local" value="_a_a_box4_8h.html#a9dbe5ae48b5ab789f537b069f08a54c2"><param name="ImageNumber" value="11"></OBJECT>
           <LI><OBJECT type="text/sitemap"><param name="Name" value="AABox4VsBox"><param name="Local" value="_a_a_box4_8h.html#af227ae0b1d51ad03c3fcd2b6e4e87eb0"><param name="ImageNumber" value="11"></OBJECT>
           <LI><OBJECT type="text/sitemap"><param name="Name" value="AABox4VsBox"><param name="Local" value="_a_a_box4_8h.html#a6607634d8c78b00815cfe80a15211356"><param name="ImageNumber" value="11"></OBJECT>
           <LI><OBJECT type="text/sitemap"><param name="Name" value="AABox4VsPoint"><param name="Local" value="_a_a_box4_8h.html#a52b11eba3eff5419fd84ad2a4c34ea7e"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="AABox4VsSphere"><param name="Local" value="_a_a_box4_8h.html#afd04ef6849c957a37dbb3b7ce4134359"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="AABox4VsSphere"><param name="Local" value="_a_a_box4_8h.html#af07e60ac133bacfd224e6ca0cfb8fd6c"><param name="ImageNumber" value="11"></OBJECT>
           </UL>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="ClipPoly.h"><param name="Local" value="_clip_poly_8h.html"><param name="ImageNumber" value="1"></OBJECT>
           <UL>
@@ -13699,36 +13736,36 @@
               <LI><OBJECT type="text/sitemap"><param name="Name" value="CalculateWorldSpaceBoundsInternal"><param name="Local" value="class_j_p_h_1_1_body.html#a57de18ac865d4398aaed1e2f71101cda"><param name="ImageNumber" value="11"></OBJECT>
               <LI><OBJECT type="text/sitemap"><param name="Name" value="CanBeKinematicOrDynamic"><param name="Local" value="class_j_p_h_1_1_body.html#a05cbb4afcb0c70cafea4782582d4487d"><param name="ImageNumber" value="11"></OBJECT>
               <LI><OBJECT type="text/sitemap"><param name="Name" value="GetAllowSleeping"><param name="Local" value="class_j_p_h_1_1_body.html#aa7a35731e85e67ff43eb3eeef4423588"><param name="ImageNumber" value="11"></OBJECT>
-              <LI><OBJECT type="text/sitemap"><param name="Name" value="GetAngularVelocity"><param name="Local" value="class_j_p_h_1_1_body.html#a287d000694c25ed91eb053aaf3e9ef16"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="GetAngularVelocity"><param name="Local" value="class_j_p_h_1_1_body.html#a63c451d30bdd7212da7844da05748b79"><param name="ImageNumber" value="11"></OBJECT>
               <LI><OBJECT type="text/sitemap"><param name="Name" value="GetBodyCreationSettings"><param name="Local" value="class_j_p_h_1_1_body.html#ae374cee3e911af5636d35f327370c1e2"><param name="ImageNumber" value="11"></OBJECT>
               <LI><OBJECT type="text/sitemap"><param name="Name" value="GetCenterOfMassPosition"><param name="Local" value="class_j_p_h_1_1_body.html#a63df4bc880b9d87a2ea266f10d243afb"><param name="ImageNumber" value="11"></OBJECT>
-              <LI><OBJECT type="text/sitemap"><param name="Name" value="GetCenterOfMassTransform"><param name="Local" value="class_j_p_h_1_1_body.html#ae5cc42b581594bca3a3dc9cd0a0dd30d"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="GetCenterOfMassTransform"><param name="Local" value="class_j_p_h_1_1_body.html#a77baa35507ece9b19b306383b80d39aa"><param name="ImageNumber" value="11"></OBJECT>
               <LI><OBJECT type="text/sitemap"><param name="Name" value="GetCollisionGroup"><param name="Local" value="class_j_p_h_1_1_body.html#a8ada674a1fb593c11eec9496d70e3ae0"><param name="ImageNumber" value="11"></OBJECT>
               <LI><OBJECT type="text/sitemap"><param name="Name" value="GetCollisionGroup"><param name="Local" value="class_j_p_h_1_1_body.html#a5a186973c8d8787183d2d2facce1312c"><param name="ImageNumber" value="11"></OBJECT>
               <LI><OBJECT type="text/sitemap"><param name="Name" value="GetDebugName"><param name="Local" value="class_j_p_h_1_1_body.html#a24001c91d89558907cf716b56cbfaa99"><param name="ImageNumber" value="11"></OBJECT>
               <LI><OBJECT type="text/sitemap"><param name="Name" value="GetFriction"><param name="Local" value="class_j_p_h_1_1_body.html#a4d7cb6f9df06323520c8c4bfb2a7df5e"><param name="ImageNumber" value="11"></OBJECT>
               <LI><OBJECT type="text/sitemap"><param name="Name" value="GetID"><param name="Local" value="class_j_p_h_1_1_body.html#a7c14f5dba9e76413ad299aca1c261257"><param name="ImageNumber" value="11"></OBJECT>
               <LI><OBJECT type="text/sitemap"><param name="Name" value="GetIndexInActiveBodiesInternal"><param name="Local" value="class_j_p_h_1_1_body.html#acd24b95cadeff851719d1c8557def6ef"><param name="ImageNumber" value="11"></OBJECT>
-              <LI><OBJECT type="text/sitemap"><param name="Name" value="GetInverseCenterOfMassTransform"><param name="Local" value="class_j_p_h_1_1_body.html#a5c69c804b513a4891019e15e8d04f331"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="GetInverseCenterOfMassTransform"><param name="Local" value="class_j_p_h_1_1_body.html#afb8651659ccc4757b255b9879d46675b"><param name="ImageNumber" value="11"></OBJECT>
               <LI><OBJECT type="text/sitemap"><param name="Name" value="GetInverseInertia"><param name="Local" value="class_j_p_h_1_1_body.html#a611f06c682e46a0fd76f8f02144bc702"><param name="ImageNumber" value="11"></OBJECT>
-              <LI><OBJECT type="text/sitemap"><param name="Name" value="GetLinearVelocity"><param name="Local" value="class_j_p_h_1_1_body.html#ae6a4b26c741a2075453a1f7b8b428b8f"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="GetLinearVelocity"><param name="Local" value="class_j_p_h_1_1_body.html#aa669dd3ddcb99391ccbaea9652ee831d"><param name="ImageNumber" value="11"></OBJECT>
               <LI><OBJECT type="text/sitemap"><param name="Name" value="GetMotionProperties"><param name="Local" value="class_j_p_h_1_1_body.html#a7e0903ea4a14422b8db4362d922c1034"><param name="ImageNumber" value="11"></OBJECT>
               <LI><OBJECT type="text/sitemap"><param name="Name" value="GetMotionProperties"><param name="Local" value="class_j_p_h_1_1_body.html#a164be4e40f95d774942e20cd6d5b9bd2"><param name="ImageNumber" value="11"></OBJECT>
               <LI><OBJECT type="text/sitemap"><param name="Name" value="GetMotionPropertiesUnchecked"><param name="Local" value="class_j_p_h_1_1_body.html#a4e2682d909f1de765007895ad14dd54b"><param name="ImageNumber" value="11"></OBJECT>
               <LI><OBJECT type="text/sitemap"><param name="Name" value="GetMotionPropertiesUnchecked"><param name="Local" value="class_j_p_h_1_1_body.html#a3cad6694d1861601ba496bb38d406400"><param name="ImageNumber" value="11"></OBJECT>
               <LI><OBJECT type="text/sitemap"><param name="Name" value="GetMotionType"><param name="Local" value="class_j_p_h_1_1_body.html#aef8376b2d69c808092c20b96fd2f9580"><param name="ImageNumber" value="11"></OBJECT>
               <LI><OBJECT type="text/sitemap"><param name="Name" value="GetObjectLayer"><param name="Local" value="class_j_p_h_1_1_body.html#ad9e472740e08e9345e20463f91f7de2a"><param name="ImageNumber" value="11"></OBJECT>
-              <LI><OBJECT type="text/sitemap"><param name="Name" value="GetPointVelocity"><param name="Local" value="class_j_p_h_1_1_body.html#a4ee01a461e5af218da6a6cb3b3d14034"><param name="ImageNumber" value="11"></OBJECT>
-              <LI><OBJECT type="text/sitemap"><param name="Name" value="GetPointVelocityCOM"><param name="Local" value="class_j_p_h_1_1_body.html#a2b70d3f2850357c34a3aa9d31595c910"><param name="ImageNumber" value="11"></OBJECT>
-              <LI><OBJECT type="text/sitemap"><param name="Name" value="GetPosition"><param name="Local" value="class_j_p_h_1_1_body.html#a1f9a3a075f1c9ce97009001187a1575e"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="GetPointVelocity"><param name="Local" value="class_j_p_h_1_1_body.html#a48d608ea5071a12680ffef4aeff4d0d2"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="GetPointVelocityCOM"><param name="Local" value="class_j_p_h_1_1_body.html#a9d447ea5678b3d5444f404c1ba851a68"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="GetPosition"><param name="Local" value="class_j_p_h_1_1_body.html#a46aad08dd67549dcafaf7ba933311d8b"><param name="ImageNumber" value="11"></OBJECT>
               <LI><OBJECT type="text/sitemap"><param name="Name" value="GetRestitution"><param name="Local" value="class_j_p_h_1_1_body.html#a0d508457d39d301755edb4f8e205474a"><param name="ImageNumber" value="11"></OBJECT>
-              <LI><OBJECT type="text/sitemap"><param name="Name" value="GetRotation"><param name="Local" value="class_j_p_h_1_1_body.html#a5cb2c3c9e6b53058334c1b6b45118066"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="GetRotation"><param name="Local" value="class_j_p_h_1_1_body.html#af5787a7a0f3fb2820443d3147f9c6ca2"><param name="ImageNumber" value="11"></OBJECT>
               <LI><OBJECT type="text/sitemap"><param name="Name" value="GetShape"><param name="Local" value="class_j_p_h_1_1_body.html#ae2485ae050de69023a51f77eb5a2fded"><param name="ImageNumber" value="11"></OBJECT>
               <LI><OBJECT type="text/sitemap"><param name="Name" value="GetTransformedShape"><param name="Local" value="class_j_p_h_1_1_body.html#a6ad4aea077b825d6544f49bcfa9c7952"><param name="ImageNumber" value="11"></OBJECT>
               <LI><OBJECT type="text/sitemap"><param name="Name" value="GetUserData"><param name="Local" value="class_j_p_h_1_1_body.html#add801afdecde619f5b87c38b9679d30e"><param name="ImageNumber" value="11"></OBJECT>
               <LI><OBJECT type="text/sitemap"><param name="Name" value="GetWorldSpaceBounds"><param name="Local" value="class_j_p_h_1_1_body.html#ac231f63a960881acd2041b54103dd547"><param name="ImageNumber" value="11"></OBJECT>
               <LI><OBJECT type="text/sitemap"><param name="Name" value="GetWorldSpaceSurfaceNormal"><param name="Local" value="class_j_p_h_1_1_body.html#a255ae5eed648ea8c4f1378d9f67369ec"><param name="ImageNumber" value="11"></OBJECT>
-              <LI><OBJECT type="text/sitemap"><param name="Name" value="GetWorldTransform"><param name="Local" value="class_j_p_h_1_1_body.html#a03082c4edf44dc6498a63a555e2e0ac2"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="GetWorldTransform"><param name="Local" value="class_j_p_h_1_1_body.html#aaa76678628bfc61b46ab3a59ad990d22"><param name="ImageNumber" value="11"></OBJECT>
               <LI><OBJECT type="text/sitemap"><param name="Name" value="InvalidateCollisionCacheInternal"><param name="Local" value="class_j_p_h_1_1_body.html#ae174296fdbb38de22d60d8a734cfcf50"><param name="ImageNumber" value="11"></OBJECT>
               <LI><OBJECT type="text/sitemap"><param name="Name" value="IsActive"><param name="Local" value="class_j_p_h_1_1_body.html#af60310573753ef640e124ec15cfcd2ed"><param name="ImageNumber" value="11"></OBJECT>
               <LI><OBJECT type="text/sitemap"><param name="Name" value="IsCollisionCacheInvalid"><param name="Local" value="class_j_p_h_1_1_body.html#a6b232dd56b8552a0395bcee90f03728b"><param name="ImageNumber" value="11"></OBJECT>
@@ -15327,6 +15364,7 @@
                 <LI><OBJECT type="text/sitemap"><param name="Name" value="Sanitize"><param name="Local" value="class_j_p_h_1_1_mesh_shape_settings.html#a44705d505adc8b4ddf07e5b49a868b25"><param name="ImageNumber" value="11"></OBJECT>
                 <LI><OBJECT type="text/sitemap"><param name="Name" value="mIndexedTriangles"><param name="Local" value="class_j_p_h_1_1_mesh_shape_settings.html#afc139eb9d22f040c4e779c846cc7a340"><param name="ImageNumber" value="11"></OBJECT>
                 <LI><OBJECT type="text/sitemap"><param name="Name" value="mMaterials"><param name="Local" value="class_j_p_h_1_1_mesh_shape_settings.html#abdeb8d1919fbbb48d68dde555f16241e"><param name="ImageNumber" value="11"></OBJECT>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="mMaxTrianglesPerLeaf"><param name="Local" value="class_j_p_h_1_1_mesh_shape_settings.html#a68469e8b2b1a95ac77b6fc650fc29be3"><param name="ImageNumber" value="11"></OBJECT>
                 <LI><OBJECT type="text/sitemap"><param name="Name" value="mTriangleVertices"><param name="Local" value="class_j_p_h_1_1_mesh_shape_settings.html#ac4d9ecf51fc6d07672109c21a05cdf4c"><param name="ImageNumber" value="11"></OBJECT>
                 </UL>
               <LI><OBJECT type="text/sitemap"><param name="Name" value="MeshShape"><param name="Local" value="class_j_p_h_1_1_mesh_shape.html"><param name="ImageNumber" value="1"></OBJECT>
@@ -16090,6 +16128,27 @@
               <UL>
               <LI><OBJECT type="text/sitemap"><param name="Name" value="mBackFaceMode"><param name="Local" value="class_j_p_h_1_1_collide_shape_settings.html#a18913a5bc3de151c3c49877dc24fe863"><param name="ImageNumber" value="11"></OBJECT>
               <LI><OBJECT type="text/sitemap"><param name="Name" value="mMaxSeparationDistance"><param name="Local" value="class_j_p_h_1_1_collide_shape_settings.html#afb16d4729ada501a186b638558150928"><param name="ImageNumber" value="11"></OBJECT>
+              </UL>
+            </UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="CollideSphereVsTriangles.cpp"><param name="Local" value="_collide_sphere_vs_triangles_8cpp.html"><param name="ImageNumber" value="1"></OBJECT>
+            <UL>
+            </UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="CollideSphereVsTriangles.h"><param name="Local" value="_collide_sphere_vs_triangles_8h.html"><param name="ImageNumber" value="11"></OBJECT>
+            <UL>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="CollideSphereVsTriangles"><param name="Local" value="class_j_p_h_1_1_collide_sphere_vs_triangles.html"><param name="ImageNumber" value="1"></OBJECT>
+              <UL>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="CollideSphereVsTriangles"><param name="Local" value="class_j_p_h_1_1_collide_sphere_vs_triangles.html#a3b805dfe4494a419f1b208a03d426392"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="Collide"><param name="Local" value="class_j_p_h_1_1_collide_sphere_vs_triangles.html#a4896b365bfd8fa19b9dc9748c247abdf"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="mCollector"><param name="Local" value="class_j_p_h_1_1_collide_sphere_vs_triangles.html#a01cc68eff7d006a047e8cc51359d8e59"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="mCollideShapeSettings"><param name="Local" value="class_j_p_h_1_1_collide_sphere_vs_triangles.html#ae43566f51cdcfc560ab4a68794c095a8"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="mRadius"><param name="Local" value="class_j_p_h_1_1_collide_sphere_vs_triangles.html#ae7e3be727af2f3e6ddc7c43a7e81c82e"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="mRadiusPlusMaxSeparationSq"><param name="Local" value="class_j_p_h_1_1_collide_sphere_vs_triangles.html#a9908b8d88d8e14fbbb5c2e085b3fb3ea"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="mScale2"><param name="Local" value="class_j_p_h_1_1_collide_sphere_vs_triangles.html#a6da6ef34455d01eb65153aba5f2a8f24"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="mScaleSign2"><param name="Local" value="class_j_p_h_1_1_collide_sphere_vs_triangles.html#a6bb42ee252d159e8ff6383a83cffc574"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="mShape1"><param name="Local" value="class_j_p_h_1_1_collide_sphere_vs_triangles.html#ae2119e54a3fd72ab96af1da7c6e54bc8"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="mSphereCenterIn2"><param name="Local" value="class_j_p_h_1_1_collide_sphere_vs_triangles.html#a1fd35d464fe0fd5a8d0640f316f59b7d"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="mSubShapeID1"><param name="Local" value="class_j_p_h_1_1_collide_sphere_vs_triangles.html#a90d6455e523e20efc8e36950034db2ab"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="mTransform2"><param name="Local" value="class_j_p_h_1_1_collide_sphere_vs_triangles.html#aceddc17d47f851c2a9024d49c8ed91a9"><param name="ImageNumber" value="11"></OBJECT>
               </UL>
             </UL>
           <LI><OBJECT type="text/sitemap"><param name="Name" value="CollisionCollector.h"><param name="Local" value="_collision_collector_8h.html"><param name="ImageNumber" value="1"></OBJECT>

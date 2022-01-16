@@ -331,6 +331,7 @@ $(function() {
 : <a class="el" href="class_j_p_h_1_1_cast_convex_vs_triangles.html#acaa73a43ca8084b452add72ebeadcd87">JPH::CastConvexVsTriangles</a>
 , <a class="el" href="class_j_p_h_1_1_cast_sphere_vs_triangles.html#a5c0615c7edf4559051599800ee19a186">JPH::CastSphereVsTriangles</a>
 , <a class="el" href="class_j_p_h_1_1_collide_convex_vs_triangles.html#a31af49ee0a578e55cee9cd96bdd7f403">JPH::CollideConvexVsTriangles</a>
+, <a class="el" href="class_j_p_h_1_1_collide_sphere_vs_triangles.html#a01cc68eff7d006a047e8cc51359d8e59">JPH::CollideSphereVsTriangles</a>
 , <a class="el" href="struct_j_p_h_1_1_compound_shape_1_1_cast_ray_visitor_collector.html#a1d8f102356b15b19db59d05175e1d558">JPH::CompoundShape::CastRayVisitorCollector</a>
 , <a class="el" href="struct_j_p_h_1_1_compound_shape_1_1_cast_shape_visitor.html#a437eec0e86fc541a89fc01a8f8365078">JPH::CompoundShape::CastShapeVisitor</a>
 , <a class="el" href="struct_j_p_h_1_1_compound_shape_1_1_collect_transformed_shapes_visitor.html#ae0efd100df8e262745236a5576db79ff">JPH::CompoundShape::CollectTransformedShapesVisitor</a>
@@ -340,6 +341,7 @@ $(function() {
 </li>
 <li>mCollideShapeSettings
 : <a class="el" href="class_j_p_h_1_1_collide_convex_vs_triangles.html#a242a754dde80dee3ecc7ae5dc84e39f1">JPH::CollideConvexVsTriangles</a>
+, <a class="el" href="class_j_p_h_1_1_collide_sphere_vs_triangles.html#ae43566f51cdcfc560ab4a68794c095a8">JPH::CollideSphereVsTriangles</a>
 , <a class="el" href="struct_j_p_h_1_1_compound_shape_1_1_collide_compound_vs_shape_visitor.html#a5865a0534292066897001030d8b9cbf4">JPH::CompoundShape::CollideCompoundVsShapeVisitor</a>
 , <a class="el" href="struct_j_p_h_1_1_compound_shape_1_1_collide_shape_vs_compound_visitor.html#acfc44efeb264c2eae5d5077edcb1887d">JPH::CompoundShape::CollideShapeVsCompoundVisitor</a>
 </li>
@@ -935,6 +937,7 @@ $(function() {
 </li>
 <li>mMaxTrianglesPerLeaf
 : <a class="el" href="struct_j_p_h_1_1_a_a_b_b_tree_builder_stats.html#aea000a5d8d5e0f665453110b9af43481">JPH::AABBTreeBuilderStats</a>
+, <a class="el" href="class_j_p_h_1_1_mesh_shape_settings.html#a68469e8b2b1a95ac77b6fc650fc29be3">JPH::MeshShapeSettings</a>
 </li>
 <li>mMaxTrianglesRequested
 : <a class="el" href="struct_j_p_h_1_1_height_field_shape_1_1_h_s_get_triangles_context.html#a8022b0a48e1e711f237599d7b6638f1c">JPH::HeightFieldShape::HSGetTrianglesContext</a>
@@ -1220,9 +1223,13 @@ $(function() {
 <li>mRadius
 : <a class="el" href="struct_j_p_h_1_1_add_convex_radius.html#acb018f3bc607809495cdb24bc83e47b9">JPH::AddConvexRadius&lt; ConvexObject &gt;</a>
 , <a class="el" href="class_j_p_h_1_1_cast_sphere_vs_triangles.html#a30f9ae6367d2ce69afc955fb87619d8c">JPH::CastSphereVsTriangles</a>
+, <a class="el" href="class_j_p_h_1_1_collide_sphere_vs_triangles.html#ae7e3be727af2f3e6ddc7c43a7e81c82e">JPH::CollideSphereVsTriangles</a>
 , <a class="el" href="class_j_p_h_1_1_cylinder_shape_settings.html#afa946f06d5ee76b0cfad033abffe5742">JPH::CylinderShapeSettings</a>
 , <a class="el" href="class_j_p_h_1_1_sphere_shape_settings.html#a4261fed6bd3ac7cac5f4dd333ba0ba05">JPH::SphereShapeSettings</a>
 , <a class="el" href="class_j_p_h_1_1_wheel_settings.html#af1e5f2206800394be483337fcd748a5c">JPH::WheelSettings</a>
+</li>
+<li>mRadiusPlusMaxSeparationSq
+: <a class="el" href="class_j_p_h_1_1_collide_sphere_vs_triangles.html#a9908b8d88d8e14fbbb5c2e085b3fb3ea">JPH::CollideSphereVsTriangles</a>
 </li>
 <li>mRay
 : <a class="el" href="struct_j_p_h_1_1_compound_shape_1_1_cast_ray_visitor.html#abfb91256dae07f1c0fc1c23a7a53558d">JPH::CompoundShape::CastRayVisitor</a>
@@ -1320,11 +1327,13 @@ $(function() {
 </li>
 <li>mScale2
 : <a class="el" href="class_j_p_h_1_1_collide_convex_vs_triangles.html#a513f808aca6214397aa5e34cc0fdc068">JPH::CollideConvexVsTriangles</a>
+, <a class="el" href="class_j_p_h_1_1_collide_sphere_vs_triangles.html#a6da6ef34455d01eb65153aba5f2a8f24">JPH::CollideSphereVsTriangles</a>
 , <a class="el" href="struct_j_p_h_1_1_compound_shape_1_1_collide_compound_vs_shape_visitor.html#a1b14767bcf23e051cfe8187df968ee94">JPH::CompoundShape::CollideCompoundVsShapeVisitor</a>
 , <a class="el" href="struct_j_p_h_1_1_compound_shape_1_1_collide_shape_vs_compound_visitor.html#a5964a8168ba05202b5dc2bf93ae13c74">JPH::CompoundShape::CollideShapeVsCompoundVisitor</a>
 </li>
 <li>mScaleSign2
 : <a class="el" href="class_j_p_h_1_1_collide_convex_vs_triangles.html#a5c599ddb93302004e3e758704260c324">JPH::CollideConvexVsTriangles</a>
+, <a class="el" href="class_j_p_h_1_1_collide_sphere_vs_triangles.html#a6bb42ee252d159e8ff6383a83cffc574">JPH::CollideSphereVsTriangles</a>
 </li>
 <li>mSettings
 : <a class="el" href="class_j_p_h_1_1_wheel.html#a9763d4ec848c5020f417972b550b827a">JPH::Wheel</a>
@@ -1343,6 +1352,7 @@ $(function() {
 </li>
 <li>mShape1
 : <a class="el" href="class_j_p_h_1_1_collide_convex_vs_triangles.html#ae3e9a9a84fdfa211dc790cc2501bb31d">JPH::CollideConvexVsTriangles</a>
+, <a class="el" href="class_j_p_h_1_1_collide_sphere_vs_triangles.html#ae2119e54a3fd72ab96af1da7c6e54bc8">JPH::CollideSphereVsTriangles</a>
 , <a class="el" href="struct_j_p_h_1_1_compound_shape_1_1_collide_shape_vs_compound_visitor.html#a5f974336fbe33d8e8709efbd66473dac">JPH::CompoundShape::CollideShapeVsCompoundVisitor</a>
 </li>
 <li>mShape1ExCvxRadius
@@ -1430,6 +1440,9 @@ $(function() {
 <li>mSpeculativeContactDistance
 : <a class="el" href="struct_j_p_h_1_1_physics_settings.html#a07fcd8458dd71b152e409a0a45aad0db">JPH::PhysicsSettings</a>
 </li>
+<li>mSphereCenterIn2
+: <a class="el" href="class_j_p_h_1_1_collide_sphere_vs_triangles.html#a1fd35d464fe0fd5a8d0640f316f59b7d">JPH::CollideSphereVsTriangles</a>
+</li>
 <li>mSplitterName
 : <a class="el" href="struct_j_p_h_1_1_triangle_splitter_1_1_stats.html#a83b282578ce66406afadcdad8c2ae375">JPH::TriangleSplitter::Stats</a>
 </li>
@@ -1498,6 +1511,7 @@ $(function() {
 <li>mSubShapeID1
 : <a class="el" href="class_j_p_h_1_1_collide_convex_vs_triangles.html#a6228d843b2363479a9740ce0e2499f11">JPH::CollideConvexVsTriangles</a>
 , <a class="el" href="class_j_p_h_1_1_collide_shape_result.html#a9de605ec0d9d995e813688139514fa9b">JPH::CollideShapeResult</a>
+, <a class="el" href="class_j_p_h_1_1_collide_sphere_vs_triangles.html#a90d6455e523e20efc8e36950034db2ab">JPH::CollideSphereVsTriangles</a>
 , <a class="el" href="class_j_p_h_1_1_contact_manifold.html#a2cd7beec16dba8d502ddeca9fffde8b6">JPH::ContactManifold</a>
 </li>
 <li>mSubShapeID2
@@ -1612,7 +1626,8 @@ $(function() {
 , <a class="el" href="struct_j_p_h_1_1_compound_shape_1_1_collide_shape_vs_compound_visitor.html#af5323f7d743d45ba4be107f2bbcfe00a">JPH::CompoundShape::CollideShapeVsCompoundVisitor</a>
 </li>
 <li>mTransform2
-: <a class="el" href="struct_j_p_h_1_1_compound_shape_1_1_collide_compound_vs_shape_visitor.html#a9cb88cfa93c19ca0fbc074021e764840">JPH::CompoundShape::CollideCompoundVsShapeVisitor</a>
+: <a class="el" href="class_j_p_h_1_1_collide_sphere_vs_triangles.html#aceddc17d47f851c2a9024d49c8ed91a9">JPH::CollideSphereVsTriangles</a>
+, <a class="el" href="struct_j_p_h_1_1_compound_shape_1_1_collide_compound_vs_shape_visitor.html#a9cb88cfa93c19ca0fbc074021e764840">JPH::CompoundShape::CollideCompoundVsShapeVisitor</a>
 , <a class="el" href="struct_j_p_h_1_1_compound_shape_1_1_collide_shape_vs_compound_visitor.html#ac1d31154f29f75a48177a45363f45475">JPH::CompoundShape::CollideShapeVsCompoundVisitor</a>
 </li>
 <li>mTransform2To1
