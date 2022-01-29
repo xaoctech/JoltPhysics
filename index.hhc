@@ -1677,7 +1677,7 @@
         <LI><OBJECT type="text/sitemap"><param name="Name" value="GetWorldSpaceBounds"><param name="Local" value="class_j_p_h_1_1_body.html#ac231f63a960881acd2041b54103dd547"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="GetWorldSpaceSurfaceNormal"><param name="Local" value="class_j_p_h_1_1_body.html#a255ae5eed648ea8c4f1378d9f67369ec"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="GetWorldTransform"><param name="Local" value="class_j_p_h_1_1_body.html#aaa76678628bfc61b46ab3a59ad990d22"><param name="ImageNumber" value="11"></OBJECT>
-        <LI><OBJECT type="text/sitemap"><param name="Name" value="InvalidateCollisionCacheInternal"><param name="Local" value="class_j_p_h_1_1_body.html#ae174296fdbb38de22d60d8a734cfcf50"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="InvalidateContactCacheInternal"><param name="Local" value="class_j_p_h_1_1_body.html#a6a64ab4a23565801288971ff0f4ecc79"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="IsActive"><param name="Local" value="class_j_p_h_1_1_body.html#af60310573753ef640e124ec15cfcd2ed"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="IsCollisionCacheInvalid"><param name="Local" value="class_j_p_h_1_1_body.html#a6b232dd56b8552a0395bcee90f03728b"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="IsDynamic"><param name="Local" value="class_j_p_h_1_1_body.html#a4c8f7c79aaa4f00a78229a373fd04bbc"><param name="ImageNumber" value="11"></OBJECT>
@@ -1706,6 +1706,7 @@
         <LI><OBJECT type="text/sitemap"><param name="Name" value="SubRotationStep"><param name="Local" value="class_j_p_h_1_1_body.html#a3147f3402ece47374e6016ccf6fd50c0"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="UpdateCenterOfMassInternal"><param name="Local" value="class_j_p_h_1_1_body.html#a696ec78570a6e0f53aacb01a877d1b4b"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="UpdateSleepStateInternal"><param name="Local" value="class_j_p_h_1_1_body.html#aed388c2fc6fab27d42e3a48f3e81c84b"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="ValidateContactCacheInternal"><param name="Local" value="class_j_p_h_1_1_body.html#a348bcced1ce196d6b8322f23e3b45e4c"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="BodyManager"><param name="Local" value="class_j_p_h_1_1_body.html#a58dc89a83d8c4dc28bd5f6e8c0ed35c8"><param name="ImageNumber" value="11"></OBJECT>
         </UL>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="BodyActivationListener"><param name="Local" value="class_j_p_h_1_1_body_activation_listener.html"><param name="ImageNumber" value="1"></OBJECT>
@@ -7154,7 +7155,7 @@
         <LI><OBJECT type="text/sitemap"><param name="Name" value="GetWorldSpaceBounds"><param name="Local" value="class_j_p_h_1_1_body.html#ac231f63a960881acd2041b54103dd547"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="GetWorldSpaceSurfaceNormal"><param name="Local" value="class_j_p_h_1_1_body.html#a255ae5eed648ea8c4f1378d9f67369ec"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="GetWorldTransform"><param name="Local" value="class_j_p_h_1_1_body.html#aaa76678628bfc61b46ab3a59ad990d22"><param name="ImageNumber" value="11"></OBJECT>
-        <LI><OBJECT type="text/sitemap"><param name="Name" value="InvalidateCollisionCacheInternal"><param name="Local" value="class_j_p_h_1_1_body.html#ae174296fdbb38de22d60d8a734cfcf50"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="InvalidateContactCacheInternal"><param name="Local" value="class_j_p_h_1_1_body.html#a6a64ab4a23565801288971ff0f4ecc79"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="IsActive"><param name="Local" value="class_j_p_h_1_1_body.html#af60310573753ef640e124ec15cfcd2ed"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="IsCollisionCacheInvalid"><param name="Local" value="class_j_p_h_1_1_body.html#a6b232dd56b8552a0395bcee90f03728b"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="IsDynamic"><param name="Local" value="class_j_p_h_1_1_body.html#a4c8f7c79aaa4f00a78229a373fd04bbc"><param name="ImageNumber" value="11"></OBJECT>
@@ -7183,6 +7184,7 @@
         <LI><OBJECT type="text/sitemap"><param name="Name" value="SubRotationStep"><param name="Local" value="class_j_p_h_1_1_body.html#a3147f3402ece47374e6016ccf6fd50c0"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="UpdateCenterOfMassInternal"><param name="Local" value="class_j_p_h_1_1_body.html#a696ec78570a6e0f53aacb01a877d1b4b"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="UpdateSleepStateInternal"><param name="Local" value="class_j_p_h_1_1_body.html#aed388c2fc6fab27d42e3a48f3e81c84b"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="ValidateContactCacheInternal"><param name="Local" value="class_j_p_h_1_1_body.html#a348bcced1ce196d6b8322f23e3b45e4c"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="BodyManager"><param name="Local" value="class_j_p_h_1_1_body.html#a58dc89a83d8c4dc28bd5f6e8c0ed35c8"><param name="ImageNumber" value="11"></OBJECT>
         </UL>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="BodyActivationListener"><param name="Local" value="class_j_p_h_1_1_body_activation_listener.html"><param name="ImageNumber" value="1"></OBJECT>
@@ -13766,7 +13768,7 @@
               <LI><OBJECT type="text/sitemap"><param name="Name" value="GetWorldSpaceBounds"><param name="Local" value="class_j_p_h_1_1_body.html#ac231f63a960881acd2041b54103dd547"><param name="ImageNumber" value="11"></OBJECT>
               <LI><OBJECT type="text/sitemap"><param name="Name" value="GetWorldSpaceSurfaceNormal"><param name="Local" value="class_j_p_h_1_1_body.html#a255ae5eed648ea8c4f1378d9f67369ec"><param name="ImageNumber" value="11"></OBJECT>
               <LI><OBJECT type="text/sitemap"><param name="Name" value="GetWorldTransform"><param name="Local" value="class_j_p_h_1_1_body.html#aaa76678628bfc61b46ab3a59ad990d22"><param name="ImageNumber" value="11"></OBJECT>
-              <LI><OBJECT type="text/sitemap"><param name="Name" value="InvalidateCollisionCacheInternal"><param name="Local" value="class_j_p_h_1_1_body.html#ae174296fdbb38de22d60d8a734cfcf50"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="InvalidateContactCacheInternal"><param name="Local" value="class_j_p_h_1_1_body.html#a6a64ab4a23565801288971ff0f4ecc79"><param name="ImageNumber" value="11"></OBJECT>
               <LI><OBJECT type="text/sitemap"><param name="Name" value="IsActive"><param name="Local" value="class_j_p_h_1_1_body.html#af60310573753ef640e124ec15cfcd2ed"><param name="ImageNumber" value="11"></OBJECT>
               <LI><OBJECT type="text/sitemap"><param name="Name" value="IsCollisionCacheInvalid"><param name="Local" value="class_j_p_h_1_1_body.html#a6b232dd56b8552a0395bcee90f03728b"><param name="ImageNumber" value="11"></OBJECT>
               <LI><OBJECT type="text/sitemap"><param name="Name" value="IsDynamic"><param name="Local" value="class_j_p_h_1_1_body.html#a4c8f7c79aaa4f00a78229a373fd04bbc"><param name="ImageNumber" value="11"></OBJECT>
@@ -13795,6 +13797,7 @@
               <LI><OBJECT type="text/sitemap"><param name="Name" value="SubRotationStep"><param name="Local" value="class_j_p_h_1_1_body.html#a3147f3402ece47374e6016ccf6fd50c0"><param name="ImageNumber" value="11"></OBJECT>
               <LI><OBJECT type="text/sitemap"><param name="Name" value="UpdateCenterOfMassInternal"><param name="Local" value="class_j_p_h_1_1_body.html#a696ec78570a6e0f53aacb01a877d1b4b"><param name="ImageNumber" value="11"></OBJECT>
               <LI><OBJECT type="text/sitemap"><param name="Name" value="UpdateSleepStateInternal"><param name="Local" value="class_j_p_h_1_1_body.html#aed388c2fc6fab27d42e3a48f3e81c84b"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="ValidateContactCacheInternal"><param name="Local" value="class_j_p_h_1_1_body.html#a348bcced1ce196d6b8322f23e3b45e4c"><param name="ImageNumber" value="11"></OBJECT>
               <LI><OBJECT type="text/sitemap"><param name="Name" value="BodyManager"><param name="Local" value="class_j_p_h_1_1_body.html#a58dc89a83d8c4dc28bd5f6e8c0ed35c8"><param name="ImageNumber" value="11"></OBJECT>
               </UL>
             </UL>

@@ -276,9 +276,12 @@ Friends</h2></td></tr>
 <tr class="memitem:a4fa7beb6d4a97de55fdd4aadbdb70553"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_p_h_1_1_body.html#a4fa7beb6d4a97de55fdd4aadbdb70553">SetInBroadPhaseInternal</a> (bool inInBroadPhase)</td></tr>
 <tr class="memdesc:a4fa7beb6d4a97de55fdd4aadbdb70553"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flag if body is in the broadphase (should only be called by the <a class="el" href="class_j_p_h_1_1_broad_phase.html" title="Used to do coarse collision detection operations to quickly prune out bodies that will not collide.">BroadPhase</a>)  <a href="class_j_p_h_1_1_body.html#a4fa7beb6d4a97de55fdd4aadbdb70553">More...</a><br /></td></tr>
 <tr class="separator:a4fa7beb6d4a97de55fdd4aadbdb70553"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae174296fdbb38de22d60d8a734cfcf50"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_p_h_1_1_body.html#ae174296fdbb38de22d60d8a734cfcf50">InvalidateCollisionCacheInternal</a> (bool inInvalidate)</td></tr>
-<tr class="memdesc:ae174296fdbb38de22d60d8a734cfcf50"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flag to invalidate the collision cache (should only be called by the <a class="el" href="class_j_p_h_1_1_body_manager.html" title="Class that contains all bodies.">BodyManager</a>), will be reset the next simulation step.  <a href="class_j_p_h_1_1_body.html#ae174296fdbb38de22d60d8a734cfcf50">More...</a><br /></td></tr>
-<tr class="separator:ae174296fdbb38de22d60d8a734cfcf50"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a64ab4a23565801288971ff0f4ecc79"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_p_h_1_1_body.html#a6a64ab4a23565801288971ff0f4ecc79">InvalidateContactCacheInternal</a> ()</td></tr>
+<tr class="memdesc:a6a64ab4a23565801288971ff0f4ecc79"><td class="mdescLeft">&#160;</td><td class="mdescRight">Invalidate the contact cache (should only be called by the <a class="el" href="class_j_p_h_1_1_body_manager.html" title="Class that contains all bodies.">BodyManager</a>), will be reset the next simulation step. Returns true if the contact cache was still valid.  <a href="class_j_p_h_1_1_body.html#a6a64ab4a23565801288971ff0f4ecc79">More...</a><br /></td></tr>
+<tr class="separator:a6a64ab4a23565801288971ff0f4ecc79"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a348bcced1ce196d6b8322f23e3b45e4c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_p_h_1_1_body.html#a348bcced1ce196d6b8322f23e3b45e4c">ValidateContactCacheInternal</a> ()</td></tr>
+<tr class="memdesc:a348bcced1ce196d6b8322f23e3b45e4c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset the collision cache invalid flag (should only be called by the <a class="el" href="class_j_p_h_1_1_body_manager.html" title="Class that contains all bodies.">BodyManager</a>).  <a href="class_j_p_h_1_1_body.html#a348bcced1ce196d6b8322f23e3b45e4c">More...</a><br /></td></tr>
+<tr class="separator:a348bcced1ce196d6b8322f23e3b45e4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a57de18ac865d4398aaed1e2f71101cda"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_p_h_1_1_body.html#a57de18ac865d4398aaed1e2f71101cda">CalculateWorldSpaceBoundsInternal</a> ()</td></tr>
 <tr class="memdesc:a57de18ac865d4398aaed1e2f71101cda"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates world space bounding box (should only be called by the <a class="el" href="class_j_p_h_1_1_physics_system.html">PhysicsSystem</a>)  <a href="class_j_p_h_1_1_body.html#a57de18ac865d4398aaed1e2f71101cda">More...</a><br /></td></tr>
 <tr class="separator:a57de18ac865d4398aaed1e2f71101cda"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1554,8 +1557,8 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a id="ae174296fdbb38de22d60d8a734cfcf50"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae174296fdbb38de22d60d8a734cfcf50">&#9670;&nbsp;</a></span>InvalidateCollisionCacheInternal()</h2>
+<a id="a6a64ab4a23565801288971ff0f4ecc79"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6a64ab4a23565801288971ff0f4ecc79">&#9670;&nbsp;</a></span>InvalidateContactCacheInternal()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1564,10 +1567,9 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void JPH::Body::InvalidateCollisionCacheInternal </td>
+          <td class="memname">bool JPH::Body::InvalidateContactCacheInternal </td>
           <td>(</td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>inInvalidate</em></td><td>)</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -1578,7 +1580,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Flag to invalidate the collision cache (should only be called by the <a class="el" href="class_j_p_h_1_1_body_manager.html" title="Class that contains all bodies.">BodyManager</a>), will be reset the next simulation step. </p>
+<p>Invalidate the contact cache (should only be called by the <a class="el" href="class_j_p_h_1_1_body_manager.html" title="Class that contains all bodies.">BodyManager</a>), will be reset the next simulation step. Returns true if the contact cache was still valid. </p>
 
 </div>
 </div>
@@ -2377,6 +2379,33 @@ Friends</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Update eligibility for sleeping. </p>
+
+</div>
+</div>
+<a id="a348bcced1ce196d6b8322f23e3b45e4c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a348bcced1ce196d6b8322f23e3b45e4c">&#9670;&nbsp;</a></span>ValidateContactCacheInternal()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void JPH::Body::ValidateContactCacheInternal </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reset the collision cache invalid flag (should only be called by the <a class="el" href="class_j_p_h_1_1_body_manager.html" title="Class that contains all bodies.">BodyManager</a>). </p>
 
 </div>
 </div>
