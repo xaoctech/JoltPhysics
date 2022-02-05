@@ -1533,6 +1533,7 @@ structstd_1_1hash_3_01_j_p_h_1_1_ref_const_3_01_t_01_4_01_4.html
 structstd_1_1hash_3_01_j_p_h_1_1_static_array_3_01_t_00_01_n_01_4_01_4-members.html
 structstd_1_1hash_3_01_j_p_h_1_1_static_array_3_01_t_00_01_n_01_4_01_4.html
 ConvexRadius.jpg
+LogoSmall.png
 LongAndThin.jpg
 MotionQuality.jpg
 PhysicsSystemUpdate.svg
@@ -1760,9 +1761,15 @@ class_j_p_h_1_1_wheel_w_v.png
 class_j_p_h_1_1_wheeled_vehicle_controller.png
 class_j_p_h_1_1_wheeled_vehicle_controller_settings.png
 closed.png
+doc.png
+doxygen.svg
+folderclosed.png
+folderopen.png
 nav_f.png
+nav_g.png
 nav_h.png
 open.png
+splitbar.png
 sync_off.png
 sync_on.png
 tab_a.png
