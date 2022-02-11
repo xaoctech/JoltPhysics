@@ -5250,8 +5250,8 @@
       <LI><OBJECT type="text/sitemap"><param name="Name" value="AlignedAlloc"><param name="Local" value="namespace_j_p_h.html#a08dfb144f28736d4e8b09bfaaa16f72e"><param name="ImageNumber" value="11"></OBJECT>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="AlignedFree"><param name="Local" value="namespace_j_p_h.html#ae9ea9b2290b23cd58bdd5b4313fb6945"><param name="ImageNumber" value="11"></OBJECT>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="AlignUp"><param name="Local" value="namespace_j_p_h.html#a4137803c9a397a0d9958b7d42fb610ea"><param name="ImageNumber" value="11"></OBJECT>
-      <LI><OBJECT type="text/sitemap"><param name="Name" value="AtomicMax"><param name="Local" value="namespace_j_p_h.html#ae5198ec94185c160d6b2496c52d55db5"><param name="ImageNumber" value="11"></OBJECT>
-      <LI><OBJECT type="text/sitemap"><param name="Name" value="AtomicMin"><param name="Local" value="namespace_j_p_h.html#a36524927e901a4259ae522b7ffa8b026"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="AtomicMax"><param name="Local" value="namespace_j_p_h.html#a3f5b2326f76f202ff18ccca8a9268b8f"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="AtomicMin"><param name="Local" value="namespace_j_p_h.html#a231290ff86ab94080c68b12fc4c2315e"><param name="ImageNumber" value="11"></OBJECT>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="CenterAngleAroundZero"><param name="Local" value="namespace_j_p_h.html#ad7c242fecb9b231d69f341fe33bb6a6d"><param name="ImageNumber" value="11"></OBJECT>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="Clamp"><param name="Local" value="namespace_j_p_h.html#a4916080cff82fb5c6c0b06e22b10f806"><param name="ImageNumber" value="11"></OBJECT>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="ClipPolyVsAABox"><param name="Local" value="namespace_j_p_h.html#a989462e8ed1087c729f26fc04375bb09"><param name="ImageNumber" value="11"></OBJECT>
@@ -11552,8 +11552,8 @@
           </UL>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="Atomics.h"><param name="Local" value="_atomics_8h.html"><param name="ImageNumber" value="1"></OBJECT>
           <UL>
-          <LI><OBJECT type="text/sitemap"><param name="Name" value="AtomicMax"><param name="Local" value="_atomics_8h.html#ae5198ec94185c160d6b2496c52d55db5"><param name="ImageNumber" value="11"></OBJECT>
-          <LI><OBJECT type="text/sitemap"><param name="Name" value="AtomicMin"><param name="Local" value="_atomics_8h.html#a36524927e901a4259ae522b7ffa8b026"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="AtomicMax"><param name="Local" value="_atomics_8h.html#a3f5b2326f76f202ff18ccca8a9268b8f"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="AtomicMin"><param name="Local" value="_atomics_8h.html#a231290ff86ab94080c68b12fc4c2315e"><param name="ImageNumber" value="11"></OBJECT>
           </UL>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="ByteBuffer.h"><param name="Local" value="_byte_buffer_8h.html"><param name="ImageNumber" value="1"></OBJECT>
           <UL>
@@ -17767,9 +17767,7 @@
             <LI><OBJECT type="text/sitemap"><param name="Name" value="DontActivate"><param name="Local" value="_e_activation_8h.html#a400137dab0c4d43f999020d19ee7d60bac332d31032ba5ee48cf9a0dd42916743"><param name="ImageNumber" value="11"></OBJECT>
             </UL>
           </UL>
-        <LI><OBJECT type="text/sitemap"><param name="Name" value="IslandBuilder.cpp"><param name="Local" value="_island_builder_8cpp.html"><param name="ImageNumber" value="1"></OBJECT>
-          <UL>
-          </UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="IslandBuilder.cpp"><param name="Local" value="_island_builder_8cpp.html"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="IslandBuilder.h"><param name="Local" value="_island_builder_8h.html"><param name="ImageNumber" value="11"></OBJECT>
           <UL>
           <LI><OBJECT type="text/sitemap"><param name="Name" value="JPH::IslandBuilder"><param name="Local" value="class_j_p_h_1_1_island_builder.html"><param name="ImageNumber" value="1"></OBJECT>
