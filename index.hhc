@@ -634,7 +634,7 @@
         <LI><OBJECT type="text/sitemap"><param name="Name" value="RemoveBodies"><param name="Local" value="class_j_p_h_1_1_broad_phase.html#a82682cf66613018baab5b31edb4b5faa"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="SetBroadPhaseLayerToString"><param name="Local" value="class_j_p_h_1_1_broad_phase.html#a70c41c5d0f7110450374dc8cb767b76e"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="UnlockModifications"><param name="Local" value="class_j_p_h_1_1_broad_phase.html#adffe0900a08e41c077ced8498539b2b3"><param name="ImageNumber" value="11"></OBJECT>
-        <LI><OBJECT type="text/sitemap"><param name="Name" value="UpdateFinalize"><param name="Local" value="class_j_p_h_1_1_broad_phase.html#a1ed716f8c847c8440e3e7407739b70f7"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="UpdateFinalize"><param name="Local" value="class_j_p_h_1_1_broad_phase.html#ae7170a14d0ebdfb4d0477b7c629d092a"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="UpdatePrepare"><param name="Local" value="class_j_p_h_1_1_broad_phase.html#a8abdc1fb7de828819c1afdf0cfeec254"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="mBodyManager"><param name="Local" value="class_j_p_h_1_1_broad_phase.html#a5aee476a6a839ac58944e54f8dab5fa5"><param name="ImageNumber" value="11"></OBJECT>
         </UL>
@@ -699,7 +699,7 @@
         <LI><OBJECT type="text/sitemap"><param name="Name" value="RemoveBodies"><param name="Local" value="class_j_p_h_1_1_broad_phase_quad_tree.html#a2c69d4942ef4f82500e3bc4b865a6ad0"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="SetBroadPhaseLayerToString"><param name="Local" value="class_j_p_h_1_1_broad_phase_quad_tree.html#ae3d4d6c7caebb04612065980248187d8"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="UnlockModifications"><param name="Local" value="class_j_p_h_1_1_broad_phase_quad_tree.html#ab5e2385010adfd0808a85c9cdcd11dec"><param name="ImageNumber" value="11"></OBJECT>
-        <LI><OBJECT type="text/sitemap"><param name="Name" value="UpdateFinalize"><param name="Local" value="class_j_p_h_1_1_broad_phase_quad_tree.html#a6173008b43a29bdae93c2d21a95e617a"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="UpdateFinalize"><param name="Local" value="class_j_p_h_1_1_broad_phase_quad_tree.html#a65aa05da3b087c65d2c16f76e1a57fee"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="UpdatePrepare"><param name="Local" value="class_j_p_h_1_1_broad_phase_quad_tree.html#ad5b96e36a1d47392454dddb3887cf7ab"><param name="ImageNumber" value="11"></OBJECT>
         </UL>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="BroadPhaseQuery"><param name="Local" value="class_j_p_h_1_1_broad_phase_query.html"><param name="ImageNumber" value="1"></OBJECT>
@@ -3173,7 +3173,6 @@
           </UL>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="UpdateState"><param name="Local" value="struct_j_p_h_1_1_quad_tree_1_1_update_state.html"><param name="ImageNumber" value="1"></OBJECT>
           <UL>
-          <LI><OBJECT type="text/sitemap"><param name="Name" value="mAllNodeIDs"><param name="Local" value="struct_j_p_h_1_1_quad_tree_1_1_update_state.html#a638f0fc1655bfa5558abfa2db008466f"><param name="ImageNumber" value="11"></OBJECT>
           <LI><OBJECT type="text/sitemap"><param name="Name" value="mRootNodeID"><param name="Local" value="struct_j_p_h_1_1_quad_tree_1_1_update_state.html#a869b33d9ff495da652dc9a95a8505ecd"><param name="ImageNumber" value="11"></OBJECT>
           </UL>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="Allocator"><param name="Local" value="class_j_p_h_1_1_quad_tree.html#a4452a4f7dac9f20a30c2af8da3233564"><param name="ImageNumber" value="11"></OBJECT>
@@ -3198,7 +3197,7 @@
         <LI><OBJECT type="text/sitemap"><param name="Name" value="NotifyBodiesAABBChanged"><param name="Local" value="class_j_p_h_1_1_quad_tree.html#a07bee5b8db29e3ea2a2339df5055fb17"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="RemoveBodies"><param name="Local" value="class_j_p_h_1_1_quad_tree.html#adc92b94535f9e6657563b1cd20df575d"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="SetName"><param name="Local" value="class_j_p_h_1_1_quad_tree.html#a9ebaaa1509fbf8c200fe2064c479f456"><param name="ImageNumber" value="11"></OBJECT>
-        <LI><OBJECT type="text/sitemap"><param name="Name" value="UpdateFinalize"><param name="Local" value="class_j_p_h_1_1_quad_tree.html#a367951f5a1762f88899e92cd583e86f4"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="UpdateFinalize"><param name="Local" value="class_j_p_h_1_1_quad_tree.html#ab647985e66e9bb386c62b2a92e23d1fe"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="UpdatePrepare"><param name="Local" value="class_j_p_h_1_1_quad_tree.html#adcde877a106ad351a20fac7ce36f3bbd"><param name="ImageNumber" value="11"></OBJECT>
         </UL>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="Quat"><param name="Local" value="class_j_p_h_1_1_quat.html"><param name="ImageNumber" value="1"></OBJECT>
@@ -6113,7 +6112,7 @@
         <LI><OBJECT type="text/sitemap"><param name="Name" value="RemoveBodies"><param name="Local" value="class_j_p_h_1_1_broad_phase.html#a82682cf66613018baab5b31edb4b5faa"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="SetBroadPhaseLayerToString"><param name="Local" value="class_j_p_h_1_1_broad_phase.html#a70c41c5d0f7110450374dc8cb767b76e"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="UnlockModifications"><param name="Local" value="class_j_p_h_1_1_broad_phase.html#adffe0900a08e41c077ced8498539b2b3"><param name="ImageNumber" value="11"></OBJECT>
-        <LI><OBJECT type="text/sitemap"><param name="Name" value="UpdateFinalize"><param name="Local" value="class_j_p_h_1_1_broad_phase.html#a1ed716f8c847c8440e3e7407739b70f7"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="UpdateFinalize"><param name="Local" value="class_j_p_h_1_1_broad_phase.html#ae7170a14d0ebdfb4d0477b7c629d092a"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="UpdatePrepare"><param name="Local" value="class_j_p_h_1_1_broad_phase.html#a8abdc1fb7de828819c1afdf0cfeec254"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="mBodyManager"><param name="Local" value="class_j_p_h_1_1_broad_phase.html#a5aee476a6a839ac58944e54f8dab5fa5"><param name="ImageNumber" value="11"></OBJECT>
         </UL>
@@ -6178,7 +6177,7 @@
         <LI><OBJECT type="text/sitemap"><param name="Name" value="RemoveBodies"><param name="Local" value="class_j_p_h_1_1_broad_phase_quad_tree.html#a2c69d4942ef4f82500e3bc4b865a6ad0"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="SetBroadPhaseLayerToString"><param name="Local" value="class_j_p_h_1_1_broad_phase_quad_tree.html#ae3d4d6c7caebb04612065980248187d8"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="UnlockModifications"><param name="Local" value="class_j_p_h_1_1_broad_phase_quad_tree.html#ab5e2385010adfd0808a85c9cdcd11dec"><param name="ImageNumber" value="11"></OBJECT>
-        <LI><OBJECT type="text/sitemap"><param name="Name" value="UpdateFinalize"><param name="Local" value="class_j_p_h_1_1_broad_phase_quad_tree.html#a6173008b43a29bdae93c2d21a95e617a"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="UpdateFinalize"><param name="Local" value="class_j_p_h_1_1_broad_phase_quad_tree.html#a65aa05da3b087c65d2c16f76e1a57fee"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="UpdatePrepare"><param name="Local" value="class_j_p_h_1_1_broad_phase_quad_tree.html#ad5b96e36a1d47392454dddb3887cf7ab"><param name="ImageNumber" value="11"></OBJECT>
         </UL>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="BroadPhaseQuery"><param name="Local" value="class_j_p_h_1_1_broad_phase_query.html"><param name="ImageNumber" value="1"></OBJECT>
@@ -8652,7 +8651,6 @@
           </UL>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="UpdateState"><param name="Local" value="struct_j_p_h_1_1_quad_tree_1_1_update_state.html"><param name="ImageNumber" value="1"></OBJECT>
           <UL>
-          <LI><OBJECT type="text/sitemap"><param name="Name" value="mAllNodeIDs"><param name="Local" value="struct_j_p_h_1_1_quad_tree_1_1_update_state.html#a638f0fc1655bfa5558abfa2db008466f"><param name="ImageNumber" value="11"></OBJECT>
           <LI><OBJECT type="text/sitemap"><param name="Name" value="mRootNodeID"><param name="Local" value="struct_j_p_h_1_1_quad_tree_1_1_update_state.html#a869b33d9ff495da652dc9a95a8505ecd"><param name="ImageNumber" value="11"></OBJECT>
           </UL>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="Allocator"><param name="Local" value="class_j_p_h_1_1_quad_tree.html#a4452a4f7dac9f20a30c2af8da3233564"><param name="ImageNumber" value="11"></OBJECT>
@@ -8677,7 +8675,7 @@
         <LI><OBJECT type="text/sitemap"><param name="Name" value="NotifyBodiesAABBChanged"><param name="Local" value="class_j_p_h_1_1_quad_tree.html#a07bee5b8db29e3ea2a2339df5055fb17"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="RemoveBodies"><param name="Local" value="class_j_p_h_1_1_quad_tree.html#adc92b94535f9e6657563b1cd20df575d"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="SetName"><param name="Local" value="class_j_p_h_1_1_quad_tree.html#a9ebaaa1509fbf8c200fe2064c479f456"><param name="ImageNumber" value="11"></OBJECT>
-        <LI><OBJECT type="text/sitemap"><param name="Name" value="UpdateFinalize"><param name="Local" value="class_j_p_h_1_1_quad_tree.html#a367951f5a1762f88899e92cd583e86f4"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="UpdateFinalize"><param name="Local" value="class_j_p_h_1_1_quad_tree.html#ab647985e66e9bb386c62b2a92e23d1fe"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="UpdatePrepare"><param name="Local" value="class_j_p_h_1_1_quad_tree.html#adcde877a106ad351a20fac7ce36f3bbd"><param name="ImageNumber" value="11"></OBJECT>
         </UL>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="Quat"><param name="Local" value="class_j_p_h_1_1_quat.html"><param name="ImageNumber" value="1"></OBJECT>
@@ -14320,7 +14318,7 @@
                 <LI><OBJECT type="text/sitemap"><param name="Name" value="RemoveBodies"><param name="Local" value="class_j_p_h_1_1_broad_phase.html#a82682cf66613018baab5b31edb4b5faa"><param name="ImageNumber" value="11"></OBJECT>
                 <LI><OBJECT type="text/sitemap"><param name="Name" value="SetBroadPhaseLayerToString"><param name="Local" value="class_j_p_h_1_1_broad_phase.html#a70c41c5d0f7110450374dc8cb767b76e"><param name="ImageNumber" value="11"></OBJECT>
                 <LI><OBJECT type="text/sitemap"><param name="Name" value="UnlockModifications"><param name="Local" value="class_j_p_h_1_1_broad_phase.html#adffe0900a08e41c077ced8498539b2b3"><param name="ImageNumber" value="11"></OBJECT>
-                <LI><OBJECT type="text/sitemap"><param name="Name" value="UpdateFinalize"><param name="Local" value="class_j_p_h_1_1_broad_phase.html#a1ed716f8c847c8440e3e7407739b70f7"><param name="ImageNumber" value="11"></OBJECT>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="UpdateFinalize"><param name="Local" value="class_j_p_h_1_1_broad_phase.html#ae7170a14d0ebdfb4d0477b7c629d092a"><param name="ImageNumber" value="11"></OBJECT>
                 <LI><OBJECT type="text/sitemap"><param name="Name" value="UpdatePrepare"><param name="Local" value="class_j_p_h_1_1_broad_phase.html#a8abdc1fb7de828819c1afdf0cfeec254"><param name="ImageNumber" value="11"></OBJECT>
                 <LI><OBJECT type="text/sitemap"><param name="Name" value="mBodyManager"><param name="Local" value="class_j_p_h_1_1_broad_phase.html#a5aee476a6a839ac58944e54f8dab5fa5"><param name="ImageNumber" value="11"></OBJECT>
                 </UL>
@@ -14410,7 +14408,7 @@
                 <LI><OBJECT type="text/sitemap"><param name="Name" value="RemoveBodies"><param name="Local" value="class_j_p_h_1_1_broad_phase_quad_tree.html#a2c69d4942ef4f82500e3bc4b865a6ad0"><param name="ImageNumber" value="11"></OBJECT>
                 <LI><OBJECT type="text/sitemap"><param name="Name" value="SetBroadPhaseLayerToString"><param name="Local" value="class_j_p_h_1_1_broad_phase_quad_tree.html#ae3d4d6c7caebb04612065980248187d8"><param name="ImageNumber" value="11"></OBJECT>
                 <LI><OBJECT type="text/sitemap"><param name="Name" value="UnlockModifications"><param name="Local" value="class_j_p_h_1_1_broad_phase_quad_tree.html#ab5e2385010adfd0808a85c9cdcd11dec"><param name="ImageNumber" value="11"></OBJECT>
-                <LI><OBJECT type="text/sitemap"><param name="Name" value="UpdateFinalize"><param name="Local" value="class_j_p_h_1_1_broad_phase_quad_tree.html#a6173008b43a29bdae93c2d21a95e617a"><param name="ImageNumber" value="11"></OBJECT>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="UpdateFinalize"><param name="Local" value="class_j_p_h_1_1_broad_phase_quad_tree.html#a65aa05da3b087c65d2c16f76e1a57fee"><param name="ImageNumber" value="11"></OBJECT>
                 <LI><OBJECT type="text/sitemap"><param name="Name" value="UpdatePrepare"><param name="Local" value="class_j_p_h_1_1_broad_phase_quad_tree.html#ad5b96e36a1d47392454dddb3887cf7ab"><param name="ImageNumber" value="11"></OBJECT>
                 </UL>
               </UL>
@@ -14450,7 +14448,6 @@
                   </UL>
                 <LI><OBJECT type="text/sitemap"><param name="Name" value="UpdateState"><param name="Local" value="struct_j_p_h_1_1_quad_tree_1_1_update_state.html"><param name="ImageNumber" value="1"></OBJECT>
                   <UL>
-                  <LI><OBJECT type="text/sitemap"><param name="Name" value="mAllNodeIDs"><param name="Local" value="struct_j_p_h_1_1_quad_tree_1_1_update_state.html#a638f0fc1655bfa5558abfa2db008466f"><param name="ImageNumber" value="11"></OBJECT>
                   <LI><OBJECT type="text/sitemap"><param name="Name" value="mRootNodeID"><param name="Local" value="struct_j_p_h_1_1_quad_tree_1_1_update_state.html#a869b33d9ff495da652dc9a95a8505ecd"><param name="ImageNumber" value="11"></OBJECT>
                   </UL>
                 <LI><OBJECT type="text/sitemap"><param name="Name" value="Allocator"><param name="Local" value="class_j_p_h_1_1_quad_tree.html#a4452a4f7dac9f20a30c2af8da3233564"><param name="ImageNumber" value="11"></OBJECT>
@@ -14475,7 +14472,7 @@
                 <LI><OBJECT type="text/sitemap"><param name="Name" value="NotifyBodiesAABBChanged"><param name="Local" value="class_j_p_h_1_1_quad_tree.html#a07bee5b8db29e3ea2a2339df5055fb17"><param name="ImageNumber" value="11"></OBJECT>
                 <LI><OBJECT type="text/sitemap"><param name="Name" value="RemoveBodies"><param name="Local" value="class_j_p_h_1_1_quad_tree.html#adc92b94535f9e6657563b1cd20df575d"><param name="ImageNumber" value="11"></OBJECT>
                 <LI><OBJECT type="text/sitemap"><param name="Name" value="SetName"><param name="Local" value="class_j_p_h_1_1_quad_tree.html#a9ebaaa1509fbf8c200fe2064c479f456"><param name="ImageNumber" value="11"></OBJECT>
-                <LI><OBJECT type="text/sitemap"><param name="Name" value="UpdateFinalize"><param name="Local" value="class_j_p_h_1_1_quad_tree.html#a367951f5a1762f88899e92cd583e86f4"><param name="ImageNumber" value="11"></OBJECT>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="UpdateFinalize"><param name="Local" value="class_j_p_h_1_1_quad_tree.html#ab647985e66e9bb386c62b2a92e23d1fe"><param name="ImageNumber" value="11"></OBJECT>
                 <LI><OBJECT type="text/sitemap"><param name="Name" value="UpdatePrepare"><param name="Local" value="class_j_p_h_1_1_quad_tree.html#adcde877a106ad351a20fac7ce36f3bbd"><param name="ImageNumber" value="11"></OBJECT>
                 </UL>
               <LI><OBJECT type="text/sitemap"><param name="Name" value="JPH::QuadTree::Tracking"><param name="Local" value="struct_j_p_h_1_1_quad_tree_1_1_tracking.html"><param name="ImageNumber" value="1"></OBJECT>
@@ -14488,7 +14485,6 @@
                 </UL>
               <LI><OBJECT type="text/sitemap"><param name="Name" value="JPH::QuadTree::UpdateState"><param name="Local" value="struct_j_p_h_1_1_quad_tree_1_1_update_state.html"><param name="ImageNumber" value="1"></OBJECT>
                 <UL>
-                <LI><OBJECT type="text/sitemap"><param name="Name" value="mAllNodeIDs"><param name="Local" value="struct_j_p_h_1_1_quad_tree_1_1_update_state.html#a638f0fc1655bfa5558abfa2db008466f"><param name="ImageNumber" value="11"></OBJECT>
                 <LI><OBJECT type="text/sitemap"><param name="Name" value="mRootNodeID"><param name="Local" value="struct_j_p_h_1_1_quad_tree_1_1_update_state.html#a869b33d9ff495da652dc9a95a8505ecd"><param name="ImageNumber" value="11"></OBJECT>
                 </UL>
               <LI><OBJECT type="text/sitemap"><param name="Name" value="JPH::QuadTree::AddState"><param name="Local" value="struct_j_p_h_1_1_quad_tree_1_1_add_state.html"><param name="ImageNumber" value="1"></OBJECT>
