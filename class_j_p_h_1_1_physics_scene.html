@@ -93,9 +93,9 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ac7ae7b8d4309988fd9373737a5b8f2fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab0d7f45e800e9f09a66a0fe803a01227"><td class="memItemLeft" align="right" valign="top">vector&lt; <a class="el" href="class_j_p_h_1_1_body_creation_settings.html">BodyCreationSettings</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_p_h_1_1_physics_scene.html#ab0d7f45e800e9f09a66a0fe803a01227">GetBodies</a> ()</td></tr>
 <tr class="separator:ab0d7f45e800e9f09a66a0fe803a01227"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab724312c1392f6eca19d32059a930a2f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_p_h_1_1_physics_scene.html#ab724312c1392f6eca19d32059a930a2f">CreateBodies</a> (<a class="el" href="class_j_p_h_1_1_physics_system.html">PhysicsSystem</a> *inSystem) const</td></tr>
-<tr class="memdesc:ab724312c1392f6eca19d32059a930a2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Instantiate all bodies.  <a href="class_j_p_h_1_1_physics_scene.html#ab724312c1392f6eca19d32059a930a2f">More...</a><br /></td></tr>
-<tr class="separator:ab724312c1392f6eca19d32059a930a2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:accbad04ff29937cce4578f71b511d141"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_p_h_1_1_physics_scene.html#accbad04ff29937cce4578f71b511d141">CreateBodies</a> (<a class="el" href="class_j_p_h_1_1_physics_system.html">PhysicsSystem</a> *inSystem) const</td></tr>
+<tr class="memdesc:accbad04ff29937cce4578f71b511d141"><td class="mdescLeft">&#160;</td><td class="mdescRight">Instantiate all bodies, returns false if not all bodies could be created.  <a href="class_j_p_h_1_1_physics_scene.html#accbad04ff29937cce4578f71b511d141">More...</a><br /></td></tr>
+<tr class="separator:accbad04ff29937cce4578f71b511d141"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3705ed5de6e480952e65660451191d41"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_p_h_1_1_physics_scene.html#a3705ed5de6e480952e65660451191d41">FixInvalidScales</a> ()</td></tr>
 <tr class="separator:a3705ed5de6e480952e65660451191d41"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aea5f036a533251483953e1a1e634e2fc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_p_h_1_1_physics_scene.html#aea5f036a533251483953e1a1e634e2fc">SaveBinaryState</a> (<a class="el" href="class_j_p_h_1_1_stream_out.html">StreamOut</a> &amp;inStream, bool inSaveShapes, bool inSaveGroupFilter) const</td></tr>
@@ -185,14 +185,14 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="ab724312c1392f6eca19d32059a930a2f" name="ab724312c1392f6eca19d32059a930a2f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab724312c1392f6eca19d32059a930a2f">&#9670;&nbsp;</a></span>CreateBodies()</h2>
+<a id="accbad04ff29937cce4578f71b511d141" name="accbad04ff29937cce4578f71b511d141"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#accbad04ff29937cce4578f71b511d141">&#9670;&nbsp;</a></span>CreateBodies()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void JPH::PhysicsScene::CreateBodies </td>
+          <td class="memname">bool JPH::PhysicsScene::CreateBodies </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="class_j_p_h_1_1_physics_system.html">PhysicsSystem</a> *&#160;</td>
           <td class="paramname"><em>inSystem</em></td><td>)</td>
@@ -201,7 +201,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Instantiate all bodies. </p>
+<p>Instantiate all bodies, returns false if not all bodies could be created. </p>
 
 </div>
 </div>

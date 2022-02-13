@@ -2884,7 +2884,7 @@
         <UL>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="PhysicsSceneResult"><param name="Local" value="class_j_p_h_1_1_physics_scene.html#a47a2f008d1ce5fc5cb90e50b3fa54b1e"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="AddBody"><param name="Local" value="class_j_p_h_1_1_physics_scene.html#a153467bc64f1e33dc2aa14a35ab60909"><param name="ImageNumber" value="11"></OBJECT>
-        <LI><OBJECT type="text/sitemap"><param name="Name" value="CreateBodies"><param name="Local" value="class_j_p_h_1_1_physics_scene.html#ab724312c1392f6eca19d32059a930a2f"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="CreateBodies"><param name="Local" value="class_j_p_h_1_1_physics_scene.html#accbad04ff29937cce4578f71b511d141"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="FixInvalidScales"><param name="Local" value="class_j_p_h_1_1_physics_scene.html#a3705ed5de6e480952e65660451191d41"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="GetBodies"><param name="Local" value="class_j_p_h_1_1_physics_scene.html#ab0d7f45e800e9f09a66a0fe803a01227"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="GetBodies"><param name="Local" value="class_j_p_h_1_1_physics_scene.html#ac7ae7b8d4309988fd9373737a5b8f2fc"><param name="ImageNumber" value="11"></OBJECT>
@@ -3198,7 +3198,7 @@
         <LI><OBJECT type="text/sitemap"><param name="Name" value="RemoveBodies"><param name="Local" value="class_j_p_h_1_1_quad_tree.html#adc92b94535f9e6657563b1cd20df575d"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="SetName"><param name="Local" value="class_j_p_h_1_1_quad_tree.html#a9ebaaa1509fbf8c200fe2064c479f456"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="UpdateFinalize"><param name="Local" value="class_j_p_h_1_1_quad_tree.html#ab647985e66e9bb386c62b2a92e23d1fe"><param name="ImageNumber" value="11"></OBJECT>
-        <LI><OBJECT type="text/sitemap"><param name="Name" value="UpdatePrepare"><param name="Local" value="class_j_p_h_1_1_quad_tree.html#adcde877a106ad351a20fac7ce36f3bbd"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="UpdatePrepare"><param name="Local" value="class_j_p_h_1_1_quad_tree.html#a2b165c7a759e1f77abf0b54c1b856848"><param name="ImageNumber" value="11"></OBJECT>
         </UL>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="Quat"><param name="Local" value="class_j_p_h_1_1_quat.html"><param name="ImageNumber" value="1"></OBJECT>
         <UL>
@@ -8362,7 +8362,7 @@
         <UL>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="PhysicsSceneResult"><param name="Local" value="class_j_p_h_1_1_physics_scene.html#a47a2f008d1ce5fc5cb90e50b3fa54b1e"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="AddBody"><param name="Local" value="class_j_p_h_1_1_physics_scene.html#a153467bc64f1e33dc2aa14a35ab60909"><param name="ImageNumber" value="11"></OBJECT>
-        <LI><OBJECT type="text/sitemap"><param name="Name" value="CreateBodies"><param name="Local" value="class_j_p_h_1_1_physics_scene.html#ab724312c1392f6eca19d32059a930a2f"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="CreateBodies"><param name="Local" value="class_j_p_h_1_1_physics_scene.html#accbad04ff29937cce4578f71b511d141"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="FixInvalidScales"><param name="Local" value="class_j_p_h_1_1_physics_scene.html#a3705ed5de6e480952e65660451191d41"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="GetBodies"><param name="Local" value="class_j_p_h_1_1_physics_scene.html#ab0d7f45e800e9f09a66a0fe803a01227"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="GetBodies"><param name="Local" value="class_j_p_h_1_1_physics_scene.html#ac7ae7b8d4309988fd9373737a5b8f2fc"><param name="ImageNumber" value="11"></OBJECT>
@@ -8676,7 +8676,7 @@
         <LI><OBJECT type="text/sitemap"><param name="Name" value="RemoveBodies"><param name="Local" value="class_j_p_h_1_1_quad_tree.html#adc92b94535f9e6657563b1cd20df575d"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="SetName"><param name="Local" value="class_j_p_h_1_1_quad_tree.html#a9ebaaa1509fbf8c200fe2064c479f456"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="UpdateFinalize"><param name="Local" value="class_j_p_h_1_1_quad_tree.html#ab647985e66e9bb386c62b2a92e23d1fe"><param name="ImageNumber" value="11"></OBJECT>
-        <LI><OBJECT type="text/sitemap"><param name="Name" value="UpdatePrepare"><param name="Local" value="class_j_p_h_1_1_quad_tree.html#adcde877a106ad351a20fac7ce36f3bbd"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="UpdatePrepare"><param name="Local" value="class_j_p_h_1_1_quad_tree.html#a2b165c7a759e1f77abf0b54c1b856848"><param name="ImageNumber" value="11"></OBJECT>
         </UL>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="Quat"><param name="Local" value="class_j_p_h_1_1_quat.html"><param name="ImageNumber" value="1"></OBJECT>
         <UL>
@@ -14473,7 +14473,7 @@
                 <LI><OBJECT type="text/sitemap"><param name="Name" value="RemoveBodies"><param name="Local" value="class_j_p_h_1_1_quad_tree.html#adc92b94535f9e6657563b1cd20df575d"><param name="ImageNumber" value="11"></OBJECT>
                 <LI><OBJECT type="text/sitemap"><param name="Name" value="SetName"><param name="Local" value="class_j_p_h_1_1_quad_tree.html#a9ebaaa1509fbf8c200fe2064c479f456"><param name="ImageNumber" value="11"></OBJECT>
                 <LI><OBJECT type="text/sitemap"><param name="Name" value="UpdateFinalize"><param name="Local" value="class_j_p_h_1_1_quad_tree.html#ab647985e66e9bb386c62b2a92e23d1fe"><param name="ImageNumber" value="11"></OBJECT>
-                <LI><OBJECT type="text/sitemap"><param name="Name" value="UpdatePrepare"><param name="Local" value="class_j_p_h_1_1_quad_tree.html#adcde877a106ad351a20fac7ce36f3bbd"><param name="ImageNumber" value="11"></OBJECT>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="UpdatePrepare"><param name="Local" value="class_j_p_h_1_1_quad_tree.html#a2b165c7a759e1f77abf0b54c1b856848"><param name="ImageNumber" value="11"></OBJECT>
                 </UL>
               <LI><OBJECT type="text/sitemap"><param name="Name" value="JPH::QuadTree::Tracking"><param name="Local" value="struct_j_p_h_1_1_quad_tree_1_1_tracking.html"><param name="ImageNumber" value="1"></OBJECT>
                 <UL>
@@ -17819,7 +17819,7 @@
             <UL>
             <LI><OBJECT type="text/sitemap"><param name="Name" value="PhysicsSceneResult"><param name="Local" value="class_j_p_h_1_1_physics_scene.html#a47a2f008d1ce5fc5cb90e50b3fa54b1e"><param name="ImageNumber" value="11"></OBJECT>
             <LI><OBJECT type="text/sitemap"><param name="Name" value="AddBody"><param name="Local" value="class_j_p_h_1_1_physics_scene.html#a153467bc64f1e33dc2aa14a35ab60909"><param name="ImageNumber" value="11"></OBJECT>
-            <LI><OBJECT type="text/sitemap"><param name="Name" value="CreateBodies"><param name="Local" value="class_j_p_h_1_1_physics_scene.html#ab724312c1392f6eca19d32059a930a2f"><param name="ImageNumber" value="11"></OBJECT>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="CreateBodies"><param name="Local" value="class_j_p_h_1_1_physics_scene.html#accbad04ff29937cce4578f71b511d141"><param name="ImageNumber" value="11"></OBJECT>
             <LI><OBJECT type="text/sitemap"><param name="Name" value="FixInvalidScales"><param name="Local" value="class_j_p_h_1_1_physics_scene.html#a3705ed5de6e480952e65660451191d41"><param name="ImageNumber" value="11"></OBJECT>
             <LI><OBJECT type="text/sitemap"><param name="Name" value="GetBodies"><param name="Local" value="class_j_p_h_1_1_physics_scene.html#ab0d7f45e800e9f09a66a0fe803a01227"><param name="ImageNumber" value="11"></OBJECT>
             <LI><OBJECT type="text/sitemap"><param name="Name" value="GetBodies"><param name="Local" value="class_j_p_h_1_1_physics_scene.html#ac7ae7b8d4309988fd9373737a5b8f2fc"><param name="ImageNumber" value="11"></OBJECT>

@@ -1591,7 +1591,7 @@
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_j_p_h_1_1_debug_renderer_recorder.html#a8184fb115c4bf9ae11dd66e974608e8cab6c90a015802ce8024f5e6ce5b5f87d1"><param name="Name" value="CreateBatch"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_j_p_h_1_1_debug_renderer_recorder.html#a8184fb115c4bf9ae11dd66e974608e8ca6e08a23df5a6495af4cfb4d55f9d83c4"><param name="Name" value="CreateBatchIndexed"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_j_p_h_1_1_physics_scene.html#ab724312c1392f6eca19d32059a930a2f"><param name="Name" value="CreateBodies"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_j_p_h_1_1_physics_scene.html#accbad04ff29937cce4578f71b511d141"><param name="Name" value="CreateBodies"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_j_p_h_1_1_body_interface.html#a32ed169cbaf34d4b569bb0a041452ca4"><param name="Name" value="CreateBody"></OBJECT>
   <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_j_p_h_1_1_body_interface.html#a32ed169cbaf34d4b569bb0a041452ca4"><param name="Name" value="JPH::BodyInterface"></OBJECT>
@@ -15310,7 +15310,7 @@
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_j_p_h_1_1_physics_scene.html"><param name="Name" value="JPH::PhysicsScene"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_j_p_h_1_1_physics_scene.html#ab724312c1392f6eca19d32059a930a2f"><param name="Name" value="CreateBodies"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_j_p_h_1_1_physics_scene.html#accbad04ff29937cce4578f71b511d141"><param name="Name" value="CreateBodies"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_j_p_h_1_1_physics_scene.html"><param name="Name" value="JPH::PhysicsScene"></OBJECT>
   <UL>
@@ -16346,7 +16346,7 @@
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_j_p_h_1_1_quad_tree.html"><param name="Name" value="JPH::QuadTree"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_j_p_h_1_1_quad_tree.html#adcde877a106ad351a20fac7ce36f3bbd"><param name="Name" value="UpdatePrepare"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_j_p_h_1_1_quad_tree.html#a2b165c7a759e1f77abf0b54c1b856848"><param name="Name" value="UpdatePrepare"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_j_p_h_1_1_quad_tree.html"><param name="Name" value="JPH::QuadTree"></OBJECT>
   <UL>
@@ -34246,9 +34246,9 @@
   <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_j_p_h_1_1_broad_phase_quad_tree.html#ad5b96e36a1d47392454dddb3887cf7ab"><param name="Name" value="JPH::BroadPhaseQuadTree"></OBJECT>
   </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_j_p_h_1_1_quad_tree.html#adcde877a106ad351a20fac7ce36f3bbd"><param name="Name" value="UpdatePrepare"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_j_p_h_1_1_quad_tree.html#a2b165c7a759e1f77abf0b54c1b856848"><param name="Name" value="UpdatePrepare"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_j_p_h_1_1_quad_tree.html#adcde877a106ad351a20fac7ce36f3bbd"><param name="Name" value="JPH::QuadTree"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_j_p_h_1_1_quad_tree.html#a2b165c7a759e1f77abf0b54c1b856848"><param name="Name" value="JPH::QuadTree"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_j_p_h_1_1_vehicle_engine.html#ae23d1285a835cc4397bf8d26b874c93c"><param name="Name" value="UpdateRPM"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_j_p_h_1_1_body.html#aed388c2fc6fab27d42e3a48f3e81c84b"><param name="Name" value="UpdateSleepStateInternal"></OBJECT>
