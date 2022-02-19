@@ -81,10 +81,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a1831ac62268aeb32219e85eddcd0f62e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_p_h_1_1_narrow_phase_query.html#a1831ac62268aeb32219e85eddcd0f62e">NarrowPhaseQuery</a> (<a class="el" href="class_j_p_h_1_1_body_lock_interface.html">BodyLockInterface</a> &amp;inBodyLockInterface, <a class="el" href="class_j_p_h_1_1_broad_phase.html">BroadPhase</a> &amp;inBroadPhase)</td></tr>
 <tr class="separator:a1831ac62268aeb32219e85eddcd0f62e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaf75666be5416e7e19cfb1a7207dbb57"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_p_h_1_1_narrow_phase_query.html#aaf75666be5416e7e19cfb1a7207dbb57">CastRay</a> (const <a class="el" href="struct_j_p_h_1_1_ray_cast.html">RayCast</a> &amp;inRay, <a class="el" href="class_j_p_h_1_1_ray_cast_result.html">RayCastResult</a> &amp;ioHit, const <a class="el" href="class_j_p_h_1_1_broad_phase_layer_filter.html">BroadPhaseLayerFilter</a> &amp;inBroadPhaseLayerFilter={ }, const <a class="el" href="class_j_p_h_1_1_object_layer_filter.html">ObjectLayerFilter</a> &amp;inObjectLayerFilter={ }, const <a class="el" href="class_j_p_h_1_1_body_filter.html">BodyFilter</a> &amp;inBodyFilter={ }) const</td></tr>
-<tr class="memdesc:aaf75666be5416e7e19cfb1a7207dbb57"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cast a ray, returns true if it finds a hit closer than ioHit.mFraction and updates ioHit in that case.  <a href="class_j_p_h_1_1_narrow_phase_query.html#aaf75666be5416e7e19cfb1a7207dbb57">More...</a><br /></td></tr>
 <tr class="separator:aaf75666be5416e7e19cfb1a7207dbb57"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae2319025c4226f12c16db9853941ee56"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_p_h_1_1_narrow_phase_query.html#ae2319025c4226f12c16db9853941ee56">CastRay</a> (const <a class="el" href="struct_j_p_h_1_1_ray_cast.html">RayCast</a> &amp;inRay, const <a class="el" href="class_j_p_h_1_1_ray_cast_settings.html">RayCastSettings</a> &amp;inRayCastSettings, <a class="el" href="namespace_j_p_h.html#a7727ec8b1bb482334605991d87c84818">CastRayCollector</a> &amp;ioCollector, const <a class="el" href="class_j_p_h_1_1_broad_phase_layer_filter.html">BroadPhaseLayerFilter</a> &amp;inBroadPhaseLayerFilter={ }, const <a class="el" href="class_j_p_h_1_1_object_layer_filter.html">ObjectLayerFilter</a> &amp;inObjectLayerFilter={ }, const <a class="el" href="class_j_p_h_1_1_body_filter.html">BodyFilter</a> &amp;inBodyFilter={ }) const</td></tr>
-<tr class="memdesc:ae2319025c4226f12c16db9853941ee56"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cast a ray, allows collecting multiple hits.  <a href="class_j_p_h_1_1_narrow_phase_query.html#ae2319025c4226f12c16db9853941ee56">More...</a><br /></td></tr>
 <tr class="separator:ae2319025c4226f12c16db9853941ee56"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaf5798455123f1c8698d6d98eb2b0598"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_p_h_1_1_narrow_phase_query.html#aaf5798455123f1c8698d6d98eb2b0598">CollidePoint</a> (<a class="el" href="namespace_j_p_h.html#a0b295e20795f9fa0dfbe4ef459f11311">Vec3Arg</a> inPoint, <a class="el" href="namespace_j_p_h.html#aadf2baf8b3b016e6acc37c5acb13288d">CollidePointCollector</a> &amp;ioCollector, const <a class="el" href="class_j_p_h_1_1_broad_phase_layer_filter.html">BroadPhaseLayerFilter</a> &amp;inBroadPhaseLayerFilter={ }, const <a class="el" href="class_j_p_h_1_1_object_layer_filter.html">ObjectLayerFilter</a> &amp;inObjectLayerFilter={ }, const <a class="el" href="class_j_p_h_1_1_body_filter.html">BodyFilter</a> &amp;inBodyFilter={ }) const</td></tr>
 <tr class="separator:aaf5798455123f1c8698d6d98eb2b0598"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -221,8 +219,7 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Cast a ray, allows collecting multiple hits. </p>
+<p >Cast a ray, allows collecting multiple hits. Note that this version is more flexible but also slightly slower than the CastRay function that returns only a single hit. If you want the surface normal of the hit use <a class="el" href="class_j_p_h_1_1_body.html#a255ae5eed648ea8c4f1378d9f67369ec" title="Get surface normal of a particular sub shape and its world space surface position on this body.">Body::GetWorldSpaceSurfaceNormal</a>(collected sub shape ID, inRay.GetPointOnRay(collected fraction)) on body with collected body ID. </p>
 
 </div>
 </div>
@@ -269,8 +266,7 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Cast a ray, returns true if it finds a hit closer than ioHit.mFraction and updates ioHit in that case. </p>
+<p >Cast a ray and find the closest hit. Returns true if it finds a hit. Hits further than ioHit.mFraction will not be considered and in this case ioHit will remain unmodified (and the function will return false). Convex objects will be treated as solid (meaning if the ray starts inside, you'll get a hit fraction of 0) and back face hits against triangles are returned. If you want the surface normal of the hit use <a class="el" href="class_j_p_h_1_1_body.html#a255ae5eed648ea8c4f1378d9f67369ec" title="Get surface normal of a particular sub shape and its world space surface position on this body.">Body::GetWorldSpaceSurfaceNormal</a>(ioHit.mSubShapeID2, inRay.GetPointOnRay(ioHit.mFraction)) on body with ID ioHit.mBodyID. </p>
 
 </div>
 </div>

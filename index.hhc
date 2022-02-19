@@ -3305,6 +3305,7 @@
         </UL>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="RayCast"><param name="Local" value="struct_j_p_h_1_1_ray_cast.html"><param name="ImageNumber" value="1"></OBJECT>
         <UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="GetPointOnRay"><param name="Local" value="struct_j_p_h_1_1_ray_cast.html#a2a00cff64df27bf8a190ad5bd64dee2a"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="Transformed"><param name="Local" value="struct_j_p_h_1_1_ray_cast.html#a3e96a7b988b88a22ae883b39bb0bd0d9"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="mDirection"><param name="Local" value="struct_j_p_h_1_1_ray_cast.html#ab87ef2496b4d8246b540f41b46eedabf"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="mOrigin"><param name="Local" value="struct_j_p_h_1_1_ray_cast.html#a9742f34058802e1230ad50202dbcc24c"><param name="ImageNumber" value="11"></OBJECT>
@@ -8783,6 +8784,7 @@
         </UL>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="RayCast"><param name="Local" value="struct_j_p_h_1_1_ray_cast.html"><param name="ImageNumber" value="1"></OBJECT>
         <UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="GetPointOnRay"><param name="Local" value="struct_j_p_h_1_1_ray_cast.html#a2a00cff64df27bf8a190ad5bd64dee2a"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="Transformed"><param name="Local" value="struct_j_p_h_1_1_ray_cast.html#a3e96a7b988b88a22ae883b39bb0bd0d9"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="mDirection"><param name="Local" value="struct_j_p_h_1_1_ray_cast.html#ab87ef2496b4d8246b540f41b46eedabf"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="mOrigin"><param name="Local" value="struct_j_p_h_1_1_ray_cast.html#a9742f34058802e1230ad50202dbcc24c"><param name="ImageNumber" value="11"></OBJECT>
@@ -16393,6 +16395,7 @@
             <UL>
             <LI><OBJECT type="text/sitemap"><param name="Name" value="JPH::RayCast"><param name="Local" value="struct_j_p_h_1_1_ray_cast.html"><param name="ImageNumber" value="1"></OBJECT>
               <UL>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="GetPointOnRay"><param name="Local" value="struct_j_p_h_1_1_ray_cast.html#a2a00cff64df27bf8a190ad5bd64dee2a"><param name="ImageNumber" value="11"></OBJECT>
               <LI><OBJECT type="text/sitemap"><param name="Name" value="Transformed"><param name="Local" value="struct_j_p_h_1_1_ray_cast.html#a3e96a7b988b88a22ae883b39bb0bd0d9"><param name="ImageNumber" value="11"></OBJECT>
               <LI><OBJECT type="text/sitemap"><param name="Name" value="mDirection"><param name="Local" value="struct_j_p_h_1_1_ray_cast.html#ab87ef2496b4d8246b540f41b46eedabf"><param name="ImageNumber" value="11"></OBJECT>
               <LI><OBJECT type="text/sitemap"><param name="Name" value="mOrigin"><param name="Local" value="struct_j_p_h_1_1_ray_cast.html#a9742f34058802e1230ad50202dbcc24c"><param name="ImageNumber" value="11"></OBJECT>

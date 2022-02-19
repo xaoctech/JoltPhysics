@@ -78,10 +78,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a7ac8ce3e96b1d05d6a319dc7c6c062f7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_p_h_1_1_transformed_shape.html#a7ac8ce3e96b1d05d6a319dc7c6c062f7">TransformedShape</a> (<a class="el" href="namespace_j_p_h.html#a0b295e20795f9fa0dfbe4ef459f11311">Vec3Arg</a> inPositionCOM, <a class="el" href="namespace_j_p_h.html#a08eb0672d985143ff0fcdd489184a8b4">QuatArg</a> inRotation, const <a class="el" href="class_j_p_h_1_1_shape.html">Shape</a> *inShape, const <a class="el" href="class_j_p_h_1_1_body_i_d.html">BodyID</a> &amp;inBodyID, const <a class="el" href="class_j_p_h_1_1_sub_shape_i_d_creator.html">SubShapeIDCreator</a> &amp;inSubShapeIDCreator=<a class="el" href="class_j_p_h_1_1_sub_shape_i_d_creator.html">SubShapeIDCreator</a>())</td></tr>
 <tr class="separator:a7ac8ce3e96b1d05d6a319dc7c6c062f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a138f8d00819c01568736a35a9340b002"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_p_h_1_1_transformed_shape.html#a138f8d00819c01568736a35a9340b002">CastRay</a> (const <a class="el" href="struct_j_p_h_1_1_ray_cast.html">RayCast</a> &amp;inRay, <a class="el" href="class_j_p_h_1_1_ray_cast_result.html">RayCastResult</a> &amp;ioHit) const</td></tr>
-<tr class="memdesc:a138f8d00819c01568736a35a9340b002"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cast a ray, returns true if it finds a hit closer than ioHit.mFraction and updates ioHit in that case.  <a href="class_j_p_h_1_1_transformed_shape.html#a138f8d00819c01568736a35a9340b002">More...</a><br /></td></tr>
 <tr class="separator:a138f8d00819c01568736a35a9340b002"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a082eeafe86a5e1e603c618dc47936f4e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_p_h_1_1_transformed_shape.html#a082eeafe86a5e1e603c618dc47936f4e">CastRay</a> (const <a class="el" href="struct_j_p_h_1_1_ray_cast.html">RayCast</a> &amp;inRay, const <a class="el" href="class_j_p_h_1_1_ray_cast_settings.html">RayCastSettings</a> &amp;inRayCastSettings, <a class="el" href="namespace_j_p_h.html#a7727ec8b1bb482334605991d87c84818">CastRayCollector</a> &amp;ioCollector) const</td></tr>
-<tr class="memdesc:a082eeafe86a5e1e603c618dc47936f4e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cast a ray, allows collecting multiple hits.  <a href="class_j_p_h_1_1_transformed_shape.html#a082eeafe86a5e1e603c618dc47936f4e">More...</a><br /></td></tr>
 <tr class="separator:a082eeafe86a5e1e603c618dc47936f4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8b5441885f9733d166740bee63e51194"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_p_h_1_1_transformed_shape.html#a8b5441885f9733d166740bee63e51194">CollidePoint</a> (<a class="el" href="namespace_j_p_h.html#a0b295e20795f9fa0dfbe4ef459f11311">Vec3Arg</a> inPoint, <a class="el" href="namespace_j_p_h.html#aadf2baf8b3b016e6acc37c5acb13288d">CollidePointCollector</a> &amp;ioCollector) const</td></tr>
 <tr class="separator:a8b5441885f9733d166740bee63e51194"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -295,8 +293,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Cast a ray, allows collecting multiple hits. </p>
+<p >Cast a ray, allows collecting multiple hits. Note that this version is more flexible but also slightly slower than the CastRay function that returns only a single hit. If you want the surface normal of the hit use GetWorldSpaceSurfaceNormal(collected sub shape ID, inRay.GetPointOnRay(collected fraction)) on this object. </p>
 
 </div>
 </div>
@@ -325,8 +322,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Cast a ray, returns true if it finds a hit closer than ioHit.mFraction and updates ioHit in that case. </p>
+<p >Cast a ray and find the closest hit. Returns true if it finds a hit. Hits further than ioHit.mFraction will not be considered and in this case ioHit will remain unmodified (and the function will return false). Convex objects will be treated as solid (meaning if the ray starts inside, you'll get a hit fraction of 0) and back face hits are returned. If you want the surface normal of the hit use GetWorldSpaceSurfaceNormal(ioHit.mSubShapeID2, inRay.GetPointOnRay(ioHit.mFraction)) on this object. </p>
 
 </div>
 </div>
