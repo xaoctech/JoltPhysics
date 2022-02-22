@@ -66,10 +66,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a18616798c590165536a6b4b3467f6b3e"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_p_h_1_1_body_activation_listener.html#a18616798c590165536a6b4b3467f6b3e">~BodyActivationListener</a> ()=default</td></tr>
 <tr class="memdesc:a18616798c590165536a6b4b3467f6b3e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ensure virtual destructor.  <a href="class_j_p_h_1_1_body_activation_listener.html#a18616798c590165536a6b4b3467f6b3e">More...</a><br /></td></tr>
 <tr class="separator:a18616798c590165536a6b4b3467f6b3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a36af5eae45b20523f6522f6aeaaa86b1"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_p_h_1_1_body_activation_listener.html#a36af5eae45b20523f6522f6aeaaa86b1">OnBodyActivated</a> (const <a class="el" href="class_j_p_h_1_1_body_i_d.html">BodyID</a> &amp;inBodyID, void *inBodyUserData)=0</td></tr>
-<tr class="separator:a36af5eae45b20523f6522f6aeaaa86b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a71a11361999d54716e5a2fa8d0845592"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_p_h_1_1_body_activation_listener.html#a71a11361999d54716e5a2fa8d0845592">OnBodyDeactivated</a> (const <a class="el" href="class_j_p_h_1_1_body_i_d.html">BodyID</a> &amp;inBodyID, void *inBodyUserData)=0</td></tr>
-<tr class="separator:a71a11361999d54716e5a2fa8d0845592"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0cb9180b948e81ff0f6a6540755ca940"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_p_h_1_1_body_activation_listener.html#a0cb9180b948e81ff0f6a6540755ca940">OnBodyActivated</a> (const <a class="el" href="class_j_p_h_1_1_body_i_d.html">BodyID</a> &amp;inBodyID, <a class="el" href="namespace_j_p_h.html#a58d2b9f9521ae5f8b0646c2fb2034e4b">uint64</a> inBodyUserData)=0</td></tr>
+<tr class="separator:a0cb9180b948e81ff0f6a6540755ca940"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad64c228c5c98c9ba46d415b131cc0aa9"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_p_h_1_1_body_activation_listener.html#ad64c228c5c98c9ba46d415b131cc0aa9">OnBodyDeactivated</a> (const <a class="el" href="class_j_p_h_1_1_body_i_d.html">BodyID</a> &amp;inBodyID, <a class="el" href="namespace_j_p_h.html#a58d2b9f9521ae5f8b0646c2fb2034e4b">uint64</a> inBodyUserData)=0</td></tr>
+<tr class="separator:ad64c228c5c98c9ba46d415b131cc0aa9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >A listener class that receives events when a body activates or deactivates. It can be registered with the <a class="el" href="class_j_p_h_1_1_body_manager.html" title="Class that contains all bodies.">BodyManager</a> (or <a class="el" href="class_j_p_h_1_1_physics_system.html">PhysicsSystem</a>). </p>
@@ -102,8 +102,8 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a36af5eae45b20523f6522f6aeaaa86b1" name="a36af5eae45b20523f6522f6aeaaa86b1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a36af5eae45b20523f6522f6aeaaa86b1">&#9670;&nbsp;</a></span>OnBodyActivated()</h2>
+<a id="a0cb9180b948e81ff0f6a6540755ca940" name="a0cb9180b948e81ff0f6a6540755ca940"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0cb9180b948e81ff0f6a6540755ca940">&#9670;&nbsp;</a></span>OnBodyActivated()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -120,7 +120,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">void *&#160;</td>
+          <td class="paramtype"><a class="el" href="namespace_j_p_h.html#a58d2b9f9521ae5f8b0646c2fb2034e4b">uint64</a>&#160;</td>
           <td class="paramname"><em>inBodyUserData</em>&#160;</td>
         </tr>
         <tr>
@@ -139,8 +139,8 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a71a11361999d54716e5a2fa8d0845592" name="a71a11361999d54716e5a2fa8d0845592"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a71a11361999d54716e5a2fa8d0845592">&#9670;&nbsp;</a></span>OnBodyDeactivated()</h2>
+<a id="ad64c228c5c98c9ba46d415b131cc0aa9" name="ad64c228c5c98c9ba46d415b131cc0aa9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad64c228c5c98c9ba46d415b131cc0aa9">&#9670;&nbsp;</a></span>OnBodyDeactivated()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -157,7 +157,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">void *&#160;</td>
+          <td class="paramtype"><a class="el" href="namespace_j_p_h.html#a58d2b9f9521ae5f8b0646c2fb2034e4b">uint64</a>&#160;</td>
           <td class="paramname"><em>inBodyUserData</em>&#160;</td>
         </tr>
         <tr>
